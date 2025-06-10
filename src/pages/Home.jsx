@@ -8,6 +8,7 @@ import Section_c from "./Home/Section_c";
 import Section_d from "./Home/Section_d";
 import Section_e from "./Home/Section_e";
 import Section_f from "./Home/Section_f";
+import Section_g from "./Home/Section_g";
 
 function Home() {
   return (

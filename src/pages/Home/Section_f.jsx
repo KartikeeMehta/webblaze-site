@@ -27,50 +27,24 @@ const SLIDE_DURATION = 12000; // ms for one direction
 const PAUSE_DURATION = 2000; // ms pause at end
 
 function MarqueeRow({ logos, direction = "right", reverse }) {
-  const [isPaused, setIsPaused] = useState(false);
-  const [isReverse, setIsReverse] = useState(false);
   const marqueeRef = useRef(null);
-
-  useEffect(() => {
-    let timeout;
-    let interval;
-    let running = true;
-    function animate() {
-      if (!marqueeRef.current) return;
-      marqueeRef.current.style.transition = `transform ${SLIDE_DURATION}ms linear`;
-      marqueeRef.current.style.transform = isReverse
-        ? direction === "right"
-          ? "translateX(0)"
-          : "translateX(0)"
-        : direction === "right"
-        ? `translateX(-50%)`
-        : `translateX(50%)`;
-      timeout = setTimeout(() => {
-        setIsPaused(true);
-        setTimeout(() => {
-          setIsPaused(false);
-          setIsReverse((prev) => !prev);
-        }, PAUSE_DURATION);
-      }, SLIDE_DURATION);
-    }
-    if (!isPaused) animate();
-    return () => {
-      clearTimeout(timeout);
-      clearInterval(interval);
-    };
-    // eslint-disable-next-line
-  }, [isPaused, isReverse, direction]);
 
   useEffect(() => {
     if (!marqueeRef.current) return;
     marqueeRef.current.style.transition = "none";
-    marqueeRef.current.style.transform = isReverse
-      ? direction === "right"
-        ? `translateX(-50%)`
-        : `translateX(50%)`
-      : "translateX(0)";
-    // eslint-disable-next-line
-  }, [isReverse, direction]);
+    marqueeRef.current.style.transform = "translateX(0)";
+    // Force reflow for transition to take effect
+    void marqueeRef.current.offsetWidth;
+    marqueeRef.current.style.transition = `transform ${SLIDE_DURATION}ms linear`;
+    if (
+      (direction === "right" && !reverse) ||
+      (direction === "left" && reverse)
+    ) {
+      marqueeRef.current.style.transform = `translateX(-50%)`;
+    } else {
+      marqueeRef.current.style.transform = `translateX(0)`;
+    }
+  }, [reverse, direction]);
 
   return (
     <div className="overflow-hidden w-full py-4">
@@ -97,20 +71,13 @@ function MarqueeRow({ logos, direction = "right", reverse }) {
 }
 
 function Section_f() {
-  const [reverse1, setReverse1] = useState(false);
-  const [reverse2, setReverse2] = useState(true);
-  const [reverse3, setReverse3] = useState(false);
+  const [reverse, setReverse] = useState(false);
 
-  // This is a simple state toggle to force all marquees to reverse together
   useEffect(() => {
     let timeout;
-    let isReversed = false;
     function loop() {
       timeout = setTimeout(() => {
-        setReverse1((r) => !r);
-        setReverse2((r) => !r);
-        setReverse3((r) => !r);
-        isReversed = !isReversed;
+        setReverse((r) => !r);
         loop();
       }, SLIDE_DURATION + PAUSE_DURATION);
     }
@@ -131,9 +98,9 @@ function Section_f() {
         </p>
       </div>
       <div className="space-y-8 max-w-7xl mx-auto">
-        <MarqueeRow logos={logos1} direction="right" reverse={reverse1} />
-        <MarqueeRow logos={logos2} direction="left" reverse={reverse2} />
-        <MarqueeRow logos={logos3} direction="right" reverse={reverse3} />
+        <MarqueeRow logos={logos1} direction="right" reverse={reverse} />
+        <MarqueeRow logos={logos2} direction="left" reverse={reverse} />
+        <MarqueeRow logos={logos3} direction="right" reverse={reverse} />
       </div>
     </section>
   );

@@ -86,7 +86,7 @@ function Section_f() {
   }, []);
 
   return (
-    <section className="bg-gray-50 py-16 w-full">
+    <section className="py-16 w-full">
       <div className="text-center mb-8">
         <div className="text-red-400 font-medium mb-2">Work</div>
         <h2 className="text-3xl md:text-4xl font-bold mb-2">
@@ -97,7 +97,7 @@ function Section_f() {
           the right technology for your solution.
         </p>
       </div>
-      <div className="space-y-8 max-w-7xl mx-auto">
+      <div className="space-y-8 max-w-full mx-auto">
         <MarqueeRow logos={logos1} direction="right" reverse={reverse} />
         <MarqueeRow logos={logos2} direction="left" reverse={reverse} />
         <MarqueeRow logos={logos3} direction="right" reverse={reverse} />

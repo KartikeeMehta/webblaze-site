@@ -5,7 +5,7 @@ import {
   CarouselContent,
   CarouselItem,
   CarouselNext,
-  CarouselPrevious
+  CarouselPrevious,
 } from "@/components/ui/carousel";
 
 const projects = [
@@ -13,30 +13,32 @@ const projects = [
     title: "Famooshed",
     description:
       "Our team delivered a tailored food delivery platform, blending intuitive design, seamless development, and strategic marketing to create a user-friendly, high-performance solution that elevates the online ordering experience.",
-    image: "https://webblazesofttech.com/wp-content/uploads/2024/07/famooshed-laptop.webp"
+    image:
+      "https://webblazesofttech.com/wp-content/uploads/2024/07/famooshed-laptop.webp",
   },
   {
     title: "Next Project",
     description:
       "A revolutionary e-commerce solution that streamlined online shopping with a clean UI and powerful backend system.",
-    image: "https://via.placeholder.com/600x400" // Replace with your actual project image
-  }
+    image: "https://via.placeholder.com/600x400", // Replace with your actual project image
+  },
 ];
 
 function Section_g() {
   return (
-    <section className="w-screen h-screen bg-[#0B1120] text-white overflow-hidden">
+    <section className="w-full bg-[#0B1120] text-white overflow-hidden">
       <div className="text-center px-4 pt-10">
         <h4 className="text-red-400 text-lg font-medium mb-2">Portfolio</h4>
         <h1 className="text-4xl md:text-5xl font-bold mb-2">
           The Successfully Brewed Businesses
         </h1>
         <p className="text-gray-300 text-base md:text-lg mb-8">
-          Customers in over 180 countries are growing their businesses with Webblaze.
+          Customers in over 180 countries are growing their businesses with
+          Webblaze.
         </p>
       </div>
 
-      <Carousel className="w-full h-[calc(100vh-180px)] relative">
+      <Carousel className="w-full relative pb-20">
         <CarouselContent className="h-full">
           {projects.map((project, index) => (
             <CarouselItem

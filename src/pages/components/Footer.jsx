@@ -7,7 +7,7 @@ import {
   faPinterestP,
 } from "@fortawesome/free-brands-svg-icons";
 import {
-  faPhoneAlt,
+  faPhone,
   faEnvelope,
   faAngleRight,
 } from "@fortawesome/free-solid-svg-icons";
@@ -32,21 +32,33 @@ function Footer() {
             rest.
           </p>
           <div className="flex flex-col gap-4">
-            <a href="#" className="hover:text-blue-500">
+            <a
+              href="#"
+              className="hover:text-blue-500 flex gap-[15px] items-center"
+            >
               <FontAwesomeIcon icon={faFacebookF} size="lg" />
-              <div className="name_icon"></div>
+              <div className="name_icon">Facebook</div>
             </a>
-            <a href="#" className="hover:text-blue-700">
+            <a
+              href="#"
+              className="hover:text-blue-700 flex gap-[15px] items-center"
+            >
               <FontAwesomeIcon icon={faLinkedinIn} size="lg" />
-              <div className="name_icon"></div>
+              <div className="name_icon">Linkedin</div>
             </a>
-            <a href="#" className="hover:text-red-600">
+            <a
+              href="#"
+              className="hover:text-red-600 flex gap-[15px] items-center"
+            >
               <FontAwesomeIcon icon={faYoutube} size="lg" />
-              <div className="name_icon"></div>
+              <div className="name_icon">Youtube</div>
             </a>
-            <a href="#" className="hover:text-pink-500">
+            <a
+              href="#"
+              className="hover:text-pink-500 flex gap-[15px] items-center"
+            >
               <FontAwesomeIcon icon={faPinterestP} size="lg" />
-              <div className="name_icon"></div>
+              <div className="name_icon">Pinterest</div>
             </a>
           </div>
         </div>
@@ -115,11 +127,11 @@ function Footer() {
           <h3 className="font-bold text-lg mb-4">Contact Us</h3>
           <ul className="space-y-2 text-sm mb-6">
             <li className="flex items-center">
-              <FontAwesomeIcon icon={faPhoneAlt} className="mr-2" />
+              <FontAwesomeIcon icon={faPhone} className="mr-2" />
               +91 6239882306
             </li>
             <li className="flex items-center">
-              <FontAwesomeIcon icon={faPhoneAlt} className="mr-2" />
+              <FontAwesomeIcon icon={faPhone} className="mr-2" />
               +91 9041477720 (HR)
             </li>
             <li className="flex items-center">
@@ -130,12 +142,13 @@ function Footer() {
               <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
               hr@webblazesofttech.com (HR)
             </li>
+            <li className="invisible">test</li>
           </ul>
           <h3 className="font-bold text-lg mb-2">Address:</h3>
           <div className="text-sm">
             <span className="font-semibold">India:</span> Cyber cube, C201-202,
             Phase 8B, Industrial Area, Sector 74, SAS Nagar, Punjab 160055
-            <br />
+            <br /> <br />
             <span className="font-semibold">USA:</span> 13th Street 47 W 13th
             St, New York, NY 10011, USA
           </div>

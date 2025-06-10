@@ -1,7 +1,7 @@
 import React from "react";
-import Annoucement_bar from "./Annoucement_bar";
-import Header from "./Header";
-import Footer from "./Footer";
+import Annoucement_bar from "./Home/Annoucement_bar";
+import Header from "./Home/Header";
+import Footer from "./Home/Footer";
 
 function Home() {
   return (

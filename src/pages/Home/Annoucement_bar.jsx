@@ -5,7 +5,7 @@ import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 function Annoucement_bar() {
   return (
     <div className="background-annouce bg-black">
-      <div className="contact_us flex justify-between text-white max-w-[1200px] m-auto py-[12px] text-sm">
+      <div className="contact_us flex justify-between text-white max-w-[1200px] m-auto py-[12px] text-sm px-5">
         <div className="phone">
           <FontAwesomeIcon icon={faPhone} className="mr-2" />+ 916239882306
         </div>

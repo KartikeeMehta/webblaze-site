@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
-      <div className="flex items-center justify-between px-4 md:px-8 py-3">
+      <div className="flex items-center justify-between max-w-[1200px] m-auto px-5">
         <div className="w-40 md:w-48">
           <img
             src="https://webblazesofttech.com/wp-content/uploads/2024/07/webblaze-socttech-logo.svg"

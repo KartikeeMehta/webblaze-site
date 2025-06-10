@@ -15,7 +15,7 @@ import {
 function Footer() {
   return (
     <footer className="bg-[#181c29] text-white py-12">
-      <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
+      <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 px-5">
         {/* Company Info & Social */}
         <div>
           <div className="flex items-center mb-4">

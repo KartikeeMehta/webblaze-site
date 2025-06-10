@@ -31,18 +31,22 @@ function Footer() {
             marketing, guaranteeing that your online presence shines above the
             rest.
           </p>
-          <div className="flex space-x-4">
+          <div className="flex flex-col gap-4">
             <a href="#" className="hover:text-blue-500">
               <FontAwesomeIcon icon={faFacebookF} size="lg" />
+              <div className="name_icon"></div>
             </a>
             <a href="#" className="hover:text-blue-700">
               <FontAwesomeIcon icon={faLinkedinIn} size="lg" />
+              <div className="name_icon"></div>
             </a>
             <a href="#" className="hover:text-red-600">
               <FontAwesomeIcon icon={faYoutube} size="lg" />
+              <div className="name_icon"></div>
             </a>
             <a href="#" className="hover:text-pink-500">
               <FontAwesomeIcon icon={faPinterestP} size="lg" />
+              <div className="name_icon"></div>
             </a>
           </div>
         </div>

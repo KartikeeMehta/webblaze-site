@@ -1,0 +1,14 @@
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './pages/Header';
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Header path="/" element={<Header />} />
+      </Routes>
+    </Router>
+  );
+}
+export default App;

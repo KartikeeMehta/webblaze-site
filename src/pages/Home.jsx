@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Section_a from "./Home/section_a";
 import Section_b from "./Home/section_b";
+import Section_c from "./Home/Section_c";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <Header />
       <Section_a />
       <Section_b />
+      <Section_c />
       <Footer />
     </div>
   );

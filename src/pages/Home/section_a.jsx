@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button"; // Adjust the import path as per your setup
 
-export default function Section_a() {
+export default function SectionA() {
   return (
     <section className="max-w-[1200px] mx-auto px-4 py-12 flex flex-col md:flex-row items-center justify-between gap-8">
       {/* Left Side */}
@@ -56,23 +56,7 @@ export default function Section_a() {
       </div>
       {/* Right Side */}
       <div className="flex-1 flex justify-center items-center relative">
-        <img
-          src="https://i.ibb.co/6bQ6Q8k/phone-mockup-1.png"
-          alt="Phone 1"
-          className="w-56 md:w-64 lg:w-72 shadow-xl rounded-xl rotate-[-10deg] z-10"
-        />
-        <img
-          src="https://i.ibb.co/6bQ6Q8k/phone-mockup-1.png"
-          alt="Phone 2"
-          className="w-56 md:w-64 lg:w-72 shadow-xl rounded-xl absolute top-12 left-24 rotate-[10deg] z-0"
-          style={{ filter: "brightness(0.95)" }}
-        />
-        {/* You can replace the above src with your own phone mockup images */}
-        <img
-          src="https://cdn-icons-png.flaticon.com/512/992/992700.png"
-          alt="Clock"
-          className="absolute top-0 right-0 w-12"
-        />
+        <img src="./section_a_bg.png" alt="Phone 1" />
       </div>
     </section>
   );

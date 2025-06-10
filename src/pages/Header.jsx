@@ -13,7 +13,7 @@ function Header() {
           />
         </div>
 
-        <nav className="hidden lg:flex space-x-6 text-gray-800 font-medium">
+        <nav className="hidden lg:flex space-x-6 text-gray-800 text-sm font-medium">
           <Link to="/">Services</Link>
           <Link to="/">Our Solutions</Link>
           <Link to="/">Digital Marketing</Link>

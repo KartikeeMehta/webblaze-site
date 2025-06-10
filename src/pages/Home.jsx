@@ -9,6 +9,7 @@ function Home() {
       <Annoucement_bar />
       <Header />
       <Footer />
+      hekkko
     </div>
   );
 }

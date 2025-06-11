@@ -9,6 +9,11 @@ import Section_d from "./Home/Section_d";
 import Section_e from "./Home/Section_e";
 import Section_f from "./Home/Section_f";
 import Section_g from "./Home/Section_g";
+import Section_i from "./Home/Section_i";
+import Section_j from "./Home/Section_j";
+import { Section } from "lucide-react";
+import Section_k from "./Home/Section_k";
+import Section_L from "./Home/Section_L";
 
 function Home() {
   return (
@@ -22,6 +27,10 @@ function Home() {
       <Section_e />
       <Section_f />
       <Section_g />
+      <Section_i />
+      <Section_j />
+      <Section_k />
+      <Section_L />
       <Footer />
     </div>
   );

@@ -4,7 +4,6 @@ import { Button } from "@/components/ui/button"; // Adjust the import path as pe
 export default function SectionA() {
   return (
     <section className="max-w-[1200px] mx-auto px-4 py-12 flex flex-col md:flex-row items-center justify-between gap-8">
-      {/* Left Side */}
       <div className="flex-1">
         <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
           Rapid, Reliable and Ready <br />– Get Your{" "}
@@ -28,27 +27,27 @@ export default function SectionA() {
             3000+
           </span>
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Maersk_Group_logo.svg"
+            src="https://webblazesofttech.com/wp-content/uploads/2024/07/maersk.svg"
             alt="Maersk"
             className="h-8"
           />
           <img
-            src="https://1000logos.net/wp-content/uploads/2017/03/Nestle-Logo-500x281.png"
+            src="https://webblazesofttech.com/wp-content/uploads/2024/07/nestle.svg"
             alt="Nestle"
             className="h-8"
           />
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/7/74/Dominos_pizza_logo.svg"
+            src="https://webblazesofttech.com/wp-content/uploads/2024/07/dominos.svg"
             alt="Domino's"
             className="h-8"
           />
           <img
-            src="https://seeklogo.com/images/F/famooshed-logo-6A1B6B2B2B-seeklogo.com.png"
+            src="https://webblazesofttech.com/wp-content/uploads/2024/07/famooshed.svg"
             alt="Famooshed"
             className="h-8"
           />
           <img
-            src="https://upload.wikimedia.org/wikipedia/sco/thumb/4/45/Starbucks_Coffee_Logo.svg/1200px-Starbucks_Coffee_Logo.svg.png"
+            src="https://webblazesofttech.com/wp-content/uploads/2024/07/starbucks.svg"
             alt="Starbucks"
             className="h-8"
           />

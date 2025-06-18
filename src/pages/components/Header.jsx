@@ -18,7 +18,7 @@ function Header() {
     { label: "Graphics Design", icon: "🎨" },
     { label: "Wordpress", icon: "🌐", path: "/Word_Press" },
     { label: "Shopify", icon: "🛍️", path: "/Shopify" },
-    { label: "Shopify App", icon: "⚙️" },
+    { label: "Shopify App", icon: "⚙️", path: "/Shopify_app" },
     { label: "PHP - Laravel, CI, Cake and CorePHP", icon: "🐘" },
     { label: "JavaScript", icon: "📜" },
     { label: "Vue.JS", icon: "🌀" },

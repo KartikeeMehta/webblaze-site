@@ -5,6 +5,7 @@ import Uiux_app from "./pages/Uiux_app";
 import Word_Press from "./pages/Word_Press";
 import Web_Design from "./pages/Web_Design";
 import Shopify from "./pages/Shopify";
+import Shopify_app from "./pages/Shopify_app";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/Word_Press" element={<Word_Press />} />
         <Route path="/Web_Design" element={<Web_Design />} />
         <Route path="/Shopify" element={<Shopify />} />
+        <Route path="/Shopify_app" element={<Shopify_app />} />
       </Routes>
     </Router>
   );

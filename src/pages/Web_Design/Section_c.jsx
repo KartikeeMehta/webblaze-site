@@ -1,63 +1,84 @@
-import React from 'react'
-import competitivePricing from "../../assets/competitivePricing.png"
-import watchIcon from "../../assets/watchIcon.png"
-import experienceIcon from "../../assets/experienceIcon.png"
-import clientIcon from "../../assets/clientIcon.png"
+import React, { useState } from 'react'
 
-const Section_c = () => {
-  const services = [
-    {
-      icon: experienceIcon,
-      title: "Experience and Expertise",
-      desc: "Our team comprises some of the high-quality WordPress builders within the enterprise, with years of revel in in delivering wonderful WordPress web sites.",
-      bgColor: "bg-blue-600",
-    },
-    {
-      icon: clientIcon,
-      title: "Client-Centric Approach",
-      desc: "We prioritize our customers' needs and work intently with them to make certain their vision is found out.",
-      bgColor: "bg-red-400",
-    },
-    {
-      icon: competitivePricing,
-      title: "Competitive Pricing",
-      desc: "Our offerings are priced competitively, offering notable cost for your investment.",
-      bgColor: "bg-yellow-300",
-    },
-    {
-      icon: watchIcon,
-      title: "Timely Delivery",
-      desc: "We adhere to strict timelines and make sure your mission is added on time, on every occasion.",
-      bgColor: "bg-yellow-300",
-    },
-  ]
+const services = [
+  {
+    name: "Expertise in Web Design and Development",
+    color: "bg-blue-100",
+    icon: "🖌️",
+    summary: "Our group consists of quite skilled specialists with years of revel in in internet site designing. We live up to date with the brand new net layout developments and generation to supply modern-day answers",
+  },
+  {
+    name: "Tailored Solutions",
+    color: "bg-red-100",
+    icon: "🏷️",
+    summary: "Build a memorable brand identity that stands out.",
+  },
+  {
+    name: "User-Centric Approach",
+    color: "bg-yellow-100",
+    icon: "🛒",
+    summary: "Robust online stores to grow your business.",
+  },
+  {
+    name: "Affordable Pricing",
+    color: "bg-yellow-100",
+    icon: "💻",
+    summary: "Full-stack development for scalable solutions.",
+  },
+];
+
+function ServiceCard({ name, color, icon, summary }) {
+  const [hovered, setHovered] = useState(false);
+
   return (
-    <section className="w-full bg-[#0B1120]  overflow-hidden py-16">
-      <div className="text-center px-4 pt-2">
-        <h1 className="font-medium text-2xl text-white">Why Choose Webblaze for Web Design?</h1>
-        <h4 className='text-white text-base'>Choosing the right net format business enterprise may be a frightening task. Here’s why Webblaze stands proud</h4>
-      </div>
-
-      <div className="flex justify-center">
-        <div className="w-full max-w-[1200px] grid grid-cols-1 lg:grid-cols-3 gap-6 place-items-center mt-9">
-          {
-            services.map((item, index) => (
-              <div
-                key={index}
-                className="bg-white/5 backdrop-blur-sm border border-white/10 hover:border-blue-500 transition-colors rounded-xl p-10 max-w-sm w-full text-left text-white">
-                <div
-                  className={`w-12 h-12 rounded-full flex items-center justify-center ${item.bgColor} mb-4`}
-                >
-                  <img src={item.icon} alt="icon" className="w-6 h-6" />
-                </div>
-                <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
-                <p className="text-sm text-gray-300">{item.desc}</p>
-              </div>
-            ))
-          }
+    <div
+      className="relative flex flex-col items-center justify-center border border-gray-600  rounded-2xl shadow-md p-8 transition-transform duration-300 hover:-translate-y-2 cursor-pointer min-h-[240px] overflow-hidden"
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
+    >
+      <div
+        className={`flex flex-col items-center justify-center transition-opacity duration-300 ${hovered ? "opacity-0" : "opacity-100"
+          }`}>
+        <div
+          className={`w-16 h-16 flex items-center justify-center rounded-full mb-4 text-3xl ${color}`}
+        >
+          {icon}
+        </div>
+        <div className="text-xl font-bold text-white mb-2 text-center">
+          {name}
         </div>
       </div>
+      <div
+        className={`absolute left-0 bottom-0 w-full h-full border   border-color#1C92FF flex items-center justify-center bg-white rounded-2xl shadow-lg text-gray-700 text-center px-6 py-8 transition-all duration-500 ease-in-out
+          ${hovered
+            ? "translate-y-0 opacity-100 pointer-events-auto"
+            : "translate-y-full opacity-0 pointer-events-none"
+          }
+        `}
+        style={{ zIndex: 10 }}
+      >
+        <div className="text-lg font-semibold">{summary}</div>
+      </div>
+    </div>
+  );
+}
+const Section_c = () => {
 
+  return (
+    <section
+      className="bg-[#1b1e2f]  text-white py-20 px-6">
+      <div className="text-center mb-8">
+        <h2 className="text-3xl md:text-4xl font-bold mb-2 text-white">
+          Why Choose Webblaze for Web Design?
+        </h2>
+        <p className="text-gray-500 max-w-xl mx-auto text-[18px] font-normal">
+          Choosing the right net format business enterprise may be a frightening task. Here’s why Webblaze stands proud</p>
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        {services.map((service) => (
+          <ServiceCard key={service.name} {...service} />
+        ))}
+      </div>
     </section>
   )
 }

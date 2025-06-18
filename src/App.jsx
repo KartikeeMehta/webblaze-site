@@ -6,6 +6,7 @@ import Word_Press from "./pages/Word_Press";
 import Web_Design from "./pages/Web_Design";
 import Shopify from "./pages/Shopify";
 import Shopify_app from "./pages/Shopify_app";
+import Php_laravel from "./pages/Php_laravel";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/Web_Design" element={<Web_Design />} />
         <Route path="/Shopify" element={<Shopify />} />
         <Route path="/Shopify_app" element={<Shopify_app />} />
+        <Route path="/Php_laravel" element={<Php_laravel />} />
       </Routes>
     </Router>
   );

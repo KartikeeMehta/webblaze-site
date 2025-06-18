@@ -15,10 +15,10 @@ function Header() {
 
 
   const servicesDropdown = [
-    { label: "UI/UX App", icon: "🧩" },
-    { label: "Web Design", icon: "🖌️" },
+    { label: "UI/UX App", icon: "🧩", path: "/Uiux_app" },
+    { label: "Web Design", icon: "🖌️", path: "/Web_Design" },
     { label: "Graphics Design", icon: "🎨" },
-    { label: "Wordpress", icon: "🌐" },
+    { label: "Wordpress", icon: "🌐", path: "/Word_Press" },
     { label: "Shopify", icon: "🛍️" },
     { label: "Shopify App", icon: "⚙️" },
     { label: "PHP - Laravel, CI, Cake and CorePHP", icon: "🐘" },
@@ -92,9 +92,6 @@ function Header() {
     { icon: '🎞️', label: '3D animation' },
   ];
 
-
-
-
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
       <div className="flex items-center justify-between max-w-[1200px] m-auto p-5">
@@ -115,12 +112,14 @@ function Header() {
             {showDropdown && (
               <div className="absolute top-full left-0 w-[800px] bg-white shadow-xl rounded-xl p-6 grid grid-cols-3 gap-4 z-50">
                 {servicesDropdown.map((item, idx) => (
-                  <div key={idx} className="flex items-center gap-2">
+
+                  <Link
+                    key={idx}
+                    to={item.path}
+                    className="flex items-center gap-2 hover:text-blue-600 transition duration-200">
                     <span className="text-xl bg-gray-100 w-8 h-8 flex items-center justify-center rounded-full">{item.icon}</span>
-                    <span className="text-sm font-medium text-gray-700 hover:text-blue-600 transition duration-200">
-                      {item.label}
-                    </span>
-                  </div>
+                    <span className="text-sm font-medium text-gray-700  hover:text-blue-600 transition duration-200">{item.label}</span>
+                  </Link>
                 ))}
               </div>
             )}

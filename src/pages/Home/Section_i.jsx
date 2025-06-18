@@ -42,11 +42,11 @@ const Section_i = () => {
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6" >
         {clients.map((client, index) => (
 
-              <img
-              src={client.logo}
-              alt={`client-logo-${index}`}
-              className="max-h-17 w-auto object-contain items-center justify-center p-4"
-            />
+          <img
+            src={client.logo}
+            alt={`client-logo-${index}`}
+            className="max-h-17 w-auto object-contain items-center justify-center p-4"
+          />
         ))}
       </div>
     </section>

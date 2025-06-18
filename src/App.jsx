@@ -2,6 +2,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About_us from "./pages/About_us";
 import Uiux_app from "./pages/Uiux_app";
+import Word_Press from "./pages/Word_Press";
+import Web_Design from "./pages/Web_Design";
 
 function App() {
   return (
@@ -9,7 +11,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About_us" element={<About_us />} />
-         <Route path="/Uiux_app" element={<Uiux_app />} />
+        <Route path="/Uiux_app" element={<Uiux_app />} />
+        <Route path="/Word_Press" element={<Word_Press />} />
+        <Route path="/Web_Design" element={<Web_Design />} />
+
+
       </Routes>
     </Router>
   );

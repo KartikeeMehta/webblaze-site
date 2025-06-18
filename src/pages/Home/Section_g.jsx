@@ -20,21 +20,21 @@ const projects = [
     title: "GIG Findr",
     description:
       "We crafted a dynamic artist booking platform, combining innovative design, robust development, and targeted marketing to empower performers and venues with a streamlined, scalable digital solution.",
-    image: "https://webblazesofttech.com/wp-content/uploads/2024/07/gig-finder.webp", 
+    image: "https://webblazesofttech.com/wp-content/uploads/2024/07/gig-finder.webp",
   },
-  
-   {
+
+  {
     title: "Maj Permanent",
     description:
       "We developed a custom e-commerce platform, integrating sleek design, powerful development, and data-driven marketing to deliver a seamless shopping experience that drives engagement, conversions, and brand growth.",
-    image: "https://webblazesofttech.com/wp-content/uploads/2024/07/maj-permanent.webp", 
+    image: "https://webblazesofttech.com/wp-content/uploads/2024/07/maj-permanent.webp",
   },
 
-   {
+  {
     title: "MyBook Venture",
     description:
       "We are always one step ahead, continuously evolving and adjusting to provide the latest solutions, ranging from web applications to SEO. We offer cutting-edge solutions, a customized approach, and outstanding customer service to propel your business to success in the digital realm.",
-    image: "https://webblazesofttech.com/wp-content/uploads/2024/07/mybookventure.webp", 
+    image: "https://webblazesofttech.com/wp-content/uploads/2024/07/mybookventure.webp",
   },
 ];
 

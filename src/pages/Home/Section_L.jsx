@@ -17,7 +17,7 @@ const Section_L = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             setActiveIndex((prevIndex) => (prevIndex + 1) % totalDots);
-        }, 2000); // Change dot every 2 seconds
+        }, 2000); 
         return () => clearInterval(interval);
     }, []);
 
@@ -33,7 +33,6 @@ const Section_L = () => {
                 </p>
             </div>
 
-            {/* Blog Cards */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
                 {blogs.map((blog) => (
                     <div key={blog.id} className="bg-white rounded-xl shadow-sm p-5 transition-all hover:shadow-lg">

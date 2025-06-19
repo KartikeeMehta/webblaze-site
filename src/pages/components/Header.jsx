@@ -25,7 +25,7 @@ function Header() {
       path: "/Php_laravel",
     },
     { label: "JavaScript", icon: "📜", path: "/Javascript" },
-    { label: "Vue.JS", icon: "🌀" },
+    { label: "Vue.JS", icon: "🌀",path:"/VueJs" },
     { label: "React.JS", icon: "⚛️", path: "/ReactJs" },
     { label: "Angular.JS", icon: "🅰️" },
     { label: "Node.JS", icon: "🧱" },

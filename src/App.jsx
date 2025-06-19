@@ -9,6 +9,7 @@ import Shopify_app from "./pages/Shopify_app";
 import Php_laravel from "./pages/Php_laravel";
 import Javascript from "./pages/Javascript";
 import ReactJs from "./pages/ReactJs";
+import VueJs from "./pages/VueJs";
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
         <Route path="/Php_laravel" element={<Php_laravel />} />
         <Route path="/Javascript" element={<Javascript />} />
         <Route path="/ReactJs" element={<ReactJs />} />
+        <Route path="/VueJs" element={<VueJs />} />
+
       </Routes>
     </Router>
   );

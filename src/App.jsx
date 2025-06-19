@@ -10,6 +10,9 @@ import Shopify_app from "./pages/Shopify_app";
 import Php_laravel from "./pages/Php_laravel";
 import Javascript from "./pages/Javascript";
 import VueJs from "./pages/VueJs";
+import Graphic_design from "./pages/Graphic_design";
+import Angular_js from "./pages/Angular_js";
+import Nodejs from "./pages/Nodejs";
 
 function App() {
   return (
@@ -26,6 +29,9 @@ function App() {
         <Route path="/Javascript" element={<Javascript />} />
         <Route path="/ReactJs" element={<ReactJs />} />
         <Route path="/VueJs" element={<VueJs />} />
+        <Route path="/Graphic_design" element={<Graphic_design />} />
+        <Route path="/Nodejs" element={<Nodejs />} />
+        <Route path="/Angular_js" element={<Angular_js />} />
       </Routes>
     </Router>
   );

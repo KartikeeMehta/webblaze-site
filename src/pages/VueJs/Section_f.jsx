@@ -3,24 +3,24 @@ import React, { useState } from 'react';
 
 const faqs = [
     {
-        question: 'What is JavaScript used for in web development?',
-        answer: 'JavaScript enables interactive features like animations, dynamic content updates, and real-time form validation.'
+        question: 'What is Vue.js used for?',
+        answer: 'Vue.js is a progressive JavaScript framework for building user interfaces and single-page applications (SPAs).'
     },
     {
-        question: 'What are the top JavaScript frameworks in 2025?',
-        answer: 'Popular frameworks include React.js, Vue.js, Angular, and Svelte.'
+        question: 'Who are WebHow does Vue.js compare to React.js?blaze’s clients?',
+        answer: 'Vue.js offers simplicity and ease of integration, while React provides more flexibility and a larger ecosystem.'
     },
     {
-        question: 'Is JavaScript essential for modern web development?',
-        answer: 'Yes, JavaScript is crucial for front-end, back-end, and full-stack development.'
+        question: 'Is Vue.js good for large-scale applications?',
+        answer: 'Yes, with tools like Vuex for state management, Vue.js handles large applications effectively.'
     },
     {
-        question: 'How do I debug JavaScript code effectively?',
-        answer: 'Use browser developer tools, console logs, and debugging tools like Visual Studio Code or Chrome DevTools.'
+        question: 'What are the benefits of using Vue.js for front-end development?',
+        answer: 'Vue.js is lightweight, easy to learn, and provides reactive data binding for seamless user experiences.'
     },
     {
-        question: 'What are the differences between JavaScript and TypeScript?',
-        answer: 'TypeScript is a superset of JavaScript with added type-checking and better debugging features.'
+        question: 'How do I optimize Vue.js applications for performance?',
+        answer: 'Use lazy loading, code splitting, and Vue’s built-in optimization techniques.'
     }
 ];
 
@@ -33,7 +33,7 @@ const Section_f = () => {
 
     return (
         <div className="max-w-3xl mx-auto px-4 py-10">
-            <h2 className="text-3xl font-bold text-center mb-10">FAQ</h2>
+            <h2 className="text-3xl font-bold text-center mb-10">Frequently Asked Questions</h2>
             {faqs.map((faq, index) => (
                 <div key={index} className="border-b">
                     <button

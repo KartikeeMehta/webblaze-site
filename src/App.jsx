@@ -26,7 +26,6 @@ function App() {
         <Route path="/Javascript" element={<Javascript />} />
         <Route path="/ReactJs" element={<ReactJs />} />
         <Route path="/VueJs" element={<VueJs />} />
-
       </Routes>
     </Router>
   );

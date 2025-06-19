@@ -4,7 +4,6 @@ import bgImage from '../../assets/word_PressBackImage.png';
 const Section_a = () => {
   return (
     <div className="relative w-full bg-white overflow-hidden">
-      {/* Background Lines */}
       <div
         className="absolute inset-0 z-0 bg-no-repeat bg-left-top bg-cover"
         style={{
@@ -12,11 +11,9 @@ const Section_a = () => {
         }}
       />
 
-      {/* Content Container */}
       <div className="relative z-10 max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8 py-24">
         <div className="flex flex-col-reverse lg:flex-row items-center lg:items-start gap-12">
 
-          {/* Left Text Section */}
           <div className="w-full lg:w-1/2">
             <h1 className="text-[42px] sm:text-[46px] lg:text-[48px] leading-tight font-bold mb-6 text-black">
               <span className="text-red-500">Web Design</span>{' '}
@@ -35,7 +32,6 @@ const Section_a = () => {
             </button>
           </div>
 
-          {/* Right Image */}
           <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
             <img
               src="https://webblazesofttech.com/wp-content/uploads/2024/08/webdesigning.webp"

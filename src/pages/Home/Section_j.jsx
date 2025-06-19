@@ -6,7 +6,6 @@ const Section_j = () => {
     <section className="bg-[#F2F3F2] py-20 px-4 flex justify-center">
       <div className="max-w-7xl w-full bg-white rounded-xl overflow-hidden flex flex-col md:flex-row items-stretch shadow-lg">
         
-        {/* Left Section */}
         <div className="relative bg-[#11182B] text-white p-10 md:p-20 md:w-1/2 w-full flex flex-col justify-center rounded-md md:rounded-r-none h-full">
           <div className="absolute top-0 left-0 w-40 h-40 bg-[#2B3145] rounded-full opacity-30 z-0 -translate-x-1/3 -translate-y-1/3" />
           <div className="absolute bottom-0 right-0 w-40 h-40 bg-[#2B3145] rounded-full opacity-30 z-0 translate-x-1/3 translate-y-1/3" />
@@ -23,7 +22,6 @@ const Section_j = () => {
           </div>
         </div>
 
-        {/* Right Section */}
         <div className="md:w-1/2 w-full h-full">
           <img
             src={girlPhone}

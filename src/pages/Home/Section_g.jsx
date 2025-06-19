@@ -70,7 +70,6 @@ function Section_g() {
                 </Button>
               </div>
 
-              {/* Right Image */}
               <div className="lg:w-1/2 flex justify-center items-center">
                 <img
                   src={project.image}

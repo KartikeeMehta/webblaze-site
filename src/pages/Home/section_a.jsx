@@ -1,6 +1,5 @@
 import React from "react";
-import { Button } from "@/components/ui/button"; // Adjust the import path as per your setup
-
+import { Button } from "@/components/ui/button"; 
 export default function SectionA() {
   return (
     <section className="max-w-[1200px] mx-auto px-4 py-12 flex flex-col md:flex-row items-center justify-between gap-8">

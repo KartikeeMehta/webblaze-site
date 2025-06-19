@@ -45,7 +45,6 @@ const Section_k = () => {
       </div>
 
       <div className="flex flex-col md:flex-row items-center max-w-6xl mx-auto p-6 bg-[#11182B]">
-        {/* Left: Image & Buttons */}
         <div className="flex flex-col items-center md:items-start md:w-1/3 mb-6 md:mb-0">
           <img
             src={currentTestimonial.image}

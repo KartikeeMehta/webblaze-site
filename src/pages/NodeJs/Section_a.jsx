@@ -16,7 +16,7 @@ const Section_a = () => {
                     <h2 className="text-2xl md:text-4xl font-bold leading-snug text-red-500">
                        Node.Js Development{" "}
                         <span className=" text-black">
-                            Vue.Js <br className="hidden sm:block" />
+                            <br className="hidden sm:block" />
                            Services: Empowering Your Digital Future
                         </span>
                     </h2>
@@ -29,7 +29,7 @@ const Section_a = () => {
 
                 <div className="flex-1">
                     <img
-                        src={'https://webblazesofttech.com/wp-content/uploads/2024/08/Webblaze-Your-Go-To-WordPress-Development-Company.webp'}
+                        src={'https://webblazesofttech.com/wp-content/uploads/2025/02/mature-computer-programmer-programming-coding-new-technologies-while-typing-laptop-table-office_11zon-scaled.jpg'}
                         alt="WordPress Developer"
                         className="rounded-3xl w-full max-h-[420px] object-cover" />
                 </div>

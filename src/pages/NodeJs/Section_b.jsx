@@ -17,12 +17,13 @@ export const Section_b = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         <div className="w-full h-72 sm:h-96 rounded-2xl border-[6px] border-yellow-400 overflow-hidden">
           <img
-            src="https://webblazesofttech.com/wp-content/uploads/2024/08/Comprehensive-Website-Design-Services-3.webp"
+            src="https://webblazesofttech.com/wp-content/uploads/2025/02/young-man-mobile-developer-writes-program-code-computer-check-app-smartphone-programmer-work-home-office_11zon-scaled.jpg"
             alt="Vue.Js developer working"
             className="w-full h-full object-cover"
           />
         </div>
 
+        {/* Text */}
         <div>
           <h2 className="text-2xl md:text-4xl font-bold text-gray-900 leading-snug mb-4">
             Why Choose Vue.Js <br />

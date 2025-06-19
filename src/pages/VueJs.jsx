@@ -9,6 +9,7 @@ import { Section } from 'lucide-react'
 import Section_d from './VueJs/Section_d'
 import Section_f from './VueJs/Section_f'
 import Section_g from './VueJs/Section_g'
+import Section_e from './VueJs/Section_e'
 
 const VueJs = () => {
     return (
@@ -19,6 +20,7 @@ const VueJs = () => {
             <Section_b/>
             <Section_c/>
             <Section_d/>
+            <Section_e/>
             <Section_f/>
             <Section_g/>
             <Footer />

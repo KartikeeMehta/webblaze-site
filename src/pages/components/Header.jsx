@@ -28,8 +28,8 @@ function Header() {
     { label: "Vue.JS", icon: "🌀", path: "/VueJs" },
     { label: "React.JS", icon: "⚛️", path: "/ReactJs" },
     { label: "Angular.JS", icon: "🅰️", path: "/Angular_js" },
-    { label: "Node.JS", icon: "🧱" },
-    { label: "AWS", icon: "☁️" },
+    { label: "Node.JS", icon: "🧱",path:"/Nodejs" },
+    { label: "AWS", icon: "☁️",path:"/Aws" },
     { label: "Linux Administration", icon: "🐧" },
     { label: "Photography", icon: "📷" },
   ];

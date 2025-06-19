@@ -20,6 +20,7 @@ function Home() {
     <div>
       <Annoucement_bar />
       <Header />
+      hello
       <Section_a />
       <Section_b />
       <Section_c />

@@ -60,7 +60,7 @@ function Header() {
     { icon: "🔐", label: "Only fan clone" },
   ];
   const marketingItems = [
-    { icon: "📈", label: "SEO" },
+    { icon: "📈", label: "SEO", path: "/Seo" },
     { icon: "📣", label: "SMM" },
     { icon: "💰", label: "PPC" },
     { icon: "📊", label: "Google Ads" },
@@ -178,14 +178,20 @@ function Header() {
               <div className="absolute top-full left-0 w-[250px] bg-white shadow-xl rounded-xl p-4 z-50">
                 <div className="flex flex-col gap-3">
                   {marketingItems.map((item, idx) => (
-                    <div key={idx} className="flex items-center gap-2 px-10">
+
+
+                    <Link
+                      key={idx}
+                      to={item.path}
+                      className="flex items-center gap-2 hover:text-blue-600 transition duration-200"
+                    >
                       <span className="text-xl bg-gray-100 w-8 h-8 flex items-center justify-center rounded-full">
                         {item.icon}
                       </span>
                       <span className="text-sm font-medium text-gray-700 hover:text-blue-600 transition duration-200">
                         {item.label}
                       </span>
-                    </div>
+                    </Link>
                   ))}
                 </div>
               </div>
@@ -311,10 +317,9 @@ function Header() {
           <NavLink
             to="/About_us"
             className={({ isActive }) =>
-              `pb-1 border-b-2 transition duration-200 ${
-                isActive
-                  ? "text-blue-600 border-blue-600"
-                  : "hover:text-blue-600 hover:border-blue-600 border-transparent"
+              `pb-1 border-b-2 transition duration-200 ${isActive
+                ? "text-blue-600 border-blue-600"
+                : "hover:text-blue-600 hover:border-blue-600 border-transparent"
               }`
             }
           >

@@ -33,34 +33,30 @@ const cardContents = [
   },
 ];
 
-function Section_b() {
+function Section_d() {
   return (
     <div
-      className="relative h-[745px] w-full flex flex-col items-center justify-center overflow-x-hidden bg-[#fafbfc]"
+      className="relative w-full flex flex-col items-center justify-center overflow-x-hidden bg-[#fafbfc] py-12 px-4"
       style={{
-        backgroundImage: "url('/bg_section_b_shopify.png')",
         backgroundRepeat: "no-repeat",
         backgroundSize: "contain",
         backgroundPosition: "center right",
       }}
     >
-      <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 mt-8 text-gray-900">
-        Comprehensive Graphic Design Offerings
-      </h2>
-      <div className="w-full max-w-7xl flex flex-wrap md:flex-row gap-8 justify-center items-stretch px-4 pb-12">
+      <div className="flex flex-wrap justify-center gap-8 max-w-7xl w-full">
         {cardContents.map((card, idx) => (
           <div
             key={idx}
-            className="flex-1 bg-white rounded-xl shadow-md p-8 border-b-4 border-blue-200 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-blue-400 min-w-[260px] max-w-full min-h-[473px]"
-            style={{ minWidth: "260px" }}
+            className="w-full sm:w-[48%] lg:w-[30%] bg-white rounded-xl shadow-md p-6 border-b-4 border-blue-200 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-blue-400 min-h-[473px]"
           >
             <h3 className="text-xl font-bold mb-3 text-gray-800">
               {card.title}
             </h3>
-            <p className="text-gray-600 text-base">{card.description}</p>
+            <p className="text-gray-600  text-base">{card.description}</p>
           </div>
         ))}
       </div>
+      
       <style>
         {`
           @keyframes float {
@@ -83,4 +79,4 @@ function Section_b() {
   );
 }
 
-export default Section_b;
+export default Section_d;

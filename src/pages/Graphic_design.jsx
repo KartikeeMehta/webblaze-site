@@ -20,8 +20,8 @@ const Graphic_design = () => {
             <Section_a />
             <Section_b />
             <Section_c />
-            <Section_d />
             <Section_e />
+            <Section_d />
             <Section_f />
             <Section_g />
             

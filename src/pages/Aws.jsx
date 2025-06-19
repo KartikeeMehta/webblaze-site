@@ -6,10 +6,15 @@ import Section_d from "./Aws/Section_d";
 import Section_e from "./Aws/Section_e";
 import Section_f from "./Aws/Section_f";
 import Section_g from "./Aws/Section_g";
+import Annoucement_bar from "./Home/Annoucement_bar";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function Aws() {
   return (
     <div>
+      <Annoucement_bar />
+      <Header />
       <Section_a />
       <Section_b />
       <Section_c />
@@ -17,6 +22,7 @@ function Aws() {
       <Section_e />
       <Section_f />
       <Section_g />
+      <Footer />
     </div>
   );
 }

@@ -17,7 +17,7 @@ function Header() {
   const servicesDropdown = [
     { label: "UI/UX App", icon: "🧩", path: "/Uiux_app" },
     { label: "Web Design", icon: "🖌️", path: "/Web_Design" },
-    { label: "Graphics Design", icon: "🎨" },
+    { label: "Graphics Design", icon: "🎨", path: "/Graphic_design" },
     { label: "Wordpress", icon: "🌐", path: "/Word_Press" },
     { label: "Shopify", icon: "🛍️" },
     { label: "Shopify App", icon: "⚙️" },

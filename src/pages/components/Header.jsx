@@ -25,9 +25,9 @@ function Header() {
       path: "/Php_laravel",
     },
     { label: "JavaScript", icon: "📜", path: "/Javascript" },
-    { label: "Vue.JS", icon: "🌀",path:"/VueJs" },
+    { label: "Vue.JS", icon: "🌀", path: "/VueJs" },
     { label: "React.JS", icon: "⚛️", path: "/ReactJs" },
-    { label: "Angular.JS", icon: "🅰️" },
+    { label: "Angular.JS", icon: "🅰️", path: "/Angular_js" },
     { label: "Node.JS", icon: "🧱" },
     { label: "AWS", icon: "☁️" },
     { label: "Linux Administration", icon: "🐧" },
@@ -311,9 +311,10 @@ function Header() {
           <NavLink
             to="/About_us"
             className={({ isActive }) =>
-              `pb-1 border-b-2 transition duration-200 ${isActive
-                ? "text-blue-600 border-blue-600"
-                : "hover:text-blue-600 hover:border-blue-600 border-transparent"
+              `pb-1 border-b-2 transition duration-200 ${
+                isActive
+                  ? "text-blue-600 border-blue-600"
+                  : "hover:text-blue-600 hover:border-blue-600 border-transparent"
               }`
             }
           >

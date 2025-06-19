@@ -4,11 +4,12 @@ import About_us from "./pages/About_us";
 import Uiux_app from "./pages/Uiux_app";
 import Word_Press from "./pages/Word_Press";
 import Web_Design from "./pages/Web_Design";
+import ReactJs from "./pages/ReactJs";
 import Shopify from "./pages/Shopify";
 import Shopify_app from "./pages/Shopify_app";
 import Php_laravel from "./pages/Php_laravel";
 import Javascript from "./pages/Javascript";
-import ReactJs from "./pages/ReactJs";
+import VueJs from "./pages/VueJs";
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
         <Route path="/Php_laravel" element={<Php_laravel />} />
         <Route path="/Javascript" element={<Javascript />} />
         <Route path="/ReactJs" element={<ReactJs />} />
-        <Route path="/Graphic_design" element={<Graphic_design />} />
+        <Route path="/VueJs" element={<VueJs />} />
+
       </Routes>
     </Router>
   );

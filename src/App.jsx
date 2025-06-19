@@ -15,6 +15,7 @@ import Angular_js from "./pages/Angular_js";
 import Nodejs from "./pages/Nodejs";
 import Aws from "./pages/Aws";
 import Photography from "./pages/Photography";
+import Smm from "./pages/Digital_Marketing/SMM/Smm";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         <Route path="/Angular_js" element={<Angular_js />} />
         <Route path="/Aws" element={<Aws />} />
         <Route path="/Photography" element={<Photography />} />
+        <Route path="/Smm" element={<Smm />} />
       </Routes>
     </Router>
   );

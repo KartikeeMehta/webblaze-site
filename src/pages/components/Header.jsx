@@ -63,7 +63,7 @@ function Header() {
     { icon: "📈", label: "SEO", path: "/Seo" },
     { icon: "📣", label: "SMM", path:"/Smm" },
     { icon: "💰", label: "PPC", path: "/Ppc" },
-    { icon: "📊", label: "Google Ads" },
+    { icon: "📊", label: "Google Ads", path:"/Google_ads" },
     { icon: "📈", label: "Growth Marketing",path:"/GrowthMarketing" },
     { icon: "🎨", label: "Branding", path: "/Branding" }
   ];

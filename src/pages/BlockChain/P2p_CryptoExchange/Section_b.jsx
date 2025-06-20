@@ -66,15 +66,12 @@ const Section_b = () => {
               className={`bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden border-b-4 ${feature.borderColor}`}
             >
               <div className="p-8">
-                {/* Icon */}
                 <div className={`w-16 h-16 rounded-full flex items-center justify-center ${feature.iconBgColor} mb-6`}>
                   <span className={`text-3xl ${feature.iconTextColor}`}>{feature.icon}</span>
                 </div>
 
-                {/* Title */}
                 <h3 className="text-xl font-semibold text-gray-800 mb-4">{feature.title}</h3>
 
-                {/* Description */}
                 <p className="text-gray-600 leading-relaxed text-base">{feature.description}</p>
               </div>
             </div>

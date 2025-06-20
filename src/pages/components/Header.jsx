@@ -61,15 +61,15 @@ function Header() {
   ];
   const marketingItems = [
     { icon: "📈", label: "SEO", path: "/Seo" },
-    { icon: "📣", label: "SMM", path:"/Smm" },
+    { icon: "📣", label: "SMM", path: "/Smm" },
     { icon: "💰", label: "PPC", path: "/Ppc" },
-    { icon: "📊", label: "Google Ads", path:"/Google_ads" },
-    { icon: "📈", label: "Growth Marketing",path:"/GrowthMarketing" },
+    { icon: "📊", label: "Google Ads", path: "/Google_ads" },
+    { icon: "📈", label: "Growth Marketing", path: "/GrowthMarketing" },
     { icon: "🎨", label: "Branding", path: "/Branding" }
   ];
 
   const blockchainItems = [
-    { icon: "🔄", label: "P2P Crypto exchange" },
+    { icon: "🔄", label: "P2P Crypto exchange", path:"/P2pCryptoExChange" },
     { icon: "📝", label: "Smart contract development" },
     { icon: "📱", label: "Decentralized apps" },
     { icon: "🖼️", label: "NFT Marketplace" },
@@ -211,14 +211,30 @@ function Header() {
               <div className="absolute top-full left-0 w-[250px] bg-white shadow-xl rounded-xl p-4 z-50">
                 <div className="flex flex-col gap-3">
                   {blockchainItems.map((item, idx) => (
-                    <div key={idx} className="flex items-center gap-2 px-10">
+
+                    // <div key={idx} className="flex items-center gap-2 px-10">
+                    //   <span className="text-xl bg-gray-100 w-8 h-8 flex items-center justify-center rounded-full">
+                    //     {item.icon}
+                    //   </span>
+                    //   <span className="text-sm font-medium text-gray-700 hover:text-blue-600 transition duration-200">
+                    //     {item.label}
+                    //   </span>
+                    // </div>
+
+                    <Link
+                      key={idx}
+                      to={item.path}
+                      className="flex items-center gap-2 hover:text-blue-600 transition duration-200"
+                    >
                       <span className="text-xl bg-gray-100 w-8 h-8 flex items-center justify-center rounded-full">
                         {item.icon}
                       </span>
                       <span className="text-sm font-medium text-gray-700 hover:text-blue-600 transition duration-200">
                         {item.label}
                       </span>
-                    </div>
+
+                    </Link>
+
                   ))}
                 </div>
               </div>

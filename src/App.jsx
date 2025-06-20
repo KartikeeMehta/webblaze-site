@@ -21,6 +21,8 @@ import Branding from "./pages/Branding";
 import GrowthMarketing from "./pages/growthMarketing";
 import Smm from "./pages/Smm";
 import Google_ads from "./pages/Google_ads";
+import Block_Chain from "./pages/P2pCryptoExChange";
+import P2pCryptoExChange from "./pages/P2pCryptoExChange";
 
 function App() {
   return (
@@ -48,6 +50,7 @@ function App() {
         <Route path="/GrowthMarketing" element={<GrowthMarketing />} />
         <Route path="/Smm" element={<Smm />} />
         <Route path="/Google_ads" element={<Google_ads />} />
+        <Route path="/P2pCryptoExChange" element={<P2pCryptoExChange />} />
 
 
 

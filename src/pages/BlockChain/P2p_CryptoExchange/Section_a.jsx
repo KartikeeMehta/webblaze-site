@@ -1,0 +1,43 @@
+import React from "react";
+import bgImage from "../../../assets/word_PressBackImage.png";
+
+const Section_a = () => {
+    return (
+        <div
+            className="py-16 bg-no-repeat bg-cover bg-center"
+            style={{
+                backgroundImage: `url(${bgImage})`,
+            }}
+        >
+            <div className="max-w-[1200px] mx-auto px-6 flex flex-col lg:flex-row items-center justify-between gap-10 rounded-3xl p-8 ">
+                <div className="flex-1">
+                    <h2 className="text-2xl md:text-3xl font-bold leading-snug text-red-500 ">
+                        Growth Marketing  {" "}
+                        <span className="text-black">
+                            Online for<br /> Business
+                        </span>
+
+                    </h2>
+                    <p className="mt-6 text-gray-700 text-base md:text-sm leading-relaxed">
+                        Welcome to Webblaze, your cross-to net development company focusing on Vue.Js development offerings. Vue.Js is a revolutionary JavaScript framework used to create dynamic and excessive-performing web packages. Whether you are looking for a single-page application or a complex company-degree solution, Webblaze has the knowledge to supply top-notch results. Our crew of seasoned builders harnesses the electricity of Vue.Js to build scalable, maintainable, and green web packages that meet your business desires.
+                    </p>
+                    <button className="mt-8 px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition">
+                        Contact Us
+                    </button>
+                </div>
+
+                <div className="flex-1">
+                    <img
+                        src={
+                            "https://webblazesofttech.com/wp-content/uploads/2025/02/woman-s-hand-giving-bitcoin-coin-another-woman_3_11zon-scaled.jpg"
+                        }
+                        alt="WordPress Developer"
+                        className="rounded-3xl w-full h-[350px] object-cover"
+                    />
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default Section_a;

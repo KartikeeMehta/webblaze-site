@@ -22,6 +22,7 @@ import GrowthMarketing from "./pages/growthMarketing";
 import Smm from "./pages/Smm";
 import Google_ads from "./pages/Google_ads";
 import Linux_Admin from "./pages/Linux_Admin";
+import P2pCryptoExChange from "./pages/P2pCryptoExChange";
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
         <Route path="/Smm" element={<Smm />} />
         <Route path="/Google_ads" element={<Google_ads />} />
         <Route path="/Linux_admin" element={<Linux_Admin />} />
+        <Route path="/P2pCryptoExChange" element={<P2pCryptoExChange />} />
 
 
 

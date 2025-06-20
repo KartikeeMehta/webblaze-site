@@ -62,10 +62,10 @@ function Header() {
   const marketingItems = [
     { icon: "📈", label: "SEO", path: "/Seo" },
     { icon: "📣", label: "SMM" },
-    { icon: "💰", label: "PPC" },
+    { icon: "💰", label: "PPC", path: "/Ppc" },
     { icon: "📊", label: "Google Ads" },
-    { icon: "📈", label: "Growth Marketing" },
-    { icon: "🎨", label: "Branding" },
+    { icon: "📈", label: "Growth Marketing",path:"/GrowthMarketing" },
+    { icon: "🎨", label: "Branding", path: "/Branding" }
   ];
 
   const blockchainItems = [
@@ -178,8 +178,6 @@ function Header() {
               <div className="absolute top-full left-0 w-[250px] bg-white shadow-xl rounded-xl p-4 z-50">
                 <div className="flex flex-col gap-3">
                   {marketingItems.map((item, idx) => (
-
-
                     <Link
                       key={idx}
                       to={item.path}

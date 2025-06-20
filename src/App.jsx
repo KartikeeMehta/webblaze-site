@@ -15,6 +15,10 @@ import Angular_js from "./pages/Angular_js";
 import Nodejs from "./pages/Nodejs";
 import Aws from "./pages/Aws";
 import Photography from "./pages/Photography";
+import Seo from "./pages/Seo";
+import Ppc from "./pages/Ppc";
+import Branding from "./pages/Branding";
+import GrowthMarketing from "./pages/growthMarketing";
 
 function App() {
   return (
@@ -36,6 +40,13 @@ function App() {
         <Route path="/Angular_js" element={<Angular_js />} />
         <Route path="/Aws" element={<Aws />} />
         <Route path="/Photography" element={<Photography />} />
+        <Route path="/Seo" element={<Seo />} />
+        <Route path="/Ppc" element={<Ppc />} />
+        <Route path="/Branding" element={<Branding />} />
+        <Route path="/GrowthMarketing" element={<GrowthMarketing />} />
+
+
+
       </Routes>
     </Router>
   );

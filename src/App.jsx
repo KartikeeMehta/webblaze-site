@@ -51,10 +51,7 @@ function App() {
         <Route path="/Smm" element={<Smm />} />
         <Route path="/Google_ads" element={<Google_ads />} />
         <Route path="/Linux_admin" element={<Linux_Admin />} />
-        <Route path="/P2pCryptoExChange" element={<P2pCryptoExChange />} />
-
-
-
+        <Route path="/P2pCryptoExChange" element={<P2pCryptoExChange />} /> 
       </Routes>
     </Router>
   );

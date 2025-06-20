@@ -61,7 +61,7 @@ function Header() {
   ];
   const marketingItems = [
     { icon: "📈", label: "SEO", path: "/Seo" },
-    { icon: "📣", label: "SMM" },
+    { icon: "📣", label: "SMM", path:"/Smm" },
     { icon: "💰", label: "PPC", path: "/Ppc" },
     { icon: "📊", label: "Google Ads" },
     { icon: "📈", label: "Growth Marketing",path:"/GrowthMarketing" },

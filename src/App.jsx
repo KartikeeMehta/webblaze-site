@@ -19,6 +19,7 @@ import Seo from "./pages/Seo";
 import Ppc from "./pages/Ppc";
 import Branding from "./pages/Branding";
 import GrowthMarketing from "./pages/growthMarketing";
+import Smm from "./pages/Smm";
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
         <Route path="/Ppc" element={<Ppc />} />
         <Route path="/Branding" element={<Branding />} />
         <Route path="/GrowthMarketing" element={<GrowthMarketing />} />
+        <Route path="/Smm" element={<Smm />} />
 
 
 

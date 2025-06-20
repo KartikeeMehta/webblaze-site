@@ -69,7 +69,7 @@ function ServiceCard({ name, color, icon, summary }) {
   );
 }
 
-function Section_c() {
+function Section_e() {
   return (
     <section className="py-16 bg-white">
       <div className="text-center mb-8">
@@ -91,4 +91,4 @@ function Section_c() {
   );
 }
 
-export default Section_c;
+export default Section_e;

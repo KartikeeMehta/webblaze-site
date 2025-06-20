@@ -1,18 +1,18 @@
 import React from 'react';
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 
-const Section_g = () => {
+const Section_k = () => {
   return (
     <div className="bg-gray-50 py-16 px-4">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Left Section */}
         <div>
-          <p className="text-red-500 font-semibold mb-2">Talk To our Expert</p>
+          <p className="text-red-500 font-semibold mb-2">Contact Webblaze</p>
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
-            Ready to elevate your brand with fantastic graphic design?
+            Ready to raise your social media presence? Contact Webblaze today!
           </h2>
           <p className="text-gray-700 mb-8">
-            Talk to our professional nowadays to speak about your mission and find out how Webblaze will let you reap your format dreams.
+            Our dedicated team is committed to providing prompt and effective support to ensure your needs are met. We believe in open communication and are always ready to listen. Reach out to us via phone, email, or live chat, or visit our office during business hours.
           </p>
 
           <div className="space-y-6">
@@ -69,4 +69,4 @@ const Section_g = () => {
   );
 };
 
-export default Section_g;
+export default Section_k;

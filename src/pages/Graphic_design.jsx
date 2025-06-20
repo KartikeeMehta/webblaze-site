@@ -9,6 +9,7 @@ import Section_d from './services/Graphic-design/Section_d';
 import Section_e from './services/Graphic-design/Section_e';
 import Section_f from './services/Graphic-design/Section_f';
 import Section_g from './services/Graphic-design/Section_g';
+import Section_e_Pt2 from './services/Graphic-design/Section_e_Pt2';
 
 
 
@@ -21,6 +22,7 @@ const Graphic_design = () => {
             <Section_b />
             <Section_c />
             <Section_e />
+            <Section_e_Pt2 />
             <Section_d />
             <Section_f />
             <Section_g />

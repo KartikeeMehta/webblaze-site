@@ -30,7 +30,7 @@ function Header() {
     { label: "Angular.JS", icon: "🅰️", path: "/Angular_js" },
     { label: "Node.JS", icon: "🧱", path: "/Nodejs" },
     { label: "AWS", icon: "☁️", path: "/Aws" },
-    { label: "Linux Administration", icon: "🐧" },
+    { label: "Linux Administration", icon: "🐧", path:"/Linux_Admin" },
     { label: "Photography", icon: "📷", path: "/Photography" },
   ];
 

@@ -1,82 +1,95 @@
-import React from "react";
+import React from 'react'
 
-const cardContents = [
-  {
-    title: "Graphic Design Company in the USA and Beyond",
-    description:
-      "Webblaze is proud to offer our picture layout services to clients no longer handiest in India but also in the USA and distinctive global markets. Our crew understands the various layout preferences and tendencies across remarkable regions, ensuring that our designs are globally appealing.",
-  },
-  {
-    title: "Graphic Designer Websites and Portfolios",
-    description:
-      "We keep in mind in showcasing our work transparently. Visit our picture style fashion designer website to explore our portfolio and word the top notch of our designs firsthand. Our portfolio functions a diverse range of initiatives, highlighting our versatility and creativity.",
-  },
-  {
-    title: "Find the Best Graphic Designers Near You",
-    description:
-      "If you’re trying to find “photograph designers close to me” or “photograph format close to me,” look no in addition. Webblaze connects you with the amazing picture designers for your location, ensuring that you get keep of customized and localized layout offerings.",
-  },
-  {
-    title: "Hire Graphic Designers for Your Business",
-    description:
-      "Whether you need a image artist for hire or a entire-provider picture layout employer, Webblaze has the skills and property to meet your wishes. We offer flexible hiring alternatives, permitting you to hire a designer for specific projects or on an ongoing foundation.",
-  },
-  {
-    title: "Graphic Design Courses and Training",
-    description:
-      "Interested in learning photograph format? Webblaze gives photo format guides and education for novices and professionals alike. Our courses cowl a considerable range of topics, which consist of picture layout tools, techniques, and satisfactory practices.",
-  },
-  {
-    title: "Elevate Your Brand with Webblaze",
-    description:
-      "In recent times’s competitive market, having a sturdy visible presence is crucial. Webblaze’s graphic layout offerings help you stand happy with the gang and leave a long lasting influence for your audience. Our group is devoted to handing over designs that not most effective look outstanding however additionally strain outcomes.",
-  },
-];
-
-function Section_d() {
+const Section_f = () => {
   return (
-    <div
-      className="relative w-full flex flex-col items-center justify-center overflow-x-hidden bg-[#fafbfc] py-12 px-4"
-      style={{
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "contain",
-        backgroundPosition: "center right",
-      }}
-    >
-      <div className="flex flex-wrap justify-center gap-8 max-w-7xl w-full">
-        {cardContents.map((card, idx) => (
-          <div
-            key={idx}
-            className="w-full sm:w-[48%] lg:w-[30%] bg-white rounded-xl shadow-md p-6 border-b-4 border-blue-200 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-blue-400 min-h-[473px]"
-          >
-            <h3 className="text-xl font-bold mb-3 text-gray-800">
-              {card.title}
-            </h3>
-            <p className="text-gray-600  text-base">{card.description}</p>
-          </div>
-        ))}
-      </div>
-      
-      <style>
-        {`
-          @keyframes float {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-12px); }
-          }
-          .animate-float {
-            animation: float 3s ease-in-out infinite;
-          }
-          @keyframes fadein {
-            from { opacity: 0; }
-            to { opacity: 1; }
-          }
-          .animate-fadein {
-            animation: fadein 2s ease-in;
-          }
-        `}
-      </style>
-    </div>
-  );
+    <section className='bg-[#181C2E] bg-[url(https://webblazesofttech.com/wp-content/uploads/2024/07/background-lines.webp)]'>
+       <h1 className='text-white text-3xl text-center pt-12'>Our SMM Services</h1>
+
+
+                          {/*First*/}
+                          {/*TEXT _IMAGE*/}
+       <div id="txtimg"className="flex pb-14 flex-col-reverse md:flex-row gap-8 w-full px-6 md:px-16 pt-12 items-center">
+           <div id="txt" className="w-full md:w-1/2 space-y-5">
+             
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">
+            Instagram Management
+          </h2>
+          <p className="text-white mb-8">
+            Boost your brand’s presence on Instagram with our specialised management offerings.
+          </p>
+              
+                <ul class="list-disc list-inside">
+                  <li className='text-white'><span className='font-bold'>Instagram Ads Manager:</span>We create focused commercials to growth your reach and engagement. </li>
+                  <li className='text-white'><span className='font-bold'>Instagram Management Services:</span> Our Instagram control offerings beautify your visibility and engagement.</li>
+                  <li className='text-white'> <span className='font-bold'>Facebook Management Services:</span>  With our Facebook control services, we make sure your posts acquire the right target audience on the right time.</li>
+                </ul>
+           </div>
+
+           <div id="img" className="w-full md:w-1/2 flex justify-center">
+             <div className="w-full max-w-sm md:max-w-md lg:max-w-lg">
+               <img src="https://webblazesofttech.com/wp-content/uploads/2024/08/Instagram-Management-2.webp"alt="Graphic Design"
+               className="w-full h-auto object-contain rounded-md shadow-md"/>
+              </div>
+           </div>
+         </div>
+
+                          {/*Second*/}
+                          {/*IMAGE _TEXT*/}
+         
+    <div id='imgtxt' className='bg-[#181C2E] bg-[url(https://webblazesofttech.com/wp-content/uploads/2024/07/background-lines.webp)] pb-14 flex flex-col-reverse md:flex-row gap-8 w-full px-6 md:px-16 pt-12 items-center"' >
+      <div id="img" className="w-full md:w-1/2 flex justify-center">
+             <div className="w-full max-w-sm md:max-w-md lg:max-w-lg">
+              
+               <img src="https://webblazesofttech.com/wp-content/uploads/2024/08/Facebook-Management-2.webp"alt="Graphic Design"
+               className="w-full h-auto object-contain rounded-md shadow-md"/>
+              </div>
+           </div>
+           <div id="txt" className="w-full md:w-1/2 space-y-5">
+             <h1 className=" text-white text-2xl sm:text-4xl lg:text-5xl font-bold leading-snug text-center md:text-left">
+              Facebook Management
+             </h1>
+             
+              <ul className="text-white text-base md:text-lg text-center md:text-left leading-relaxed">
+                Our Facebook management offerings are designed to decorate your emblem’s visibility and engagement.
+                
+                <li className='pb-5'><span className='font-bold'>Facebook Campaign Manager:</span> We plan and execute effective ad campaigns to gain your enterprise dreams.</li>
+                <li className='pb-5'><span className='font-bold'>Facebook Ads Management Services:</span> From advert creation to performance monitoring, we take care of it all.</li>
+                <li className='pb-5'><span className='font-bold'>Facebook Business Manager:</span> We manipulate your company profile and make sure it aligns together together with your emblem’s goals.</li>
+              </ul>
+              </div>
+            </div>
+
+                          {/*Third*/}
+                          {/*TEXT _IMAGE*/}
+
+            <div id="txtimg"className="flex pb-14 flex-col-reverse md:flex-row gap-8 w-full px-6 md:px-16 pt-12 items-center">
+           <div id="txt" className="w-full md:w-1/2 space-y-5">
+             
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">
+           Social Media Post Creation
+          </h2>
+          <p className="text-white mb-8">
+            Creating engaging social media posts is vital for retaining an lively online presence.
+          </p>
+              
+                <ul class="list-disc list-inside">
+                  <li className='text-white'><span className='font-bold'>Social Media Content Creation Packages:</span>Our packages embody the whole lot you need for effective social media manage.</li>
+                  <li className='text-white'><span className='font-bold'>Social Media Content Creator:</span> Our creative group designs and produces content material material that resonates in conjunction with your target audience.</li>
+                  <li className='text-white'> <span className='font-bold'>Social Media Content Creation Services:</span>We provide complete services, from ideation to execution.</li>
+                </ul>
+           </div>
+
+           <div id="img" className="w-full md:w-1/2 flex justify-center">
+             <div className="w-full max-w-sm md:max-w-md lg:max-w-lg">
+               <img src="https://webblazesofttech.com/wp-content/uploads/2024/08/Social-Media-Post-Creation-1.webp"alt=''
+               className="w-full h-auto object-contain rounded-md shadow-md"/>
+              </div>
+           </div>
+         </div>
+
+
+    </section>
+  )
 }
 
-export default Section_d;
+export default Section_f

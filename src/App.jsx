@@ -24,6 +24,7 @@ import Google_ads from "./pages/Google_ads";
 import Linux_Admin from "./pages/Linux_Admin";
 import P2pCryptoExChange from "./pages/P2pCryptoExChange";
 import Decentalized from "./pages/Decentalized";
+import SmartContain from "./pages/SmartContain";
 
 function App() {
   return (
@@ -53,8 +54,6 @@ function App() {
         <Route path="/Google_ads" element={<Google_ads />} />
         <Route path="/Linux_admin" element={<Linux_Admin />} />
         <Route path="/P2pCryptoExChange" element={<P2pCryptoExChange />} /> 
-        <Route path="/Decentalized" element={<Decentalized />} /> 
-
       </Routes>
     </Router>
   );

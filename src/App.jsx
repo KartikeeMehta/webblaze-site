@@ -31,6 +31,8 @@ import Shop_metaverse from "./pages/shop_metaverse";
 import Virtual_store from "./pages/virtual_store";
 import Virtual_clinic from "./pages/virtual_clinic";
 import AI_chatbot from "./pages/AI_chatbot";
+import ThreeD_Avatar from "./pages/ThreeD_Avatar";
+import Threed_JewelryDesign from "./pages/Threed_JewelryDesign";
 
 function App() {
   return (
@@ -68,6 +70,9 @@ function App() {
         <Route path="/Virtual_store" element={<Virtual_store />} />
         <Route path="/Virtual_clinic" element={<Virtual_clinic />} />
         <Route path="/AI_chatbot" element={<AI_chatbot />} />
+        <Route path="/ThreeD_Avatar" element={<ThreeD_Avatar />} />
+        <Route path="/Threed_JewelryDesign" element={<Threed_JewelryDesign />} />
+
       </Routes>
     </Router>
   );

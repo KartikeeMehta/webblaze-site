@@ -77,7 +77,7 @@ function Header() {
 
   const aiItems = [
     { icon: "🧠", label: "AI development", path: "/AI_dev" },
-    { icon: "🤖", label: "AI chat bot development",path:"/AI_chatbot" },
+    { icon: "🤖", label: "AI chat bot development", path: "/AI_chatbot" },
     { icon: "📰", label: "AI news anchor" },
     { icon: "💬", label: "Sexting chat bot" },
   ];
@@ -88,8 +88,8 @@ function Header() {
   ];
 
   const animationItems = [
-    { icon: "🧿", label: "3D jewelry design" },
-    { icon: "🧍‍♀️", label: "3D avatar" },
+    { icon: "🧿", label: "3D jewelry design", path: "/Threed_JewelryDesign" },
+    { icon: "🧍‍♀️", label: "3D avatar", path: "/ThreeD_Avatar" },
     { icon: "📦", label: "3D product design" },
     { icon: "🎞️", label: "3D animation" },
   ];
@@ -310,14 +310,18 @@ function Header() {
               <div className="absolute top-full left-0 w-[250px] bg-white shadow-xl rounded-xl p-4 z-50">
                 <div className="flex flex-col gap-3">
                   {animationItems.map((item, idx) => (
-                    <div key={idx} className="flex items-center gap-2 px-5">
+                    <Link
+                      key={idx}
+                      to={item.path}
+                      className="flex items-center gap-2 hover:text-blue-600 transition duration-200"
+                    >
                       <span className="text-xl bg-gray-100 w-8 h-8 flex items-center justify-center rounded-full">
                         {item.icon}
                       </span>
                       <span className="text-sm font-medium text-gray-700 hover:text-blue-600 transition duration-200">
                         {item.label}
                       </span>
-                    </div>
+                    </Link>
                   ))}
                 </div>
               </div>
@@ -327,10 +331,9 @@ function Header() {
           <NavLink
             to="/About_us"
             className={({ isActive }) =>
-              `pb-1 border-b-2 transition duration-200 ${
-                isActive
-                  ? "text-blue-600 border-blue-600"
-                  : "hover:text-blue-600 hover:border-blue-600 border-transparent"
+              `pb-1 border-b-2 transition duration-200 ${isActive
+                ? "text-blue-600 border-blue-600"
+                : "hover:text-blue-600 hover:border-blue-600 border-transparent"
               }`
             }
           >

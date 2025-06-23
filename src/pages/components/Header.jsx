@@ -70,7 +70,7 @@ function Header() {
 
   const blockchainItems = [
     { icon: "🔄", label: "P2P Crypto exchange", path:"/P2pCryptoExChange" },
-    { icon: "📝", label: "Smart contract development" },
+    { icon: "📝", label: "Smart contract development",path:"/SmartContain" },
     { icon: "📱", label: "Decentralized apps" },
     { icon: "🖼️", label: "NFT Marketplace" },
   ];

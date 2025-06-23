@@ -25,17 +25,17 @@ const Section_g = () => {
     {
       title: 'Crypto Platform',
       description: 'We construct robust crypto systems that aid various buying and selling types and make certain protection and scalability.',
-      image: 'https://webblazesofttech.com/wp-content/uploads/2024/08/Crypto-Platform.webp', // Placeholder
+      image: 'https://webblazesofttech.com/wp-content/uploads/2024/08/Crypto-Platform.webp',
     },
     {
       title: 'Cryptocurrency Exchange',
       description: 'From centralized to decentralized exchanges, we provide all elements of an operational crypto platform.',
-      image: 'https://webblazesofttech.com/wp-content/uploads/2024/08/Cryptocurrency-Exchange.webp', // Placeholder
+      image: 'https://webblazesofttech.com/wp-content/uploads/2024/08/Cryptocurrency-Exchange.webp', 
     },
     {
       title: 'Best Crypto Trading Platform',
       description: 'Our structures are designed to be the best-in-class, providing advanced functionality and user-friendliness.',
-      image: 'https://webblazesofttech.com/wp-content/uploads/2024/08/Best-Crypto-Trading-Platform.webp', // Placeholder
+      image: 'https://webblazesofttech.com/wp-content/uploads/2024/08/Best-Crypto-Trading-Platform.webp',
     },
     {
       title: 'Crypto Broker',
@@ -60,7 +60,6 @@ const Section_g = () => {
               key={index}
               className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden flex flex-col items-center text-center p-6"
             >
-              {/* Image */}
               <div className="mb-4">
                 <img
                   src={item.image}

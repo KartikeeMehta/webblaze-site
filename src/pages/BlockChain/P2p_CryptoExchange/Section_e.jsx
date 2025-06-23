@@ -90,15 +90,12 @@ const Section_e = () => {
               className={`bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden border-b-4 ${service.borderColor}`}
             >
               <div className="p-8">
-                {/* Icon */}
                 <div className={`w-16 h-16 rounded-full flex items-center justify-center ${service.iconBgColor} mb-6`}>
                   <span className={`text-3xl ${service.iconTextColor}`}>{service.icon}</span>
                 </div>
 
-                {/* Title */}
                 <h3 className="text-xl font-semibold text-gray-800 mb-4">{service.title}</h3>
 
-                {/* Description */}
                 <p className="text-gray-600 leading-relaxed text-base">{service.description}</p>
               </div>
             </div>

@@ -90,7 +90,7 @@ function Header() {
   const animationItems = [
     { icon: "🧿", label: "3D jewelry design", path: "/Threed_JewelryDesign" },
     { icon: "🧍‍♀️", label: "3D avatar", path: "/ThreeD_Avatar" },
-    { icon: "📦", label: "3D product design" },
+    { icon: "📦", label: "3D product design",path:"/ThreeD_Productdesign" },
     { icon: "🎞️", label: "3D animation" },
   ];
 

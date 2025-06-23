@@ -76,7 +76,7 @@ function Header() {
   ];
 
   const aiItems = [
-    { icon: "🧠", label: "AI development" },
+    { icon: "🧠", label: "AI development", path:"/AI_dev" },
     { icon: "🤖", label: "AI chat bot development" },
     { icon: "📰", label: "AI news anchor" },
     { icon: "💬", label: "Sexting chat bot" },
@@ -256,14 +256,16 @@ function Header() {
               <div className="absolute top-full left-0 w-[200px] bg-white shadow-xl rounded-xl p-4 z-50">
                 <div className="flex flex-col gap-3">
                   {aiItems.map((item, idx) => (
-                    <div key={idx} className="flex items-center gap-2 px-5">
+                      <Link key={idx} 
+                      to={item?.path}
+                      className="flex items-center gap-2 px-5">
                       <span className="text-xl bg-gray-100 w-8 h-8 flex items-center justify-center rounded-full">
                         {item.icon}
                       </span>
                       <span className="text-sm font-medium text-gray-700 hover:text-blue-600 transition duration-200">
                         {item.label}
                       </span>
-                    </div>
+                      </Link>
                   ))}
                 </div>
               </div>

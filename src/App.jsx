@@ -25,6 +25,7 @@ import Linux_Admin from "./pages/Linux_Admin";
 import P2pCryptoExChange from "./pages/P2pCryptoExChange";
 import Decentalized from "./pages/Decentalized";
 import SmartContain from "./pages/SmartContain";
+import AI_dev from "./pages/AI_dev";
 
 function App() {
   return (
@@ -56,6 +57,7 @@ function App() {
         <Route path="/P2pCryptoExChange" element={<P2pCryptoExChange />} /> 
         <Route path="/Decentalized" element={<Decentalized />} /> 
         <Route path="/SmartContain" element={<SmartContain />} /> 
+        <Route path="/AI_dev" element={<AI_dev />} /> 
       </Routes>
     </Router>
   );

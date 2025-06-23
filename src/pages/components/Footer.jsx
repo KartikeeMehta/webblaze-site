@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebookF,
@@ -68,22 +69,24 @@ function Footer() {
           <h3 className="font-bold text-lg mb-4">Services</h3>
           <ul className="space-y-2 text-sm">
             {[
-              "UI/UX App",
-              "Web Design",
-              "Graphic Design",
-              "WordPress",
-              "Shopify 2.0",
-              "PHP – Laravel, CI, Cake and CorePHP",
-              "JavaScript",
-              "Vue.JS",
-              "React.JS",
-              "Node.JS",
-              "AWS",
-              "Linux Administration",
+              { name: "UI/UX App", link: "/Uiux_app" },
+              { name: "Web Design", link: "/web-design" },
+              { name: "Graphic Design", link: "/graphic-design" },
+              { name: "WordPress", link: "/wordpress" },
+              { name: "Shopify 2.0", link: "/shopify-2-0" },
+              { name: "PHP – Laravel, CI, Cake and CorePHP", link: "/php" },
+              { name: "JavaScript", link: "/javascript" },
+              { name: "Vue.JS", link: "/vuejs" },
+              { name: "React.JS", link: "/reactjs" },
+              { name: "Node.JS", link: "/nodejs" },
+              { name: "AWS", link: "/aws" },
+              { name: "Linux Administration", link: "/linux-administration" },
             ].map((service) => (
-              <li key={service} className="flex items-center">
+              <li key={service.name} className="flex items-center">
                 <FontAwesomeIcon icon={faAngleRight} className="mr-2 text-xs" />
-                {service}
+                <Link to={service.link} className="hover:underline">
+                  {service.name}
+                </Link>
               </li>
             ))}
           </ul>
@@ -93,30 +96,35 @@ function Footer() {
         <div>
           <h3 className="font-bold text-lg mb-4">Quick Links</h3>
           <ul className="space-y-2 text-sm mb-6">
-            {["Case Studies", "Career", "About", "Contact Us", "Blogs"].map(
-              (link) => (
-                <li key={link} className="flex items-center">
-                  <FontAwesomeIcon
-                    icon={faAngleRight}
-                    className="mr-2 text-xs"
-                  />
-                  {link}
-                </li>
-              )
-            )}
+            {[
+              { name: "Case Studies", link: "/case-studies" },
+              { name: "Career", link: "/career" },
+              { name: "About", link: "/about" },
+              { name: "Contact Us", link: "/contact" },
+              { name: "Blogs", link: "/blogs" },
+            ].map((link) => (
+              <li key={link.name} className="flex items-center">
+                <FontAwesomeIcon icon={faAngleRight} className="mr-2 text-xs" />
+                <Link to={link.link} className="hover:underline">
+                  {link.name}
+                </Link>
+              </li>
+            ))}
           </ul>
           <h3 className="font-bold text-lg mb-4">Future Technology</h3>
           <ul className="space-y-2 text-sm">
             {[
-              "Decentralized apps",
-              "NFT Marketplace",
-              "AI development",
-              "Virtual store",
-              "3D jewelry design",
+              { name: "Decentralized apps", link: "/decentralized-apps" },
+              { name: "NFT Marketplace", link: "/nft-marketplace" },
+              { name: "AI development", link: "/ai-development" },
+              { name: "Virtual store", link: "/virtual-store" },
+              { name: "3D jewelry design", link: "/3d-jewelry-design" },
             ].map((tech) => (
-              <li key={tech} className="flex items-center">
+              <li key={tech.name} className="flex items-center">
                 <FontAwesomeIcon icon={faAngleRight} className="mr-2 text-xs" />
-                {tech}
+                <Link to={tech.link} className="hover:underline">
+                  {tech.name}
+                </Link>
               </li>
             ))}
           </ul>

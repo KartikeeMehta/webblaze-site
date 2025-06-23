@@ -8,6 +8,11 @@ import Section_c from './3d_Animation/ThreeD_Animation/Section_c'
 import Section_d from './3d_Animation/ThreeD_Animation/Section_d'
 import Section_e from './3d_Animation/ThreeD_Animation/Section_e'
 import Section_f from './3d_Animation/ThreeD_Animation/Section_f'
+import Section_g from './3d_Animation/ThreeD_Animation/Section_g'
+import Section_h from './3d_Animation/ThreeD_Animation/Section_h'
+import Section_j from './3d_Animation/ThreeD_Animation/Section_j'
+import Section_k from './3d_Animation/ThreeD_Animation/Section_k'
+import Section_l from './3d_Animation/ThreeD_Animation/Section_l'
 
 const ThreeD_Animation = () => {
     return (
@@ -20,7 +25,11 @@ const ThreeD_Animation = () => {
             <Section_d/>
             <Section_e/>
             <Section_f />
-
+            <Section_g/>
+            <Section_h/>
+            <Section_j/>
+            <Section_k/>
+            <Section_l/>
         </div>
     )
 }

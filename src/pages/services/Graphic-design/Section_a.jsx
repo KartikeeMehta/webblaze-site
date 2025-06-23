@@ -2,7 +2,9 @@ import React from 'react'
 
 function Section_a() {
   return (
+    
        <div id="txtbtnimg"className="flex pb-14 flex-col-reverse md:flex-row gap-8 w-full px-6 md:px-16 pt-12 items-center">
+        <div className="wrap_section_a max-w-[1200px] m-auto">
            <div id="txtbtn" className="w-full md:w-1/2 space-y-5">
              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-snug text-center md:text-left">
               <span className="text-red-500">Graphic Design Services</span> via the usage of Webblaze: Elevate Your Visual Presence
@@ -24,6 +26,7 @@ function Section_a() {
                <img src="https://webblazesofttech.com/wp-content/uploads/2024/08/Graphic-Design-Services-via-the-usage-of-Webblaze_-Elevate-Your-Visual-Presence.webp"alt="Graphic Design"
                className="w-full h-auto object-contain rounded-md shadow-md"/>
               </div>
+           </div>
            </div>
          </div>
         

@@ -78,8 +78,8 @@ function Header() {
   const aiItems = [
     { icon: "🧠", label: "AI development", path: "/AI_dev" },
     { icon: "🤖", label: "AI chat bot development", path: "/AI_chatbot" },
-    { icon: "📰", label: "AI news anchor" },
-    { icon: "💬", label: "Sexting chat bot" },
+    { icon: "📰", label: "AI news anchor" , path:"/AI_news" },
+    { icon: "💬", label: "Sexting chat bot" , path:"/AI_sexting" },
   ];
   const MetaverseItems = [
     { icon: "🛍️", label: "Shopping in a metaverse", path: "/shop_metaverse" },

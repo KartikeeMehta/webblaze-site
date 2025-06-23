@@ -33,6 +33,8 @@ import Virtual_clinic from "./pages/virtual_clinic";
 import AI_chatbot from "./pages/AI_chatbot";
 import ThreeD_Avatar from "./pages/ThreeD_Avatar";
 import Threed_JewelryDesign from "./pages/Threed_JewelryDesign";
+import AI_news from "./pages/AI_news";
+import AI_sexting from "./pages/AI_sexting";
 
 function App() {
   return (
@@ -72,6 +74,8 @@ function App() {
         <Route path="/AI_chatbot" element={<AI_chatbot />} />
         <Route path="/ThreeD_Avatar" element={<ThreeD_Avatar />} />
         <Route path="/Threed_JewelryDesign" element={<Threed_JewelryDesign />} />
+        <Route path="/AI_news" element={<AI_news />} />
+        <Route path="/AI_sexting" element={<AI_sexting />} />
 
       </Routes>
     </Router>

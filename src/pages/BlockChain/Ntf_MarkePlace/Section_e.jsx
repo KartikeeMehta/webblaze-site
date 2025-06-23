@@ -3,13 +3,12 @@ import React from "react";
 const Section_e = () => {
   return (
     <section className="bg-[#0d1117] py-16 px-4 md:px-8 text-white">
-      <div className="max-w-6xl mx-auto text-center">
+      <div className="max-w-[1200px] mx-auto   text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-12">
           Client Success Stories
         </h2>
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-16">
-          {/* Image */}
           <div className="bg-white p-2 rounded-md">
             <img
               src="https://webblazesofttech.com/wp-content/uploads/2024/08/NFT-non-fungible-token.webp"
@@ -18,7 +17,6 @@ const Section_e = () => {
             />
           </div>
 
-          {/* Text */}
           <div className="max-w-xl text-left text-gray-300 text-base leading-relaxed">
             ...enabling artists to sell their digital artwork globally. The platform
             capabilities advanced search options, steady price gateways, and a

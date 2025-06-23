@@ -16,10 +16,9 @@ const Section_f = () => {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-          {/* Card 1 */}
           <div className="bg-white shadow-md rounded-lg p-5 border-b-4 border-red-300">
             <img
-              src="https://webblazesofttech.com/wp-content/uploads/2024/08/nft-artist-icon.svg"
+              src="/ecomerceGrowthIcon.png"
               alt="NFT Artist Icon"
               className="w-10 h-10 mb-4"
             />
@@ -31,10 +30,9 @@ const Section_f = () => {
             </p>
           </div>
 
-          {/* Card 2 */}
           <div className="bg-white shadow-md rounded-lg p-5 border-b-4 border-blue-300">
             <img
-              src="https://webblazesofttech.com/wp-content/uploads/2024/08/nft-trading-icon.svg"
+              src="/ecomerceGrowthIcon.png"
               alt="NFT Trading Icon"
               className="w-10 h-10 mb-4"
             />
@@ -49,7 +47,7 @@ const Section_f = () => {
           {/* Card 3 */}
           <div className="bg-white shadow-md rounded-lg p-5 border-b-4 border-yellow-300">
             <img
-              src="https://webblazesofttech.com/wp-content/uploads/2024/08/nft-custom-icon.svg"
+              src="/ecomerceGrowthIcon.png"
               alt="Custom NFT Icon"
               className="w-10 h-10 mb-4"
             />
@@ -61,10 +59,9 @@ const Section_f = () => {
             </p>
           </div>
 
-          {/* Card 4 */}
           <div className="bg-white shadow-md rounded-lg p-5 border-b-4 border-teal-300">
             <img
-              src="https://webblazesofttech.com/wp-content/uploads/2024/08/nft-polygon-icon.svg"
+              src="/ecomerceGrowthIcon.png"
               alt="Polygon Icon"
               className="w-10 h-10 mb-4"
             />

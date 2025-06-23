@@ -70,3 +70,7 @@
 .bg-set {
   background: url("./section_a_bg.png");
 }
+
+.right_image:nth-child(1) {
+  margin-left: auto;
+}

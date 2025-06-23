@@ -30,7 +30,7 @@ function Header() {
     { label: "Angular.JS", icon: "🅰️", path: "/Angular_js" },
     { label: "Node.JS", icon: "🧱", path: "/Nodejs" },
     { label: "AWS", icon: "☁️", path: "/Aws" },
-    { label: "Linux Administration", icon: "🐧", path:"/Linux_Admin" },
+    { label: "Linux Administration", icon: "🐧", path: "/Linux_Admin" },
     { label: "Photography", icon: "📷", path: "/Photography" },
   ];
 
@@ -69,10 +69,10 @@ function Header() {
   ];
 
   const blockchainItems = [
-    { icon: "🔄", label: "P2P Crypto exchange", path:"/P2pCryptoExChange" },
-    { icon: "📝", label: "Smart contract development",path:"/SmartContain" },
-    { icon: "📱", label: "Decentralized apps",path:"/Decentalized" },
-    { icon: "🖼️", label: "NFT Marketplace" },
+    { icon: "🔄", label: "P2P Crypto exchange", path: "/P2pCryptoExChange" },
+    { icon: "📝", label: "Smart contract development", path: "/SmartContain" },
+    { icon: "📱", label: "Decentralized apps", path: "/Decentalized" },
+    { icon: "🖼️", label: "NFT Marketplace" ,path:"/Nft_MarketPlace" },
   ];
 
   const aiItems = [
@@ -211,16 +211,6 @@ function Header() {
               <div className="absolute top-full left-0 w-[250px] bg-white shadow-xl rounded-xl p-4 z-50">
                 <div className="flex flex-col gap-3">
                   {blockchainItems.map((item, idx) => (
-
-                    // <div key={idx} className="flex items-center gap-2 px-10">
-                    //   <span className="text-xl bg-gray-100 w-8 h-8 flex items-center justify-center rounded-full">
-                    //     {item.icon}
-                    //   </span>
-                    //   <span className="text-sm font-medium text-gray-700 hover:text-blue-600 transition duration-200">
-                    //     {item.label}
-                    //   </span>
-                    // </div>
-
                     <Link
                       key={idx}
                       to={item.path}
@@ -232,7 +222,6 @@ function Header() {
                       <span className="text-sm font-medium text-gray-700 hover:text-blue-600 transition duration-200">
                         {item.label}
                       </span>
-
                     </Link>
 
                   ))}

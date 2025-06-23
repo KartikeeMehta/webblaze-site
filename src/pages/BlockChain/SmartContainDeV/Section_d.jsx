@@ -29,12 +29,12 @@ const Section_d = () => {
 
         <img
             src="https://webblazesofttech.com/wp-content/uploads/2024/08/small-design.webp"
-            className="absolute top-10 right-10 w-8 opacity-40"
+            className="absolute top-10 right-10 w-20 opacity-40"
             alt="dots icon"
         />
         <img
             src="https://webblazesofttech.com/wp-content/uploads/2024/07/plane.svg"
-            className="absolute bottom-10 right-10 w-12"
+            className="absolute bottom-10 right-10 w-20"
             alt="paper plane"
         />
     </section>

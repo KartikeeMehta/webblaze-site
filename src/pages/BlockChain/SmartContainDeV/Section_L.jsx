@@ -2,7 +2,7 @@
 import React from 'react';
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 
-const Section_L = () => {
+const Section_l = () => {
     return (
         <div className="bg-gray-50  py-16 px-4">
             <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -68,4 +68,4 @@ const Section_L = () => {
     );
 };
 
-export default Section_L;
+export default Section_l;

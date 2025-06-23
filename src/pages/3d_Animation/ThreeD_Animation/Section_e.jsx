@@ -3,23 +3,23 @@ import React from "react";
 const cards = [
     {
         icon: "/seoDigitalIcon.png",
-        title: "Cross-Platform Compatibility",
+        title: "YouTube Video Animation",
         description:
-            "Our 3D avatars are designed to be well matched across diverse structures, including IMVU on-line 3D metaverse game, membership cooee apk, and virtual avatar games. This ensures a steady and tasty user enjoy, no matter the platform.",
+            "Create attractive and shareable content material cloth for your YouTube channel with our expert animation offerings.",
         borderColor: "border-b-[4px] border-[#ff4d4f]",
     },
     {
         icon: "/seoDigitalIcon.png",
-        title: "Advanced Customization",
+        title: "3D Medical Animation",
         description:
-            "Webblaze offers superior customization alternatives for 3D avatars, allowing you to create precise and personalised virtual representations. Our offerings consist of 3D avatar chat rooms, avatar 3D apk, and avatar 3D loose online, supplying infinite possibilities for customization.",
+            "Simplify complex medical standards with our specific and accurate clinical animations.",
         borderColor: "border-b-[4px] border-[#1890ff]",
     },
     {
         icon: "/seoDigitalIcon.png",
-        title: "Interactive Features",
+        title: "3D Character Animation",
         description:
-            "Enhance your virtual presence with interactive features which include avatar orchestra metaverse, avatar life love metaverse, and avatar games on line virtual worlds. Our 3D avatars provide a dynamic and tasty experience that keeps users coming returned for greater.",
+            "Bring your characters to existence with our great 3D man or woman animation offerings.",
         borderColor: "border-b-[4px] border-[#fadb14]",
     },
 ];
@@ -29,10 +29,11 @@ const Section_e = () => {
         <div className="bg-[#fafafa] py-20 px-6 md:px-16">
             <div className="max-w-[1200px] mx-auto">
 
-
-                <h2 className="text-2xl md:text-3xl font-bold text-center mb-16 text-[#1d1e25]">
-                    Seamless Integration Across Platforms
+                <h2 className="text-2xl md:text-3xl font-bold text-center mb-5 text-[#1d1e25]">
+                    Customized Solutions for Every Need
                 </h2>
+
+                <p className=" mb-16">At Webblaze, we understand that each assignment is specific. That’s why we offer customized animation answers tailor-made to your unique necessities. Whether you need youtube animation, 3D person animation, or 3D medical animation, we’ve were given have been given the abilities and revel in to deliver extraordinary results. Our offerings encompass:</p>
 
                 <div className="grid gap-8 md:grid-cols-3">
                     {cards.map((card, index) => (

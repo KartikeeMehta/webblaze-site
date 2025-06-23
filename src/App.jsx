@@ -27,6 +27,9 @@ import Decentalized from "./pages/Decentalized";
 import SmartContain from "./pages/SmartContain";
 import Nft_MarketPlace from "./pages/Nft_MarketPlace";
 import AI_dev from "./pages/AI_dev";
+import Shop_metaverse from "./pages/shop_metaverse";
+import Virtual_store from "./pages/virtual_store";
+import Virtual_clinic from "./pages/virtual_clinic";
 
 function App() {
   return (
@@ -60,10 +63,9 @@ function App() {
         <Route path="/SmartContain" element={<SmartContain />} />
         <Route path="/Nft_MarketPlace" element={<Nft_MarketPlace />} />
         <Route path="/AI_dev" element={<AI_dev />} />
-
-
-
-
+        <Route path="/Shop_metaverse" element={<Shop_metaverse />} />
+        <Route path="/Virtual_store" element={<Virtual_store />} />
+        <Route path="/Virtual_clinic" element={<Virtual_clinic />} />
       </Routes>
     </Router>
   );

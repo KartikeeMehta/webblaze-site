@@ -65,26 +65,26 @@ function Header() {
     { icon: "💰", label: "PPC", path: "/Ppc" },
     { icon: "📊", label: "Google Ads", path: "/Google_ads" },
     { icon: "📈", label: "Growth Marketing", path: "/GrowthMarketing" },
-    { icon: "🎨", label: "Branding", path: "/Branding" }
+    { icon: "🎨", label: "Branding", path: "/Branding" },
   ];
 
   const blockchainItems = [
     { icon: "🔄", label: "P2P Crypto exchange", path: "/P2pCryptoExChange" },
     { icon: "📝", label: "Smart contract development", path: "/SmartContain" },
     { icon: "📱", label: "Decentralized apps", path: "/Decentalized" },
-    { icon: "🖼️", label: "NFT Marketplace" ,path:"/Nft_MarketPlace" },
+    { icon: "🖼️", label: "NFT Marketplace", path: "/Nft_MarketPlace" },
   ];
 
   const aiItems = [
-    { icon: "🧠", label: "AI development", path:"/AI_dev" },
+    { icon: "🧠", label: "AI development", path: "/AI_dev" },
     { icon: "🤖", label: "AI chat bot development" },
     { icon: "📰", label: "AI news anchor" },
     { icon: "💬", label: "Sexting chat bot" },
   ];
   const MetaverseItems = [
-    { icon: "🛍️", label: "Shopping in a metaverse" },
-    { icon: "🏬", label: "Virtual store" },
-    { icon: "🏥", label: "Virtual clinic" },
+    { icon: "🛍️", label: "Shopping in a metaverse", path: "/shop_metaverse" },
+    { icon: "🏬", label: "Virtual store", path: "/virtual_store" },
+    { icon: "🏥", label: "Virtual clinic", path: "/virtual_clinic" },
   ];
 
   const animationItems = [
@@ -223,7 +223,6 @@ function Header() {
                         {item.label}
                       </span>
                     </Link>
-
                   ))}
                 </div>
               </div>
@@ -245,16 +244,18 @@ function Header() {
               <div className="absolute top-full left-0 w-[200px] bg-white shadow-xl rounded-xl p-4 z-50">
                 <div className="flex flex-col gap-3">
                   {aiItems.map((item, idx) => (
-                      <Link key={idx} 
+                    <Link
+                      key={idx}
                       to={item?.path}
-                      className="flex items-center gap-2 px-5">
+                      className="flex items-center gap-2 px-5"
+                    >
                       <span className="text-xl bg-gray-100 w-8 h-8 flex items-center justify-center rounded-full">
                         {item.icon}
                       </span>
                       <span className="text-sm font-medium text-gray-700 hover:text-blue-600 transition duration-200">
                         {item.label}
                       </span>
-                      </Link>
+                    </Link>
                   ))}
                 </div>
               </div>
@@ -276,14 +277,18 @@ function Header() {
               <div className="absolute top-full left-0 w-[200px] bg-white shadow-xl rounded-xl p-4 z-50">
                 <div className="flex flex-col gap-3">
                   {MetaverseItems.map((item, idx) => (
-                    <div key={idx} className="flex items-center gap-2 px-5">
+                    <Link
+                      to={item?.path}
+                      key={idx}
+                      className="flex items-center gap-2 px-5"
+                    >
                       <span className="text-xl bg-gray-100 w-8 h-8 flex items-center justify-center rounded-full">
                         {item.icon}
                       </span>
                       <span className="text-sm font-medium text-gray-700 hover:text-blue-600 transition duration-200">
                         {item.label}
                       </span>
-                    </div>
+                    </Link>
                   ))}
                 </div>
               </div>
@@ -322,9 +327,10 @@ function Header() {
           <NavLink
             to="/About_us"
             className={({ isActive }) =>
-              `pb-1 border-b-2 transition duration-200 ${isActive
-                ? "text-blue-600 border-blue-600"
-                : "hover:text-blue-600 hover:border-blue-600 border-transparent"
+              `pb-1 border-b-2 transition duration-200 ${
+                isActive
+                  ? "text-blue-600 border-blue-600"
+                  : "hover:text-blue-600 hover:border-blue-600 border-transparent"
               }`
             }
           >

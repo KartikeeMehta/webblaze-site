@@ -77,7 +77,7 @@ function Header() {
 
   const aiItems = [
     { icon: "🧠", label: "AI development", path: "/AI_dev" },
-    { icon: "🤖", label: "AI chat bot development" },
+    { icon: "🤖", label: "AI chat bot development",path:"/AI_chatbot" },
     { icon: "📰", label: "AI news anchor" },
     { icon: "💬", label: "Sexting chat bot" },
   ];

@@ -1,95 +1,57 @@
-import React from 'react'
+import React from 'react';
 
-const Section_f = () => {
+const Section_d = () => {
   return (
-    <section className='bg-[#181C2E] bg-[url(https://webblazesofttech.com/wp-content/uploads/2024/07/background-lines.webp)]'>
-       <h1 className='text-white text-3xl text-center pt-12'>Our SMM Services</h1>
+    <section className="bg-[#0B1021] bg-[url('/background-lines.webp')] bg-cover bg-center py-16 px-4 text-white">
+      <div className="max-w-[1200px] mx-auto text-center">
+        {/* Heading */}
+        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 leading-snug">
+          Why Choose Webblaze for Graphic Design?
+        </h2>
 
+        {/* Subheading */}
+        <p className="text-gray-300 text-sm sm:text-base lg:text-lg mb-12 max-w-3xl mx-auto">
+          At Webblaze, our commitment to creative excellence and customer satisfaction makes us a top choice for graphic
+          design services. Here’s why clients trust us:
+        </p>
 
-                          {/*First*/}
-                          {/*TEXT _IMAGE*/}
-       <div id="txtimg"className="flex pb-14 flex-col-reverse md:flex-row gap-8 w-full px-6 md:px-16 pt-12 items-center">
-           <div id="txt" className="w-full md:w-1/2 space-y-5">
-             
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">
-            Instagram Management
-          </h2>
-          <p className="text-white mb-8">
-            Boost your brand’s presence on Instagram with our specialised management offerings.
-          </p>
-              
-                <ul class="list-disc list-inside">
-                  <li className='text-white'><span className='font-bold'>Instagram Ads Manager:</span>We create focused commercials to growth your reach and engagement. </li>
-                  <li className='text-white'><span className='font-bold'>Instagram Management Services:</span> Our Instagram control offerings beautify your visibility and engagement.</li>
-                  <li className='text-white'> <span className='font-bold'>Facebook Management Services:</span>  With our Facebook control services, we make sure your posts acquire the right target audience on the right time.</li>
-                </ul>
-           </div>
+        {/* Responsive Cards */}
+        <div className="flex flex-wrap justify-center gap-6">
+          {/* Card 1 */}
+          <div className="w-full sm:w-[48%] lg:w-[30%] bg-blue-400 bg-opacity-20 rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300">
+            <h3 className="text-lg lg:text-xl font-semibold mb-2">Creative Excellence</h3>
+            <p className="text-sm sm:text-base">
+              Our graphic designers are artists at heart, with a keen eye for aesthetics and a passion for innovation.
+            </p>
+          </div>
 
-           <div id="img" className="w-full md:w-1/2 flex justify-center">
-             <div className="w-full max-w-sm md:max-w-md lg:max-w-lg">
-               <img src="https://webblazesofttech.com/wp-content/uploads/2024/08/Instagram-Management-2.webp"alt="Graphic Design"
-               className="w-full h-auto object-contain rounded-md shadow-md"/>
-              </div>
-           </div>
-         </div>
+          {/* Card 2 */}
+          <div className="w-full sm:w-[48%] lg:w-[30%] bg-blue-400 bg-opacity-20 rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300">
+            <h3 className="text-lg lg:text-xl font-semibold mb-2">Tailored Solutions</h3>
+            <p className="text-sm sm:text-base">
+              We offer customized graphic design services that cater to your specific needs and preferences.
+            </p>
+          </div>
 
-                          {/*Second*/}
-                          {/*IMAGE _TEXT*/}
-         
-    <div id='imgtxt' className='bg-[#181C2E] bg-[url(https://webblazesofttech.com/wp-content/uploads/2024/07/background-lines.webp)] pb-14 flex flex-col-reverse md:flex-row gap-8 w-full px-6 md:px-16 pt-12 items-center"' >
-      <div id="img" className="w-full md:w-1/2 flex justify-center">
-             <div className="w-full max-w-sm md:max-w-md lg:max-w-lg">
-              
-               <img src="https://webblazesofttech.com/wp-content/uploads/2024/08/Facebook-Management-2.webp"alt="Graphic Design"
-               className="w-full h-auto object-contain rounded-md shadow-md"/>
-              </div>
-           </div>
-           <div id="txt" className="w-full md:w-1/2 space-y-5">
-             <h1 className=" text-white text-2xl sm:text-4xl lg:text-5xl font-bold leading-snug text-center md:text-left">
-              Facebook Management
-             </h1>
-             
-              <ul className="text-white text-base md:text-lg text-center md:text-left leading-relaxed">
-                Our Facebook management offerings are designed to decorate your emblem’s visibility and engagement.
-                
-                <li className='pb-5'><span className='font-bold'>Facebook Campaign Manager:</span> We plan and execute effective ad campaigns to gain your enterprise dreams.</li>
-                <li className='pb-5'><span className='font-bold'>Facebook Ads Management Services:</span> From advert creation to performance monitoring, we take care of it all.</li>
-                <li className='pb-5'><span className='font-bold'>Facebook Business Manager:</span> We manipulate your company profile and make sure it aligns together together with your emblem’s goals.</li>
-              </ul>
-              </div>
-            </div>
+          {/* Card 3 */}
+          <div className="w-full sm:w-[48%] lg:w-[30%] bg-blue-400 bg-opacity-20 rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300">
+            <h3 className="text-lg lg:text-xl font-semibold mb-2">Timely Delivery</h3>
+            <p className="text-sm sm:text-base">
+              We understand the importance of deadlines and ensure that your projects are completed on time.
+            </p>
+          </div>
 
-                          {/*Third*/}
-                          {/*TEXT _IMAGE*/}
-
-            <div id="txtimg"className="flex pb-14 flex-col-reverse md:flex-row gap-8 w-full px-6 md:px-16 pt-12 items-center">
-           <div id="txt" className="w-full md:w-1/2 space-y-5">
-             
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">
-           Social Media Post Creation
-          </h2>
-          <p className="text-white mb-8">
-            Creating engaging social media posts is vital for retaining an lively online presence.
-          </p>
-              
-                <ul class="list-disc list-inside">
-                  <li className='text-white'><span className='font-bold'>Social Media Content Creation Packages:</span>Our packages embody the whole lot you need for effective social media manage.</li>
-                  <li className='text-white'><span className='font-bold'>Social Media Content Creator:</span> Our creative group designs and produces content material material that resonates in conjunction with your target audience.</li>
-                  <li className='text-white'> <span className='font-bold'>Social Media Content Creation Services:</span>We provide complete services, from ideation to execution.</li>
-                </ul>
-           </div>
-
-           <div id="img" className="w-full md:w-1/2 flex justify-center">
-             <div className="w-full max-w-sm md:max-w-md lg:max-w-lg">
-               <img src="https://webblazesofttech.com/wp-content/uploads/2024/08/Social-Media-Post-Creation-1.webp"alt=''
-               className="w-full h-auto object-contain rounded-md shadow-md"/>
-              </div>
-           </div>
-         </div>
-
-
+          {/* Card 4 */}
+          <div className="w-full sm:w-[48%] lg:w-[30%] bg-blue-400 bg-opacity-20 rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300">
+            <h3 className="text-lg lg:text-xl font-semibold mb-2">Affordable Pricing</h3>
+            <p className="text-sm sm:text-base">
+              Quality graphic design doesn’t have to break the bank. We offer competitive pricing to fit your budget.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
-  )
-}
+  );
+};
 
-export default Section_f
+export default Section_d;

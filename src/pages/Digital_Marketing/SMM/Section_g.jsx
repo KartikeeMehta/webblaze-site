@@ -1,80 +1,96 @@
-import React from 'react'
+import React from 'react';
 
 const Section_g = () => {
   return (
-    <section className='bg-[#f3f3f4] bg-[url()]'>
-          
-                             {/*First*/}
-                          {/*IMAGE+IMAGE_TEXT*/}
+    <section className="bg-[#f3f3f4]">
+      <div className="wrap_section_f max-w-[1200px] m-auto">
+        {/* First Block: Two Images + Text */}
+        <div className="flex flex-col-reverse md:flex-row gap-8 w-full px-4 sm:px-6 md:px-16 py-12 items-center">
+          {/* Images */}
+          <div className="w-full md:w-1/2 flex flex-wrap justify-center gap-4">
+            <div className="w-[45%]">
+              <img
+                src="https://webblazesofttech.com/wp-content/uploads/2024/08/Banner-and-Ad-Creation.webp"
+                alt="Banner and Ad 1"
+                className="w-full h-auto object-contain rounded-md shadow-md"
+              />
+            </div>
+            <div className="w-[45%]">
+              <img
+                src="https://webblazesofttech.com/wp-content/uploads/2024/08/Banner-and-Ad-Creation-2.webp"
+                alt="Banner and Ad 2"
+                className="w-full h-auto object-contain rounded-md shadow-md"
+              />
+            </div>
+          </div>
 
-            <div id="txtimg"className="flex pb-14 flex-col-reverse md:flex-row gap-8 w-full px-6 md:px-16 pt-12 items-center">
+          {/* Text */}
+          <div className="w-full md:w-1/2 space-y-5">
+            <h2 className="text-3xl md:text-4xl font-bold text-black">
+              Banner and Ad Creation
+            </h2>
+            <p className="text-black">
+              Creating compelling banners and advertisements is crucial for effective social media advertising.
+            </p>
+            <ul className="list-disc list-inside space-y-2 text-black">
+              <li>
+                <span className="font-bold">Banner Design Online:</span> Our online banner design services ensure your social profiles stand out.
+              </li>
+              <li>
+                <span className="font-bold">Social Media Advertising Companies:</span> As a leading company, we ensure your ads perform well.
+              </li>
+              <li>
+                <span className="font-bold">Banner Custom Design:</span> We create custom banners tailored to your brand’s needs.
+              </li>
+            </ul>
+          </div>
+        </div>
 
-              <div id="img" className="w-full md:w-1/2 flex justify-center">
-             <div className="w-full max-w-sm md:max-w-md lg:max-w-lg">
-               <img src="https://webblazesofttech.com/wp-content/uploads/2024/08/Banner-and-Ad-Creation.webp"alt=''
-               className="w-full h-auto object-contain rounded-md shadow-md"/></div>
-               <div>
-               <img src="https://webblazesofttech.com/wp-content/uploads/2024/08/Banner-and-Ad-Creation-2.webp" alt="" />
-               </div>
-              
-           </div>
+        {/* Second Block: Text + Two Images */}
+        <div className="flex flex-col-reverse md:flex-row gap-8 w-full px-4 sm:px-6 md:px-16 py-12 items-center">
+          {/* Text */}
+          <div className="w-full md:w-1/2 space-y-5">
+            <h3 className="text-xl md:text-4xl text-red-500">Enhanced Tools and Management</h3>
+            <h2 className="text-2xl md:text-4xl font-bold text-black">
+              Facebook Ads Manager and Meta Business Manager
+            </h2>
+            <p className="text-black">
+              Utilize the power of Facebook Ads Manager and Meta Business Manager for efficient ad management and performance monitoring.
+            </p>
+            <ul className="list-disc list-inside space-y-2 text-black">
+              <li>
+                <span className="font-bold">Meta Ad Manager:</span> Optimize your ad campaigns with our expert services.
+              </li>
+              <li>
+                <span className="font-bold">Facebook Audience Manager:</span> Target the right audience with precision.
+              </li>
+              <li>
+                <span className="font-bold">Facebook Ads Manager Billing:</span> We manage all aspects of ad billing and budgeting.
+              </li>
+            </ul>
+          </div>
 
-           <div id="txt" className="w-full md:w-1/2 space-y-5">
-
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-black">
-           Banner and Ad Creation
-          </h2>
-          <p className="text-black mb-8">
-            Creating compelling banners and advertisements is crucial for effective social media advertising.
-          </p>
-              
-                <ul class="list-disc list-inside">
-                  <li className='text-black'><span className='font-bold'>Banner Design Online:</span>Our on-line banner layout offerings make sure your social media profiles stand out.</li>
-                  <li className='text-black'><span className='font-bold'>Social Media Advertising Companies: </span> As one of the leading social media marketing companies, we make sure your commercials carry out well.</li>
-                  <li className='text-black'> <span className='font-bold'>Banner Custom Design:</span>We create custom banners tailored for your brand’s desires.</li>
-                </ul>
-           </div>
-
-           
-         </div>
-
-                             {/*Second*/}
-                          {/*TEXT _IMAGE+IMAGE*/}
-       <div id="txtimg"className="flex pb-14 flex-col-reverse md:flex-row gap-8 w-full px-6 md:px-16 pt-12 items-center">
-           <div id="txt" className="w-full md:w-1/2 space-y-5">
-          <h3 className="text-xl md:text-4xl  mb-6 text-red-500">Enhanced Tools and Management</h3>
-             
-          <h2 className="text-2xl md:text-4xl font-bold mb-6 text-black">
-            Facebook Ads Manager and Meta Business Manager
-          </h2>
-          <p className="text-black mb-8">
-            Utilize the electricity of Facebook Ads Manager and Meta Business Manager for inexperienced advert management and performance monitoring.
-          </p>
-              
-                <ul class="list-disc list-inside">
-                  <li className='text-black'><span className='font-bold'>Meta Ad Manager: </span>Optimize your ad campaigns with our professional management services.</li>
-                  <li className='text-black'><span className='font-bold'>Facebook Audience Manager: </span> Target the proper target market with precision using Facebook Audience Manager.</li>
-                  <li className='text-black'> <span className='font-bold'>Facebook Ads Manager Billing:</span>We take care of all factors of advert billing and budgeting.</li>
-                </ul>
-           </div>
-
-           <div id="img2" className="w-full md:w-1/2 flex justify-center">
-             <div id="img" className="w-full md:w-1/2 flex justify-center">
-             <div className="w-full max-w-sm md:max-w-md lg:max-w-lg">
-               <img src="https://webblazesofttech.com/wp-content/uploads/2024/08/Facebook-Ads-Manager-and-Meta-Business-Manager-1.webp"alt=''
-               className="w-full h-auto object-contain rounded-md shadow-md"/></div>
-               <div>
-               <img src="https://webblazesofttech.com/wp-content/uploads/2024/08/Facebook-Ads-Manager-and-Meta-Business-Manager-2.webp" alt="" />
-               </div>
-              
-           </div>
-           </div>
-         </div>
-
-
-
+          {/* Images */}
+          <div className="w-full md:w-1/2 flex flex-wrap justify-center gap-4">
+            <div className="w-[45%]">
+              <img
+                src="https://webblazesofttech.com/wp-content/uploads/2024/08/Facebook-Ads-Manager-and-Meta-Business-Manager-1.webp"
+                alt="Ads Manager 1"
+                className="w-full h-auto object-contain rounded-md shadow-md"
+              />
+            </div>
+            <div className="w-[45%]">
+              <img
+                src="https://webblazesofttech.com/wp-content/uploads/2024/08/Facebook-Ads-Manager-and-Meta-Business-Manager-2.webp"
+                alt="Ads Manager 2"
+                className="w-full h-auto object-contain rounded-md shadow-md"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-  )
-}
+  );
+};
 
-export default Section_g
+export default Section_g;

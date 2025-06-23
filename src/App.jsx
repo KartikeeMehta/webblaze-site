@@ -54,6 +54,8 @@ function App() {
         <Route path="/Google_ads" element={<Google_ads />} />
         <Route path="/Linux_admin" element={<Linux_Admin />} />
         <Route path="/P2pCryptoExChange" element={<P2pCryptoExChange />} /> 
+        <Route path="/Decentalized" element={<Decentalized />} /> 
+        <Route path="/SmartContain" element={<SmartContain />} /> 
       </Routes>
     </Router>
   );

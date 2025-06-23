@@ -55,9 +55,15 @@ function App() {
         <Route path="/Smm" element={<Smm />} />
         <Route path="/Google_ads" element={<Google_ads />} />
         <Route path="/Linux_admin" element={<Linux_Admin />} />
-        <Route path="/P2pCryptoExChange" element={<P2pCryptoExChange />} /> 
-        <Route path="/Decentalized" element={<Decentalized />} /> 
-        <Route path="/SmartContain" element={<SmartContain />} /> 
+        <Route path="/P2pCryptoExChange" element={<P2pCryptoExChange />} />
+        <Route path="/Decentalized" element={<Decentalized />} />
+        <Route path="/SmartContain" element={<SmartContain />} />
+        <Route path="/Nft_MarketPlace" element={<Nft_MarketPlace />} />
+        <Route path="/AI_dev" element={<AI_dev />} />
+
+
+
+
       </Routes>
     </Router>
   );

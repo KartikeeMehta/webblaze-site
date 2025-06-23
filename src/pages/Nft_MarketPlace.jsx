@@ -7,6 +7,7 @@ import Section_b from './BlockChain/Ntf_MarkePlace/Section_b'
 import Section_c from './BlockChain/Ntf_MarkePlace/Section_c'
 import Section_d from './BlockChain/Ntf_MarkePlace/Section_d'
 import Section_e from './BlockChain/Ntf_MarkePlace/Section_e'
+import Section_f from './BlockChain/Ntf_MarkePlace/Section_f'
 
 const Nft_MarketPlace = () => {
   return (
@@ -18,6 +19,7 @@ const Nft_MarketPlace = () => {
       <Section_c />
       <Section_d />
       <Section_e/>
+      <Section_f/>
       <Footer />
 
     </div>

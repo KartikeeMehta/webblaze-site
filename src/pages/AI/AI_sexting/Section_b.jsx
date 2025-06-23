@@ -16,16 +16,17 @@ const Section_b = () => {
       {
         title: "Advanced AI Technology",
         desc: "Our chat bot leverages modern day artificial intelligence to offer sensible and attractive conversations. This era guarantees that the chat bot can take care of nsfw chat and sexting interactions conveniently, offering customers an proper and immersive experience.",
-        icon: "/icons/ai-dev.png",
+        icon: "/sexting_icon.png",
       },
       {
         title: "Customizable Features",
         desc: "We recognize that each enterprise has precise wishes. Our sexting chat bot may be customized to suit your particular necessities, whether you need a intercourse chat bot, a sexting app bot, or nsfw chat bots. This flexibility guarantees that the bot aligns perfectly with your logo's voice and tone.",
-        icon: "/icons/ai-learn.png",
+        icon: "/sexting_2.png",
       },
       {
         title: "High Engagement Rates",
         desc: "Our sexting chat bot is designed to maintain customers engaged. With features like sext bot on line and sext bot with photographs, users are more likely to spend time interacting with the bot, growing their ordinary satisfaction and loyalty in your platform.harges.",
+        icon: "/sexting_3.png",
       },
     ].map((item, index) => (
       <div

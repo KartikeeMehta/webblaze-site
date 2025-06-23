@@ -26,6 +26,7 @@ import P2pCryptoExChange from "./pages/P2pCryptoExChange";
 import Decentalized from "./pages/Decentalized";
 import SmartContain from "./pages/SmartContain";
 import Nft_MarketPlace from "./pages/Nft_MarketPlace";
+import AI_dev from "./pages/AI_dev";
 
 function App() {
   return (
@@ -57,8 +58,6 @@ function App() {
         <Route path="/P2pCryptoExChange" element={<P2pCryptoExChange />} /> 
         <Route path="/Decentalized" element={<Decentalized />} /> 
         <Route path="/SmartContain" element={<SmartContain />} /> 
-    <Route path="/Nft_MarketPlace" element={<Nft_MarketPlace />} /> 
-
       </Routes>
     </Router>
   );

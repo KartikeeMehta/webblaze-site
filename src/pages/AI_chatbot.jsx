@@ -11,6 +11,8 @@ import Section_g from './AI/AI_chat/Section_g'
 import Section_h from './AI/AI_chat/Section_h'
 import Section_i from './AI/AI_chat/Section_i'
 import Section_j from './AI/AI_chat/Section_j'
+import Section_k from './AI/AI_chat/Section_k'
+import Section_l from './AI/AI_chat/Section_l'
 import Footer from './components/Footer'
 
 const AI_chatbot = () => {
@@ -28,6 +30,8 @@ const AI_chatbot = () => {
     <Section_h />
     <Section_i />
     <Section_j />
+    <Section_k />
+    <Section_l />
     <Footer />
     </>
   )

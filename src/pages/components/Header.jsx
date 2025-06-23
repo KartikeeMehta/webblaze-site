@@ -91,7 +91,7 @@ function Header() {
     { icon: "🧿", label: "3D jewelry design", path: "/Threed_JewelryDesign" },
     { icon: "🧍‍♀️", label: "3D avatar", path: "/ThreeD_Avatar" },
     { icon: "📦", label: "3D product design",path:"/ThreeD_Productdesign" },
-    { icon: "🎞️", label: "3D animation" },
+    { icon: "🎞️", label: "3D animation",path:"/ThreeD_Animation" },
   ];
 
   return (

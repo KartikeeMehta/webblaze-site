@@ -3,25 +3,33 @@ import React from "react";
 const cards = [
     {
         icon: "/seoDigitalIcon.png",
-        title: "Cross-Platform Compatibility",
+        title: "Increased Efficiency",
         description:
             "Our 3D avatars are designed to be well matched across diverse structures, including IMVU on-line 3D metaverse game, membership cooee apk, and virtual avatar games. This ensures a steady and tasty user enjoy, no matter the platform.",
         borderColor: "border-b-[4px] border-[#ff4d4f]",
     },
     {
         icon: "/seoDigitalIcon.png",
-        title: "Advanced Customization",
+        title: "Enhanced Visual Appeal",
         description:
             "Webblaze offers superior customization alternatives for 3D avatars, allowing you to create precise and personalised virtual representations. Our offerings consist of 3D avatar chat rooms, avatar 3D apk, and avatar 3D loose online, supplying infinite possibilities for customization.",
         borderColor: "border-b-[4px] border-[#1890ff]",
     },
     {
         icon: "/seoDigitalIcon.png",
-        title: "Interactive Features",
+        title: "Precision and Accuracy",
         description:
             "Enhance your virtual presence with interactive features which include avatar orchestra metaverse, avatar life love metaverse, and avatar games on line virtual worlds. Our 3D avatars provide a dynamic and tasty experience that keeps users coming returned for greater.",
         borderColor: "border-b-[4px] border-[#fadb14]",
     },
+     {
+        icon: "/seoDigitalIcon.png",
+        title: "Versatility",
+        description:
+            "Enhance your virtual presence with interactive features which include avatar orchestra metaverse, avatar life love metaverse, and avatar games on line virtual worlds. Our 3D avatars provide a dynamic and tasty experience that keeps users coming returned for greater.",
+        borderColor: "border-b-[4px] border-[#fadb14]",
+    },
+    
 ];
 
 const Section_e = () => {

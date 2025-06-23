@@ -9,7 +9,7 @@ const Section_i = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center md:text-left">
             Industry-Specific Solutions
           </h2>
-          <ul className="list-disc list-inside text-gray-800 space-y-4 text-lg text-base leading-relaxed">
+          <ul className="list-disc list-inside text-gray-800 space-y-4 text-lg leading-relaxed">
             <li>
               <strong className="text-xl">Banking:</strong>
              <> Our chatbot for banks can address

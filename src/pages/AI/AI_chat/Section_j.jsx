@@ -20,7 +20,7 @@ const Section_j = () => {
           {/* Text */}
           <div className="w-full md:w-2/3 text-left">
             <FaQuoteLeft className="text-3xl text-blue-500 mb-4" />
-            <p className="text-gray-800 text-base leading-relaxed text-lg">
+            <p className="text-gray-800 leading-relaxed text-lg">
               Incorporating an AI chatbot into your industrial organization method can notably
               decorate customer engagement, streamline operations, and offer a aggressive area. At
               Webblaze, we are devoted to handing over pinnacle-notch AI chatbot improvement

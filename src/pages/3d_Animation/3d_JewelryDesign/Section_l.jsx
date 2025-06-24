@@ -9,7 +9,7 @@ const Section_l = () => {
                 <div>
                     <p className="text-red-500 font-semibold mb-2">Get in Touch</p>
                     <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
-Ready to convey your earrings designs to lifestyles?                    </h2>
+                        Ready to convey your earrings designs to lifestyles?                    </h2>
                     <p className="text-gray-700 mb-8">Ready to raise your digital presence with Webblaze's 3D avatar offerings?
                     </p>
 

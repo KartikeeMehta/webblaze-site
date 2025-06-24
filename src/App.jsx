@@ -37,6 +37,7 @@ import ThreeD_Productdesign from "./pages/ThreeD_Productdesign";
 import AI_news from "./pages/AI_news";
 import AI_sexting from "./pages/AI_sexting";
 import ThreeD_Animation from "./pages/ThreeD_Animation";
+import Uber_Clone from "./pages/Uber_Clone";
 
 function App() {
   return (
@@ -80,6 +81,7 @@ function App() {
         <Route path="/AI_news" element={<AI_news />} />
         <Route path="/AI_sexting" element={<AI_sexting />} />
         <Route path="/ThreeD_Animation" element={<ThreeD_Animation />} />
+        <Route path="/Uber_Clone" element={<Uber_Clone />} />
 
 
 

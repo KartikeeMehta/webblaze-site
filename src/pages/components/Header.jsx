@@ -35,7 +35,7 @@ function Header() {
   ];
 
   const solutions = [
-    { icon: "🚕", label: "Uber Clone" },
+    { icon: "🚕", label: "Uber Clone", path: "/Uber_Clone" },
     { icon: "🚖", label: "Taxi app" },
     { icon: "🚘", label: "Car pooling" },
     { icon: "💳", label: "Cash app clone" },
@@ -78,8 +78,8 @@ function Header() {
   const aiItems = [
     { icon: "🧠", label: "AI development", path: "/AI_dev" },
     { icon: "🤖", label: "AI chat bot development", path: "/AI_chatbot" },
-    { icon: "📰", label: "AI news anchor" , path:"/AI_news" },
-    { icon: "💬", label: "Sexting chat bot" , path:"/AI_sexting" },
+    { icon: "📰", label: "AI news anchor", path: "/AI_news" },
+    { icon: "💬", label: "Sexting chat bot", path: "/AI_sexting" },
   ];
   const MetaverseItems = [
     { icon: "🛍️", label: "Shopping in a metaverse", path: "/shop_metaverse" },
@@ -90,8 +90,8 @@ function Header() {
   const animationItems = [
     { icon: "🧿", label: "3D jewelry design", path: "/Threed_JewelryDesign" },
     { icon: "🧍‍♀️", label: "3D avatar", path: "/ThreeD_Avatar" },
-    { icon: "📦", label: "3D product design",path:"/ThreeD_Productdesign" },
-    { icon: "🎞️", label: "3D animation",path:"/ThreeD_Animation" },
+    { icon: "📦", label: "3D product design", path: "/ThreeD_Productdesign" },
+    { icon: "🎞️", label: "3D animation", path: "/ThreeD_Animation" },
   ];
 
   return (
@@ -151,14 +151,16 @@ function Header() {
             {onSolutions && (
               <div className="absolute top-full left-0 w-[800px] bg-white shadow-xl rounded-xl p-6 grid grid-cols-3 gap-4 z-50">
                 {solutions.map((item, idx) => (
-                  <div key={idx} className="flex items-center gap-2">
+                  <Link key={idx}
+                    to={item?.path}
+                    className="flex items-center gap-2">
                     <span className="text-xl bg-gray-100 w-8 h-8 flex items-center justify-center rounded-full">
                       {item.icon}
                     </span>
                     <span className="text-sm font-medium text-gray-700 hover:text-blue-600 transition duration-200">
                       {item.label}
                     </span>
-                  </div>
+                  </Link>
                 ))}
               </div>
             )}

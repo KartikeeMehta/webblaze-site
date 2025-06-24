@@ -38,6 +38,12 @@ import AI_news from "./pages/AI_news";
 import AI_sexting from "./pages/AI_sexting";
 import ThreeD_Animation from "./pages/ThreeD_Animation";
 import Uber_Clone from "./pages/Uber_Clone";
+import Taxi_app from "./pages/Taxi_app";
+import Hospital_manage from "./pages/Hospital_manage";
+import EV_charge from "./pages/EV_charge";
+import Dating_app from "./pages/Dating_app";
+import Food_delivery from "./pages/Food_delivery";
+import Lms from "./pages/Lms";
 
 function App() {
   return (
@@ -82,6 +88,12 @@ function App() {
         <Route path="/AI_sexting" element={<AI_sexting />} />
         <Route path="/ThreeD_Animation" element={<ThreeD_Animation />} />
         <Route path="/Uber_Clone" element={<Uber_Clone />} />
+        <Route path="/Taxi_app" element={<Taxi_app />} />
+        <Route path="/Hospital_manage" element={<Hospital_manage />} />
+        <Route path="/EV_charge" element={<EV_charge />} />
+        <Route path="/Dating_app" element={<Dating_app />} />
+        <Route path="/Food_delivery" element={<Food_delivery />} />
+        <Route path="/Lms" element={<Lms />} />
 
 
 

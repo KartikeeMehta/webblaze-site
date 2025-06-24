@@ -36,26 +36,26 @@ function Header() {
 
   const solutions = [
     { icon: "🚕", label: "Uber Clone", path: "/Uber_Clone" },
-    { icon: "🚖", label: "Taxi app" },
+    { icon: "🚖", label: "Taxi app" ,path: "/Taxi_app" },
     { icon: "🚘", label: "Car pooling" },
     { icon: "💳", label: "Cash app clone" },
 
-    { icon: "🏥", label: "Hospital management software" },
+    { icon: "🏥", label: "Hospital management software", path: "/Hospital_manage" },
     { icon: "🏢", label: "Real estate management software" },
     { icon: "🚪", label: "Door dash clone" },
-    { icon: "🔌", label: "EV charging app" },
+    { icon: "🔌", label: "EV charging app", path: "/EV_charge" },
 
     { icon: "🏨", label: "Hotel management software" },
     { icon: "🔧", label: "Handyman clone" },
-    { icon: "❤️", label: "Dating app" },
+    { icon: "❤️", label: "Dating app", path: "/Dating_app" },
     { icon: "📦", label: "Pickup and delivery" },
 
     { icon: "🏫", label: "School management software" },
-    { icon: "🍔", label: "Food delivery app" },
+    { icon: "🍔", label: "Food delivery app", path: "/Food_delivery" },
     { icon: "🛒", label: "Ecommerce" },
     { icon: "🍽️", label: "Restaurant Management" },
 
-    { icon: "📚", label: "LMS" },
+    { icon: "📚", label: "LMS", path: "/Lms" },
     { icon: "🚗", label: "Car rental" },
     { icon: "🔐", label: "Only fan clone" },
   ];

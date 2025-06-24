@@ -51,7 +51,7 @@ const CaseStudies = () => {
         </div>
 
         {/* Right Section (Image) */}
-        <div className="flex-1">
+        <div className="flex-1 h-[400px]">
           <img
             src="https://webblazesofttech.com/wp-content/uploads/2024/10/image-39.webp"
             alt="AI Chatbot Assistant"

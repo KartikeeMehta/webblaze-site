@@ -12,15 +12,14 @@ const Section_a = () => {
             <div className="max-w-[1200px] mx-auto px-6 flex flex-col lg:flex-row items-center justify-between gap-10 rounded-3xl p-8 ">
                 <div className="flex-1">
                     <h2 className="text-2xl md:text-3xl font-bold leading-snug text-black ">
-                       Webblaze {" "}
+                        Streamline Your {" "}
                         <span className=" text-red-500">
-                           Car Pooling App
+                            Property  <br />Management
                         </span>
-                        <br />Development Services
+                        {" "} with Webblaze
                     </h2>
-                    <span className="text-black text-sm font-bold">Transform Your Commute with Webblaze’s Car Pooling App Solutions</span>
                     <p className="mt-5 text-gray-700 text-base md:text-sm leading-relaxed">
-In cutting-edge rapid-paced international, locating green and eco-friendly commuting alternatives is vital. Webblaze, a main web improvement corporation, gives brand new vehicle pooling app development services designed to streamline and revolutionize your transportation revel in. Whether you want to carpool to work, arrange long-distance carpool rides, or be part of a carpooling outstation trip, our modern answers cater to all your carpooling wishes.                          </p>
+                        At Webblaze, we recognize the challenges that actual property experts face in handling properties effectively. Our Real Estate Management Software is designed to simplify these demanding situations, supplying an all-in-one solution for assets control,whether or not you manipulate a unmarried condo assets or a massive industrial portfolio.                                              </p>
                     <button className="mt-8 px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition">
                         Contact Us
                     </button>

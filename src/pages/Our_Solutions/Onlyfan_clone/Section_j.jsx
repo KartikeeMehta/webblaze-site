@@ -1,14 +1,14 @@
 import React from 'react';
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 
-const Section_k = () => {
+const Section_j = () => {
   return (
     <div className="bg-gray-50 py-16 px-4">
-      <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center px-5">
         <div>
-          <p className="text-red-500 font-semibold mb-2">Contact Webblaze</p>
+          <p className="text-red-500 font-semibold mb-2">Get in Touch</p>
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
-            Ready to raise your social media presence? Contact Webblaze today!
+     Ready to take your social media platform to the subsequent stage?
           </h2>
           <p className="text-gray-700 mb-8">
             Our dedicated team is committed to providing prompt and effective support to ensure your needs are met. We believe in open communication and are always ready to listen. Reach out to us via phone, email, or live chat, or visit our office during business hours.
@@ -68,4 +68,4 @@ const Section_k = () => {
   );
 };
 
-export default Section_k;
+export default Section_j;

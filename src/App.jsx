@@ -44,6 +44,12 @@ import EV_charge from "./pages/EV_charge";
 import Dating_app from "./pages/Dating_app";
 import Food_delivery from "./pages/Food_delivery";
 import Lms from "./pages/Lms";
+import Cash_AppClone from "./pages/Cash_AppClone";
+import Doordash_Clone from "./pages/Doordash_Clone";
+import Handyman_Clone from "./pages/Handyman_Clone";
+import School_ManagementSoftware from "./pages/School_ManagementSoftware";
+import Restaurant_Management from "./pages/Restaurant_Management";
+import Onlyfan_clone from "./pages/Onlyfan_clone";
 
 function App() {
   return (
@@ -94,7 +100,12 @@ function App() {
         <Route path="/Dating_app" element={<Dating_app />} />
         <Route path="/Food_delivery" element={<Food_delivery />} />
         <Route path="/Lms" element={<Lms />} />
-
+        <Route path="/Cash_AppClone" element={<Cash_AppClone />} />
+        <Route path="/Doordash_Clone" element={<Doordash_Clone />} />
+        <Route path="/Handyman_Clone" element={<Handyman_Clone />} />
+        <Route path="/School_ManagementSoftware" element={<School_ManagementSoftware />} />
+        <Route path="/Restaurant_Management" element={<Restaurant_Management />} />
+        <Route path="/Onlyfan_clone" element={<Onlyfan_clone />} />
 
 
       </Routes>

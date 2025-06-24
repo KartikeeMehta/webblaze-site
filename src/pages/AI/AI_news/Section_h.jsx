@@ -4,7 +4,7 @@ const Section_h = () => {
   return (
     <div className="max-w-[1200px] mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold text-center mb-8">Stay Ahead with Webblaze</h1>
-      <div className="flex flex-col xl:flex-row gap-6">
+      <div className="flex flex-col xl:flex-row gap-10">
         {/* Left Section (Cards) */}
         <div className="flex flex-col gap-6 flex-1 ">
           {/* Card 1 */}

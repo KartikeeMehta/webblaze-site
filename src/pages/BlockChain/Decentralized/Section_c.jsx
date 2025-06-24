@@ -3,6 +3,7 @@ import React from 'react'
 const Section_c = () => {
   return (
     <div className="bg-[#0e1120] text-white py-16 px-4">
+      <div className='wrap_section_a max-w-[1200px] m-auto'>
   <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 justify-between items-center">
 
     {/* logo */}
@@ -17,7 +18,7 @@ const Section_c = () => {
 
       {/* point 1 */}
       <div className="flex items-start gap-4">
-        <img src="C:\Users\ASUS\Desktop\phase-8\webblaze-site\public\dappicon1.png" alt="Expertise Icon" className="w-10 h-10 mt-1" />
+        <img src="Dapp_1.png" alt="Expertise Icon" className="w-10 h-10 mt-1" />
         <div>
           <h3 className="text-3xl font-semibold">Expertise in dapp Development</h3>
           <p className="text-white mt-1">
@@ -28,7 +29,7 @@ const Section_c = () => {
 
       {/* point 2 */}
       <div className="flex items-start gap-4">
-        <img src="/icons/services-icon.png" alt="Services Icon" className="w-10 h-10 mt-1" />
+        <img src="Dapp_2.png" className="w-10 h-10 mt-1" />
         <div>
           <h3 className="text-3xl font-semibold">Comprehensive Services</h3>
           <p className="text-white mt-1">
@@ -39,7 +40,7 @@ const Section_c = () => {
 
       {/* point 3 */}
       <div className="flex items-start gap-4">
-        <img src="/icons/technology-icon.png" alt="Technology Icon" className="w-10 h-10 mt-1" />
+        <img src="Dapp_3.png" className="w-10 h-10 mt-1" />
         <div>
           <h3 className="text-3xl font-semibold">Cutting-Edge Technology</h3>
           <p className="text-white mt-1">
@@ -50,7 +51,7 @@ const Section_c = () => {
 
       {/* point 4 */}
       <div className="flex items-start gap-4">
-        <img src="/icons/client-icon.png" alt="Client Focused Icon" className="w-10 h-10 mt-1" />
+        <img src="Dapp_4.png" className="w-10 h-10 mt-1" />
         <div>
           <h3 className="text-3xl font-semibold">Client-Focused Approach</h3>
           <p className="text-white mt-1">
@@ -60,6 +61,7 @@ const Section_c = () => {
       </div>
 
     </div>
+  </div>
   </div>
 </div>
 

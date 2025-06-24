@@ -4,6 +4,7 @@ const Section_d = () => {
   return(
     <section>
        <h1 className='text-center text-4xl pt-8 font-bold'>Comprehensive Google Ads Services</h1>
+       <div className='wrap_section_a max-w-[1200px] m-auto'>
         <div className="flex flex-wrap justify-center gap-6 px-4 py-10">
                                                               {/* Cards */}
                                                               {/* First */}
@@ -78,6 +79,7 @@ const Section_d = () => {
        2. By using equipment like Google Ads Manager and Google Analytics, we provide insights into your campaign’s performance, helping you are making knowledgeable choices.
      </p>
    </div>
+ </div>
  </div>
 
      </section>

@@ -5,6 +5,7 @@ const Section_b = () => {
     <div className="py-16 px-6">
   {/* Heading */}
   <h2 className="text-4xl font-bold text-center mb-10 underline">What We Offer?</h2>
+  <div className='wrap_section_b max-w-[1200px] m-auto'>
 
   {/* Card Container */}
   <div className="flex flex-wrap justify-center gap-8">
@@ -68,6 +69,7 @@ const Section_b = () => {
         We prioritize consumer enjoy in our dapp development gadget. Our decentralized applications are designed to be consumer-exceptional, making sure that your clients have a continuing experience. We create dapp answers which might be intuitive and easy to use.
       </p>
     </div>
+  </div>
   </div>
 </div>
 

@@ -3,6 +3,7 @@ import React from 'react';
 const Section_b = () => {
   return (
     <div className="w-full max-w-[1200px] mx-auto px-4 sm:px-6 md:px-10 lg:px-16 py-12">
+      
       <div className="flex flex-col-reverse md:flex-row items-center gap-8">
         {/* Image */}
         <div className="w-full md:w-1/2 flex justify-center">

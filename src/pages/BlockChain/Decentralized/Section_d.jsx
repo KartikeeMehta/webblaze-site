@@ -3,6 +3,7 @@ import React from 'react'
 const Section_d = () => {
   return (
     <div className="py-16 px-4 bg-white text-center">
+      <div className='wrap_section_a max-w-[1200px] m-auto'>
   {/* Heading */}
   <h2 className="text-4xl font-bold mb-12">How We Work</h2>
 
@@ -37,6 +38,7 @@ const Section_d = () => {
     <p className="text-gray-700 leading-relaxed text-lg">
       Once your dapp is advanced, we assist with deployment and offer ongoing support. We ensure that your decentralized software is efficiently integrated and operating without issues. Our resource crew is always available for help.
     </p>
+  </div>
   </div>
 </div>
 

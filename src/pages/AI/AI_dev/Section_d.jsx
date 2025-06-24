@@ -3,7 +3,8 @@ import React from 'react'
 const Section_d = () => {
   return (
     <section className="max-w-[1200px] bg-white py-16 px-4 md:px-12">
-  <div className="flex flex-col md:flex-row items-center gap-10">
+      <div className='wrap_section_d max-w-[1200px] m-auto'>
+  <div className="flex flex-col md:flex-row items-center gap-10 ">
     
     {/* Left: Image */}
     <div className="w-full md:w-1/2">
@@ -11,7 +12,7 @@ const Section_d = () => {
         <img
           src="https://webblazesofttech.com/wp-content/uploads/2024/09/Key-Services-We-Offer-2.webp"
           alt="AI Services"
-          className="w-1/2 h-auto object-cover"
+          className="w-3/4 min-h-[600px] object-cover"
         />
       </div>
     </div>
@@ -39,6 +40,7 @@ const Section_d = () => {
         </li>
       </ul>
     </div>
+  </div>
   </div>
 </section>
 

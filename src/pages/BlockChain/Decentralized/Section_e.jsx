@@ -3,6 +3,7 @@ import React from 'react'
 const Section_e = () => {
   return (
     <div className="py-16 px-6">
+      <div className='wrap_section_a max-w-[1200px] m-auto'>
   {/* Heading */}
   <h2 className="text-4xl font-bold text-center mb-12">Types of dapps We Develop</h2>
 
@@ -71,6 +72,7 @@ const Section_e = () => {
         Our deliver chain dapps provide a transparent and green answer for handling deliver chains. We create decentralized packages that decorate the visibility and safety of supply chain operations.
       </p>
     </div>
+  </div>
   </div>
 </div>
 

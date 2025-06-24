@@ -3,6 +3,7 @@ import React from 'react'
 const Section_g = () => {
   return (
     <section className='bg-[#181C2E] bg-[url(https://webblazesofttech.com/wp-content/uploads/2024/07/background-lines.webp)]'>
+      <div className='wrap_section_d max-w-[1200px] m-auto'>
        <h1 className='text-white text-3xl font-bold text-center pt-12'>Choose the Best Chatbot for Your Business</h1>
 
                           {/*TEXT _IMAGE*/}
@@ -22,6 +23,7 @@ const Section_g = () => {
                className="w-full h-auto object-contain rounded-md shadow-md"/>
               </div>
            </div>
+         </div>
          </div>
     </section>
   )

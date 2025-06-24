@@ -3,6 +3,7 @@ import React from 'react'
 const Section_f = () => {
   return (
     <div className="px-6 lg:px-20 py-12">
+      <div className='wrap_section_a max-w-[1200px] m-auto'>
                        {/*  Heading */}
   <h2 className="text-3xl font-bold text-center text-gray-900 mb-10">
     The Power of Google Ads with Webblaze
@@ -61,6 +62,7 @@ const Section_f = () => {
         2. Our innovative method guarantees your advertisements stand out in a aggressive marketplace, the use of greater traffic and conversions.
       </p>
     </div>
+  </div>
   </div>
 </div>
 

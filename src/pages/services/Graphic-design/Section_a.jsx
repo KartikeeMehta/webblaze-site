@@ -7,6 +7,7 @@ function Section_a() {
         id="txtbtnimg"
         className="flex flex-col-reverse md:flex-row items-center gap-10 px-4 sm:px-8 md:px-12 py-12 max-w-[1200px] mx-auto"
       >
+        <div className=''></div>
         {/* TEXT + BUTTON */}
         <div id="txtbtn" className="w-full md:w-1/2 space-y-6 text-center md:text-left">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-snug">

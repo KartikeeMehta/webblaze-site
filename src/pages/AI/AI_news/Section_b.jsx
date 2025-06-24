@@ -3,7 +3,9 @@ import React from "react";
 const HeroAISection = () => {
   return (
     <div className="bg-white py-16 px-6 md:px-12">
+      <div classsName='wrap_section_a max-w-[1200px] m-auto'>
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+        
         {/* Left Text Section */}
         <div>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
@@ -30,6 +32,7 @@ const HeroAISection = () => {
             />
           </div>
         </div>
+      </div>
       </div>
     </div>
   );

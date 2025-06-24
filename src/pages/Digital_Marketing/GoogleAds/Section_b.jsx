@@ -4,6 +4,7 @@ const Section_b = () => {
   return (
     <div>
       <section>
+        <div className='wrap_section_a max-w-[1200px] m-auto'>
         <div id="txtimg"className="flex pb-14 flex-col-reverse md:flex-row gap-8 w-full px-6 md:px-16 pt-12 items-center">
            <div id="txt" className="w-full md:w-1/2 space-y-5">
       
@@ -23,6 +24,7 @@ const Section_b = () => {
                className="w-full h-auto object-contain rounded-md shadow-md"/>
               </div>
            </div>
+         </div>
          </div>
       </section>
     </div>

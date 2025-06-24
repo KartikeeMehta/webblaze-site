@@ -4,6 +4,7 @@ const Section_d = () => {
   return (
     <section className="bg-[#f3f3f4] w-full px-4 sm:px-6 lg:px-20 py-12">
       <div className="wrap_section_d max-w-[1200px] m-auto">
+        <div className='wrap_section_a max-w-[1200px] m-auto'>
         <div className="text-center">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-black mb-4 leading-snug">
             Advanced Advertising Solutions
@@ -65,6 +66,7 @@ const Section_d = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </section>
   );

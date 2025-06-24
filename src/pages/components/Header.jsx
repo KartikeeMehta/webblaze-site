@@ -36,28 +36,28 @@ function Header() {
 
   const solutions = [
     { icon: "🚕", label: "Uber Clone", path: "/Uber_Clone" },
-    { icon: "🚖", label: "Taxi app" ,path: "/Taxi_app" },
-    { icon: "🚘", label: "Car pooling" ,path:"/CarPooling_App"},
-    { icon: "💳", label: "Cash app clone" , path:"/Cash_AppClone" },
+    { icon: "🚖", label: "Taxi app", path: "/Taxi_app" },
+    { icon: "🚘", label: "Car pooling", path: "/CarPooling_App" },
+    { icon: "💳", label: "Cash app clone", path: "/Cash_AppClone" },
 
     { icon: "🏥", label: "Hospital management software", path: "/Hospital_manage" },
-    { icon: "🏢", label: "Real estate management software" },
-    { icon: "🚪", label: "Door dash clone" ,path:"/Doordash_Clone"},
+    { icon: "🏢", label: "Real estate management software", path: "/RealEstate_Management" },
+    { icon: "🚪", label: "Door dash clone", path: "/Doordash_Clone" },
     { icon: "🔌", label: "EV charging app", path: "/EV_charge" },
 
     { icon: "🏨", label: "Hotel management software" },
-    { icon: "🔧", label: "Handyman clone", path:"/Handyman_Clone" },
+    { icon: "🔧", label: "Handyman clone", path: "/Handyman_Clone" },
     { icon: "❤️", label: "Dating app", path: "/Dating_app" },
     { icon: "📦", label: "Pickup and delivery" },
 
-    { icon: "🏫", label: "School management software" ,path:"/School_ManagementSoftware" },
+    { icon: "🏫", label: "School management software", path: "/School_ManagementSoftware" },
     { icon: "🍔", label: "Food delivery app", path: "/Food_delivery" },
     { icon: "🛒", label: "Ecommerce" },
-    { icon: "🍽️", label: "Restaurant Management",path:"/Restaurant_Management" },
+    { icon: "🍽️", label: "Restaurant Management", path: "/Restaurant_Management" },
 
     { icon: "📚", label: "LMS", path: "/Lms" },
     { icon: "🚗", label: "Car rental" },
-    { icon: "🔐", label: "Only fan clone",path:"/Onlyfan_clone" },
+    { icon: "🔐", label: "Only fan clone", path: "/Onlyfan_clone" },
   ];
   const marketingItems = [
     { icon: "📈", label: "SEO", path: "/Seo" },

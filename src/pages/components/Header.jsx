@@ -36,28 +36,48 @@ function Header() {
 
   const solutions = [
     { icon: "🚕", label: "Uber Clone", path: "/Uber_Clone" },
-    { icon: "🚖", label: "Taxi app" ,path: "/Taxi_app" },
-    { icon: "🚘", label: "Car pooling" ,path:"/CarPooling_App"},
-    { icon: "💳", label: "Cash app clone" , path:"/Cash_AppClone" },
+    { icon: "🚖", label: "Taxi app", path: "/Taxi_app" },
+    { icon: "🚘", label: "Car pooling", path: "/CarPooling_App" },
+    { icon: "💳", label: "Cash app clone", path: "/Cash_AppClone" },
 
-    { icon: "🏥", label: "Hospital management software", path: "/Hospital_manage" },
-    { icon: "🏢", label: "Real estate management software" },
-    { icon: "🚪", label: "Door dash clone" ,path:"/Doordash_Clone"},
+    {
+      icon: "🏥",
+      label: "Hospital management software",
+      path: "/Hospital_manage",
+    },
+    {
+      icon: "🏢",
+      label: "Real estate management software",
+      path: "/RealEstate_Management",
+    },
+    { icon: "🚪", label: "Door dash clone", path: "/Doordash_Clone" },
     { icon: "🔌", label: "EV charging app", path: "/EV_charge" },
 
-    { icon: "🏨", label: "Hotel management software" },
-    { icon: "🔧", label: "Handyman clone", path:"/Handyman_Clone" },
+    {
+      icon: "🏨",
+      label: "Hotel management software",
+      path: "/Hotel_management",
+    },
+    { icon: "🔧", label: "Handyman clone", path: "/Handyman_Clone" },
     { icon: "❤️", label: "Dating app", path: "/Dating_app" },
-    { icon: "📦", label: "Pickup and delivery" },
+    { icon: "📦", label: "Pickup and delivery", path: "/Pickup" },
 
-    { icon: "🏫", label: "School management software" ,path:"/School_ManagementSoftware" },
+    {
+      icon: "🏫",
+      label: "School management software",
+      path: "/School_ManagementSoftware",
+    },
     { icon: "🍔", label: "Food delivery app", path: "/Food_delivery" },
-    { icon: "🛒", label: "Ecommerce", path: "/E_comm"  },
-    { icon: "🍽️", label: "Restaurant Management",path:"/Restaurant_Management" },
+    { icon: "🛒", label: "Ecommerce" },
+    {
+      icon: "🍽️",
+      label: "Restaurant Management",
+      path: "/Restaurant_Management",
+    },
 
     { icon: "📚", label: "LMS", path: "/Lms" },
-    { icon: "🚗", label: "Car rental", path: "/Car_rental"  },
-    { icon: "🔐", label: "Only fan clone",path:"/Onlyfan_clone" },
+    { icon: "🚗", label: "Car rental" },
+    { icon: "🔐", label: "Only fan clone", path: "/Onlyfan_clone" },
   ];
   const marketingItems = [
     { icon: "📈", label: "SEO", path: "/Seo" },
@@ -151,9 +171,11 @@ function Header() {
             {onSolutions && (
               <div className="absolute top-full left-0 w-[800px] bg-white shadow-xl rounded-xl p-6 grid grid-cols-3 gap-4 z-50">
                 {solutions.map((item, idx) => (
-                  <Link key={idx}
+                  <Link
+                    key={idx}
                     to={item?.path}
-                    className="flex items-center gap-2">
+                    className="flex items-center gap-2"
+                  >
                     <span className="text-xl bg-gray-100 w-8 h-8 flex items-center justify-center rounded-full">
                       {item.icon}
                     </span>
@@ -333,9 +355,10 @@ function Header() {
           <NavLink
             to="/About_us"
             className={({ isActive }) =>
-              `pb-1 border-b-2 transition duration-200 ${isActive
-                ? "text-blue-600 border-blue-600"
-                : "hover:text-blue-600 hover:border-blue-600 border-transparent"
+              `pb-1 border-b-2 transition duration-200 ${
+                isActive
+                  ? "text-blue-600 border-blue-600"
+                  : "hover:text-blue-600 hover:border-blue-600 border-transparent"
               }`
             }
           >

@@ -53,6 +53,9 @@ import Onlyfan_clone from "./pages/Onlyfan_clone";
 import CarPooling_App from "./pages/CarPooling_App";
 import E_comm from "./pages/E_comm";
 import Car_rental from "./pages/Car_rental";
+import RealEstate_Management from "./pages/RealEstate_Management";
+import Pickup from "./pages/Pickup";
+import Hotel_management from "./pages/hotel_management";
 
 function App() {
   return (
@@ -91,8 +94,14 @@ function App() {
         <Route path="/Virtual_clinic" element={<Virtual_clinic />} />
         <Route path="/AI_chatbot" element={<AI_chatbot />} />
         <Route path="/ThreeD_Avatar" element={<ThreeD_Avatar />} />
-        <Route path="/Threed_JewelryDesign" element={<Threed_JewelryDesign />} />
-        <Route path="/ThreeD_Productdesign" element={<ThreeD_Productdesign />} />
+        <Route
+          path="/Threed_JewelryDesign"
+          element={<Threed_JewelryDesign />}
+        />
+        <Route
+          path="/ThreeD_Productdesign"
+          element={<ThreeD_Productdesign />}
+        />
         <Route path="/AI_news" element={<AI_news />} />
         <Route path="/AI_sexting" element={<AI_sexting />} />
         <Route path="/ThreeD_Animation" element={<ThreeD_Animation />} />
@@ -106,12 +115,24 @@ function App() {
         <Route path="/Cash_AppClone" element={<Cash_AppClone />} />
         <Route path="/Doordash_Clone" element={<Doordash_Clone />} />
         <Route path="/Handyman_Clone" element={<Handyman_Clone />} />
-        <Route path="/School_ManagementSoftware" element={<School_ManagementSoftware />} />
-        <Route path="/Restaurant_Management" element={<Restaurant_Management />} />
-        <Route path="/Onlyfan_clone" element={<Onlyfan_clone />} />
-        <Route path="/CarPooling_App" element={<CarPooling_App />} />
         <Route path="/E_comm" element={<E_comm />} />
         <Route path="/Car_rental" element={<Car_rental />} />
+        <Route
+          path="/School_ManagementSoftware"
+          element={<School_ManagementSoftware />}
+        />
+        <Route
+          path="/Restaurant_Management"
+          element={<Restaurant_Management />}
+        />
+        <Route path="/Onlyfan_clone" element={<Onlyfan_clone />} />
+        <Route path="/CarPooling_App" element={<CarPooling_App />} />
+        <Route path="/Pickup" element={<Pickup />} />
+        <Route path="/Hotel_management" element={<Hotel_management />} />
+        <Route
+          path="/RealEstate_Management"
+          element={<RealEstate_Management />}
+        />
       </Routes>
     </Router>
   );

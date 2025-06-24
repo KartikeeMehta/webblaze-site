@@ -23,7 +23,7 @@ function Section_a() {
           </h1>
           <p className="text-white text-lg mb-8">
             Welcome to Webblaze, a leading internet improvement enterprise
-            committed to innovating the healthcare industry with our modern day
+            committed to innovating the healthcare industry with our modern day`
             digital medical institution offerings. Our answers are designed to
             provide seamless and reachable healthcare through digital reality
             generation, making sure that patients receive top-notch hospital

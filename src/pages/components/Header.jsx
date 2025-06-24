@@ -37,7 +37,7 @@ function Header() {
   const solutions = [
     { icon: "🚕", label: "Uber Clone", path: "/Uber_Clone" },
     { icon: "🚖", label: "Taxi app" ,path: "/Taxi_app" },
-    { icon: "🚘", label: "Car pooling" },
+    { icon: "🚘", label: "Car pooling" ,path:"/CarPooling_App"},
     { icon: "💳", label: "Cash app clone" , path:"/Cash_AppClone" },
 
     { icon: "🏥", label: "Hospital management software", path: "/Hospital_manage" },

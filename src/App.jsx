@@ -51,6 +51,8 @@ import School_ManagementSoftware from "./pages/School_ManagementSoftware";
 import Restaurant_Management from "./pages/Restaurant_Management";
 import Onlyfan_clone from "./pages/Onlyfan_clone";
 import CarPooling_App from "./pages/CarPooling_App";
+import E_comm from "./pages/E_comm";
+import Car_rental from "./pages/Car_rental";
 
 function App() {
   return (
@@ -108,6 +110,8 @@ function App() {
         <Route path="/Restaurant_Management" element={<Restaurant_Management />} />
         <Route path="/Onlyfan_clone" element={<Onlyfan_clone />} />
         <Route path="/CarPooling_App" element={<CarPooling_App />} />
+        <Route path="/E_comm" element={<E_comm />} />
+        <Route path="/Car_rental" element={<Car_rental />} />
       </Routes>
     </Router>
   );

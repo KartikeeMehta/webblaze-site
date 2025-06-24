@@ -3,6 +3,8 @@ import Annoucement_bar from "./Home/Annoucement_bar";
 import Header from "./components/Header";
 import Section_a from "./Our_Solutions/Pickup/Section_a";
 import Footer from "./components/Footer";
+import Section_d from "./Our_Solutions/Pickup/Section_d";
+import Section_e from "./Our_Solutions/Pickup/Section_e";
 
 function Pickup() {
   return (
@@ -10,6 +12,8 @@ function Pickup() {
       <Annoucement_bar />
       <Header />
       <Section_a />
+      <Section_d />
+      <Section_e />
       <Footer />
     </div>
   );

@@ -3,6 +3,9 @@ import Annoucement_bar from "./Home/Annoucement_bar";
 import Header from "./components/Header";
 import Section_a from "./Our_Solutions/Hotel_manage/Section_a";
 import Footer from "./components/Footer";
+import Section_b from "./Our_Solutions/Hotel_manage/Section_b";
+import Section_f from "./Our_Solutions/Hotel_manage/Section_f";
+import Section_e from "./Our_Solutions/Hotel_manage/Section_e";
 
 function Hotel_management() {
   return (
@@ -11,6 +14,9 @@ function Hotel_management() {
         <Annoucement_bar />
         <Header />
         <Section_a />
+        <Section_b />
+        <Section_e />
+        <Section_f />
         <Footer />
       </>
     </div>

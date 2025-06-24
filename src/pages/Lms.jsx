@@ -10,6 +10,7 @@ import Section_e from './Our_Solutions/Lms/Section_e'
 import Section_f from './Our_Solutions/Lms/Section_f'
 import Section_g from './Our_Solutions/Lms/Section_g'
 import Section_h from './Our_Solutions/Lms/Section_h'
+import Section_e_2 from './Our_Solutions/Lms/Section_e_2'
 
 const Lms = () => {
   return (
@@ -21,6 +22,7 @@ const Lms = () => {
       <Section_c />
       <Section_d />
       <Section_e />
+      <Section_e_2 />
       <Section_f />
       <Section_g />
       <Section_h />

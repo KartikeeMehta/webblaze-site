@@ -24,7 +24,7 @@ const Section_b = () => {
 
         {/* Card 2 */}
         <div className="bg-white shadow-md rounded-lg p-6 flex-1 min-w-[280px] max-w-[370px]">
-          <div className="text-blue-600 text-4xl mb-4">💡</div>
+          <div className="text-blue-600 text-4xl mb-4"><img src="/Food_2.png"/></div>
           <h3 className="text-xl font-semibold mb-3">
             Custom Solutions for Every Need
           </h3>
@@ -35,7 +35,7 @@ const Section_b = () => {
 
         {/* Card 3 */}
         <div className="bg-white shadow-md rounded-lg p-6 flex-1 min-w-[280px] max-w-[370px]">
-          <div className="text-yellow-500 text-4xl mb-4">💰</div>
+          <div className="text-yellow-500 text-4xl mb-4"><img src="/Food_3.png"/></div>
           <h3 className="text-xl font-semibold mb-3">
             Competitive Development Costs
           </h3>
@@ -59,7 +59,7 @@ const Section_b = () => {
         {/* 4th Card */}
         <div className="w-full lg:w-1/3">
           <div className="bg-white shadow-md rounded-lg p-6 h-full">
-            <div className="text-red-600 text-4xl mb-4">🧱</div>
+            <div className="text-red-600 text-4xl mb-4"><img src="/Food_4.png"/></div>
             <h3 className="text-xl font-semibold mb-3">
               Advanced Technology Stack
             </h3>

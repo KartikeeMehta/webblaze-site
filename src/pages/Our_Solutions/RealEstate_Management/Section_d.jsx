@@ -5,19 +5,19 @@ const features = [
     title: 'User-Friendly Interface',
     description:
       "Our real estate control device is designed quite simply of use in mind. The intuitive interface of our property management platform allows customers to navigate effects, whether they are tech-savvy or now not. Our property management app and property management app unfastened versions ensure that you may control your properties on the cross.",
-    icon: '/RealStateUser_Friendly.png',
+    icon: '/RealEstate_7.png',
   },
   {
     title: 'Scalability',
     description:
       "Webblaze's property management software is scalable to fulfill the desires of developing companies. Whether you're looking for assets management software for small commercial enterprise or answers for large business portfolios, our platform adapts on your requirements. Our great assets management software program for small enterprise gives flexibility and growth capacity.",
-    icon: '/RealStateIndustry_Leading.png',
+    icon: '/RealEstate_8.png',
   },
   {
     title: 'Industry-Leading Support',
     description:
       "At Webblaze, we pleasure ourselves on offering great customer service. Our responsive customer service team is available to help you with any questions or problems you can come across. We additionally offer massive resources, along with tutorials and publications, that will help you make the maximum of our property control applications.",
-    icon: '/RealStateIndustry_Leading.png',
+    icon: '/RealEstate_9.png',
   },
 ];
 

@@ -3,24 +3,24 @@ import React, { useState } from 'react';
 
 const faqs = [
   {
-    question: 'What features should a Cash App clone include?',
-    answer: 'Essential features include peer-to-peer payments, bill payments, bank integration, and transaction history.'
+    question: 'What is carpooling and how does it work?',
+    answer: 'Carpooling is sharing a ride with others traveling to the same or nearby destinations, reducing costs and environmental impact.'
   },
   {
-    question: 'How much does it cost to develop a Cash App clone?',
-    answer: 'Development costs typically range from $15,000 to $80,000 based on features and complexity.'
+    question: 'How can I find carpooling services near me?',
+    answer: 'Use carpooling apps or websites to search for available rideshares in your area.'
   },
   {
-    question: 'Is it safe to use a Cash App clone for payments?',
-    answer: 'Yes, if the app employs encryption, two-factor authentication, and secure APIs.'
+    question: 'Is carpooling safe for daily commutes?',
+    answer: 'Yes, carpooling is generally safe. Most platforms have driver verification and user reviews to ensure security.'
   },
   {
-    question: 'Can I customize a Cash App clone for my business?',
-    answer: 'Yes, you can customize the app to include specific features and branding.'
+    question: 'Can I carpool without owning a car?',
+    answer: 'Absolutely! You can join as a passenger by booking rides through carpooling apps or websites.'
   },
   {
-    question: 'How does a Cash App clone make money?',
-    answer: 'Revenue sources include transaction fees, premium features, and advertising.'
+    question: 'What are the benefits of carpooling?',
+    answer: 'Carpooling saves money, reduces traffic, lowers emissions, and fosters community connections.'
   }
 ];
 

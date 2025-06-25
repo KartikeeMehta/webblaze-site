@@ -2,29 +2,29 @@ import React, { useState } from "react";
 
 const faqs = [
   {
-    question: "How can I start my own ecommerce website?",
+    question: "What is hotel management software used for?",
     answer:
-      "Choose a platform, add products, set up payment and shipping options, and promote your site online.",
+      "Managing reservations, front desk operations, housekeeping, billing, and customer relationships.",
   },
   {
-    question: "How much does it cost to build an ecommerce website?",
+    question: "How does it benefit hotels?",
     answer:
-      "Costs vary from $5,000 to $50,000+, depending on features and design.",
+      "Streamlines operations, enhances guest experience, and boosts revenue.",
   },
   {
-    question: "What are the must-have features for an ecommerce website?",
+    question: "Is it suitable for small hotels?",
     answer:
-      "Essential features include user-friendly navigation, secure checkout, mobile responsiveness, and detailed product pages.",
+      "Yes, many solutions cater to small and medium-sized hotels with affordable pricing.",
   },
   {
-    question: "Which platform is best for ecommerce development?",
+    question: "What features should I look for?",
     answer:
-      "Popular platforms include Shopify, WooCommerce, Magento, and BigCommerce.",
+      "Reservation management, channel management, guest feedback, and POS integration.",
   },
   {
-    question: "How do ecommerce websites attract customers?",
+    question: "Can it integrate with OTAs like Booking.com?",
     answer:
-      "Strategies include SEO, social media marketing, email campaigns, and offering discounts or promotions.",
+      "Yes, most systems include channel managers for OTA integration.",
   },
 ];
 

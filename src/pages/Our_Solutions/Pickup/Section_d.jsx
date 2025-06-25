@@ -2,29 +2,29 @@ import React, { useState } from "react";
 
 const faqs = [
   {
-    question: "How can I start my own ecommerce website?",
+    question: "What features are essential for a pickup and delivery app?",
     answer:
-      "Choose a platform, add products, set up payment and shipping options, and promote your site online.",
+      "Key features include order tracking, scheduling, multiple payment options, and customer support.",
   },
   {
-    question: "How much does it cost to build an ecommerce website?",
+    question: "How much does it cost to develop a pickup and delivery app?",
     answer:
-      "Costs vary from $5,000 to $50,000+, depending on features and design.",
+      "Development costs typically range from $5,000 to $50,000, depending on the app’s complexity.",
   },
   {
-    question: "What are the must-have features for an ecommerce website?",
+    question: "How do pickup and delivery apps ensure timely service?",
     answer:
-      "Essential features include user-friendly navigation, secure checkout, mobile responsiveness, and detailed product pages.",
+      "By using GPS tracking, optimized routes, and real-time updates for drivers and customers.",
   },
   {
-    question: "Which platform is best for ecommerce development?",
+    question: "Can I customize a pickup and delivery app for my business?",
     answer:
-      "Popular platforms include Shopify, WooCommerce, Magento, and BigCommerce.",
+      "Yes, many app development companies offer customization to suit your specific needs.",
   },
   {
-    question: "How do ecommerce websites attract customers?",
+    question: "What industries benefit from pickup and delivery apps?",
     answer:
-      "Strategies include SEO, social media marketing, email campaigns, and offering discounts or promotions.",
+      "Industries like food, groceries, courier services, and e-commerce widely use such apps.",
   },
 ];
 

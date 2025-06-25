@@ -13,17 +13,17 @@ const Section_e_2 = () => {
       {
         title: "Free LMS for Teachers",
         desc: "Designed to aid educators, our unfastened LMS platforms provide essential tools for route creation, pupil evaluation, and collaborative gaining knowledge of.",
-        icon: "/icons/ai-dev.png",
+        icon: "/Lms_4.png",
       },
       {
         title: "Healthcare LMS Systems",
         desc: "Tailored to satisfy the particular needs of healthcare schooling, our healthcare LMS systems make sure compliance with industry requirements and offer specialized education modules.",
-        icon: "/icons/ai-learn.png",
+        icon: "/Lms_5.png",
       },
       {
         title: "LMS for Employee Training",
         desc: "Enhance team of workers competencies with our committed LMS for corporate education, which includes employee education tracking software and compliance control features.",
-        icon: "/icons/ai-web.png",
+        icon: "/Lms_6.png",
       },
     ].map((item, index) => (
       <div

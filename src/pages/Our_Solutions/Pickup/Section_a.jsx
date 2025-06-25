@@ -20,14 +20,11 @@ const Section_a = () => {
           />
         </div>
         <div className="w-[65%]">
-          <h2 className="text-2xl md:text-4xl font-bold leading-snug text-black">
-            A{" "}
-            <span className="text-red-500">
-              Whitelabel <br className="hidden sm:block" />
-            </span>
-            App for Pickup and Drop Delivery
+          <h2 className="text-4xl md:text-4xl font-bold leading-snug text-black">
+            A <span className="text-red-500">
+              Whitelabel </span> App for Pickup and Drop Delivery
           </h2>
-          <p className="mt-6 text-gray-700 text-base md:text-sm leading-relaxed">
+          <p className="text-2xl mt-6 text-gray-700 md:text-sm leading-relaxed">
             Webblaze, a leading web development company, is proud to introduce
             Pick Up & Drop, a comprehensive white label solution designed to
             streamline your agency’s workflow and unlock new revenue streams.

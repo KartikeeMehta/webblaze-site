@@ -7,6 +7,7 @@ import Section_b from './Our_Solutions/RealEstate_Management/Section_b'
 import Section_c from './Our_Solutions/RealEstate_Management/Section_c'
 import Section_d from './Our_Solutions/RealEstate_Management/Section_d'
 import Section_e from './Our_Solutions/RealEstate_Management/Section_e'
+import Section_f from './Our_Solutions/RealEstate_Management/Section_f'
 
 const RealEstate_Management = () => {
     return (
@@ -18,6 +19,7 @@ const RealEstate_Management = () => {
             <Section_c/>
             <Section_d/>
             <Section_e/>
+            <Section_f />
             <Footer />
         </div>
     )

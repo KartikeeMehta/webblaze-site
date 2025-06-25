@@ -17,17 +17,17 @@ const Section_e = () => {
       {
         title: "Open Source Learning Management System",
         desc: "Our open-supply answers provide flexibility and customization for tech-savvy users who need a tailored LMS revel in.",
-        icon: "/icons/ai-dev.png",
+        icon: "/Lms_1.png",
       },
       {
         title: "Cloud-Based LMS Systems",
         desc: "Enjoy the advantages of scalability, automated updates, and faraway get right of entry to with our cloud-based gaining knowledge of management systems.",
-        icon: "/icons/ai-learn.png",
+        icon: "/Lms_2.png",
       },
       {
         title: "Corporate LMS Platforms",
         desc: "These are designed to support huge-scale training initiatives within company environments, imparting robust safety features and extensive guide.",
-        icon: "/icons/ai-web.png",
+        icon: "/Lms_3.png",
       },
     ].map((item, index) => (
       <div

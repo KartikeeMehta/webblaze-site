@@ -7,14 +7,12 @@ const Section_f = () => {
       <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Left Section */}
         <div>
-          <p className="text-red-500 font-semibold mb-2">Get in Touch</p>
+          <p className="text-2xl text-red-500 font-semibold mb-2">Contact Us</p>
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
-            Ready to take your on-line organisation to the following degree with
-            our e-trade improvement offerings?
+            Get Started with Webblaze
           </h2>
           <p className="text-gray-700 mb-8">
-            Talk to our professional these days and get started on constructing
-            your ecommerce internet website.
+            Ready to convert your inn control operations? Contact Webblaze today to research greater about our modern lodge management software. You can schedule a consultation with our specialists using the link below.
           </p>
 
           <div className="space-y-6">

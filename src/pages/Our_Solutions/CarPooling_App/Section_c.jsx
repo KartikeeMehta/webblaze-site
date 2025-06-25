@@ -4,7 +4,7 @@ import { FaUsers, FaSearch, FaShieldAlt, FaTags, FaBuilding } from "react-icons/
 const features = [
   {
     title: "User-Friendly Interface",
-    icon: <FaUsers className="text-white text-xl" />,
+    icon: <img src="/CarPool_1.png" alt="" />,
     iconBg: "bg-[#f65351]",
     borderColor: "border-b-[#f65351]",
     items: [
@@ -14,7 +14,7 @@ const features = [
   },
   {
     title: "Advanced Search and Discovery",
-    icon: <FaSearch className="text-white text-xl" />,
+    icon: <img src="/CarPool_2.png" alt="" />,
     iconBg: "bg-[#2da7ff]",
     borderColor: "border-b-[#2da7ff]",
     items: [
@@ -24,8 +24,8 @@ const features = [
   },
   {
     title: "Secure and Reliable",
-    icon: <FaShieldAlt className="text-white text-xl" />,
-    iconBg: "bg-[#ffe450]",
+    icon: <img src="/CarPool_3.png" alt="" />,
+    iconBg: "bg-[#fffff]",
     borderColor: "border-b-[#ffe450]",
     items: [
       "Security is a pinnacle precedence in our carpool apps, with robust measures to make certain secure and reliable carpooling studies.",
@@ -34,9 +34,7 @@ const features = [
   },
   {
     title: "Cost-Effective Solutions",
-    icon: <FaTags className="text-white text-xl" />,
-    iconBg: "bg-[#2da7ff]",
-    borderColor: "border-b-[#2da7ff]",
+    icon: <img src="/CarPool_4.png" alt="" />,
     items: [
       "Our carpool offerings are designed to be cost-effective, providing low cost carpool prices and cheap car pool offerings.",
       "Options like carpool coupon and automobile pool coupons offer additional savings for customers.",
@@ -44,9 +42,7 @@ const features = [
   },
   {
     title: "Corporate and Community Carpooling",
-    icon: <FaBuilding className="text-white text-xl" />,
-    iconBg: "bg-[#ffe450]",
-    borderColor: "border-b-[#ffe450]",
+    icon: <img src="/CarPool_5.png" alt="" />,
     items: [
       "Webblaze offers specialized answers for corporate carpooling, making it less difficult for agencies to enforce carpool packages.",
       "Community carpooling functions also are protected, fostering a sense of shared duty and community engagement.",

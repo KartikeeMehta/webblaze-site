@@ -1,6 +1,6 @@
 import React from "react";
 
-const WhyChooseWebblaze = () => {
+const Section_b = () => {
   return (
     <div className="max-w-[1200px] mx-auto px-4 py-10">
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">
@@ -11,7 +11,7 @@ const WhyChooseWebblaze = () => {
       <div className="flex flex-wrap justify-center gap-6 mb-10">
         {/* Card 1 */}
         <div className="bg-white shadow-md rounded-lg p-6 flex-1 min-w-[280px] max-w-[370px]">
-          <div className="text-red-600 text-4xl mb-4">🕑</div>
+          <div className="text-red-600 text-4xl mb-4"><img src="/Food_1.png"/></div>
           <h3 className="text-xl font-semibold mb-3">
             Expertise in Delivery App Development
           </h3>
@@ -73,4 +73,4 @@ const WhyChooseWebblaze = () => {
   );
 };
 
-export default WhyChooseWebblaze;
+export default Section_b;

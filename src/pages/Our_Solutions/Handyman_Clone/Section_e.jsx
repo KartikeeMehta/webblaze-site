@@ -3,7 +3,7 @@ import { FaCogs, FaUsers, FaHandsHelping, FaChartLine, FaLightbulb } from "react
 
 const features = [
   {
-    icon: <FaCogs className="text-3xl text-[#c07b6d] mb-2" />,
+    icon: <img src='/public/Handy_6.png'/>,
     title: "Customization",
     border: "border-red-200",
     points: [
@@ -12,7 +12,7 @@ const features = [
     ],
   },
   {
-    icon: <FaUsers className="text-3xl text-[#e56b5c] mb-2" />,
+    icon:  <img src='/public/Handy_7.png'/>,
     title: "Expertise",
     border: "border-blue-200",
     points: [
@@ -21,7 +21,7 @@ const features = [
     ],
   },
   {
-    icon: <FaHandsHelping className="text-3xl text-[#ffc300] mb-2" />,
+    icon:  <img src='/public/Handy_8.png'/>,
     title: "Support and Training",
     border: "border-yellow-200",
     points: [
@@ -31,7 +31,7 @@ const features = [
     ],
   },
   {
-    icon: <FaChartLine className="text-3xl text-[#f49f0a] mb-2" />,
+    icon:  <img src='/public/Handy_9.png'/>,
     title: "Cost-Effective",
     border: "border-red-200",
     points: [
@@ -41,7 +41,7 @@ const features = [
     ],
   },
   {
-    icon: <FaLightbulb className="text-3xl text-[#ffd43b] mb-2" />,
+    icon:  <img src='/public/Handy_10.png'/>,
     title: "Innovation",
     border: "border-blue-200",
     points: [

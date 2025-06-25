@@ -23,7 +23,7 @@ const Section_d = () => {
         <section className="bg-gray-50 py-16 px-4 md:px-10">
             <div className="max-w-[1200px] mx-auto text-center px-5">
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12">
-                    Benefits of Choosing Webblaze
+                    Enhancing School Operations with Advanced Technology
                 </h2>
 
                 <div className="grid md:grid-cols-3 gap-8">

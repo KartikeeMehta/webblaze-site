@@ -1,6 +1,6 @@
 import React from 'react';
 
-const InfoSections = () => {
+const Section_b = () => {
   return (
     <section className='bg-gray-50'>
     <div className=" max-w-[1200px] mx-auto px-4 py-16 space-y-20">
@@ -50,4 +50,4 @@ const InfoSections = () => {
   );
 };
 
-export default InfoSections;
+export default Section_b;

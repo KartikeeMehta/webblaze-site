@@ -19,15 +19,15 @@ const Section_c = () => {
 
         {/* Text Section */}
         <div id="txt" className="w-full md:w-1/2 space-y-5">
-          <h1 className="text-white text-2xl sm:text-3xl lg:text-5xl font-bold leading-snug text-center md:text-left">
+          <h1 className="text-white text-2xl sm:text-3xl lg:text-4xl font-bold leading-snug text-center md:text-left">
           Features of Our OnlyFans Clone
           </h1>
 
-          <p className="text-white text-sm sm:text-base md:text-lg text-center md:text-left leading-relaxed">
-            Creating compelling content is fundamental to successful social media management. Webblaze excels in social media content creation, ensuring your posts resonate with your target audience and drive engagement.
-          </p>
 
           <ul className="list-disc list-inside text-white text-sm sm:text-base space-y-4">
+            <li>
+              <span className="font-bold">Customizable Interface: </span>Tailor the app to suit your logo’s aesthetics and capability. Whether you’re trying to create an instagram clone, whatsapp clone, fb clone, linkedin clone, or snapchat clone, our platform is absolutely adaptable.
+            </li>
             <li>
               <span className="font-bold">Secure Payment Integration:</span>With a couple of charge gateways, make certain seamless transactions on your subscribers.
             </li>
@@ -41,6 +41,9 @@ const Section_c = () => {
               <span className="font-bold">Analytics and Reporting:</span> Track your performance with precise analytics, assisting you are making data-driven selections.
             </li>
           </ul>
+          <button className="bg-blue-500 text-white px-6 py-2 rounded-lg font-medium hover:bg-blue-600 transition-colors duration-200">
+                        Contact Us
+                    </button>
         </div>
       </div>
       </div>

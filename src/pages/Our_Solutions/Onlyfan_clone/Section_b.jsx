@@ -9,7 +9,7 @@ const Section_b = () => {
           <h2 className="text-2xl md:text-4xl font-bold text-[#1e293b] mb-4">
             Introduction to OnlyFans Clone
           </h2>
-          <p className="text-[#4b5563] text-base md:text-lg mb-6 leading-relaxed">
+          <p className="text-[#4b5563] text-sm md:text-lg mb-6 leading-relaxed">
             Webbaze, a main internet development corporation, introduces the closing social media app – the OnlyFans clone. This platform is designed to emulate the famous OnlyFans enjoy, providing customers the potential to create and proportion one of a kind content, manipulate subscriptions, and construct a committed following. Perfect for influencers, content creators, and agencies seeking to monetize their online presence, our OnlyFans clone is a strong solution to your digital wishes.
           </p>
           <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition duration-300">

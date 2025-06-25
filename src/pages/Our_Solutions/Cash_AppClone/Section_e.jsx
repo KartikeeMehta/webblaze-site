@@ -47,7 +47,7 @@ const Section_e = () => {
       />
 
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
+        <h2 className="text-4xl md:text-3xl font-bold text-gray-900">
           Explore Our Range of Services
         </h2>
       
@@ -68,10 +68,10 @@ const Section_e = () => {
             </div>
 
             <div className="max-w-2xl">
-              <h3 className="text-xl md:text-2xl font-semibold text-gray-900">
+              <h3 className="text-3xl md:text-2xl font-semibold text-gray-900">
                 {service.title}
               </h3>
-              <p className="text-sm md:text-base text-gray-700 mt-4 whitespace-pre-line">
+              <p className="text-md md:text-base text-gray-700 mt-4 whitespace-pre-line">
                 {service.description}
               </p>
             </div>

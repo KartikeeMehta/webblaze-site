@@ -18,22 +18,18 @@ function Section_a() {
               <div className="flex-1" />
 
                 <div className="max-w-xl text-left">
-                    <h2 className="text-white text-3xl md:text-4xl font-bold mb-2 leading-tight drop-shadow">
-                        Transforming Retail
-                    </h2>
-                    <h1 className="text-white text-2xl md:text-4xl font-extrabold mb-4 leading-tight drop-shadow">
-                        Dive into the Future with <br className="hidden md:block" />
-                        Shopping Metaverse <br className="hidden md:block" />
-                        Development
+                    <h1 className="text-white text-3xl md:text-4xl font-extrabold mb-4 leading-tight drop-shadow">
+                        School Management Software with the Aid of Webblaze
                     </h1>
+                    <h2 className="text-white text-2xl md:text-4xl font-bold mb-2 leading-tight drop-shadow">
+                        Transforming Education with Comprehensive School Management Software
+                    </h2>
                     <p className="text-white text-base md:text-lg drop-shadow max-w-lg">
-                        In an era wherein virtual transformation is redefining the retail
-                        panorama, Webblaze is at the leading edge of making contemporary
-                        buying metaverse solutions. Our comprehensive offerings are designed
-                        to revolutionize your retail approach through integrating digital
-                        fact into your enterprise version. Embrace the future with us and
-                        redefine how customers enjoy buying within the metaverse.
+                        In the contemporary academic landscape, efficient school control is critical. Webblaze, a main internet improvement company, gives a ultra-modern faculty control software program that simplifies administrative responsibilities, enhances verbal exchange, and improves normal faculty operations. Our software integrates seamlessly with diverse instructional wishes, making it an vital tool for faculties, faculties, and universities.
                     </p>
+                    <button className="mt-8 bg-[#297CFF] hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-md transition duration-300">
+            Get In Touch
+          </button>
                 </div>
                 {/* Right: Empty, image is in background */}
               

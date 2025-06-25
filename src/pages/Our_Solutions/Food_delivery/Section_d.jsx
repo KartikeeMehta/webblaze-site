@@ -1,31 +1,31 @@
 import React from 'react';
 
-const FeaturesSection = () => {
+const Section_d = () => {
   const features = [
     {
       title: 'User-Friendly Interface',
       desc: 'Our apps are designed with a consumer-first-class interface that makes navigation clean and intuitive. From surfing menus to putting orders, every characteristic is crafted to decorate the person enjoy.',
-      img: '/icons/user-interface.png',
+      img: '/Food_5.png',
     },
     {
       title: 'Real-Time Tracking',
       desc: 'One of the important thing abilties of our meals shipping apps is actual-time monitoring. Users can song their orders from the immediate they area them till they will be added, imparting a feel of security and transparency.',
-      img: '/icons/tracking.png',
+      img: '/Food_6.png',
     },
     {
       title: 'Secure Payment Integration',
       desc: 'We make sure that all transactions made via our apps are strong. Our apps guide a couple of fee strategies, together with credit cards, debit playing cards, and digital wallets, making sure comfort for clients.',
-      img: '/icons/payment.png',
+      img: '/Food_7.png',
     },
     {
       title: 'Advanced Analytics',
       desc: 'Our apps consist of superior analytics capabilities that provide treasured insights into character conduct and selections. This records will permit you to make knowledgeable choices to improve your offerings and growth consumer satisfaction.',
-      img: '/icons/analytics.png',
+      img: '/Food_8.png',
     },
     {
       title: 'Customizable Options',
       desc: 'We provide quite a number customizable alternatives to ensure that your app meets your particular desires. From branding factors to precise capabilities, we tailor our answers to in shape your necessities.',
-      img: '/icons/customize.png',
+      img: '/Food_9.png',
     },
   ];
 
@@ -68,4 +68,4 @@ const FeaturesSection = () => {
   );
 };
 
-export default FeaturesSection;
+export default Section_d;

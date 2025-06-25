@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CustomizationOptions = () => {
+const Section_d = () => {
   const options = [
     {
       image: 'https://webblazesofttech.com/wp-content/uploads/2024/10/image-44.webp',
@@ -51,4 +51,4 @@ const CustomizationOptions = () => {
   );
 };
 
-export default CustomizationOptions;
+export default Section_d;

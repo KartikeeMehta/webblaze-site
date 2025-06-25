@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SafetySection = () => {
+const Section_g = () => {
   return (
     <div className="bg-[#0E1325] text-white py-16 px-4">
       <div className="max-w-[1200px] mx-auto flex flex-col lg:flex-row items-center gap-10">
@@ -51,4 +51,4 @@ const SafetySection = () => {
   );
 };
 
-export default SafetySection;
+export default Section_g;

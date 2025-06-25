@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CostSection = () => {
+const Section_e = () => {
   return (
     <section>
       <h1 className='text-4xl text-black text-center font-bold pt-5 pb-10 m-auto'>Cost to Develop a Food Delivery App</h1>
@@ -43,4 +43,4 @@ const CostSection = () => {
   );
 };
 
-export default CostSection;
+export default Section_e;

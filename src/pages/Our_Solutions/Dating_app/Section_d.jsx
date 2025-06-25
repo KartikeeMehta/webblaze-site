@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Section_e = () => {
+const Section_d = () => {
   return (
     <div className=" bg-gray-100 py-16 px-6">
       <div className='wrap_section_a max-w-[1200px] m-auto'>
@@ -62,4 +62,4 @@ const Section_e = () => {
   )
 }
 
-export default Section_e
+export default Section_d

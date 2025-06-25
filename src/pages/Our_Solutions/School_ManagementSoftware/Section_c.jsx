@@ -1,24 +1,25 @@
 import React from "react";
 
+
 const features = [
   {
     title: "Dance Studio Management",
     iconBg: "bg-blue-500",
-    icon: "🎯", // Replace with proper icon if using icon components
+    icon: <img src="/School_5.png"  />, // Replace with proper icon if using icon components
     description:
       "Webblaze also caters to specialised instructional establishments like dance studios. Our dance studio software consists of capabilities for sophistication scheduling, scholar registration, and fee processing. The dance studio management software program helps streamline studio operations, making sure green elegance control and economic transactions.",
   },
   {
     title: "Computer Monitoring for Schools",
     iconBg: "bg-red-500",
-    icon: "💻",
+    icon: <img src="/School_6.png"  />,
     description:
       "To keep a secure and productive digital environment, our computer monitoring software for colleges gives gear for monitoring pupil activity on college computers. This feature is important for preventing misuse of technology and ensuring that scholars remain centered on their research.",
   },
   {
     title: "Visitor Management",
     iconBg: "bg-blue-500",
-    icon: "🧍‍♂️",
+    icon: <img src="/School_7.png"  />,
     description:
       "Safety and security are paramount in educational institutions. Our raptor traveller control machine helps colleges control and tune traffic effectively. This system complements school security through making sure that all visitors are registered and monitored all through their live on campus.",
   },

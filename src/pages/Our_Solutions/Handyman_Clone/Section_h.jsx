@@ -6,13 +6,12 @@ const Section_h = () => {
         <div className="bg-gray-50 py-16 px-4">
             <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div>
-                    <p className="text-red-500 font-semibold mb-2">Get in Touch</p>
+                    <p className="text-2xl text-red-500 font-semibold mb-2">Get in Touch</p>
                     <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
-                        Ready to take your taxi organization to the subsequent degree with our Uber clone app?
+                        How To Get Started
                     </h2>
                     <p className="text-gray-700 mb-8">
-                        Our dedicated team is committed to providing prompt and effective support to ensure your needs are met. We believe in open communication and are always ready to listen. Reach out to us via phone, email, or live chat, or visit our office during business hours.
-
+                        Talk to our professional today and discover how our superior technology can transform your platform.
                     </p>
 
                     <div className="space-y-6">

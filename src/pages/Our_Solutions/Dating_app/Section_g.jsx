@@ -24,7 +24,7 @@ const faqs = [
   }
 ];
 
-const Section_h = () => {
+const Section_g = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
   const toggleFAQ = (index) => {
@@ -57,4 +57,4 @@ const Section_h = () => {
   );
 };
 
-export default Section_h;
+export default Section_g;

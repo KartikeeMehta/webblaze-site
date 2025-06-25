@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PopularFeatures = () => {
+const Section_e = () => {
   const features = [
     {
       title: 'Smart Matching',
@@ -53,4 +53,4 @@ const PopularFeatures = () => {
   );
 };
 
-export default PopularFeatures;
+export default Section_e;

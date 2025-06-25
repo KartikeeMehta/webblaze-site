@@ -2,22 +2,22 @@ import React from "react";
 
 const techStack = [
   {
-    icon: '/b2bGrowthIcon.png',
+    icon: '/Uber_1.png',
     title: "Flutter",
     description: "For move-platform compatibility and a continuing individual revel in.",
   },
   {
-    icon: '/b2bGrowthIcon.png',
+    icon: '/Uber_2.png',
     title: "React Native",
     description: "To construct excessive-performance mobile apps with a local look and experience.",
   },
   {
-     icon: '/b2bGrowthIcon.png',
+     icon: '/Uber_3.png',
     title: "Firebase",
     description: "For dependable and stable backend services.",
   },
   {
-    icon: '/b2bGrowthIcon.png',
+    icon: '/Uber_4.png',
     title: "Node.Js",
     description: "For green server-side operations.",
   },

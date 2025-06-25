@@ -54,13 +54,6 @@ const Section_d = () => {
         className="absolute bottom-0 left-0 w-40"
       />
 
-      <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
-          Explore Our Range of Services
-        </h2>
-      
-      </div>
-
       <div className="mt-16 space-y-20 max-w-5xl mx-auto">
         {seoServices.map((service, index) => (
           <div

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Section_c = () => {
+const Section_e = () => {
   return (
     <div className="bg-[#181C2E] bg-[url('https://webblazesofttech.com/wp-content/uploads/2024/07/background-lines.webp')] bg-cover bg-center w-full px-4 py-12">
       <div className='wrap_section_a max-w-[1200px] m-auto'>
@@ -44,4 +44,4 @@ const Section_c = () => {
   );
 };
 
-export default Section_c;
+export default Section_e;

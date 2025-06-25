@@ -1,6 +1,6 @@
 import React from 'react';
 
-const FeatureSection = () => {
+const Section_b = () => {
   return (
     
     <div className="flex flex-col lg:flex-row max-w-[1200px] mx-auto p-4 gap-6">
@@ -46,4 +46,4 @@ const FeatureItem = ({ title, desc }) => (
   
 );
 
-export default FeatureSection;
+export default Section_b;

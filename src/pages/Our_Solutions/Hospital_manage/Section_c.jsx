@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const FeaturesSection = () => {
+const Section_c = () => {
   const [selected, setSelected] = useState(0);
 
   const features = [
@@ -90,4 +90,4 @@ const FeaturesSection = () => {
   );
 };
 
-export default FeaturesSection;
+export default Section_c;

@@ -3,7 +3,7 @@ import { FaRegClock, FaRegSmile, FaChartBar, FaExpandAlt, FaComments } from "rea
 
 const benefits = [
   {
-    icon: <FaRegClock className="text-red-500 text-3xl mb-2" />,
+    icon:  <img src='/public/Handy_1.png'/>,
     title: "Increased Efficiency",
     border: "border-b-[3px] border-red-500",
     points: [
@@ -13,7 +13,7 @@ const benefits = [
     ],
   },
   {
-    icon: <FaRegSmile className="text-blue-500 text-3xl mb-2" />,
+    icon:  <img src='/public/Handy_2.png'/>,
     title: "Enhanced Customer Experience",
     border: "border-b-[3px] border-blue-500",
     points: [
@@ -23,7 +23,7 @@ const benefits = [
     ],
   },
   {
-    icon: <FaChartBar className="text-yellow-500 text-3xl mb-2" />,
+    icon:  <img src='/public/Handy_3.png'/>,
     title: "Better Financial Management",
     border: "border-b-[3px] border-yellow-400",
     points: [
@@ -33,7 +33,7 @@ const benefits = [
     ],
   },
   {
-    icon: <FaExpandAlt className="text-red-500 text-3xl mb-2" />,
+    icon:  <img src='/public/Handy_4.png'/>,
     title: "Scalability",
     border: "border-b-[3px] border-red-500",
     points: [
@@ -43,7 +43,7 @@ const benefits = [
     ],
   },
   {
-    icon: <FaComments className="text-blue-500 text-3xl mb-2" />,
+    icon: <img src='/public/Handy_5.png'/>,
     title: "Improved Communication",
     border: "border-b-[3px] border-blue-500",
     points: [

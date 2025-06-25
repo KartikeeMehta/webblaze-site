@@ -68,7 +68,7 @@ function Header() {
       path: "/School_ManagementSoftware",
     },
     { icon: "🍔", label: "Food delivery app", path: "/Food_delivery" },
-    { icon: "🛒", label: "Ecommerce" },
+    { icon: "🛒", label: "Ecommerce", path: "/E_comm" },
     {
       icon: "🍽️",
       label: "Restaurant Management",
@@ -76,7 +76,7 @@ function Header() {
     },
 
     { icon: "📚", label: "LMS", path: "/Lms" },
-    { icon: "🚗", label: "Car rental" },
+    { icon: "🚗", label: "Car rental", path: "/Car_rental" },
     { icon: "🔐", label: "Only fan clone", path: "/Onlyfan_clone" },
   ];
   const marketingItems = [

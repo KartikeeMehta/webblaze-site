@@ -48,7 +48,7 @@ const Section_g = () => {
                 </span>
               </div>
 
-              <p className="md:w-2/3 text-sm text-gray-700 leading-relaxed">
+              <p className="text-md md:w-2/3 text-sm text-gray-700 leading-relaxed">
                 {service.description}
               </p>
             </div>

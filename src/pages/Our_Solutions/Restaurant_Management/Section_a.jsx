@@ -14,7 +14,7 @@ function Section_a() {
                 </div>
                 <div className="flex-1 flex flex-col items-start justify-center max-w-2xl">
                     <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
-                      Operations with 
+                      Streamline Your Restaurant Operations with
                       <span className="text-2xl md:text-3xl font-bold text-[#f75c5c] mb-4"> Webblaze's Restaurant Management </span>Software
                     </h2>
                  

@@ -1,27 +1,27 @@
 import React from 'react';
 
-const DevelopmentProcess = () => {
+const Section_c = () => {
   const processSteps = [
     {
-      icon: '/icons/requirement-analysis.png', // Replace with actual icon paths
+      icon: '/Taxi_1.png',
       title: 'Requirement Analysis',
       desc: 'We begin thru expertise your organization dreams, target marketplace, and precise selling elements.',
       color: 'text-red-500'
     },
     {
-      icon: '/icons/design.png',
+      icon: '/Taxi_2.png',
       title: 'Design and Prototyping',
       desc: 'Our designers create intuitive and appealing UI/UX designs, stimulated via a success apps like Uber Taxi App and Lyft Cab Service.',
       color: 'text-red-500'
     },
     {
-      icon: '/icons/development.png',
+      icon: '/Taxi_3.png',
       title: 'Development and Testing',
       desc: 'Using the present day generation, our builders assemble a excessive-not unusual usual performance app, cautiously tested to make sure it meets all superb necessities.',
       color: 'text-red-500'
     },
     {
-      icon: '/icons/deployment.png',
+      icon: '/Taxi_4.png',
       title: 'Deployment and Support',
       desc: 'We help with app deployment on app shops and offer ongoing assist and updates.',
       color: 'text-red-500'
@@ -45,11 +45,11 @@ const DevelopmentProcess = () => {
             key={idx}
             className="w-full sm:w-[45%] lg:w-[22%] flex flex-col items-center text-center"
           >
-            <div className="bg-gray-100 rounded-full p-6 mb-4">
-              <img src={step.icon} alt={step.title} className="w-12 h-12" />
+            <div className="bg-gray-100 rounded-full p-5 mb-4">
+              <img src={step.icon} alt={step.title} className="w-12 h-12 " />
             </div>
-            <h4 className={`text-lg font-semibold mb-2 ${step.color}`}>{step.title}</h4>
-            <p className="text-gray-600 text-sm">{step.desc}</p>
+            <h4 className={`text-xl font-semibold mb-2 ${step.color}`}>{step.title}</h4>
+            <p className="text-gray-600 text-md">{step.desc}</p>
           </div>
         ))}
       </div>
@@ -57,4 +57,4 @@ const DevelopmentProcess = () => {
   );
 };
 
-export default DevelopmentProcess;
+export default Section_c;

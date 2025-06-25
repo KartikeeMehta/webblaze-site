@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AnalyticsSection = () => {
+const Section_f = () => {
   const features = [
     {
       img: 'https://webblazesofttech.com/wp-content/uploads/2024/10/image-3048-1.webp', // Replace with actual image paths
@@ -53,4 +53,4 @@ const AnalyticsSection = () => {
   );
 };
 
-export default AnalyticsSection;
+export default Section_f;

@@ -16,7 +16,7 @@ const Section_i = () => {
 
                 <div className="relative z-10 max-w-4xl">
                     <h1 className="text-3xl md:text-4xl font-bold mb-6">Best Uber Clone App</h1>
-                    <h6 className="text-1xl md:text-1xl mb-6">Webblaze is devoted to turning within the high-quality Uber clone app in the marketplace. Our interest on splendid, normal performance, client pride gadgets us aside.</h6>
+                    <h6 className="text-xl md:text-1xl mb-6">Webblaze is devoted to turning within the high-quality Uber clone app in the marketplace. Our interest on splendid, normal performance, client pride gadgets us aside.</h6>
 
                 </div>
 

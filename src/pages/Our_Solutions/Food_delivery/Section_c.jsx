@@ -1,6 +1,6 @@
 import React from "react";
 
-const FeatureSection = () => {
+const Section_c = () => {
   const cards = [
     {
       title: "Food Delivery Application Development",
@@ -79,4 +79,4 @@ const FeatureSection = () => {
   );
 };
 
-export default FeatureSection;
+export default Section_c;

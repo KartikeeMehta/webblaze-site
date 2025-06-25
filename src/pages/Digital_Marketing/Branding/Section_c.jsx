@@ -76,7 +76,7 @@ const Card = ({ icon, title, description, bg }) => (
 
 const Section_c = () => {
   return (
-    <section className="py-20 px-6 max-w-7xl mx-auto">
+    <section className="py-20 px-6 max-w-[1200px] mx-auto">
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bold text-gray-900">Our Branding Services</h2>
         <p className="text-lg text-gray-700 mt-2">Custom Logo Design</p>

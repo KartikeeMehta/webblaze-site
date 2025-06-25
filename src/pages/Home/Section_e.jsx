@@ -22,24 +22,26 @@ function Section_e() {
         />
         {/* Stats Cards */}
         <div className="absolute top-[30%] left-[18%]">
-          <div className="flex items-center bg-white rounded-xl shadow px-6 py-4">
-            <span className="bg-red-400 text-white font-bold rounded-lg px-3 py-1 mr-3">
+          <div className="flex items-center bg-white rounded-xl shadow  h-[55px] w-[220px] mt-10 p-0.5">
+            <span className="bg-red-400 text-white text-sm font-bold rounded-lg h-[100%] flex items-center justify-center p-1 mr-3">
               500+
             </span>
             <span className="text-gray-700 font-medium">Created Projects</span>
           </div>
         </div>
+
         <div className="absolute top-[10%] left-1/2 -translate-x-1/2">
-          <div className="flex items-center bg-white rounded-xl shadow px-6 py-4">
-            <span className="bg-red-400 text-white font-bold rounded-lg px-3 py-1 mr-3">
+          <div className="flex items-center bg-white rounded-xl shadow h-[55px] w-[220px] p-0.5">
+            <span className="bg-red-400 text-white font-bold rounded-lg py-2 text-sm mr-3 h-[100%] p-2.5 flex items-center justify-center">
               5k+
             </span>
             <span className="text-gray-700 font-medium">Awesome Clients</span>
           </div>
         </div>
+
         <div className="absolute top-[50%] right-[18%]">
-          <div className="flex items-center bg-white rounded-xl shadow px-6 py-4">
-            <span className="bg-red-400 text-white font-bold rounded-lg px-3 py-1 mr-3">
+          <div className="flex items-center bg-white rounded-xl h-[55px] w-[220px] p-0.5">
+            <span className="bg-red-400 text-white font-bold rounded-lg py-2 text-sm mr-3 h-[100%] p-2.5 flex items-center justify-center">
               12+
             </span>
             <span className="text-gray-700 font-medium">Years in Business</span>

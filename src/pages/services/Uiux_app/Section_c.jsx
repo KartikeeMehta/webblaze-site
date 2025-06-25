@@ -4,7 +4,7 @@ import { FaUser, FaEye, FaHandshake } from 'react-icons/fa';
 const Section_c = () => {
   return (
     <section className="bg-[#1b1e2f] text-white py-20 px-6">
-      <div className="max-w-7xl mx-auto text-center space-y-8">
+      <div className="max-w-[1200px] mx-auto text-center space-y-8 px-6">
         <h2 className="text-3xl sm:text-4xl font-bold">
           Our Approach to UI and UX Design
         </h2>

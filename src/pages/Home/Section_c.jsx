@@ -23,6 +23,7 @@ const services = [
     name: "E-Commerce",
     color: "bg-yellow-100",
     bgColor: "#E7DE02",
+     path: "/E_comm",
     icon: "/E-CommerceIcon.png",
     summary: "Webblaze delivers robust and scalable e-commerce platforms equipped with advanced features like secure payment gateways, intuitive product catalogs, and personalized shopping experiences.",
   },

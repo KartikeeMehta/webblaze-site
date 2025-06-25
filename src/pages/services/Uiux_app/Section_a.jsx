@@ -4,7 +4,7 @@ import sectionImage from "/public/section_a_bg.png";
 const Section_a = () => {
   return (
     <section className="bg-white py-0 px-6 sm:px-10 lg:px-16 overflow-hidden">
-      <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center justify-between gap-10">
+      <div className="max-w-[1200px] mx-auto flex flex-col-reverse md:flex-row items-center justify-between gap-10 px-4">
         <div className="md:w-1/2 text-center md:text-left">
           <h2 className="text-3xl sm:text-4xl md:text-4xl font-bold text-gray-900 mb-3 leading-tight">
             <span className="text-red-500">UI and UX Development</span>

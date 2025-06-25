@@ -8,7 +8,7 @@ const Section_d = () => {
             style={{
                 backgroundImage: `url(${bgImage})`,
             }}>
-            <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <div className="max-w-[1200px] mx-auto grid md:grid-cols-2 gap-12 items-center px-6">
                 <div className="relative">
                     <div className="absolute -bottom-3 -left-3 w-full h-full bg-yellow-400 rounded-xl z-0"></div>
                     <img

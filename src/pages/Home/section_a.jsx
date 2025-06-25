@@ -1,10 +1,10 @@
 import React from "react";
-import { Button } from "@/components/ui/button"; 
+import { Button } from "@/components/ui/button";
 export default function SectionA() {
   return (
     <section className="max-w-[1200px] mx-auto px-4 py-12 flex flex-col md:flex-row items-center justify-between gap-8">
       <div className="flex-1">
-        <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
+        <h1 className="text-4xl md:text-5xl font-semibold leading-tight mb-4">
           Rapid, Reliable and Ready <br />– Get Your{" "}
           <span className="text-red-500">App Developed</span>
           <br /> by Industry Experts
@@ -14,10 +14,10 @@ export default function SectionA() {
           Needs and Exceed Your Expectations.
         </p>
         <div className="flex gap-4 mb-8">
-          <Button className="bg-blue-500 hover:bg-blue-600 text-white">
+          <Button variant='outline' className="bg-[#1c92ff] hover:bg-white text-white hover:text-[#1c92ff] shadow-md border-[2px] border-blue-500">
             Get in Touch
           </Button>
-          <Button variant="outline">Hire a Developer</Button>
+          <Button className='hover:bg-[#1c92ff] rounded-lg hover:text-white bg-white shadow-md border-[2px] border-blue-500' variant="outline">Hire a Developer</Button>
         </div>
         <div className="flex items-center gap-6 mt-4">
           <span className="font-semibold text-gray-800">

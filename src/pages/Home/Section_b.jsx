@@ -3,19 +3,19 @@ import React from "react";
 function Section_b() {
   return (
     <section className="bg-[#fafbfc] py-[85px]">
-      <div className="max-w-7xl mx-auto px-6 lg:flex lg:items-center lg:gap-16">
+      <div className="max-w-[1200px] mx-auto px-6 lg:flex lg:items-center lg:gap-16">
         <div className="relative mb-10 lg:mb-0 lg:w-1/2">
-          <div className="absolute -top-6 -left-6 w-16 h-16 rounded-lg border border-blue-200 flex items-center justify-center bg-white shadow">
+          <div className="absolute top-5 w-35 h-20 rounded-lg  flex items-center justify-center">
             <img
               src="https://webblazesofttech.com/wp-content/uploads/2025/04/rocket-in-pocket-1.gif"
               alt="rocket icon"
-              className="w-[100px] h-[100px] ms-[60px]"
+              className="w-[100%] h-[100px] object-contain"
             />
           </div>
           <img
             src="https://webblazesofttech.com/wp-content/uploads/2024/07/About.webp"
             alt="Team working"
-            className="rounded-[3rem] w-full shadow-xl"
+            className="rounded-[3rem] w-[511px] h-[588px] shadow-xl"
           />
         </div>
 
@@ -24,13 +24,13 @@ function Section_b() {
           <h2 className="font-bold text-gray-900 mb-4 leading-tight text-3xl">
             Premier Code Crafting Agency
           </h2>
-          <p className="text-[#484B56] text-base font-normal  mb-4">
+          <p className="text-[#484b56] text-base font-normal  mb-6">
             WebBlaze Softtech is the ultimate hub for all things digital! As a
             top-tier web development agency, we are experts in creating
             breathtaking websites and dynamic web applications that deliver
             real results.
           </p>
-          <p className="text-gray-600 mb-6">
+          <p className="text-[#484b56] text-base font-normal mb-6">
             Our team of professionals specializes in SEO, branding, and digital
             marketing, guaranteeing that your online presence shines above the
             rest. Whether you need a custom e-commerce platform or a

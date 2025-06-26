@@ -5,7 +5,7 @@ import rocketIcon from "../../assets/rocketIcon.png";
 const Section_b = () => {
   return (
     <section className="bg-[#f9fafb] py-20 px-4">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10">
+      <div className="max-w-[1200px] mx-auto flex flex-col md:flex-row items-center gap-10">
         <div className="relative w-full md:w-1/2">
           <div className="rounded-[60px] border border-gray-200 p-2 shadow-md overflow-hidden bg-white relative">
             <img
@@ -13,8 +13,8 @@ const Section_b = () => {
               alt="Webblaze Team"
               className="rounded-[40px] w-full object-cover"
             />
-            <div className="absolute top-[40px] left-10 bg-white shadow-lg rounded-xl p-2">
-              <img src={rocketIcon} alt="Rocket Icon" className="h-12 w-12 " />
+            <div className="absolute top-[40px] left-0 bg-white shadow-lg rounded-xl p-2">
+              <img src={rocketIcon} alt="Rocket Icon" className="h-24 w-24"/>
             </div>
             <div className="absolute bottom-0 left-0 w-10 h-1 bg-yellow-400 rounded-full" />
             <div className="absolute top-1/2 -translate-y-1/2 right-0 w-1 h-10 bg-yellow-400 rounded-full" />

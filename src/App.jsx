@@ -56,6 +56,8 @@ import Car_rental from "./pages/Car_rental";
 import RealEstate_Management from "./pages/RealEstate_Management";
 import Pickup from "./pages/Pickup";
 import Hotel_management from "./pages/hotel_management";
+import Contact_Us from "./pages/Contact_Us";
+import Free_Seo_Audit from "./pages/Free_Seo_Audit";
 
 function App() {
   return (
@@ -133,6 +135,16 @@ function App() {
           path="/RealEstate_Management"
           element={<RealEstate_Management />}
         />
+        <Route
+          path="/Contact_Us"
+          element={<Contact_Us />}
+        />
+        <Route
+          path="/Free_Seo_Audit"
+          element={<Free_Seo_Audit />}
+        />
+
+
       </Routes>
     </Router>
   );

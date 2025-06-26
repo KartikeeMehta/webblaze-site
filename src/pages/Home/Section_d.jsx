@@ -3,7 +3,7 @@ import React from "react";
 function Section_d() {
   return (
     <section className="w-full bg-[url('https://webblazesofttech.com/wp-content/uploads/2024/07/background-lines.webp')] bg-[#1c202d] bg-cover bg-center py-16 flex items-center justify-center min-h-[500px]">
-      <div className="max-w-6xl w-full mx-auto flex flex-col md:flex-row items-center gap-10 px-4">
+      <div className="max-w-[1200px] w-full mx-auto flex flex-col md:flex-row items-center gap-10 px-4">
         <div className="flex-1 text-white w-1/2">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Your Partner Success

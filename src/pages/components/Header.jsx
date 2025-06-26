@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import About_us from "../About_us";
 import { NavLink } from "react-router-dom";
 
@@ -11,6 +11,7 @@ function Header() {
   const [onAi, setOnAi] = useState(false);
   const [onMetaverseItems, setOnMetaverseItems] = useState(false);
   const [onAnimationItems, setOnAnimationItems] = useState(false);
+  const navigate = useNavigate();
 
   const servicesDropdown = [
     { label: "UI/UX App", icon: "🧩", path: "/Uiux_app" },
@@ -366,10 +367,17 @@ function Header() {
           </NavLink>
         </nav>
         <div className="hidden lg:flex space-x-3">
-          <button className="bg-blue-500 text-white text-sm  rounded-[12px] hover:bg-blue-600 transition duration-200 py-[10px] px-[20px]">
+          <button
+            onClick={() => navigate('/Contact_Us')}
+            className="bg-blue-500 text-white text-sm  hover:border-blue-600 border-[2px]  rounded-[12px] hover:bg-white hover:text-blue-600 transition duration-200 py-[10px] px-[20px]"
+          >
             Get in Touch
           </button>
-          <button className="bg-blue-500 text-white text-sm  rounded-[12px] hover:bg-blue-600 transition duration-200 py-[10px] px-[20px]">
+          <button
+            onClick={() => navigate('/Free_Seo_Audit')}
+       
+           className="bg-blue-500
+            text-white text-sm   hover:border-blue-600 border-[2px] hover:text-blue-600 hover:bg-white rounded-[12px] transition duration-200 py-[10px] px-[20px]">
             Free SEO Audit
           </button>
         </div>

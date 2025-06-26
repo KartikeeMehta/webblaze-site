@@ -3,7 +3,7 @@ import React from "react";
 const Section_b = () => {
     return (
         <div className="bg-white px-6 md:px-16 py-28">
-            <div className="max-w-[1200px] mx-auto flex flex-col md:flex-row items-center gap-12">
+            <div className="max-w-[1200px] mx-auto flex flex-col md:flex-row items-center gap-12 px-6">
                 <div className="flex-1">
                     <h2 className="text-3xl md:text-4xl font-bold text-[#12162b] leading-snug mb-6">
                         Bringing Your Jewelry <br />

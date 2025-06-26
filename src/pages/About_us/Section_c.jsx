@@ -38,7 +38,7 @@ const features = [
 const Section_c = () => {
   return (
     <section className="py-20 px-6 bg-white">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+      <div className="max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
         <div>
           <p className="text-red-500 font-semibold mb-2">Why Choose Us</p>
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4 leading-snug">

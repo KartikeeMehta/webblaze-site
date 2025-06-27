@@ -19,7 +19,7 @@ function Section_a() {
           </p>
 
           <div id="btn">
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-2 rounded-md transition duration-300">
+            <button className="bg-blue-500 hover:bg-blue-700 text-white px-8 py-2 rounded-md transition duration-300">
               Contact Us
             </button>
           </div>

@@ -24,10 +24,10 @@ const Section_g = () => {
               className="w-full h-64 object-cover"
             />
             <div className="p-6 text-left">
-              <h3 className="text-xl font-semibold text-black mb-3">
+              <h3 className="text-2xl font-semibold text-black mb-3">
                 Growth Marketing Analytics
               </h3>
-              <p className="text-gray-700 text-sm">
+              <p className="text-gray-700 text-md">
                 At Webblaze, we consider in continuous development. Our growth
                 advertising analytics offerings provide distinctive insights
                 into marketing campaign performance, patron behavior, and ROI.
@@ -44,10 +44,10 @@ const Section_g = () => {
               className="w-full h-64 object-cover"
             />
             <div className="p-6 text-left">
-              <h3 className="text-xl font-semibold text-black mb-3">
+              <h3 className="text-2xl font-semibold text-black mb-3">
                 Performance Growth Marketing
               </h3>
-              <p className="text-gray-700 text-sm">
+              <p className="text-gray-700 text-md">
                 Our performance increase advertising approach makes a speciality
                 of maximizing ROI and reaching measurable outcomes. We set clean
                 KPIs, reveal development, and make facts-pushed adjustments to

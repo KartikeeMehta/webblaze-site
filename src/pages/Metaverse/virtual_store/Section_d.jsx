@@ -37,7 +37,7 @@ function Section_d() {
     <div
       className="w-full min-h-screen flex flex-col items-center justify-center py-16"
       style={{
-        backgroundImage: "url('/your-bg-pattern.png')", // Replace with your actual background image
+        backgroundImage: "url('background-lines.webp')", // Replace with your actual background image
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "repeat",

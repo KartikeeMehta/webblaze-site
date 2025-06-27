@@ -6,19 +6,10 @@ const Section_a = () => {
             <div className="max-w-[1200px] mx-auto flex flex-col md:flex-row items-center gap-12">
                 <div className="flex-1">
                     <h2 className="text-3xl md:text-4xl font-bold text-[#12162b] leading-snug mb-6">
-                        Bringing Your Jewelry <br />
-                        Visions to Life with 3D <br />
-                        Design
+                       3D Product Design Services by means of Webblaze
                     </h2>
                     <p className="text-gray-700 text-base leading-relaxed">
-                        Welcome to Webblaze, your ultimate vacation spot for modern-day 3D
-                        rings layout offerings. At Webblaze, we specialize in transforming
-                        your particular ideas into beautiful 3D fashions, ensuring your
-                        rings sticks out within the marketplace. Whether you’re an person
-                        seeking to create custom pieces or a enterprise aiming to extend
-                        your product line, our expert designers and ultra-modern technology
-                        will bring your vision to life. Explore our comprehensive services
-                        and see how we can turn your desires into fact.
+                        Welcome to Webblaze, your trusted companion for innovative 3D product design offerings. At Webblaze, a highest quality net development organization, we specialise in reworking your thoughts into beautiful 3D models that convey your vision to lifestyles. Whether you’re searching out 3D product modeling, 3D photograph layout, or advanced drafting software program solutions, our group of specialists is here that will help you acquire your dreams.
                     </p>
                 </div>
 

@@ -3,24 +3,24 @@ import React, { useState } from 'react';
 
 const faqs = [
     {
-        question: 'What is SEO and why is it important?',
-        answer: 'SEO stands for Search Engine Optimization, a process of optimizing a website to rank higher in search engine results. It is important because it helps increase organic traffic, improves visibility, and drives more potential customers to your site.'
+        question: 'What is branding and why is it important?',
+        answer: 'Branding is the process of creating a unique identity for a company or product, encompassing its logo, design, messaging, and values. It’s important because it helps build recognition, trust, and loyalty with customers.'
     },
     {
-        question: 'How long does it take to see SEO results?',
-        answer: 'SEO results typically take 3-6 months to show significant changes, depending on the competition, keyword difficulty, and the quality of optimization efforts.'
+        question: 'How do I build a strong brand identity?',
+        answer: 'A strong brand identity is built through consistent visual elements (logos, colors, fonts), clear messaging, a compelling story, and delivering on your brand promise.'
     },
     {
-        question: 'What are on-page SEO and off-page SEO?',
-        answer: 'On-page SEO refers to optimizing elements on your website, like content, meta tags, and internal links. Off-page SEO includes activities outside your website, such as backlink building, social media promotion, and guest blogging.'
+        question: 'What are the key elements of a brand strategy?',
+        answer: 'Key elements include your brand’s mission, vision, target audience, unique value proposition, messaging, tone of voice, and brand aesthetics (logos, website, packaging).'
     },
     {
-        question: 'How do I know if my SEO efforts are working?',
-        answer: 'You can track SEO performance through tools like Google Analytics, Search Console, and keyword ranking reports. Metrics such as organic traffic, bounce rate, and conversion rates are key indicators of SEO success.'
+        question: 'How does branding impact customer perception?',
+        answer: 'Branding influences how customers perceive your company. A strong brand communicates quality, reliability, and values, helping you stand out in a crowded market and build customer loyalty.'
     },
     {
-        question: 'Can I do SEO for my website by myself?',
-        answer: 'Yes, you can do basic SEO for your website by following best practices, but for advanced strategies and long-term success, it’s recommended to hire an experienced SEO professional or agency.'
+        question: 'Can branding help with customer retention?',
+        answer: 'Yes, effective branding creates an emotional connection with customers, helping build trust and loyalty, which leads to repeat business and long-term relationships.'
     }
 ];
 

@@ -3,7 +3,7 @@ import React from "react";
 
 const Section_d = () =>  {
   return (
-    <div className="bg-white py-16 px-6 sm:px-12">
+    <div className="bg-gray-50 py-16 px-6 sm:px-12">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         <div>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">

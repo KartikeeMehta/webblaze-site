@@ -7,12 +7,12 @@ const Section_i = () => {
         <div className="bg-gray-50  py-16 px-4">
             <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div>
-                    <p className="text-red-500 font-semibold mb-2">Get in Touch</p>
+                    <p className="text-2xl text-red-500 font-semibold mb-2">Get Started with Webblaze Today</p>
                     <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
-                    Get Started with Webblaze
+                    Ready to take your crypto change to the following degree?
                     </h2>
                     <p className="text-gray-700 mb-8">
-                      Our dedicated team is committed to providing prompt and effective support to ensure your needs are met. We believe in open communication and are always ready to listen. Reach out to us via phone, email, or live chat, or visit our office during business hours.
+                      Our crew at Webblaze is committed to turning in top-tier crypto change development offerings that meet your business desires. Partner with us and leverage our knowledge to create a successful and stable cryptocurrency alternate platform.
                     </p>
 
                     <div className="space-y-6">

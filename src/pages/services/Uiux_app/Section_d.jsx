@@ -9,22 +9,22 @@ const Section_d = () => {
       bg: 'bg-blue-100'
     },
     {
-      icon: <FaLayerGroup className="text-red-300 text-4xl" />,
+      icon: <img src="UiUx_5.png" alt="" />,
       title: 'Comprehensive Services',
       bg: 'bg-red-100'
     },
     {
-      icon: <FaUserCog className="text-yellow-400 text-4xl" />,
+      icon: <img src="UiUx_6.png" alt="" />,
       title: 'User-Centric Approach',
       bg: 'bg-yellow-100'
     },
     {
-      icon: <FaProjectDiagram className="text-red-300 text-4xl" />,
+      icon: <img src="UiUx_7.png" alt="" />,
       title: 'Collaborative Process',
       bg: 'bg-red-100'
     },
     {
-      icon: <FaChartLine className="text-yellow-400 text-4xl" />,
+      icon: <img src="UiUx_8.png" alt="" />,
       title: 'Proven Track Record',
       bg: 'bg-yellow-100'
     },

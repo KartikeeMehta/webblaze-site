@@ -46,7 +46,7 @@ const services = [
         color: "bg-[#38bdf8]",
         bg: "bg-[#e0f2fe]",
         description:
-            "From inns to consuming places, our net format services help companies inside the hospitality employer entice and preserve customers via visually attractive and purposeful internet websites.",
+            "Developing streaming systems and multiplayer gaming servers with low-latency verbal exchange.",
     },
 ];
 
@@ -55,10 +55,10 @@ const Section_f = () => {
         <div className="bg-white text-gray-800 px-4 py-16 max-w-7xl mx-auto">
             <div className="text-center max-w-3xl mx-auto mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold mb-2">
-                    Web Design Services for Various Industries
+                    Node.Js in Industry Applications
                 </h2>
                 <p className="text-sm md:text-base text-gray-600">
-                    No rely what agency you are in, our net layout business organisation has the information to create a internet web site that meets your precise wishes. Here are some of the industries we serve
+                    Node.Js has located extensive adoption throughout numerous industries:
                 </p>
             </div>
 
@@ -74,9 +74,9 @@ const Section_f = () => {
                             <div className={`w-10 h-10 flex items-center justify-center rounded-full ${item.color}`}>
                                 {item.icon}
                             </div>
-                            <h3 className="font-bold text-md">{item.title}</h3>
+                            <h3 className="font-bold text-2xl">{item.title}</h3>
                         </div>
-                        <p className="text-sm text-gray-700 leading-relaxed">{item.description}</p>
+                        <p className="text-md text-gray-700 leading-relaxed">{item.description}</p>
                         <div className="absolute bottom-0 left-0 w-full h-[2px] bg-gradient-to-r from-sky-400 to-blue-500 rounded-b-xl"></div>
                     </div>
                 ))}
@@ -94,9 +94,9 @@ const Section_f = () => {
                             <div className={`w-10 h-10 flex items-center justify-center rounded-full ${item.color}`}>
                                 {item.icon}
                             </div>
-                            <h3 className="font-bold text-md">{item.title}</h3>
+                            <h3 className="font-bold text-xl">{item.title}</h3>
                         </div>
-                        <p className="text-sm text-gray-700 leading-relaxed">{item.description}</p>
+                        <p className="text-lg text-gray-700 leading-relaxed">{item.description}</p>
                         <div className="absolute bottom-0 left-0 w-full h-[2px] bg-gradient-to-r from-sky-400 to-blue-500 rounded-b-xl"></div>
                     </div>
                 ))}

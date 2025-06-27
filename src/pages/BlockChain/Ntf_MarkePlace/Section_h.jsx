@@ -3,24 +3,24 @@ import React, { useState } from 'react';
 
 const faqs = [
   {
-    question: 'What are decentralized apps (DApps)?',
-    answer: 'Decentralized apps (DApps) run on a peer-to-peer network of computers rather than a centralized server. They use blockchain or similar technology to ensure transparency, security, and control over user data.'
+    question: 'What is an NFT marketplace?',
+    answer: 'An NFT marketplace is a platform where users can buy, sell, and trade non-fungible tokens (NFTs), which represent unique digital assets like art, music, videos, and collectibles.'
   },
   {
-    question: 'How do decentralized apps work?',
-    answer: 'DApps operate on blockchain platforms, with their backend code being open-source. They enable users to interact with smart contracts and decentralized databases to perform specific functions'
+    question: 'How do NFT marketplaces work?',
+    answer: 'NFT marketplaces use blockchain technology to list, trade, and authenticate NFTs. Buyers and sellers interact through the marketplace to exchange ownership of digital assets.'
   },
   {
-    question: 'What are the advantages of DApps?',
-    answer: 'DApps offer enhanced security, transparency, censorship resistance, and greater control for users over their data, compared to traditional apps.'
+    question: 'Can I create my own NFT marketplace?',
+    answer: 'Yes, you can create your own NFT marketplace by developing the platform and integrating blockchain features to enable users to mint, buy, and sell NFTs.'
   },
   {
-    question: 'Can DApps be used for business purposes?',
-    answer: 'Yes, DApps can be used for various business applications such as finance, gaming, supply chain management, and decentralized finance (DeFi).'
+    question: 'What are the fees associated with NFT marketplaces?',
+    answer: 'Fees typically include listing fees, transaction fees, and minting fees, depending on the platform. Each marketplace has its own fee structure.'
   },
   {
-    question: 'Are decentralized apps secure?',
-    answer: 'DApps are more secure due to the decentralized nature of their underlying blockchain technology. However, security depends on the platform and smart contract development.'
+    question: 'What blockchain is used for NFTs?',
+    answer: 'Ethereum is the most popular blockchain for NFTs, but other blockchains like Binance Smart Chain, Solana, and Tezos are also used to mint and trade NFTs.'
   }
 ];
 

@@ -3,24 +3,24 @@ import React, { useState } from 'react';
 
 const faqs = [
     {
-        question: 'What is SEO and why is it important?',
-        answer: 'SEO stands for Search Engine Optimization, a process of optimizing a website to rank higher in search engine results. It is important because it helps increase organic traffic, improves visibility, and drives more potential customers to your site.'
+        question: 'What is smart contract development?',
+        answer: 'Smart contract development involves creating self-executing contracts with the terms of the agreement directly written into lines of code. These contracts automatically execute once conditions are met.'
     },
     {
-        question: 'How long does it take to see SEO results?',
-        answer: 'SEO results typically take 3-6 months to show significant changes, depending on the competition, keyword difficulty, and the quality of optimization efforts.'
+        question: 'Why should I use smart contracts?',
+        answer: 'Smart contracts enhance security, transparency, and efficiency by eliminating the need for intermediaries, reducing the chances of fraud, and ensuring automated execution.'
     },
     {
-        question: 'What are on-page SEO and off-page SEO?',
-        answer: 'On-page SEO refers to optimizing elements on your website, like content, meta tags, and internal links. Off-page SEO includes activities outside your website, such as backlink building, social media promotion, and guest blogging.'
+        question: 'How do smart contracts work?',
+        answer: 'Smart contracts run on blockchain networks. Once predefined conditions are met, the contract automatically executes without the need for manual intervention or third parties.'
     },
     {
-        question: 'How do I know if my SEO efforts are working?',
-        answer: 'You can track SEO performance through tools like Google Analytics, Search Console, and keyword ranking reports. Metrics such as organic traffic, bounce rate, and conversion rates are key indicators of SEO success.'
+        question: 'What are the benefits of developing smart contracts for my business?',
+        answer: 'Benefits include lower transaction costs, faster operations, enhanced security, and trustless transactions between parties.'
     },
     {
-        question: 'Can I do SEO for my website by myself?',
-        answer: 'Yes, you can do basic SEO for your website by following best practices, but for advanced strategies and long-term success, it’s recommended to hire an experienced SEO professional or agency.'
+        question: 'Which blockchain platforms are used for smart contract development?',
+        answer: 'Popular platforms include Ethereum, Binance Smart Chain, Solana, and Cardano, which provide the infrastructure to build and deploy smart contracts.'
     }
 ];
 

@@ -15,7 +15,7 @@ const Section_a = () => {
             Transforming Ideas into Dynamic Interfaces with React.Js Development
             Services
           </h2>
-          <p className="mt-6 text-gray-700 text-base md:text-sm leading-relaxed">
+          <p className="mt-6 text-gray-700 text-base md:text-lg leading-relaxed">
             At Webblaze, we specialise in leveraging the strength of React.Js to
             craft seamless and interactive net applications that captivate users
             and power enterprise growth. As a main net improvement organisation,

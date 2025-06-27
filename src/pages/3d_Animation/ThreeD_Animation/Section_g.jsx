@@ -36,7 +36,7 @@ const Section_g = () => {
                     Our Portfolio of Work
                 </h2>
                 <h2 className="text-2xl md:text-3xl font-bold text-center mb-3 text-[#1d1e25]">
-                    Tailored Solutions for Your Needs
+                    Popular Animation Projects
                 </h2>
                 <p className="mb-16" >Webblaze has labored on a number of excessive-profile animation tasks, turning in awesome results for our customers. Some of our incredible projects consist of:
                 </p>
@@ -53,10 +53,10 @@ const Section_g = () => {
                                 className="w-full h-56 object-cover"
                             />
                             <div className="p-6 text-center">
-                                <h3 className="text-lg font-bold mb-3 text-[#1d1e25]">
+                                <h3 className="text-xl font-bold mb-3 text-[#1d1e25]">
                                     {card.title}
                                 </h3>
-                                <p className="text-sm text-gray-700 leading-relaxed">
+                                <p className="text-md text-gray-700 leading-relaxed">
                                     {card.description}
                                 </p>
                             </div>

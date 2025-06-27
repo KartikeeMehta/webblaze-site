@@ -57,7 +57,7 @@ const Section_d = () => {
                 <h2 className="text-3xl md:text-4xl font-bold mb-2">
                     Web Design Services for Various Industries
                 </h2>
-                <p className="text-sm md:text-base text-gray-600">
+                <p className="text-sm md:text-base text-gray-700">
                     No rely what agency you are in, our net layout business organisation has the information to create a internet web site that meets your precise wishes. Here are some of the industries we serve
                 </p>
             </div>
@@ -74,9 +74,9 @@ const Section_d = () => {
                             <div className={`w-10 h-10 flex items-center justify-center rounded-full ${item.color}`}>
                                 {item.icon}
                             </div>
-                            <h3 className="font-bold text-md">{item.title}</h3>
+                            <h3 className="font-bold text-xl">{item.title}</h3>
                         </div>
-                        <p className="text-sm text-gray-700 leading-relaxed">{item.description}</p>
+                        <p className="text-lg text-gray-700 leading-relaxed">{item.description}</p>
                         <div className="absolute bottom-0 left-0 w-full h-[2px] bg-gradient-to-r from-sky-400 to-blue-500 rounded-b-xl"></div>
                     </div>
                 ))}
@@ -94,9 +94,9 @@ const Section_d = () => {
                             <div className={`w-10 h-10 flex items-center justify-center rounded-full ${item.color}`}>
                                 {item.icon}
                             </div>
-                            <h3 className="font-bold text-md">{item.title}</h3>
+                            <h3 className="font-bold text-xl">{item.title}</h3>
                         </div>
-                        <p className="text-sm text-gray-700 leading-relaxed">{item.description}</p>
+                        <p className="text-lg text-gray-700 leading-relaxed">{item.description}</p>
                         <div className="absolute bottom-0 left-0 w-full h-[2px] bg-gradient-to-r from-sky-400 to-blue-500 rounded-b-xl"></div>
                     </div>
                 ))}

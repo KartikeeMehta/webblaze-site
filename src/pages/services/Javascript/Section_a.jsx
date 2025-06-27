@@ -12,12 +12,10 @@ const Section_a = () => {
       <div className="max-w-[1200px] mx-auto px-6 flex flex-col lg:flex-row items-center justify-between gap-10 rounded-3xl p-8 ">
         <div className="w-[65%]">
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
-            Webblaze - Your Ultimate <br />
-            <span className="text-red-500">JavaScript Development</span>
-          </h1>
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
-            Partner
-          </h2>
+            Webblaze - Your Ultimate 
+            <span className="text-red-500"> JavaScript Development </span>
+          partner</h1>
+         
           <p className="mt-6 text-gray-700 text-base md:text-lg leading-relaxed">
             Welcome to Webblaze, a leading web development company specializing
             in top-tier JavaScript services. Our expertise spans across

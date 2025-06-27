@@ -40,12 +40,12 @@ const Section_e = () => {
                             <img
                                 src={card.icon}
                                 alt={card.title}
-                                className="w-10 h-10 mb-4"
+                                className="w-14 h-14 mb-4"
                             />
-                            <h3 className="text-xl font-bold text-gray-900 mb-2">
+                            <h3 className="text-2xl font-bold text-gray-900 mb-2">
                                 {card.title}
                             </h3>
-                            <p className="text-gray-700 text-sm leading-relaxed">
+                            <p className="text-gray-700 text-md leading-relaxed">
                                 {card.description}
                             </p>
                         </div>

@@ -3,24 +3,24 @@ import React, { useState } from 'react';
 
 const faqs = [
     {
-        question: 'What is SEO and why is it important?',
-        answer: 'SEO stands for Search Engine Optimization, a process of optimizing a website to rank higher in search engine results. It is important because it helps increase organic traffic, improves visibility, and drives more potential customers to your site.'
+        question: 'What is PPC advertising?',
+        answer: 'PPC is an online advertising model where advertisers pay a fee each time their ad is clicked. It’s a way to buy visits to your site rather than earning them organically through SEO.'
     },
     {
-        question: 'How long does it take to see SEO results?',
-        answer: 'SEO results typically take 3-6 months to show significant changes, depending on the competition, keyword difficulty, and the quality of optimization efforts.'
+        question: 'How does Google Ads work for PPC?',
+        answer: 'Google Ads allows you to create ads that appear on Google’s search results and partner websites. You bid on keywords, and your ad is shown when someone searches for those terms. You pay when a user clicks on your ad.'
     },
     {
-        question: 'What are on-page SEO and off-page SEO?',
-        answer: 'On-page SEO refers to optimizing elements on your website, like content, meta tags, and internal links. Off-page SEO includes activities outside your website, such as backlink building, social media promotion, and guest blogging.'
+        question: 'What is the difference between SEO and PPC?',
+        answer: 'SEO focuses on organic search results, while PPC involves paid ads. SEO takes time to show results, while PPC delivers immediate traffic as soon as the ads are live.'
     },
     {
-        question: 'How do I know if my SEO efforts are working?',
-        answer: 'You can track SEO performance through tools like Google Analytics, Search Console, and keyword ranking reports. Metrics such as organic traffic, bounce rate, and conversion rates are key indicators of SEO success.'
+        question: 'How do I create a successful PPC campaign?',
+        answer: 'Start by choosing the right keywords, setting a budget, creating compelling ad copy, and continuously testing and optimizing your campaigns based on performance data.'
     },
     {
-        question: 'Can I do SEO for my website by myself?',
-        answer: 'Yes, you can do basic SEO for your website by following best practices, but for advanced strategies and long-term success, it’s recommended to hire an experienced SEO professional or agency.'
+        question: 'How do I track the effectiveness of my PPC campaigns?',
+        answer: 'You can track PPC performance using Google Analytics, Google Ads’ reporting features, and conversion tracking to measure metrics like click-through rates (CTR), cost-per-click (CPC), and return on ad spend (ROAS).'
     }
 ];
 

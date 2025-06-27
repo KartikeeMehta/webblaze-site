@@ -6,7 +6,7 @@ const contentBlocks = [
     description:
       "Leverage the power of email marketing with our Klaviyo Shopify integration. This powerful double enables you create personalized/interactive mail campaigns that retain interactions customers and drive sales. Our integration offering makes certain that you can easily manage your marketing efforts from within your Shopify store.",
     imagePath:
-      "https://images.pexels.com/photos/206434/pexels-photo-206434.jpeg?auto=compress&w=200&h=200&fit=crop",
+      "https://webblazesofttech.com/wp-content/uploads/2025/02/young-woman-holding-colorful-gift-bag-while-taking-photo-it-white-wall-1_11zon-scaled.jpg",
     borderColor: "border-yellow-300",
   },
   {
@@ -14,7 +14,7 @@ const contentBlocks = [
     description:
       "If you are into dropshipping, our Oberlo Shopify and DSers Shopify apps are perfect for you. These apps simplify the method of importing merchandise from providers and handling orders. With our dropshipping tools, you can without difficulty upload merchandise for your store and automate your account stocks.",
     imagePath:
-      "https://images.pexels.com/photos/1139743/pexels-photo-1139743.jpeg?auto=compress&w=200&h=200&fit=crop",
+      "https://webblazesofttech.com/wp-content/uploads/2025/02/front-view-woman-with-shopping-bags-concept_11zon-scaled.jpg",
     borderColor: "border-rose-300",
   },
   {
@@ -22,7 +22,7 @@ const contentBlocks = [
     description:
       "Efficient stock management is crucial for any E-commerce strategist. Our Shopify stock management app helps you hold track of your stock degrees in real-time, lowering the threat of stockouts and overstocking. The Shopify POS Pro complements this via providing superior stock management capabilities, incorporated along with your POS gadget.",
     imagePath:
-      "https://images.pexels.com/photos/2100063/pexels-photo-2100063.jpeg?auto=compress&w=200&h=200&fit=crop",
+      "https://webblazesofttech.com/wp-content/uploads/2025/02/front-view-woman-holing-tablet-shopping-bags_11zon-scaled.jpg",
     borderColor: "border-yellow-300",
   },
 ];
@@ -30,7 +30,7 @@ const contentBlocks = [
 function Section_c() {
   return (
     <div
-      className="relative w-full py-16 md:py-24 bg-[#fafbfc]"
+      className="relative w-full py-16 md:py-24 bg-gray-50"
       style={{
         backgroundImage:
           "url('https://webblazesofttech.com/wp-content/uploads/2024/07/background-lines.webp')",
@@ -41,7 +41,7 @@ function Section_c() {
     >
       <div className="max-w-[1000px] mx-auto px-4">
         {/* Main Title */}
-        <h2 className="text-xl md:text-2xl font-bold text-center mb-10 text-[#222]">
+        <h2 className="text-xl md:text-4xl font-bold text-center mb-10 text-[#222]">
           Advanced Features and App Integration
         </h2>
 
@@ -63,10 +63,10 @@ function Section_c() {
             </div>
             {/* Text */}
             <div>
-              <h3 className="text-lg md:text-xl font-bold mb-2 text-[#222]">
+              <h3 className="text-lg md:text-3xl font-bold mb-2 text-[#222]">
                 {contentBlocks[0].title}
               </h3>
-              <p className="text-gray-700 text-sm md:text-base">
+              <p className="text-gray-700 text-sm md:text-lg">
                 {contentBlocks[0].description}
               </p>
             </div>
@@ -88,10 +88,10 @@ function Section_c() {
             </div>
             {/* Text */}
             <div>
-              <h3 className="text-lg md:text-xl font-bold mb-2 text-[#222]">
+              <h3 className="text-lg md:text-3xl font-bold mb-2 text-[#222]">
                 {contentBlocks[1].title}
               </h3>
-              <p className="text-gray-700 text-sm md:text-base">
+              <p className="text-gray-700 text-sm md:text-lg">
                 {contentBlocks[1].description}
               </p>
             </div>
@@ -113,10 +113,10 @@ function Section_c() {
             </div>
             {/* Text */}
             <div>
-              <h3 className="text-lg md:text-xl font-bold mb-2 text-[#222]">
+              <h3 className="text-lg md:text-3xl font-bold mb-2 text-[#222]">
                 {contentBlocks[2].title}
               </h3>
-              <p className="text-gray-700 text-sm md:text-base">
+              <p className="text-gray-700 text-sm md:text-lg">
                 {contentBlocks[2].description}
               </p>
             </div>

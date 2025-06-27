@@ -2,8 +2,13 @@ import React from 'react';
 
 const Section_a = () => {
   return (
-    <section className="bg-[rgba(0,0,0,0.6)] bg-[url('/public/smm_sectionA.jpg')] bg-cover bg-center w-full px-4 py-12">
-      <div className='wrap_section_a max-w-[1200px] m-auto'>
+    <section className="bg-[rgba(0,0,0,0.6)] bg-[url('/public/smm_sectionA.jpg')] relative w-full min-h-[400px] flex items-center justify-center py-12">
+          {/* Overlay */}
+      <div
+        className="absolute inset-0 bg-[#000000E0]"
+        style={{ backgroundColor: "#000000A0" }}
+      ></div>
+      <div className='wrap_section_a max-w-[1200px] m-auto relative'>
       <div className="max-w-[1200px] m-auto flex flex-col items-center justify-center text-center">
         <div className="w-full sm:w-[90%] md:w-[80%] bg-opacity-100 p-4 sm:p-6 md:p-8 rounded-xl">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4">

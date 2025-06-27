@@ -11,11 +11,11 @@ const Section_a = () => {
     >
       <div className="max-w-[1200px] mx-auto px-6 flex flex-col lg:flex-row items-center justify-between gap-10 rounded-3xl p-8 ">
         <div className="flex-1">
-          <p className="text-2xl md:text-sm font-bold leading-snug text-red-500 mb-4">
+          <p className="text-2xl md:text-md font-bold leading-snug text-red-500 mb-4">
             Webblaze: Your Ultimate NFT Marketplace Solution.
           </p>
 
-          <h2 className="text-2xl md:text-3xl font-bold leading-snug text-black">
+          <h2 className="text-2xl md:text-4xl font-bold leading-snug text-black">
             Discover the World of{" "}
             <span className="text-red-500">NFTs</span>
           </h2>
@@ -24,7 +24,7 @@ const Section_a = () => {
             with Webblaze
           </h2>
 
-          <p className="mt-6 text-gray-700 text-base md:text-sm leading-relaxed">
+          <p className="mt-6 text-gray-700 text-base md:text-lg leading-relaxed">
             Welcome to Webblaze, a main web development company that specialize in growing contemporary NFT marketplaces. Our expertise in growing robust NFT structures ensures that your marketplace stands out in the competitive virtual landscape. With our innovative solutions, you can release a feature-rich NFT market that caters to artists, collectors, and investors international.
           </p>
 

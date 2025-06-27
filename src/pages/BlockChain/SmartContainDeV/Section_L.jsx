@@ -7,12 +7,12 @@ const Section_l = () => {
         <div className="bg-gray-50  py-16 px-4">
             <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div>
-                    <p className="text-red-500 font-semibold mb-2">Get in Touch</p>
+                    <p className="text-red-500 font-semibold mb-2">Talk To Our Expert</p>
                     <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
-                    Get Started with Webblaze
+                    Ready to get started with smart agreement improvement? Talk to our professional in recent times.
                     </h2>
                     <p className="text-gray-700 mb-8">
-                      Our dedicated team is committed to providing prompt and effective support to ensure your needs are met. We believe in open communication and are always ready to listen. Reach out to us via phone, email, or live chat, or visit our office during business hours.
+                      With Webblaze, you may count on pinnacle-tier picture layout services that increase your brand and captivate your target market. Let us assist you create a visible identity that stands out and drives fulfillment.
                     </p>
 
                     <div className="space-y-6">

@@ -40,9 +40,9 @@ const Section_e = () => {
                             />
                         </div>
                         <div>
-                            <h3 className="text-xl font-bold text-gray-900 mb-3">{item.title}</h3>
-                            <p className="text-gray-600 text-sm mb-2">{item.desc}</p>
-                            {item.address && <p className="text-sm font-semibold text-gray-900">{item.address}</p>}
+                            <h3 className="text-3xl font-bold text-gray-900 mb-3">{item.title}</h3>
+                            <p className="text-gray-600 text-xl mb-2">{item.desc}</p>
+                            {item.address && <p className="text-lg font-semibold text-gray-900">{item.address}</p>}
                         </div>
                     </div>
                 ))}

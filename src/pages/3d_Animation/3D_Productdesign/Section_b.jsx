@@ -62,7 +62,7 @@ const Section_b = () => {
                   <h3 className="text-lg md:text-xl font-semibold mb-2">
                     {item.title}
                   </h3>
-                  <p className="text-gray-700 text-sm leading-relaxed">
+                  <p className="text-gray-700 text-md leading-relaxed">
                     {item.description}
                   </p>
                 </div>

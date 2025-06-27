@@ -12,21 +12,10 @@ const Section_a = () => {
       <div className="max-w-[1200px] mx-auto px-6 flex flex-col lg:flex-row items-center justify-between gap-10 rounded-3xl p-8 ">
         <div className="flex-1">
           <h2 className="text-2xl md:text-4xl font-bold leading-snug text-red-500">
-            Node.Js Development{" "}
-            <span className=" text-black">
-              <br className="hidden sm:block" />
-              Services: Empowering Your Digital Future
-            </span>
+            Node.Js Development <span className="text-black">Services: Empowering Your Digital Future</span>
           </h2>
-          <p className="mt-6 text-gray-700 text-base md:text-sm leading-relaxed">
-            Welcome to Webblaze, your cross-to net development company focusing
-            on Vue.Js development offerings. Vue.Js is a revolutionary
-            JavaScript framework used to create dynamic and excessive-performing
-            web packages. Whether you are looking for a single-page application
-            or a complex company-degree solution, Webblaze has the knowledge to
-            supply top-notch results. Our crew of seasoned builders harnesses
-            the electricity of Vue.Js to build scalable, maintainable, and green
-            web packages that meet your business desires.
+          <p className="mt-6 text-gray-700 text-base md:text-lg leading-relaxed">
+            In the realm of present day net and application improvement, Node.Js stands tall as a flexible and powerful framework. At Webblaze, we concentrate on harnessing the entire capacity of Node.Js to craft contemporary solutions that power your enterprise forward.
           </p>
           <button className="mt-8 px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition">
             Contact Us

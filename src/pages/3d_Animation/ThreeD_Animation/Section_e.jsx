@@ -29,11 +29,11 @@ const Section_e = () => {
         <div className="bg-[#fafafa] py-20 px-6 md:px-16">
             <div className="max-w-[1200px] mx-auto">
 
-                <h2 className="text-2xl md:text-3xl font-bold text-center mb-5 text-[#1d1e25]">
+                <h2 className="text-2xl md:text-4xl font-bold text-center mb-5 text-[#1d1e25]">
                     Customized Solutions for Every Need
                 </h2>
 
-                <p className=" mb-16">At Webblaze, we understand that each assignment is specific. That’s why we offer customized animation answers tailor-made to your unique necessities. Whether you need youtube animation, 3D person animation, or 3D medical animation, we’ve were given have been given the abilities and revel in to deliver extraordinary results. Our offerings encompass:</p>
+                <p className="text-lg mb-16">At Webblaze, we understand that each assignment is specific. That’s why we offer customized animation answers tailor-made to your unique necessities. Whether you need youtube animation, 3D person animation, or 3D medical animation, we’ve were given have been given the abilities and revel in to deliver extraordinary results. Our offerings encompass:</p>
 
                 <div className="grid gap-8 md:grid-cols-3">
                     {cards.map((card, index) => (
@@ -48,10 +48,10 @@ const Section_e = () => {
                                     className="w-12 h-12 object-contain"
                                 />
                             </div>
-                            <h3 className="text-lg font-bold mb-3 text-[#1d1e25]">
+                            <h3 className="text-xl font-bold mb-3 text-[#1d1e25]">
                                 {card.title}
                             </h3>
-                            <p className="text-sm text-gray-700 leading-relaxed">
+                            <p className="text-md text-gray-700 leading-relaxed">
                                 {card.description}
                             </p>
                         </div>

@@ -50,7 +50,7 @@ const Section_g = () => {
         <div className="flex flex-col-reverse md:flex-row gap-8 w-full px-4 sm:px-6 md:px-16 py-12 items-center">
           {/* Text */}
           <div className="w-full md:w-1/2 space-y-5">
-            <h3 className="text-xl md:text-4xl text-red-500">Enhanced Tools and Management</h3>
+            <h3 className="text-xl md:text-3xl text-red-500">Enhanced Tools and Management</h3>
             <h2 className="text-2xl md:text-4xl font-bold text-black">
               Facebook Ads Manager and Meta Business Manager
             </h2>

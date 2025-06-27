@@ -16,17 +16,14 @@ const Section_a = () => {
           <div className="w-full lg:w-1/2">
             <h1 className="text-[42px] sm:text-[46px] lg:text-[48px] leading-tight font-bold mb-6 text-black">
               <span className="text-red-500">Web Design</span>{" "}
-              <span className="text-red-500">Services</span> by using
-              <br />
-              <span className="text-black">Webblaze</span>
+              <span className="text-red-500">Services</span> by using Webblaze
+              
             </h1>
 
             <p className="text-gray-600 text-[17px] leading-[1.9] mb-8">
               Welcome to Webblaze, your maximum green internet improvement
               agency offering top-notch net layout offerings tailored to fulfill
               your particular needs.
-              <br />
-              <br />
               Whether you’re looking for a entire internet site overhaul or a
               present day website from scratch, our group of expert designers
               and developers is right here that will help you create a stunning

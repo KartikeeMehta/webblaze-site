@@ -2,29 +2,29 @@ import React, { useState } from "react";
 
 const faqs = [
   {
-    question: "What is SEO and why is it important?",
+    question: "What is growth marketing?",
     answer:
-      "SEO stands for Search Engine Optimization, a process of optimizing a website to rank higher in search engine results. It is important because it helps increase organic traffic, improves visibility, and drives more potential customers to your site.",
+      "Growth marketing focuses on strategies and tactics aimed at achieving sustainable growth, often through a combination of data-driven insights, experimentation, and cross-channel marketing.",
   },
   {
-    question: "How long does it take to see SEO results?",
+    question: "How is growth marketing different from traditional marketing?",
     answer:
-      "SEO results typically take 3-6 months to show significant changes, depending on the competition, keyword difficulty, and the quality of optimization efforts.",
+      "Growth marketing emphasizes experimentation, rapid testing, and optimization to achieve measurable growth. Traditional marketing focuses on broad strategies and longer-term campaigns.",
   },
   {
-    question: "What are on-page SEO and off-page SEO?",
+    question: "What are some effective growth marketing strategies?",
     answer:
-      "On-page SEO refers to optimizing elements on your website, like content, meta tags, and internal links. Off-page SEO includes activities outside your website, such as backlink building, social media promotion, and guest blogging.",
+      "Effective strategies include content marketing, influencer marketing, referral programs, email marketing, paid ads, and social media campaigns. It’s important to test and iterate based on data.",
   },
   {
-    question: "How do I know if my SEO efforts are working?",
+    question: "How do I measure the success of growth marketing efforts?",
     answer:
-      "You can track SEO performance through tools like Google Analytics, Search Console, and keyword ranking reports. Metrics such as organic traffic, bounce rate, and conversion rates are key indicators of SEO success.",
+      "Success is measured through KPIs like user acquisition, retention, engagement, conversion rates, and lifetime value (LTV) of customers.",
   },
   {
-    question: "Can I do SEO for my website by myself?",
+    question: "Can growth marketing work for small businesses?",
     answer:
-      "Yes, you can do basic SEO for your website by following best practices, but for advanced strategies and long-term success, it’s recommended to hire an experienced SEO professional or agency.",
+      "Yes, growth marketing can work for small businesses by focusing on cost-effective strategies like viral marketing, referrals, and content creation, leveraging data to maximize results.",
   },
 ];
 

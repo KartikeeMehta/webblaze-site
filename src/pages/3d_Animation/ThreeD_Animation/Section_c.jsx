@@ -29,13 +29,13 @@ const Section_c = () => {
         <div className="bg-[#fafafa] py-20 px-6 md:px-16">
             <div className="max-w-[1200px] mx-auto">
 
-                <h2 className="text-2xl md:text-3xl font-bold text-center mb-5 text-[#E95353]">
+                <h2 className="text-2xl md:text-4xl font-bold text-center mb-5 text-[#E95353]">
                     Our Expertise in 3D Animation
                 </h2>
-                <h4 className="text-2xl md:text-2xl font-bold text-center mb-5 text-[#1d1e25]">
+                <h4 className="text-2xl md:text-4xl font-bold text-center mb-5 text-[#1d1e25]">
                     Professional 3D Animation Services
                 </h4>
-                <p className=" mb-16">At Webblaze, we provide a huge style of 3D animation services to cater to numerous industries and dreams. Our organization of professional animators is talented in developing fantastic animations that captivate audiences and bring your message successfully. Our offerings encompass:</p>
+                <p className=" text-lg mb-16">At Webblaze, we provide a huge style of 3D animation services to cater to numerous industries and dreams. Our organization of professional animators is talented in developing fantastic animations that captivate audiences and bring your message successfully. Our offerings encompass:</p>
 
                 <div className="grid gap-8 md:grid-cols-3">
                     {cards.map((card, index) => (
@@ -50,10 +50,10 @@ const Section_c = () => {
                                     className="w-12 h-12 object-contain"
                                 />
                             </div>
-                            <h3 className="text-lg font-bold mb-3 text-[#1d1e25]">
+                            <h3 className="text-2xl font-bold mb-3 text-[#1d1e25]">
                                 {card.title}
                             </h3>
-                            <p className="text-sm text-gray-700 leading-relaxed">
+                            <p className="text-lg text-gray-700 leading-relaxed">
                                 {card.description}
                             </p>
                         </div>

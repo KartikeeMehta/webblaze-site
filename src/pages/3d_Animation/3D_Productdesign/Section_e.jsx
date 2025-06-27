@@ -5,28 +5,28 @@ const cards = [
         icon: "/seoDigitalIcon.png",
         title: "Increased Efficiency",
         description:
-            "Our 3D avatars are designed to be well matched across diverse structures, including IMVU on-line 3D metaverse game, membership cooee apk, and virtual avatar games. This ensures a steady and tasty user enjoy, no matter the platform.",
+            "Using advanced drafting software like AutoCAD Civil Engineering and IMSI TurboCAD, we streamline the layout manner to shop time and resources.",
         borderColor: "border-b-[4px] border-[#ff4d4f]",
     },
     {
         icon: "/seoDigitalIcon.png",
         title: "Enhanced Visual Appeal",
         description:
-            "Webblaze offers superior customization alternatives for 3D avatars, allowing you to create precise and personalised virtual representations. Our offerings consist of 3D avatar chat rooms, avatar 3D apk, and avatar 3D loose online, supplying infinite possibilities for customization.",
+            "Our 3D photo layout services, consisting of 3D furniture design and 3D container layout, ensure that your merchandise are visually appealing and stand out within the market.",
         borderColor: "border-b-[4px] border-[#1890ff]",
     },
     {
         icon: "/seoDigitalIcon.png",
         title: "Precision and Accuracy",
         description:
-            "Enhance your virtual presence with interactive features which include avatar orchestra metaverse, avatar life love metaverse, and avatar games on line virtual worlds. Our 3D avatars provide a dynamic and tasty experience that keeps users coming returned for greater.",
+            "With tools like Autodesk 123D Design and Fusion 360 for 3D printing, we create unique fashions that meet precise specifications.",
         borderColor: "border-b-[4px] border-[#fadb14]",
     },
      {
         icon: "/seoDigitalIcon.png",
         title: "Versatility",
         description:
-            "Enhance your virtual presence with interactive features which include avatar orchestra metaverse, avatar life love metaverse, and avatar games on line virtual worlds. Our 3D avatars provide a dynamic and tasty experience that keeps users coming returned for greater.",
+            " From 3D product modeling to 3D packaging rendering, we provide a extensive range of services to cater to unique industries and design desires.",
         borderColor: "border-b-[4px] border-[#fadb14]",
     },
     
@@ -39,7 +39,7 @@ const Section_e = () => {
 
 
                 <h2 className="text-2xl md:text-3xl font-bold text-center mb-16 text-[#1d1e25]">
-                    Seamless Integration Across Platforms
+                   Benefits of Our 3D Product Design Services
                 </h2>
 
                 <div className="grid gap-8 md:grid-cols-3">
@@ -55,10 +55,10 @@ const Section_e = () => {
                                     className="w-12 h-12 object-contain"
                                 />
                             </div>
-                            <h3 className="text-lg font-bold mb-3 text-[#1d1e25]">
+                            <h3 className="text-xl font-bold mb-3 text-[#1d1e25]">
                                 {card.title}
                             </h3>
-                            <p className="text-sm text-gray-700 leading-relaxed">
+                            <p className="text-md text-gray-700 leading-relaxed">
                                 {card.description}
                             </p>
                         </div>

@@ -25,11 +25,8 @@ function Section_a() {
             <span className="text-[#ea5254]">Video and Photo </span>
             Editing Solution
           </h2>
-          <p className="mt-6 text-gray-700 text-base md:text-lg leading-relaxed">
-            At Webblaze, we specialize in providing pinnacle-notch video and
-            image modifying offerings designed to fulfill the various wishes of
-            our clients. Our professional team utilizes the extremely-current
-            tools and techniques to transform raw photos and photos into lovely
+          <p className="mt-6 text-gray-700 text-base md:text-lg leading-9">
+            At Webblaze, we specialize in providing pinnacle-notch video and image modifying offerings designed to fulfill the various wishes of our clients. Our professional team utilizes the extremely-current tools and techniques to transform raw photos and photos into lovely
             seen content fabric. Whether you are looking for expert video
             publish production or brilliant photo improving offerings, we have
             were given you blanketed.

@@ -9,9 +9,9 @@ const Section_d = () => {
 
                 <div className="grid md:grid-cols-2 gap-8 items-center mb-16">
                     <div className="text-left">
-                        <h3 className="text-xl font-semibold mb-2">
+                        <h3 className="text-2xl font-semibold mb-2">
                             Consumer Goods</h3>
-                        <ul className="list-disc list-inside text-sm text-gray-300 leading-relaxed">
+                        <ul className="list-disc list-inside text-lg text-gray-300 leading-relaxed">
                             <li>
                                 3D Packaging Design: Create pleasing packaging that stands out on shelves.
                                 3D Apparel: Design particular and latest 3D hoodies and different apparel.
@@ -38,8 +38,8 @@ const Section_d = () => {
                     </div>
 
                     <div className="text-left">
-                        <h3 className="text-xl font-semibold mb-2">Furniture Design</h3>
-                        <ul className="list-disc list-inside text-sm text-gray-300 leading-relaxed">
+                        <h3 className="text-2xl font-semibold mb-2">Furniture Design</h3>
+                        <ul className="list-disc list-inside text-lg text-gray-300 leading-relaxed">
                             <li>
                                 3D Furniture Rendering: Develop special fashions for diverse furnishings pieces.
                                 SketchUp Furniture Models: Create accurate and realistic 3D models for fixtures.
@@ -50,8 +50,8 @@ const Section_d = () => {
 
                 <div className="grid md:grid-cols-2 gap-8 items-center">
                     <div className="text-left">
-                        <h3 className="text-xl font-semibold mb-2">Electronics and Gadgets</h3>
-                        <ul className="list-disc list-inside text-sm text-gray-300 leading-relaxed">
+                        <h3 className="text-2xl font-semibold mb-2">Electronics and Gadgets</h3>
+                        <ul className="list-disc list-inside text-lg text-gray-300 leading-relaxed">
                             <li>3D Modeling for Product Design: Create specific models for electronics.
                                 Fusion 360 for 3D Printing: Design models prepared for 3D printing.
                             </li>
@@ -76,8 +76,8 @@ const Section_d = () => {
                     </div>
 
                     <div className="text-left">
-                        <h3 className="text-xl font-semibold mb-2">Furniture Design</h3>
-                        <ul className="list-disc list-inside text-sm text-gray-300 leading-relaxed">
+                        <h3 className="text-2xl font-semibold mb-2">Furniture Design</h3>
+                        <ul className="list-disc list-inside text-lg text-gray-300 leading-relaxed">
                             <li>
                                 3D Furniture Rendering: Develop special fashions for diverse furnishings pieces.
                                 SketchUp Furniture Models: Create accurate and realistic 3D models for fixtures.

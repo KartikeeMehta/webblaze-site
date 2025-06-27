@@ -3,24 +3,24 @@ import React, { useState } from 'react';
 
 const faqs = [
     {
-        question: 'What is SEO and why is it important?',
-        answer: 'SEO stands for Search Engine Optimization, a process of optimizing a website to rank higher in search engine results. It is important because it helps increase organic traffic, improves visibility, and drives more potential customers to your site.'
+        question: 'What is a P2P crypto exchange?',
+        answer: 'A P2P (peer-to-peer) crypto exchange allows users to trade cryptocurrencies directly with each other without the need for an intermediary or centralized exchange. The platform connects buyers and sellers and facilitates secure transactions.'
     },
     {
-        question: 'How long does it take to see SEO results?',
-        answer: 'SEO results typically take 3-6 months to show significant changes, depending on the competition, keyword difficulty, and the quality of optimization efforts.'
+        question: 'How does a P2P crypto exchange work?',
+        answer: 'P2P exchanges match buyers and sellers based on their trade preferences. After agreeing on the terms, an escrow service holds the cryptocurrency until the transaction is confirmed, ensuring both parties are protected.'
     },
     {
-        question: 'What are on-page SEO and off-page SEO?',
-        answer: 'On-page SEO refers to optimizing elements on your website, like content, meta tags, and internal links. Off-page SEO includes activities outside your website, such as backlink building, social media promotion, and guest blogging.'
+        question: 'Is P2P crypto exchange safe?',
+        answer: 'Yes, P2P exchanges provide safety measures like escrow services, user verification, and dispute resolution systems. However, it’s important to be cautious and use trusted platforms for security.'
     },
     {
-        question: 'How do I know if my SEO efforts are working?',
-        answer: 'You can track SEO performance through tools like Google Analytics, Search Console, and keyword ranking reports. Metrics such as organic traffic, bounce rate, and conversion rates are key indicators of SEO success.'
+        question: 'Can I buy and sell crypto on a P2P exchange?',
+        answer: 'Yes, you can buy and sell various cryptocurrencies like Bitcoin, Ethereum, and more on a P2P exchange, directly from other users.'
     },
     {
-        question: 'Can I do SEO for my website by myself?',
-        answer: 'Yes, you can do basic SEO for your website by following best practices, but for advanced strategies and long-term success, it’s recommended to hire an experienced SEO professional or agency.'
+        question: 'What are the fees associated with P2P crypto exchanges?',
+        answer: 'Fees vary depending on the platform. Some exchanges charge a small fee for transactions, while others may be fee-free or have higher fees based on the payment method.'
     }
 ];
 

@@ -31,7 +31,7 @@ const Section_b = () => {
   return (
     <div className="bg-[#f4f4f4] w-full py-20 px-4">
       <div className="max-w-[1200px] mx-auto">
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-16">
+        <h2 className="text-2xl md:text-4xl font-bold text-center mb-16">
           Transform Your Online Identity
         </h2>
 
@@ -45,8 +45,8 @@ const Section_b = () => {
             >
               {/* Text */}
               <div className={`${item.reverse ? "order-2 md:pl-10" : "order-1 md:pr-10"}`}>
-                <h3 className="text-lg font-semibold mb-4">{item.title}</h3>
-                <p className="text-sm text-gray-700 leading-relaxed">{item.text}</p>
+                <h3 className="text-2xl font-semibold mb-4">{item.title}</h3>
+                <p className="text-lg text-gray-700 leading-relaxed">{item.text}</p>
               </div>
 
               {/* Image */}

@@ -28,7 +28,7 @@ const seoCards = [
 
 const Section_e = () => {
     return (
-        <section className="bg-[#0A0F2F] py-20 text-white">
+        <section className="bg-[#0A0F2F] bg-[url('background-lines.webp')] py-20 text-white">
             <div className="max-w-[1200px] mx-auto  px-4">
                 <h2 className="text-3xl md:text-4xl font-bold text-center mb-14">
                     Advanced SEO Techniques
@@ -39,8 +39,8 @@ const Section_e = () => {
                             <div className={`w-14 h-14 rounded-full flex items-center justify-center mb-4`}>
                                 <img src={card.icon} alt="icon" className="w-10 h-10 object-cover"   />
                             </div>
-                            <h3 className="text-xl font-bold mb-3">{card.title}</h3>
-                            <p className="text-sm text-gray-300">{card.description}</p>
+                            <h3 className="text-2xl font-bold mb-3">{card.title}</h3>
+                            <p className="text-md leading-7 text-gray-300">{card.description}</p>
                         </div>
                     ))}
                 </div>

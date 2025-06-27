@@ -3,24 +3,24 @@ import React, { useState } from 'react';
 
 const faqs = [
     {
-        question: 'What is SEO and why is it important?',
-        answer: 'SEO stands for Search Engine Optimization, a process of optimizing a website to rank higher in search engine results. It is important because it helps increase organic traffic, improves visibility, and drives more potential customers to your site.'
+        question: 'What is a virtual clinic?',
+        answer: 'A virtual clinic is an online healthcare platform where patients can consult with healthcare providers through video calls, chat, or virtual reality environments, offering remote medical services and treatments.'
     },
     {
-        question: 'How long does it take to see SEO results?',
-        answer: 'SEO results typically take 3-6 months to show significant changes, depending on the competition, keyword difficulty, and the quality of optimization efforts.'
+        question: 'What services can be provided in a virtual clinic?',
+        answer: 'Virtual clinics can offer services like telemedicine consultations, mental health counseling, prescription refills, diagnostics, and health monitoring, all through digital platforms.'
     },
     {
-        question: 'What are on-page SEO and off-page SEO?',
-        answer: 'On-page SEO refers to optimizing elements on your website, like content, meta tags, and internal links. Off-page SEO includes activities outside your website, such as backlink building, social media promotion, and guest blogging.'
+        question: 'How does a virtual clinic work?',
+        answer: 'Virtual clinics work by connecting patients with healthcare professionals via secure online platforms. These platforms often include video conferencing, secure messaging, and access to medical records.'
     },
     {
-        question: 'How do I know if my SEO efforts are working?',
-        answer: 'You can track SEO performance through tools like Google Analytics, Search Console, and keyword ranking reports. Metrics such as organic traffic, bounce rate, and conversion rates are key indicators of SEO success.'
+        question: 'Is a virtual clinic secure?',
+        answer: 'Virtual clinics are designed with security in mind, using encrypted communication channels and privacy regulations (like HIPAA) to protect patient data. It’s important to choose certified and regulated platforms.'
     },
     {
-        question: 'Can I do SEO for my website by myself?',
-        answer: 'Yes, you can do basic SEO for your website by following best practices, but for advanced strategies and long-term success, it’s recommended to hire an experienced SEO professional or agency.'
+        question: 'Can I get a prescription from a virtual clinic?',
+        answer: 'Yes, many virtual clinics allow healthcare providers to prescribe medications after an online consultation, depending on the platform’s regulations and the doctor’s assessment.'
     }
 ];
 

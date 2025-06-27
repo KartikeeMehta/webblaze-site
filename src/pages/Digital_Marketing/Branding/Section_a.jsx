@@ -3,7 +3,7 @@ import React from "react";
 const Section_a = () => {
     return (
         <section
-            className="relative h-[45vh] bg-center bg-cover flex items-center justify-center"
+            className="relative h-[400px] bg-center bg-cover flex items-center justify-center"
             style={{
                 backgroundImage: "url('https://webblazesofttech.com/wp-content/uploads/2024/08/smm-banner.webp')",
             }}

@@ -6,16 +6,14 @@ function Section_h() {
       <div className="max-w-[1200px] mx-auto px-4 flex flex-col md:flex-row gap-8 md:gap-16 justify-center items-center">
         {/* Left: Info */}
         <div className="flex-1 max-w-xl">
-          <div className="text-[#F75C4E] font-medium mb-2">
-            Talk To Our Expert
+          <div className="text-2xl text-[#F75C4E] font-medium mb-2">
+            Get in Touch
           </div>
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 leading-tight">
-            Ready to elevate your Ecommerce business by Webblaze
+            How To Get Started
           </h2>
           <p className="text-gray-600 mb-6">
-            Contact Webblaze nowadays to discuss your assignment. Our group of
-            expert builders and experts are right here that will help you obtain
-            your e-commerce desires.
+            By choosing Webblaze, you’re selecting a reliable and innovative photography solution that will help you stand out in the competitive industry. Let us bring your vision to life with our expert services.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mb-2">
             <div className="flex items-center gap-2">

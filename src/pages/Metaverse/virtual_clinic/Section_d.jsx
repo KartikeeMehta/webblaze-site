@@ -2,7 +2,7 @@ import React from "react";
 
 function Section_d() {
   return (
-    <div className="w-full py-16 bg-white">
+    <div className="w-full py-16 bg-white ">
       <div className="max-w-6xl mx-auto px-4">
         {/* Main Title */}
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-2 text-gray-900">
@@ -15,10 +15,10 @@ function Section_d() {
         {/* Top Row */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           <div className="bg-white rounded-xl shadow-lg border-b-2 border-blue-100 p-6">
-            <h3 className="text-lg font-bold mb-2 text-gray-900">
+            <h3 className="text-xl font-bold mb-5 text-gray-900">
               Virtual Doctor Visits
             </h3>
-            <ul className="list-disc pl-5 text-gray-700 space-y-1">
+            <ul className="text-lg list-disc pl-5 text-gray-700 space-y-1">
               <li>
                 <b>Online Doctor Visit:</b> Connect with healthcare experts thru
                 digital consultations. Perfect for recurring test-u.S.A.And
@@ -32,10 +32,10 @@ function Section_d() {
             </ul>
           </div>
           <div className="bg-white rounded-xl shadow-lg border-b-2 border-blue-100 p-6">
-            <h3 className="text-lg font-bold mb-2 text-gray-900">
+            <h3 className="text-xl font-bold mb-5 text-gray-900">
               Urgent Care Services
             </h3>
-            <ul className="list-disc pl-5 text-gray-700 space-y-1">
+            <ul className="text-lg list-disc pl-5 text-gray-700 space-y-1">
               <li>
                 <b>Telehealth Urgent Care:</b> Access instant scientific
                 interest for urgent health problems via our telehealth services.
@@ -60,10 +60,10 @@ function Section_d() {
         {/* Bottom Row */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="bg-white rounded-xl shadow-lg border-b-2 border-blue-100 p-6">
-            <h4 className="text-md font-bold mb-2 text-gray-900">
+            <h4 className="text-xl font-bold mb-5 text-gray-900">
               Virtual Pediatric
             </h4>
-            <ul className="list-disc pl-5 text-gray-700 space-y-1">
+            <ul className="text-lg list-disc pl-5 text-gray-700 space-y-1">
               <li>
                 <b>Virtual Pediatric Urgent Care:</b> Specialized take care of
                 youngsters, offering dad and mom with peace of mind
@@ -78,10 +78,10 @@ function Section_d() {
             </ul>
           </div>
           <div className="bg-white rounded-xl shadow-lg border-b-2 border-blue-100 p-6">
-            <h4 className="text-md font-bold mb-2 text-gray-900">
+            <h4 className="text-xl font-bold mb-5 text-gray-900">
               Online Primary Care
             </h4>
-            <ul className="list-disc pl-5 text-gray-700 space-y-1">
+            <ul className="text-lg list-disc pl-5 text-gray-700 space-y-1">
               <li>
                 <b>Online Primary Care Doctor:</b> Regular fitness test-usaand
                 ongoing care with primary care medical doctors to be had online.
@@ -94,10 +94,10 @@ function Section_d() {
             </ul>
           </div>
           <div className="bg-white rounded-xl shadow-lg border-b-2 border-blue-100 p-6">
-            <h4 className="text-md font-bold mb-2 text-gray-900">
+            <h4 className="text-xl font-bold mb-5 text-gray-900">
               Free and Affordable Options
             </h4>
-            <ul className="list-disc pl-5 text-gray-700 space-y-1">
+            <ul className="text-lg list-disc pl-5 text-gray-700 space-y-1">
               <li>
                 <b>Free Online Doctor:</b> Access loose medical consultations
                 and advice from certified healthcare specialists.

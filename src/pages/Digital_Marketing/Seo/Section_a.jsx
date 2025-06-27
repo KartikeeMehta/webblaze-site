@@ -11,14 +11,10 @@ const Section_a = () => {
         >
             <div className="max-w-[1200px] mx-auto px-6 flex flex-col lg:flex-row items-center justify-between gap-10 rounded-3xl p-8 ">
                 <div className="flex-1">
-                    <h2 className="text-2xl md:text-3xl font-bold leading-snug text-black">
-                        Your Ultimate  {" "}
-                        <span className="text-red-500">
-                            SEO <br className="hidden sm:block" />
-                        </span>
-                        Services
+                    <h2 className="text-2xl md:text-4xl font-bold leading-snug text-black">
+                        Your Ultimate <span className="text-red-500">SEO</span> Services Provider
                     </h2>
-                    <p className="mt-6 text-gray-700 text-base md:text-sm leading-relaxed">
+                    <p className="mt-6 text-gray-700 text-base md:text-lg leading-relaxed">
                         Welcome to Webblaze, your cross-to net development company focusing on Vue.Js development offerings. Vue.Js is a revolutionary JavaScript framework used to create dynamic and excessive-performing web packages. Whether you are looking for a single-page application or a complex company-degree solution, Webblaze has the knowledge to supply top-notch results. Our crew of seasoned builders harnesses the electricity of Vue.Js to build scalable, maintainable, and green web packages that meet your business desires.
                     </p>
                     <button className="mt-8 px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition">

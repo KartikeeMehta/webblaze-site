@@ -14,11 +14,10 @@ const Section_a = () => {
           <h2 className="text-2xl md:text-4xl font-bold leading-snug text-black">
             Webblaze: Expert{" "}
             <span className="text-red-500">
-              Vue.Js <br className="hidden sm:block" />
-              Development Services
+              Vue.Js Development Services
             </span>
           </h2>
-          <p className="mt-6 text-gray-700 text-base md:text-sm leading-relaxed">
+          <p className="mt-6 text-gray-700 text-base md:text-lg leading-relaxed">
             Welcome to Webblaze, your cross-to net development company focusing
             on Vue.Js development offerings. Vue.Js is a revolutionary
             JavaScript framework used to create dynamic and excessive-performing

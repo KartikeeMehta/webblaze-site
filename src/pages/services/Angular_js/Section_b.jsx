@@ -21,16 +21,19 @@ function Section_b() {
         </div>
         <div className="w-[50%]">
           <h2 className="text-3xl md:text-5xl font-bold md:leading-[64px] text-black">
-            PHP Development Services via Webblaze
+            Why Choose Angular.Js?
           </h2>
           <p className="mt-6 text-gray-700 text-base md:text-lg leading-relaxed">
-            Welcome to Webblaze, your most efficient internet development
-            enterprise that specialize in PHP development offerings. With our
-            sizeable information in PHP, we deliver top-notch solutions tailored
-            to satisfy your commercial enterprise wishes. Whether you’re
-            searching out a PHP developer, Laravel developer, or a crew talented
-            in diverse PHP frameworks, Webblaze is here to deliver your
-            imaginative and prescient to lifestyles.
+            Angular.Js offers unparalleled blessings for web improvement: <br />
+ – Enhanced MVC Architecture: Streamlined improvement manner with Model-View-Controller structure. <br />
+
+– Two-Way Data Binding: Real-time synchronization among data and UI, ensuring a continuing consumer experience. <br />
+
+– Modularity and Reusability: Components and modules that are smooth to reuse and hold. <br />
+
+– Dependency Injection: Efficient management of dependencies, improving code clarity and testability. <br />
+
+– Built-in Directives: Extensive library of built-in directives for quicker development and greater functionality. <br />
           </p>
           <button className="mt-8 px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition">
             Contact Us

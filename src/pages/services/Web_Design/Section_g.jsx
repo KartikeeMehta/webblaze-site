@@ -3,24 +3,24 @@ import React, { useState } from 'react';
 
 const faqs = [
   {
-    question: 'What is UI/UX app design, and why is it important?',
-    answer: 'UI/UX design focuses on improving user satisfaction by enhancing the usability, accessibility, and interaction with the product.'
+    question: 'What are the latest trends in web design for 2025?',
+    answer: 'Trends include dark mode, interactive animations, AI-driven personalization, minimalist designs, and voice user interfaces.'
   },
   {
-    question: 'How do UI and UX differ in app design?',
-    answer: 'UI refers to the visual elements, while UX is about the overall experience of the user.'
+    question: 'How much does a custom web design cost?',
+    answer: 'The cost can range from $500 to $30,000+ depending on complexity, features, and customization level.'
   },
   {
-    question: 'What tools are commonly used for UI/UX app design?',
-    answer: 'Figma, Adobe XD, Sketch, and InVision are popular tools for UI/UX design.'
+    question: 'What is the difference between web design and web development?',
+    answer: 'Web design focuses on the sites visual and user interface, while web development involves coding and functionality implementation.'
   },
   {
-    question: 'How long does it take to design a UI/UX for an app?',
-    answer: 'It depends on the complexity of the app but typically takes 2–6 weeks.'
+    question: 'How do I choose the best web design company?',
+    answer: 'Look for portfolios, client reviews, experience in your industry, and communication quality when selecting a web design company.'
   },
   {
-    question: 'What are the best practices for designing a user-friendly app?',
-    answer: 'Keep the design simple, consistent, intuitive, and accessible to all users.'
+    question: 'Why is responsive web design essential?',
+    answer: 'Responsive design ensures your website performs well on all devices, enhancing user experience and improving SEO rankings.'
   }
 ];
 

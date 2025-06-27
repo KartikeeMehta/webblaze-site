@@ -70,10 +70,10 @@ const Section_b = () => {
             </div>
 
             <div className="max-w-2xl">
-              <h3 className="text-xl md:text-2xl font-semibold text-gray-900">
+              <h3 className="text-xl md:text-4xl font-semibold text-gray-900">
                 {service.title}
               </h3>
-              <p className="text-sm md:text-base text-gray-700 mt-4 whitespace-pre-line">
+              <p className="text-sm md:text-lg text-gray-700 mt-4 whitespace-pre-line">
                 {service.description}
               </p>
             </div>

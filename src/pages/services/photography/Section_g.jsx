@@ -2,36 +2,35 @@ import React from "react";
 
 const cardContents = [
   {
-    icon: "https://cdn-icons-png.flaticon.com/512/1828/1828919.png",
+    icon: "Photo_12.png",
     title: "Video Post Production",
     description:
       "From reducing and trimming to which includes outcomes and transitions, our video submit production services make certain your videos are polished and professional.",
     border: "border-red-400",
-    iconColor: "text-red-400",
+   
   },
   {
-    icon: "https://cdn-icons-png.flaticon.com/512/2921/2921826.png",
+    icon: "Photo_13.png",
     title: "Image Editing Service",
     description:
       "We provide comprehensive picture enhancing offerings, along with records removal, color correction, and additional.",
     border: "border-blue-400",
-    iconColor: "text-blue-400",
+    
   },
   {
-    icon: "https://cdn-icons-png.flaticon.com/512/5968/5968520.png",
+    icon: "Photo_14.png",
     title: "Adobe Photoshop Tutorial",
     description:
       "For those trying to beautify their private improving competencies, we offer certain Adobe Photoshop tutorials.",
     border: "border-yellow-400",
-    iconColor: "text-yellow-400",
+    
   },
   {
-    icon: "https://cdn-icons-png.flaticon.com/512/1828/1828919.png",
+    icon: "Photo_15.png",
     title: "Free Video Editor Consultation",
     description:
       "We provide loose consultations that will help you pick the awesome video modifying software and services for your dreams.",
     border: "border-red-400",
-    iconColor: "text-red-400",
   },
 ];
 

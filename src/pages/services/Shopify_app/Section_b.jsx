@@ -2,19 +2,19 @@ import React from "react";
 
 const cardContents = [
   {
-    title: "Custom Shopify Store Development",
+    title: "Shopify POS and Inventory Management",
     description:
-      "At Webblaze, we offer quit-to-quit answers for custom Shopify save improvement. Our services consist of developing unique themes, integrating important plugins, and configuring advanced capabilities. Whether you’re trying to installation a new Shopify shop or revamp an current one, our builders ensure a seamless process, handing over a shop that sticks out in the competitive marketplace.",
+      "Our Shopify POS apps are designed to streamline your sales approaches and stock management. The integration of Shopify POS systems with your on-line save enables seamless synchronization of sales and stock tiers. Our solutions are tailored for your particular desires, making sure that you get the excellent Shopify POS pricing and functionality. The Shopify POS Pro offers advanced capabilities that beautify your keep’s performance and purchaser revel in.",
   },
   {
-    title: "Shopify POS Integration",
+    title: "Engaging Customer Interactions with Shopify Live Chat",
     description:
-      "Webblaze excels in integrating Shopify POS structures to streamline your retail operations. Our experts configure the Shopify POS machine to manipulate in-keep and on-line income efficiently. With our integration services, you may experience actual-time stock updates, easy transactions, and more suitable client reviews.",
+      "Enhance your customer support with our Shopify live chat apps. These apps facilitate real-time conversation together with your customers, assisting to resolve their queries instantly and enhancing their shopping enjoy. Our Shopify chat solutions are designed to be intuitive and person-friendly, providing a seamless interplay among you and your customers.",
   },
   {
-    title: "Shopify Capital Consultation",
+    title: "Customizable Themes and Integration",
     description:
-      "Navigating Shopify Capital may be complex, but our specialists at Webblaze simplify the technique for you. We guide you through the software, making sure you secure the important investment to grow your commercial enterprise. Our team assists in leveraging Shopify Capital to beautify your save’s abilities and power income.",
+      "Webblaze gives services in developing and integrating Shopify themes that reflect your brand’s identification. Our Shopify subject store has a wide range of alternatives to pick out from. We also concentrate on integrating 1/3-party equipment like Klaviyo Shopify integration to reinforce your advertising and marketing efforts. This ensures that your shop isn’t always handiest visually attractive but also extraordinarily useful.",
   },
 ];
 
@@ -30,7 +30,7 @@ function Section_b() {
       }}
     >
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 mt-8 text-gray-900">
-        Comprehensive Shopify Solutions
+        Comprehensive Shopify App Development Services
       </h2>
       <div className="w-full max-w-7xl flex flex-col md:flex-row gap-8 justify-center items-stretch px-4 pb-12">
         {cardContents.map((card, idx) => (

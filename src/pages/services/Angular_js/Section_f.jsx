@@ -6,19 +6,14 @@ function Section_f() {
       <div className="max-w-[1200px] mx-auto px-4 flex flex-col md:flex-row gap-8 md:gap-16 justify-center items-center">
         {/* Left: Info */}
         <div className="flex-1 max-w-xl">
-          <div className="text-[#F75C4E] font-medium mb-2">
+          <div className="text-2xl text-[#F75C4E] font-medium mb-2">
             Talk To Our Expert
           </div>
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 leading-tight">
-            Ready to elevate your Ecommerce business by Webblaze
+            Ready to leverage the energy of Angular.Js to your next internet task?
           </h2>
           <p className="text-gray-600 mb-6">
-            At Webblaze, we are devoted to handing over fantastic PHP
-            improvement offerings that force your commercial enterprise ahead.
-            Whether you want a PHP internet site, a custom Laravel solution, or
-            integration with present day technologies, our group is here to
-            help. Contact us today to talk about your task and see how Webblaze
-            can turn your imaginative and prescient into truth.
+            Talk to our professional nowadays to speak about your mission and find out how Webblaze will let you reap your format dreams.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mb-2">
             <div className="flex items-center gap-2">

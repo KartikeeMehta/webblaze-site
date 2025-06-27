@@ -2,22 +2,22 @@ import React from "react";
 
 const contentSections = [
   {
-    title: "Analytics and Reporting",
+    title: "Enhancing User Experience with Shopify Apps",
     cards: [
       {
-        title: "Shopify Analytics Integration",
+        title: "Shopify Search and Discovery",
         description:
-          "Understanding your save's performance is crucial, and Webblaze helps you gain this with our Shopify analytics integration services. We configure Shopify analytics to provide specific reviews on sales, patron behavior, and product overall performance. Our insights assist you're making records-pushed decisions to optimize your store and improve sales.",
+          "Improve your save’s navigation with our Shopify search and discovery apps. These apps make it easier for clients to locate the goods they may be looking for, improving their shopping enjoy. With functions like superior search filters and product tips, you may raise your income and customer pride.",
       },
       {
-        title: "Shopify Analytics Integration",
+        title: "Shopify App Store and Plugins",
         description:
-          "Understanding your save's performance is crucial, and Webblaze helps you gain this with our Shopify analytics integration services. We configure Shopify analytics to provide specific reviews on sales, patron behavior, and product overall performance. Our insights assist you're making records-pushed decisions to optimize your store and improve sales.",
+          "Webblaze develops a variety of plugins and apps available on the Shopify App Store. These plugins beautify the functionality of your keep, supplying functions like Shopify ordinary payments, Shopify membership, and greater. Our developers make certain that every app is adapted to fulfill your unique commercial enterprise desires.",
       },
       {
-        title: "Shopify Analytics Integration",
+        title: "Mobile Optimization with Shopify Mobile App Builder",
         description:
-          "Understanding your save's performance is crucial, and Webblaze helps you gain this with our Shopify analytics integration services. We configure Shopify analytics to provide specific reviews on sales, patron behavior, and product overall performance. Our insights assist you're making records-pushed decisions to optimize your store and improve sales.",
+          "In these days’s cell-first global, having a cellular-optimized store is crucial. Our Shopify cellular app builder services ensure that your store is accessible and consumer-pleasant on all devices. We create responsive designs that offer a unbroken buying enjoy across smartphones and tablets.",
       },
     ],
   },
@@ -48,7 +48,7 @@ function Section_d() {
               {section.cards.map((card, cardIndex) => (
                 <div
                   key={cardIndex}
-                  className="bg-[#1E2436] rounded-xl p-8 border border-gray-700 hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-1"
+                  className="rounded-xl p-8 border border-gray-700 hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-1"
                 >
                   <div className="space-y-4">
                     {/* Card Title */}
@@ -56,7 +56,7 @@ function Section_d() {
                       {card.title}
                     </h3>
                     {/* Card Description */}
-                    <p className="text-gray-300 leading-relaxed">
+                    <p className="text-gray-50 leading-relaxed">
                       {card.description}
                     </p>
                   </div>

@@ -51,11 +51,11 @@ const Section_c = () => {
                 <img
                   src={service.icon}
                   alt={service.title}
-                  className="w-12 h-12"
+                  className="w-20 h-20"
                 />
               </div>
-              <h3 className="text-xl font-semibold mb-3">{service.title}</h3>
-              <p className="text-sm text-gray-300 leading-relaxed">
+              <h3 className="text-3xl font-semibold mb-3">{service.title}</h3>
+              <p className="text-md text-gray-50 leading-relaxed">
                 {service.description}
               </p>
             </div>

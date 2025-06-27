@@ -17,9 +17,9 @@ const Section_d = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-900 py-12 px-4 sm:px-6 lg:px-8 font-inter text-white">
+    <div className="min-h-screen bg-gray-900 bg-[url('background-lines.webp')] py-12 px-4 sm:px-6 lg:px-8 font-inter text-white">
       <div className="max-w-[1200px] mx-auto">
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center mb-5 leading-tight text-white">
+        <h2 className="text-3xl pb-5 sm:text-4xl lg:text-4xl font-bold text-center mb-5 leading-tight text-white">
           Benefits of Choosing Webblaze for Your Crypto Exchange Development
         </h2>
 
@@ -30,7 +30,7 @@ const Section_d = () => {
               className="bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 p-8 flex flex-col items-center text-center border-2 border-transparent hover:border-blue-500"
             >
               <h3 className="text-xl sm:text-2xl font-semibold mb-4">{benefit.title}</h3>
-              <p className="text-gray-300 leading-relaxed text-base">{benefit.description}</p>
+              <p className="text-gray-50 leading-relaxed text-base">{benefit.description}</p>
             </div>
           ))}
         </div>

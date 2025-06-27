@@ -2,34 +2,32 @@ import React from "react";
 
 const contentSections = [
   {
-    title: "Our Angular.Js Development Services",
-    title2:
-      "At Webblaze, we offer a comprehensive range of Angular.Js development services tailor-made to your precise wishes:",
+    title: "Explore AWS Services Tailored to Your Needs",
     cards: [
       {
-        title: "Custom Angular.Js Development",
+        title: "Amazon EC2: Flexible Virtual Servers",
         description:
-          "Crafting bespoke web packages from scratch based on your unique necessities.",
+          "Amazon EC2 allows you to installation virtual servers on-call for, facilitating fast utility deployment without the in advance prices of hardware.",
       },
       {
-        title: "Angular.Js UI/UX Design",
+        title: "Amazon S3: Reliable Object Storage",
         description:
-          "Creating intuitive user interfaces that decorate usability and engagement.",
+          "Store and retrieve any amount of records with Amazon S3, designed for sturdiness, availability, and scalability.",
       },
       {
-        title: "Angular.Js Migration Services",
+        title: "AWS DynamoDB: NoSQL Database Solution",
         description:
-          "Seamlessly migrating your packages from Angular.Js to the present day versions for greater overall performance",
+          "DynamoDB offers seamless scalability and low-latency performance, making it best for applications requiring speedy and predictable overall performance.",
       },
       {
-        title: "Shopify Analytics Integration",
+        title: "AWS RDS: Managed Relational Databases",
         description:
-          "Understanding your save's performance is crucial, and Webblaze helps you gain this with our Shopify analytics integration services. We configure Shopify analytics to provide specific reviews on sales, patron behavior, and product overall performance. Our insights assist you're making records-pushed decisions to optimize your store and improve sales.",
+          "Simplify database management with Amazon RDS, assisting famous database engines like MySQL, PostgreSQL, and greater.",
       },
       {
-        title: "Shopify Analytics Integration",
+        title: "AWS Lambda: Serverless Computing",
         description:
-          "Understanding your save's performance is crucial, and Webblaze helps you gain this with our Shopify analytics integration services. We configure Shopify analytics to provide specific reviews on sales, patron behavior, and product overall performance. Our insights assist you're making records-pushed decisions to optimize your store and improve sales.",
+          "Run code without coping with servers with AWS Lambda, ideal for executing backend good judgment and responding to occasions in real-time.",
       },
     ],
   },

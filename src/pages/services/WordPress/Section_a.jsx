@@ -13,10 +13,8 @@ const Section_a = () => {
         <div className="flex-1">
           <h2 className="text-3xl md:text-5xl font-bold leading-snug text-black">
             Webblaze: Your Go-To
-            <br />
-            <span className="text-red-500">WordPress Development</span>
-            <br />
-            Company
+            <span className="text-red-500"> WordPress Development </span>
+             Company
           </h2>
           <p className="mt-6 text-gray-700 text-base md:text-lg leading-relaxed">
             Welcome to Webblaze, your relied on companion for top-notch

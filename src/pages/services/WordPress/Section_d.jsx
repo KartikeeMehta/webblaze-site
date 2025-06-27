@@ -33,7 +33,7 @@ const Section_d = () => {
   ];
 
   return (
-    <section className="bg-[#0B0F1C] py-20 px-4">
+    <section className="bg-[#0B0F1C] bg-[url('background-lines.webp')] py-20 px-4">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-white text-3xl md:text-4xl font-bold mb-12">
           Why Work with Webblaze?
@@ -49,8 +49,8 @@ const Section_d = () => {
               >
                 <img src={item.icon} alt="icon" className="w-6 h-6" />
               </div>
-              <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
-              <p className="text-sm text-gray-300">{item.desc}</p>
+              <h3 className="text-2xl font-semibold mb-2">{item.title}</h3>
+              <p className="text-lg  text-gray-300">{item.desc}</p>
             </div>
           ))}
         </div>

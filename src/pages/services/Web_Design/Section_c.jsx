@@ -5,25 +5,25 @@ const services = [
     name: "Expertise in Web Design and Development",
     color: "bg-blue-100",
     icon: "🖌️",
-    summary: "Our group consists of quite skilled specialists with years of revel in in internet site designing. We live up to date with the brand new net layout developments and generation to supply modern-day answers",
+    summary: "Our group consists of quite skilled specialists with years of revel in in internet site designing. We live up to date with the brand new net layout developments and generation to supply modern-day answers.",
   },
   {
     name: "Tailored Solutions",
     color: "bg-red-100",
     icon: "🏷️",
-    summary: "Build a memorable brand identity that stands out.",
+    summary: "We provide customized net format and development offerings to fulfill the particular requirements of every client. Whether you need a fundamental website design or a complicated e-alternate platform, we have were given got you protected.",
   },
   {
     name: "User-Centric Approach",
     color: "bg-yellow-100",
     icon: "🛒",
-    summary: "Robust online stores to grow your business.",
+    summary: "Our designs are focused round person experience. We interest on creating intuitive, clean-to-navigate websites that preserve website online traffic engaged and inspire them to do so.",
   },
   {
     name: "Affordable Pricing",
     color: "bg-yellow-100",
     icon: "💻",
-    summary: "Full-stack development for scalable solutions.",
+    summary: "We provide price-effective net design services with out compromising on fine. Our apparent pricing guarantees you get the first-rate fee in your funding.",
   },
 ];
 
@@ -66,12 +66,12 @@ const Section_c = () => {
 
   return (
     <section
-      className="bg-[#1b1e2f]  text-white py-20 px-6">
+      className="bg-[#1b1e2f] bg-[url('background-lines.webp')] text-white py-20 px-6">
       <div className="text-center mb-8">
         <h2 className="text-3xl md:text-4xl font-bold mb-2 text-white">
           Why Choose Webblaze for Web Design?
         </h2>
-        <p className="text-gray-500 max-w-xl mx-auto text-[18px] font-normal">
+        <p className="text-white max-w-xl mx-auto text-[18px] font-normal">
           Choosing the right net format business enterprise may be a frightening task. Here’s why Webblaze stands proud</p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-5xl mx-auto">

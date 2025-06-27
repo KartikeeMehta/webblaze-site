@@ -2,29 +2,29 @@ import React, { useState } from "react";
 
 const faqData = [
   {
-    question: "What's new in Shopify 2.0?",
+    question: "What are Shopify apps, and why are they important?",
     answer:
-      "Shopify 2.0 introduces several new features including improved theme architecture, enhanced customization options, and better content management capabilities. The platform now offers more flexible section-based templates, improved metafields, and better developer tools.",
+      "Shopify apps enhance your store by adding features like marketing tools, inventory management, and advanced analytics.",
   },
   {
-    question: "How do I migrate to Shopify 2.0?",
+    question: "How do I install a Shopify app on my store?",
     answer:
-      "Migration to Shopify 2.0 involves updating your theme to be compatible with the new architecture. Our team can help you with a smooth transition, including theme updates, content migration, and ensuring all functionalities work correctly in the new version.",
+      "Go to the Shopify App Store, select an app, and click “Add app.” Follow the setup instructions to integrate it.",
   },
   {
-    question: "Can I customize Shopify 2.0 themes?",
+    question: "What are the best Shopify apps for e-commerce?",
     answer:
-      "Yes, Shopify 2.0 offers enhanced customization capabilities. You can modify sections, add custom fields, and create unique layouts for different pages. The new theme architecture provides more flexibility for both developers and store owners.",
+      "Popular apps include Oberlo (dropshipping), Klaviyo (email marketing), and Yotpo (reviews).",
   },
   {
-    question: "Is Shopify 2.0 SEO-friendly?",
+    question: "How much do Shopify apps cost?",
     answer:
-      "Yes, Shopify 2.0 is designed with SEO in mind. It includes improved meta fields, better URL structures, and enhanced performance optimization features that can help improve your store's search engine rankings.",
+      "Apps range from free to $100+ per month, depending on features and functionality.",
   },
   {
-    question: "What are the costs associated with Shopify 2.0?",
+    question: "Can I create a custom app for my Shopify store?",
     answer:
-      "The costs for Shopify 2.0 vary depending on your needs. Basic Shopify plans start at $29/month, while advanced features and Shopify Plus have different pricing tiers. Additional costs may include theme purchases, apps, and custom development work.",
+      "Yes, custom apps can be built using Shopify’s API to meet specific business needs.",
   },
 ];
 

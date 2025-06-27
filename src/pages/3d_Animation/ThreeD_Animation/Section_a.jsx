@@ -7,7 +7,7 @@ const Section_a = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center"
                     style={{
-                        backgroundImage: `url('https://webblazesofttech.com/wp-content/uploads/20…rendering-chinese-reunion-dinner_11zon-scaled.jpg')`,
+                        backgroundImage: `url('https://webblazesofttech.com/wp-content/uploads/2025/02/3d-rendering-chinese-reunion-dinner_11zon-scaled.jpg')`,
                     }}
                 >
                     <div className="absolute inset-0 bg-black bg-opacity-50" />

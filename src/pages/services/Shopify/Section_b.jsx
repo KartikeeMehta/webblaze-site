@@ -21,7 +21,7 @@ const cardContents = [
 function Section_b() {
   return (
     <div
-      className="relative h-[745px] w-full flex flex-col items-center justify-center overflow-x-hidden bg-[#fafbfc]"
+      className="w-full flex flex-col items-center justify-center overflow-x-hidden bg-[#fafbfc]"
       style={{
         backgroundImage: "url('/bg_section_b_shopify.png')",
         backgroundRepeat: "no-repeat",
@@ -36,13 +36,13 @@ function Section_b() {
         {cardContents.map((card, idx) => (
           <div
             key={idx}
-            className="flex-1 bg-white rounded-xl shadow-md p-8 border-b-4 border-blue-200 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-blue-400 min-w-[260px] max-w-full min-h-[473px]"
+            className="flex-1 bg-white rounded-xl shadow-md p-8 border-b-4 border-blue-200 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-blue-400 min-w-[260px] max-w-full min-h-[px]"
             style={{ minWidth: "260px" }}
           >
             <h3 className="text-xl font-bold mb-3 text-gray-800">
               {card.title}
             </h3>
-            <p className="text-gray-600 text-base">{card.description}</p>
+            <p className="text-gray-600 text-base leading-8">{card.description}</p>
           </div>
         ))}
       </div>

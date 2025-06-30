@@ -2,31 +2,31 @@ import React from "react";
 
 const services = [
   {
-    icon: "https://cdn-icons-png.flaticon.com/512/2921/2921826.png",
+    icon: "Photo_1.png",
     title: "Professional Video Editing",
     description:
       "Our video enhancing services cater to a huge sort of needs, from business enterprise movement pix to private tasks. We use enterprise-fashionable software like Adobe Premiere Pro, Sony Vegas, and Wondershare Filmora to ensure your films are edited to perfection.",
   },
   {
-    icon: "https://cdn-icons-png.flaticon.com/512/2921/2921822.png",
+    icon: "Photo_2.png",
     title: "Movie Editing",
     description:
       "We offer complete movie enhancing offerings, making sure your pics is seamlessly edited and visually appealing.",
   },
   {
-    icon: "https://cdn-icons-png.flaticon.com/512/2921/2921817.png",
+    icon: "Photo_3.png",
     title: "YouTube Editing",
     description:
       "Enhance your YouTube movies with our expert enhancing offerings. We attention on developing engaging and dynamic content material material that stands out.",
   },
   {
-    icon: "https://cdn-icons-png.flaticon.com/512/2921/2921820.png",
+    icon: "Photo_4.png",
     title: "Song Editing",
     description:
       "Our organization can edit your music motion photos, ensuring outstanding audio and visible synchronization.",
   },
   {
-    icon: "https://cdn-icons-png.flaticon.com/512/2921/2921819.png",
+    icon: "Photo_5.png",
     title: "AI Video Editing",
     description:
       "Utilizing AI generation, we provide superior editing services that encompass automatic enhancements and corrections for superior video great.",

@@ -20,10 +20,10 @@ const Section_f = () => {
             <img
               src="/ecomerceGrowthIcon.png"
               alt="NFT Artist Icon"
-              className="w-10 h-10 mb-4"
+              className="w-10 h-[10] mb-4"
             />
-            <h3 className="font-semibold text-lg mb-2">Top NFT Marketplace for Artists</h3>
-            <p className="text-sm text-gray-700">
+            <h3 className="font-semibold text-xl mb-2">Top NFT Marketplace for Artists</h3>
+            <p className="text-md text-gray-700">
               Our NFT marketplaces are designed to cater to artists, supplying them with a platform
               to show off and sell their virtual creations. Features encompass artist profiles,
               virtual galleries, and steady payment alternatives.
@@ -36,8 +36,8 @@ const Section_f = () => {
               alt="NFT Trading Icon"
               className="w-10 h-10 mb-4"
             />
-            <h3 className="font-semibold text-lg mb-2">Best NFT Trading Platform</h3>
-            <p className="text-sm text-gray-700">
+            <h3 className="font-semibold text-xl mb-2">Best NFT Trading Platform</h3>
+            <p className="text-md text-gray-700">
               We broaden high-overall performance NFT buying and selling systems that help diverse
               digital currencies and provide capabilities like real-time buying and selling,
               auction capabilities, and steady transactions.
@@ -51,8 +51,8 @@ const Section_f = () => {
               alt="Custom NFT Icon"
               className="w-10 h-10 mb-4"
             />
-            <h3 className="font-semibold text-lg mb-2">Custom NFT Marketplace Development</h3>
-            <p className="text-sm text-gray-700">
+            <h3 className="font-semibold text-xl mb-2">Custom NFT Marketplace Development</h3>
+            <p className="text-md text-gray-700">
               Webblaze offers custom NFT marketplace improvement offerings, tailoring the platform
               to fulfill your unique enterprise desires. Our solutions are designed to offer a
               unique and attractive person enjoy.
@@ -65,8 +65,8 @@ const Section_f = () => {
               alt="Polygon Icon"
               className="w-10 h-10 mb-4"
             />
-            <h3 className="font-semibold text-lg mb-2">Polygon NFT Marketplace</h3>
-            <p className="text-sm text-gray-700">
+            <h3 className="font-semibold text-xl mb-2">Polygon NFT Marketplace</h3>
+            <p className="text-md text-gray-700">
               For customers interested in leveraging the Polygon community, we provide specialised
               Polygon NFT market development. Our structures make certain rapid and fee-effective
               transactions, making them best for excessive-extent buying and selling.

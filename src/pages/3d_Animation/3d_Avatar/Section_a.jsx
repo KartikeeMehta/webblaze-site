@@ -28,7 +28,7 @@ const Section_a = () => {
           <img
             src="https://webblazesofttech.com/wp-content/uploads/2024/09/3d-avatar-boy-character-white-background_959342-242-removebg-preview-1.png"
             alt="3D Avatar Jumping"
-            className="w-[120px] md:w-[120px] object-contain"
+            className="w-[120px]  md:w-[200px] object-contain"
           />
           <img
             src="https://webblazesofttech.com/wp-content/uploads/2024/09/456c6c08f2-removebg-preview-1.png"

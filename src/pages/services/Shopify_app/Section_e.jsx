@@ -2,19 +2,19 @@ import React from "react";
 
 const cardContents = [
   {
-    title: "Custom Shopify Store Development",
+    title: "Shopify Wholesale and B2B Solutions",
     description:
-      "At Webblaze, we offer quit-to-quit answers for custom Shopify save improvement. Our services consist of developing unique themes, integrating important plugins, and configuring advanced capabilities. Whether you’re trying to installation a new Shopify shop or revamp an current one, our builders ensure a seamless process, handing over a shop that sticks out in the competitive marketplace.",
+      "Expand your enterprise to new markets with our Shopify wholesale app and B2B solutions. These apps assist you to manipulate wholesale customers and orders correctly. With functions like bulk pricing and order management, you can cater to the needs of your wholesale customers correctly.",
   },
   {
-    title: "Shopify POS Integration",
+    title: "Shopify Returns and Loyalty Programs",
     description:
-      "Webblaze excels in integrating Shopify POS structures to streamline your retail operations. Our experts configure the Shopify POS machine to manipulate in-keep and on-line income efficiently. With our integration services, you may experience actual-time stock updates, easy transactions, and more suitable client reviews.",
+      "Manage returns seamlessly with our Shopify returns app. This app simplifies the go back procedure to your clients, improving their usual buying revel in. Additionally, our Shopify loyalty apps help you create rewarding applications that encourage repeat purchases and purchaser loyalty.",
   },
   {
-    title: "Shopify Capital Consultation",
+    title: "Advanced Analytics and Reporting",
     description:
-      "Navigating Shopify Capital may be complex, but our specialists at Webblaze simplify the technique for you. We guide you through the software, making sure you secure the important investment to grow your commercial enterprise. Our team assists in leveraging Shopify Capital to beautify your save’s abilities and power income.",
+      "Get specified insights into your save’s overall performance with our advanced analytics apps. These apps offer complete reports on sales, patron behavior, and greater, assisting you are making informed business selections. Our Shopify analytics app integrates smoothly with your keep, providing real-time information that is easy to understand and act upon.",
   },
 ];
 
@@ -30,7 +30,7 @@ function Section_e() {
       }}
     >
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 mt-8 text-gray-900">
-        Comprehensive Shopify Solutions
+        Specialized Shopify Apps for Enhanced Functionality
       </h2>
       <div className="w-full max-w-7xl flex flex-col md:flex-row gap-8 justify-center items-stretch px-4 pb-12">
         {cardContents.map((card, idx) => (

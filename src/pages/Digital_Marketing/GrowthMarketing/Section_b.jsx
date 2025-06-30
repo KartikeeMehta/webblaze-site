@@ -20,10 +20,10 @@ const Section_b = () => {
                     </div>
 
                     <div className="text-left">
-                        <h3 className="text-xl font-bold text-[#121826] mb-4">
+                        <h3 className="text-4xl font-bold text-[#121826] mb-4">
                             Comprehensive Growth Strategy
                         </h3>
-                        <p className="text-gray-700 leading-relaxed max-w-xl">
+                        <p className="text-lg text-gray-700 leading-relaxed max-w-xl">
                             At Webblaze, we develop a holistic increase strategy tailored to your enterprise
                             desires. Our technique includes marketplace studies, competitor evaluation, and
                             identifying key increase possibilities. We integrate increase hacking strategies to
@@ -41,10 +41,10 @@ const Section_b = () => {
                         />
                     </div>
                     <div className="text-left">
-                        <h3 className="text-xl font-bold text-[#121826] mb-4">
+                        <h3 className="text-4xl font-bold text-[#121826] mb-4">
                             Data-Driven Marketing
                         </h3>
-                        <p className="text-gray-700 leading-relaxed max-w-xl">
+                        <p className="text-lg text-gray-700 leading-relaxed max-w-xl">
                             We agree with within the energy of records to pressure choice-making. Our increase
                             advertising and marketing services utilize advanced analytics to understand patron
                             behavior, optimize advertising campaigns, and improve conversion quotes. Data-driven
@@ -64,10 +64,10 @@ const Section_b = () => {
                     </div>
 
                     <div className="text-left">
-                        <h3 className="text-xl font-bold text-[#121826] mb-4">
+                        <h3 className="text-4xl font-bold text-[#121826] mb-4">
                             Expert Marketing Team
                         </h3>
-                        <p className="text-gray-700 leading-relaxed max-w-xl">
+                        <p className="text-lg text-gray-700 leading-relaxed max-w-xl">
                             Our experienced advertising and marketing group at Webblaze is skilled in diverse components of digital marketing, consisting of search engine marketing, social media advertising, content material advertising, and PPC marketing. We collaborate intently along with your in-residence crew to supply seamless and impactful growth advertising techniques.
                         </p>
                     </div>

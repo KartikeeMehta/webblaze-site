@@ -2,29 +2,29 @@ import React, { useState } from "react";
 
 const faqData = [
   {
-    question: "What's new in Shopify 2.0?",
+    question: "What is the difference between Laravel, CodeIgniter, CakePHP, and CorePHP?",
     answer:
-      "Shopify 2.0 introduces several new features including improved theme architecture, enhanced customization options, and better content management capabilities. The platform now offers more flexible section-based templates, improved metafields, and better developer tools.",
+      "Laravel, CodeIgniter, and CakePHP are frameworks, offering pre-built tools for faster development, while CorePHP involves coding from scratch.",
   },
   {
-    question: "How do I migrate to Shopify 2.0?",
+    question: "Which PHP framework is best for web development?",
     answer:
-      "Migration to Shopify 2.0 involves updating your theme to be compatible with the new architecture. Our team can help you with a smooth transition, including theme updates, content migration, and ensuring all functionalities work correctly in the new version.",
+      "Laravel is preferred for complex applications, CodeIgniter for simplicity, and CakePHP for rapid development.",
   },
   {
-    question: "Can I customize Shopify 2.0 themes?",
+    question: "How much does it cost to develop a PHP-based website?",
     answer:
-      "Yes, Shopify 2.0 offers enhanced customization capabilities. You can modify sections, add custom fields, and create unique layouts for different pages. The new theme architecture provides more flexibility for both developers and store owners.",
+      "Development costs range from $500 to $20,000+, depending on complexity and features.",
   },
   {
-    question: "Is Shopify 2.0 SEO-friendly?",
+    question: "Is PHP still relevant in 2025 for web development?",
     answer:
-      "Yes, Shopify 2.0 is designed with SEO in mind. It includes improved meta fields, better URL structures, and enhanced performance optimization features that can help improve your store's search engine rankings.",
+      "Yes, PHP powers 75%+ of websites, with robust frameworks like Laravel and WordPress ensuring its continued relevance.",
   },
   {
-    question: "What are the costs associated with Shopify 2.0?",
+    question: "What are the advantages of using PHP frameworks over CorePHP?",
     answer:
-      "The costs for Shopify 2.0 vary depending on your needs. Basic Shopify plans start at $29/month, while advanced features and Shopify Plus have different pricing tiers. Additional costs may include theme purchases, apps, and custom development work.",
+      "Frameworks provide better security, faster development, and built-in features for common tasks.",
   },
 ];
 

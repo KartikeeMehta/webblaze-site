@@ -30,7 +30,7 @@ const services = [
 
 const Section_c = () => {
   return (
-    <section className="bg-white py-20 px-4 md:px-12">
+    <section className="bg-white py-16 px-4 md:px-12">
       <div className="max-w-[1200px] mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-[#0f172a] mb-12">Our PPC Services</h2>
 
@@ -40,10 +40,10 @@ const Section_c = () => {
               key={index}
               className="bg-white rounded-xl shadow-sm border border-b-4 border-blue-300 p-6 text-left hover:shadow-md transition-all duration-300"
             >
-              <div className={`text-md font-semibold mb-3 p-2 rounded ${service.tagColor}`}>
+              <div className={`text-xl font-semibold mb-3 p-2 rounded ${service.tagColor}`}>
                 {service.title}
               </div>
-              <p className="text-gray-700 text-sm leading-relaxed">{service.desc}</p>
+              <p className="text-gray-700 text-md leading-relaxed">{service.desc}</p>
             </div>
           ))}
         </div>

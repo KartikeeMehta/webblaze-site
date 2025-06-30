@@ -45,12 +45,12 @@ const Section_d = () => {
               <img
                 src={strategy.icon}
                 alt={strategy.title}
-                className="w-10 h-10 mb-4"
+                className="w-15 h-14 mb-4"
               />
-              <h3 className="text-xl font-bold text-gray-900 mb-2">
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">
                 {strategy.title}
               </h3>
-              <p className="text-sm text-gray-600 leading-relaxed">
+              <p className="text-md text-gray-600 leading-relaxed">
                 {strategy.description}
               </p>
             </div>

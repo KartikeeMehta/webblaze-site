@@ -55,7 +55,7 @@ const CaseStudies = () => {
           <img
             src="https://webblazesofttech.com/wp-content/uploads/2024/10/image-39.webp"
             alt="AI Chatbot Assistant"
-            className="rounded-lg w-full h-full object-cover shadow-md"
+            className="rounded-lg w-full h-[550px] object-fill shadow-md"
           />
         </div>
       </div>

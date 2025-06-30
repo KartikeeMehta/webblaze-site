@@ -3,7 +3,7 @@ import React from "react";
 const cardContents = [
   {
     image:
-      "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&w=600&q=80",
+      "https://webblazesofttech.com/wp-content/uploads/2024/11/image-95.png",
     title: "Image Editing Service",
     description:
       "Our image modifying service covers the entirety from easy retouching to advanced photograph manipulations. We use equipment like Adobe Photoshop and Lightroom to beautify your images.",
@@ -11,7 +11,7 @@ const cardContents = [
   },
   {
     image:
-      "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&w=600&q=80",
+      "https://webblazesofttech.com/wp-content/uploads/2024/11/image-96.png",
     title: "Photo Retouching",
     description:
       "Our picture retouching services consist of colour correction, blemish elimination, and extra to make your photographs appearance ideal.",
@@ -19,7 +19,7 @@ const cardContents = [
   },
   {
     image:
-      "https://images.pexels.com/photos/1707828/pexels-photo-1707828.jpeg?auto=compress&w=600&q=80",
+      "https://webblazesofttech.com/wp-content/uploads/2024/11/image-97.png",
     title: "AI Photo Editing",
     description:
       "Leveraging AI generation, we offer quick and efficient photograph editing offerings, making sure extraordinary results whenever.",

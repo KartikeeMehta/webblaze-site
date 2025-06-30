@@ -26,16 +26,10 @@ export const Section_b = () => {
         {/* Text */}
         <div>
           <h2 className="text-2xl md:text-4xl font-bold text-gray-900 leading-snug mb-4">
-            Why Choose Vue.Js <br />
-            for Your Next Project?
+            Why Choose Node.Js?
           </h2>
-          <p className="text-gray-700 text-base leading-relaxed">
-            Vue.Js is famed for its simplicity, flexibility, and overall performance. It’s the
-            framework of desire for plenty builders because of its gentle learning curve and
-            effective features. Vue.Js integrates seamlessly with different libraries and tasks,
-            making it a versatile device for a wide variety of packages. From enhancing existing
-            applications to building new ones from scratch, Vue.Js presents a strong solution for
-            modern web development.
+          <p className="text-gray-700 text-lg leading-9">
+            Node.Js, famend for its performance and scalability, is right for building fast and scalable community applications. Whether you’re aiming to expand real-time applications, APIs, or microservices, Node.Js offers unprecedented performance. Its non-blocking off, event-driven architecture guarantees seamless dealing with of a couple of requests, making it a top preference for excessive-traffic web sites and packages.
           </p>
         </div>
       </div>

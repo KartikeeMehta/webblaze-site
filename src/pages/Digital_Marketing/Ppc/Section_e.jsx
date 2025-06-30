@@ -40,18 +40,18 @@ const Section_e = () => {
                 key={idx}
                 className="bg-white p-6 rounded-xl shadow border border-gray-100 text-center"
               >
-                <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
-                <p className="text-sm text-gray-700">{item.desc}</p>
+                <h3 className="text-2xl font-semibold mb-2">{item.title}</h3>
+                <p className="text-md text-gray-700">{item.desc}</p>
               </div>
             ))}
           </div>
 
           <div className="mt-6">
             <div className="bg-white p-6 rounded-xl shadow border border-gray-100">
-              <h3 className="text-lg font-semibold mb-2 text-center">
+              <h3 className="text-2xl font-semibold mb-2 text-center">
                 {industries[2].title}
               </h3>
-              <p className="text-sm text-gray-700">{industries[2].desc}</p>
+              <p className="text-md text-gray-700">{industries[2].desc}</p>
             </div>
           </div>
         </div>

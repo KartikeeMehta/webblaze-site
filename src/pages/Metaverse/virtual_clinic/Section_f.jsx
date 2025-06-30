@@ -31,7 +31,7 @@ function Section_f() {
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-2 text-gray-900">
           Why Choose Webblaze's Virtual Clinic Services?
         </h2>
-        <p className="text-center text-gray-500 mb-8">
+        <p className="text-center text-black mb-8">
           Webblaze is dedicated to presenting innovative and reliable virtual
           healthcare solutions. Here are a few motives why our digital hospital
           offerings stand out:
@@ -42,11 +42,11 @@ function Section_f() {
               key={idx}
               className={`grid grid-cols-1 md:grid-cols-2 items-center py-4 border-b border-gray-300 last:border-b-0`}
             >
-              <div className="flex items-center md:justify-left pr-0 md:pr-8 text-gray-800 font-medium">
-                <span className="mr-2 text-gray-600">{idx + 1}.</span>
+              <div className="flex items-center md:justify-left pr-0 md:pr-8 text-gray-800 ">
+                <span className="mr-2 text-2xl text-gray-600">{idx + 1}.</span>
                 {reason.title}
               </div>
-              <div className="border-l border-gray-300 pl-0 md:pl-8 mt-2 md:mt-0 text-gray-700">
+              <div className="text-lg border-l border-gray-300 pl-0 md:pl-8 mt-2 md:mt-0 text-gray-700">
                 {reason.description}
               </div>
             </div>

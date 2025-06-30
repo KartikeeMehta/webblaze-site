@@ -28,7 +28,7 @@ export const Section_b = () => {
             Why Choose Vue.Js <br />
             for Your Next Project?
           </h2>
-          <p className="text-gray-700 text-base leading-relaxed">
+          <p className="text-gray-700 text-lg leading-8">
             Vue.Js is famed for its simplicity, flexibility, and overall performance. It’s the
             framework of desire for plenty builders because of its gentle learning curve and
             effective features. Vue.Js integrates seamlessly with different libraries and tasks,

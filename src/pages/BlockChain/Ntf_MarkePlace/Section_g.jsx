@@ -23,8 +23,8 @@ const Section_g = () => {
             alt="Auction"
             className="w-12 h-12 mb-4"
           />
-          <h3 className="text-lg font-semibold mb-2">Auction and Bidding Systems</h3>
-          <p className="text-sm text-gray-700">
+          <h3 className="text-xl font-semibold mb-2">Auction and Bidding Systems</h3>
+          <p className="text-md text-gray-700">
             Our NFT marketplaces feature superior auction and bidding structures, allowing
             customers to participate in stay auctions and region bids on their favorite NFTs.
           </p>
@@ -36,8 +36,8 @@ const Section_g = () => {
             alt="Royalty"
             className="w-12 h-12 mb-4"
           />
-          <h3 className="text-lg font-semibold mb-2">Royalty Management</h3>
-          <p className="text-sm text-gray-700">
+          <h3 className="text-xl font-semibold mb-2">Royalty Management</h3>
+          <p className="text-md text-gray-700">
             We enforce sturdy royalty management systems, ensuring artists and creators get hold of
             royalties from secondary sales of their NFTs.
           </p>
@@ -49,8 +49,8 @@ const Section_g = () => {
             alt="Multi-Currency"
             className="w-12 h-12 mb-4"
           />
-          <h3 className="text-lg font-semibold mb-2">Multi-Currency Support</h3>
-          <p className="text-sm text-gray-700">
+          <h3 className="text-xl font-semibold mb-2">Multi-Currency Support</h3>
+          <p className="text-md text-gray-700">
             Our structures support numerous digital currencies, providing users with the power to
             exchange NFTs the usage of their preferred currency.
           </p>
@@ -62,8 +62,8 @@ const Section_g = () => {
             alt="User Interface"
             className="w-12 h-12 mb-4"
           />
-          <h3 className="text-lg font-semibold mb-2">User-Friendly Interfaces</h3>
-          <p className="text-sm text-gray-700">
+          <h3 className="text-xl font-semibold mb-2">User-Friendly Interfaces</h3>
+          <p className="text-md text-gray-700">
             We design intuitive and user-friendly interfaces that make it smooth for customers to
             navigate the marketplace, find out new NFTs, and whole transactions resultseasily.
           </p>

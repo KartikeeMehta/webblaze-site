@@ -21,7 +21,7 @@ const Section_b = () => {
                 At Webblaze, we focus on social media control, coping with everything from content creation to community engagement. Our team of experts leverages modern systems and strategies to ensure your platforms are active, engaging, and aligned with your brand’s voice.
               </p>
 
-              <ul className="list-disc list-inside text-sm sm:text-base text-gray-700 space-y-2">
+              <ul className="list-disc list-inside text-sm sm:text-base text-gray-700 leading-10 space-y-2">
                 <li>
                   <span className="font-bold">Social Media Management Companies:</span> We are among the top agencies ensuring your brand gets the attention it deserves.
                 </li>

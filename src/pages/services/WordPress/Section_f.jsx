@@ -6,7 +6,7 @@ const Section_f = () => {
     <div className="bg-gray-50 py-20 px-6 md:px-16 lg:px-24">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between gap-10">
         <div className="flex-1">
-          <p className="text-red-500 font-medium mb-2">Talk To Our Expert</p>
+          <p className="text-2xl text-red-500 font-medium mb-2">Talk To Our Expert</p>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
             Ready to elevate your <br />
             WordPress website with <br />

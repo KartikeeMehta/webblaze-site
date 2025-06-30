@@ -2,29 +2,29 @@ import React, { useState } from "react";
 
 const faqs = [
   {
-    question: "What is SEO and why is it important?",
+    question: "What is shopping in the Metaverse?",
     answer:
-      "SEO stands for Search Engine Optimization, a process of optimizing a website to rank higher in search engine results. It is important because it helps increase organic traffic, improves visibility, and drives more potential customers to your site.",
+      "Shopping in the Metaverse involves purchasing virtual goods or services within a digital world or platform. Users can buy virtual items like clothes, accessories, or even real-world products through a virtual storefront or marketplace.",
   },
   {
-    question: "How long does it take to see SEO results?",
+    question: "How do you make payments in the Metaverse?",
     answer:
-      "SEO results typically take 3-6 months to show significant changes, depending on the competition, keyword difficulty, and the quality of optimization efforts.",
+      "Payments in the Metaverse are typically made using cryptocurrencies, virtual currencies, or digital wallets. Some platforms also accept traditional payments through integration with existing payment processors.",
   },
   {
-    question: "What are on-page SEO and off-page SEO?",
+    question: "Is shopping in the Metaverse safe?",
     answer:
-      "On-page SEO refers to optimizing elements on your website, like content, meta tags, and internal links. Off-page SEO includes activities outside your website, such as backlink building, social media promotion, and guest blogging.",
+      "Shopping in the Metaverse can be safe if users take precautions, such as using secure platforms, verifying sellers, and using trusted payment methods. However, as with any online activity, it’s important to exercise caution.",
   },
   {
-    question: "How do I know if my SEO efforts are working?",
+    question: "Can I buy physical products in the Metaverse?",
     answer:
-      "You can track SEO performance through tools like Google Analytics, Search Console, and keyword ranking reports. Metrics such as organic traffic, bounce rate, and conversion rates are key indicators of SEO success.",
+      "Some Metaverse platforms allow users to buy virtual versions of physical products or access real-world e-commerce sites via digital storefronts. However, the Metaverse itself is primarily focused on virtual goods.",
   },
   {
-    question: "Can I do SEO for my website by myself?",
+    question: "What are the advantages of shopping in the Metaverse?",
     answer:
-      "Yes, you can do basic SEO for your website by following best practices, but for advanced strategies and long-term success, it’s recommended to hire an experienced SEO professional or agency.",
+      "Shopping in the Metaverse offers convenience, immersive experiences, access to unique digital goods, and the ability to socialize with other shoppers in virtual spaces. It provides a new, interactive way of browsing and buying.",
   },
 ];
 

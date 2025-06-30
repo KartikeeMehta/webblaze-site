@@ -16,14 +16,6 @@ const contentBlocks = [
             "https://webblazesofttech.com/wp-content/uploads/2024/08/Engaging-Customer-Interactions-with-Shopify-Live-Chat.webp",
         borderColor: "border-rose-300",
     },
-    {
-        title: "Inventory Management and Shopify POS Pro",
-        description:
-            "Efficient stock management is crucial for any E-commerce strategist. Our Shopify stock management app helps you hold track of your stock degrees in real-time, lowering the threat of stockouts and overstocking. The Shopify POS Pro complements this via providing superior stock management capabilities, incorporated along with your POS gadget.",
-        imagePath:
-            "https://images.pexels.com/photos/2100063/pexels-photo-2100063.jpeg?auto=compress&w=200&h=200&fit=crop",
-        borderColor: "border-yellow-300",
-    },
 ];
 
 function Section_b() {
@@ -54,10 +46,10 @@ function Section_b() {
                         </div>
                         {/* Text */}
                         <div>
-                            <h3 className="text-lg md:text-xl font-bold mb-2 text-[#222]">
+                            <h3 className="text-xl md:text-4xl font-bold mb-2 text-[#222]">
                                 {contentBlocks[0].title}
                             </h3>
-                            <p className="text-gray-700 text-sm md:text-base">
+                            <p className="text-gray-700 text-md md:text-lg">
                                 {contentBlocks[0].description}
                             </p>
                         </div>
@@ -79,39 +71,15 @@ function Section_b() {
                         </div>
                         {/* Text */}
                         <div>
-                            <h3 className="text-lg md:text-xl font-bold mb-2 text-[#222]">
+                            <h3 className="text-xl md:text-4xl font-bold mb-2 text-[#222]">
                                 {contentBlocks[1].title}
                             </h3>
-                            <p className="text-gray-700 text-sm md:text-base">
+                            <p className="text-gray-700 text-md md:text-lg">
                                 {contentBlocks[1].description}
                             </p>
                         </div>
                     </div>
 
-                    {/* Third Row */}
-                    <div className="flex flex-col md:flex-row items-start md:items-center gap-8">
-                        {/* Image */}
-                        <div className="flex-shrink-0 mx-auto md:mx-0">
-                            <div
-                                className={`rounded-full border-4 ${contentBlocks[2].borderColor} w-[276px] h-[480px] flex items-center justify-center overflow-hidden`}
-                            >
-                                <img
-                                    src={contentBlocks[2].imagePath}
-                                    alt={contentBlocks[2].title}
-                                    className="w-[276px] h-[480px] object-cover rounded-full"
-                                />
-                            </div>
-                        </div>
-                        {/* Text */}
-                        <div>
-                            <h3 className="text-lg md:text-xl font-bold mb-2 text-[#222]">
-                                {contentBlocks[2].title}
-                            </h3>
-                            <p className="text-gray-700 text-sm md:text-base">
-                                {contentBlocks[2].description}
-                            </p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

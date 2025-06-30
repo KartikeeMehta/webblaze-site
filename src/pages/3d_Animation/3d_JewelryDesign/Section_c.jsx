@@ -10,10 +10,10 @@ const Section_c = () => {
 
         <div className="grid md:grid-cols-2 gap-8 items-center mb-16">
           <div className="text-left">
-            <h3 className="text-xl font-semibold mb-2">
+            <h3 className="text-2xl font-semibold mb-2">
               Custom 3D Printed Jewelry
             </h3>
-            <ul className="list-disc list-inside text-sm text-gray-300 leading-relaxed">
+            <ul className="list-disc list-inside text-lg text-gray-300 leading-relaxed">
               <li>
                 With the brand new 3D printing era, we create bespoke portions
                 tailored on your specifications. From complicated 3D revealed
@@ -42,8 +42,8 @@ const Section_c = () => {
           </div>
 
           <div className="text-left">
-            <h3 className="text-xl font-semibold mb-2">3D Necklace Design</h3>
-            <ul className="list-disc list-inside text-sm text-gray-300 leading-relaxed">
+            <h3 className="text-2xl font-semibold mb-2">3D Necklace Design</h3>
+            <ul className="list-disc list-inside text-lg text-gray-300 leading-relaxed">
               <li>
                 We provide awesome 3D necklace layout offerings that permit you
                 to visualize and create lovely necklaces. Whether you desire a
@@ -56,8 +56,8 @@ const Section_c = () => {
 
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="text-left">
-            <h3 className="text-xl font-semibold mb-2">3D Ring Design</h3>
-            <ul className="list-disc list-inside text-sm text-gray-300 leading-relaxed">
+            <h3 className="text-2xl font-semibold mb-2">3D Ring Design</h3>
+            <ul className="list-disc list-inside text-lg text-gray-300 leading-relaxed">
               <li>
                 Our team specializes in developing splendid 3D ring designs on
                 line. From diamond ring 3D models to unique 3D flower jewelry,

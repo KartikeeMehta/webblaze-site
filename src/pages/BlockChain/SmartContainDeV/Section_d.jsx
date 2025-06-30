@@ -17,11 +17,11 @@ const Section_d = () => {
             </div>
 
             <div className="max-w-xl text-left">
-                <h3 className="text-2xl font-semibold mb-4">Certified Solidity Developer</h3>
-                <p className="text-gray-600 mb-4">
+                <h3 className="text-3xl font-semibold mb-4">Certified Solidity Developer</h3>
+                <p className="text-lg text-gray-600 mb-4">
                     Our crew consists of certified Solidity builders who convey substantial enjoy and knowledge.
                 </p>
-                <p className="text-gray-600">
+                <p className="text-lg text-gray-600">
                     We offer smart agreement consulting that will help you navigate the complexities of blockchain technology.
                 </p>
             </div>

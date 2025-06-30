@@ -18,7 +18,7 @@ const Section_a = () => {
                         </span>
                     </h2>
                     <span className="text-black text-sm font-bold">Introduction to Our Uber Clone</span>
-                    <p className="mt-5 text-gray-700 text-base md:text-sm leading-relaxed">
+                    <p className="mt-5 text-gray-700 text-base md:text-lg leading-relaxed">
                         Webblaze, a main web improvement organisation, gives a strong and function-rich Uber clone app to revolutionize your taxi booking industrial enterprise. Our Uber clone app, designed with the contemporary technology, offers seamless ride-hailing services. Whether you are a startup or a longtime taxi service, our Uber clone software program is your best associate to tap into the developing call for for revel in-sharing apps.                    </p>
                     <button className="mt-8 px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition">
                         Contact Us

@@ -37,7 +37,7 @@ function Section_c() {
         {/* Right: Image */}
         <div className="flex-shrink-0">
           <img
-            src="https://img.freepik.com/free-photo/woman-wearing-virtual-reality-goggles-interacting-with-graphs-digital-interface_53876-104179.jpg" // Replace with your actual image
+            src="https://webblazesofttech.com/wp-content/uploads/2025/01/businesswoman-working-with-modern-virtual-technologies-hands-touching-screen-1-2048x1365.jpg" // Replace with your actual image
             alt="Metaverse Shopping"
             className="rounded-2xl border-b-8 border-[#f75c5c] max-w-[500px] w-full object-cover"
             style={{ minWidth: 320, minHeight: 320, background: "#eee" }}

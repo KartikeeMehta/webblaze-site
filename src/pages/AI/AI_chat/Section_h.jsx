@@ -10,9 +10,9 @@ const Section_h = () => {
 
         <div className="flex flex-col md:flex-row w-full max-w-[1200px] mx-auto">
   {/* Child 1: Image Top, Text Bottom */}
-  <div className="flex flex-col w-full md:w-1/3">
-    <img src="https://webblazesofttech.com/wp-content/uploads/2024/09/Business-Intelligence.png" alt="Image 1" className="w-full h-auto" />
-    <div className="p-4 text-center">
+  <div className="flex flex-col w-full h-[255px] md:w-1/3">
+    <img src="https://webblazesofttech.com/wp-content/uploads/2024/09/Business-Intelligence.png" alt="Image 1" className="w-full h-[255px]" />
+    <div className="p-4 text-center h-[255px]">
       <h3 className="text-xl font-semibold">Business Intelligence</h3>
       <p className="text-gray-600">Implementing a business enterprise intelligence chatbot can provide treasured insights into patron conduct and alternatives, helping you’re making knowledgeable choices.</p>
     </div>

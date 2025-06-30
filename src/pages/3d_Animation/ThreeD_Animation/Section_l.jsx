@@ -7,10 +7,10 @@ const Section_l = () => {
         <div className="bg-gray-50 max-w-[1200px] mx-auto py-16 px-4">
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div>
-                    <p className="text-red-500 font-semibold mb-2">Get in Touch</p>
+                    <p className="text-2xl text-red-500 font-semibold mb-2">Get in Touch</p>
                     <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
-                       Ready to carry your product thoughts to lifestyles with expert 3D layout offerings?                 </h2>
-                    <p className="text-gray-700 mb-8">Ready to raise your digital presence with Webblaze's 3D avatar offerings?
+                       Ready to maintain your mind to existence with our 3D animation offerings?</h2>
+                    <p className="text-gray-700 mb-8">Contact us these days to observe more approximately how we allow you to achieve your animation dreams.
                     </p>
 
                     <div className="space-y-6">

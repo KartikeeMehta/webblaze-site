@@ -11,7 +11,7 @@ function Section_e() {
     >
       <div className="max-w-[1200px] mx-auto px-6 flex flex-col lg:flex-row items-center justify-between gap-10 rounded-3xl p-8 ">
         <div className="w-[50%]">
-          <h2 className="text-3xl md:text-5xl font-bold md:leading-[64px] text-black">
+          <h2 className="text-xl md:text-4xl font-bold md:leading-[64px] text-black">
             Transform Your Business with Webblaze and AWS
           </h2>
           <p className="mt-6 text-gray-700 text-base md:text-lg leading-relaxed">
@@ -22,9 +22,7 @@ function Section_e() {
             machine gaining knowledge of with SageMaker, our licensed AWS
             specialists are right here to manual you each step of the manner.
           </p>
-          <button className="mt-8 px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition">
-            Contact Us
-          </button>
+
         </div>
 
         <div className="w-[50%]">

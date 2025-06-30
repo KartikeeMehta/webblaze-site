@@ -43,7 +43,7 @@ const Section_d = () => {
                                 <span className="text-red-500">{service.highlight}</span>{" "}
                                 {service.title.replace(service.highlight, '')}
                             </h3>
-                            <p className="text-sm text-gray-700 whitespace-pre-line">
+                            <p className="text-md text-gray-700 whitespace-pre-line">
                                 {service.description}
                             </p>
                         </div>

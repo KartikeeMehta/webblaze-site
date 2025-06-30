@@ -50,11 +50,11 @@ const Section_c = () => {
                 alt={feature.title}
                 className="w-12 h-12 object-contain"
               />
-              <h3 className="text-lg font-semibold text-gray-900">
+              <h3 className="text-2xl font-semibold text-gray-900">
                 {feature.title}
               </h3>
             </div>
-            <p className="text-gray-600 text-sm leading-relaxed">
+            <p className="text-gray-600 text-lg leading-relaxed">
               {feature.description}
             </p>
           </div>

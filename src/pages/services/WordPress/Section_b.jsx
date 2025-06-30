@@ -81,8 +81,8 @@ const Section_b = () => {
                             key={index}
                             className="bg-white rounded-2xl shadow-sm p-6 text-left border-b-4 border-blue-400"
                         >
-                            <h3 className="text-lg font-semibold text-gray-900 mb-4">{service.title}</h3>
-                            <ul className="list-decimal pl-5 space-y-1 text-gray-700 text-sm">
+                            <h3 className="text-xl font-semibold text-gray-900 mb-4">{service.title}</h3>
+                            <ul className="list-decimal pl-5 space-y-1 text-gray-700 text-md leading-7">
                                 {service.points.map((point, idx) => (
                                     <li key={idx}>{point}</li>
                                 ))}

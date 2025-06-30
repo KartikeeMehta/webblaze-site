@@ -2,29 +2,29 @@ import React, { useState } from "react";
 
 const faqData = [
   {
-    question: "What's new in Shopify 2.0?",
+    question: "What is Angular.js used for?",
     answer:
-      "Shopify 2.0 introduces several new features including improved theme architecture, enhanced customization options, and better content management capabilities. The platform now offers more flexible section-based templates, improved metafields, and better developer tools.",
+      "Angular.js is a JavaScript framework for creating dynamic web applications and SPAs.",
   },
   {
-    question: "How do I migrate to Shopify 2.0?",
+    question: "How does Angular.js differ from Angular?",
     answer:
-      "Migration to Shopify 2.0 involves updating your theme to be compatible with the new architecture. Our team can help you with a smooth transition, including theme updates, content migration, and ensuring all functionalities work correctly in the new version.",
+      "Angular.js is the older version, based on JavaScript, while Angular (2+) is built with TypeScript and offers better performance.",
   },
   {
-    question: "Can I customize Shopify 2.0 themes?",
+    question: "What are the key features of Angular.js?",
     answer:
-      "Yes, Shopify 2.0 offers enhanced customization capabilities. You can modify sections, add custom fields, and create unique layouts for different pages. The new theme architecture provides more flexibility for both developers and store owners.",
+      "Two-way data binding, dependency injection, and directives are core features of Angular.js.",
   },
   {
-    question: "Is Shopify 2.0 SEO-friendly?",
+    question: "Does Webblaze oIs Angular.js still supported in 2025?ffer customized solutions?",
     answer:
-      "Yes, Shopify 2.0 is designed with SEO in mind. It includes improved meta fields, better URL structures, and enhanced performance optimization features that can help improve your store's search engine rankings.",
+      "No, Angular.js has reached its end of life. It’s recommended to upgrade to Angular (2+).",
   },
   {
-    question: "What are the costs associated with Shopify 2.0?",
+    question: "How do I migrate from Angular.js to Angular?",
     answer:
-      "The costs for Shopify 2.0 vary depending on your needs. Basic Shopify plans start at $29/month, while advanced features and Shopify Plus have different pricing tiers. Additional costs may include theme purchases, apps, and custom development work.",
+      "Use tools like ngUpgrade to transition components and gradually adopt Angular’s modern architecture.",
   },
 ];
 
@@ -48,7 +48,7 @@ function Section_e() {
       <div className="max-w-[1000px] mx-auto px-4">
         {/* FAQ Title */}
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
-          FAQ
+          Frequently Asked Questions
         </h2>
 
         {/* FAQ Accordion */}

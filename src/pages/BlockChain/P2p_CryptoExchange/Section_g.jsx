@@ -47,7 +47,7 @@ const Section_g = () => {
   return (
     <div className="min-h-screen bg-gray-100 py-2 px-4 sm:px-6 lg:px-8 font-inter">
       <div className="max-w-[1200px] mx-auto">
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 text-center mb-6 leading-tight">
+        <h2 className="text-3xl sm:text-4xl lg:text-4xl font-bold text-gray-800 text-center mb-6 leading-tight">
           Popular Keywords and Our Integration
         </h2>
         <p className="text-gray-600 text-center mb-12 max-w-3xl mx-auto">

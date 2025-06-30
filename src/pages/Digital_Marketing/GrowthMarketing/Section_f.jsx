@@ -38,11 +38,11 @@ const Section_f = () => {
                             className={`bg-white rounded-lg shadow-sm p-6 text-left ${card.borderColor}`}
                         >
                             <div
-                                className={`inline-block px-4 py-4 font-semibold text-sm rounded-md mb-4 ${card.badgeColor}`}
+                                className={`inline-block px-4 py-4 font-semibold text-xl rounded-md mb-4 ${card.badgeColor}`}
                             >
                                 {card.badge}
                             </div>
-                            <p className="text-gray-700 text-sm leading-relaxed">
+                            <p className="text-gray-700 text-md leading-relaxed">
                                 {card.description}
                             </p>
                         </div>

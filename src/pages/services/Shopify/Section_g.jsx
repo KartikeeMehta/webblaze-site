@@ -6,7 +6,7 @@ function Section_g() {
       <div className="max-w-[1200px] mx-auto px-4 flex flex-col md:flex-row gap-8 md:gap-16 justify-center items-center">
         {/* Left: Info */}
         <div className="flex-1 max-w-xl">
-          <div className="text-[#F75C4E] font-medium mb-2">
+          <div className="text-2xl text-[#F75C4E] font-medium mb-2">
             Talk To Our Expert
           </div>
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 leading-tight">

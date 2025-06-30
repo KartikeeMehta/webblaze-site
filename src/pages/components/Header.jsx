@@ -11,6 +11,8 @@ function Header() {
   const [onAi, setOnAi] = useState(false);
   const [onMetaverseItems, setOnMetaverseItems] = useState(false);
   const [onAnimationItems, setOnAnimationItems] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false); 
+
   const navigate = useNavigate();
 
   const servicesDropdown = [
@@ -375,17 +377,32 @@ function Header() {
           </button>
           <button
             onClick={() => navigate('/Free_Seo_Audit')}
-       
-           className="bg-blue-500
+
+            className="bg-blue-500
             text-white text-sm   hover:border-blue-600 border-[2px] hover:text-blue-600 hover:bg-white rounded-[12px] transition duration-200 py-[10px] px-[20px]">
             Free SEO Audit
           </button>
         </div>
 
         <div className="lg:hidden">
-          <button className="text-blue-600 font-bold">☰</button>
+          <button
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            className="text-blue-600 text-2xl"
+          >
+            ☰
+          </button>
         </div>
       </div>
+
+      {isMobileMenuOpen && (
+        <div className="lg:hidden bg-white shadow-md border-t border-gray-200 px-5 py-4 space-y-3">
+          <Link to="/" className="block text-gray-800 font-medium">Home</Link>
+          <Link to="/About_us" className="block text-gray-800 font-medium">About Us</Link>
+          <Link to="/Contact_Us" className="block text-gray-800 font-medium">Contact Us</Link>
+          <Link to="/Free_Seo_Audit" className="block text-gray-800 font-medium">Free SEO Audit</Link>
+          {/* You can also map dropdown sections here if needed */}
+        </div>
+      )}
     </header>
   );
 }

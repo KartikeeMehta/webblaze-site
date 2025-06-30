@@ -3,24 +3,24 @@ import React, { useState } from 'react';
 
 const faqs = [
     {
-        question: 'What is SEO and why is it important?',
-        answer: 'SEO stands for Search Engine Optimization, a process of optimizing a website to rank higher in search engine results. It is important because it helps increase organic traffic, improves visibility, and drives more potential customers to your site.'
+        question: 'What is a virtual store?',
+        answer: 'A virtual store is an online store within a digital platform or virtual environment where users can browse and shop for products or services, often using 3D avatars or immersive technologies like VR.'
     },
     {
-        question: 'How long does it take to see SEO results?',
-        answer: 'SEO results typically take 3-6 months to show significant changes, depending on the competition, keyword difficulty, and the quality of optimization efforts.'
+        question: 'How does a virtual store work?',
+        answer: 'A virtual store operates by providing a digital shopping environment where users can interact with the products, view them in 3D, try them virtually, and make purchases using digital payment methods.'
     },
     {
-        question: 'What are on-page SEO and off-page SEO?',
-        answer: 'On-page SEO refers to optimizing elements on your website, like content, meta tags, and internal links. Off-page SEO includes activities outside your website, such as backlink building, social media promotion, and guest blogging.'
+        question: 'What are the benefits of having a virtual store?',
+        answer: 'Virtual stores offer enhanced customer engagement, 24/7 accessibility, immersive shopping experiences, and the ability to reach a global audience without the limitations of a physical store.'
     },
     {
-        question: 'How do I know if my SEO efforts are working?',
-        answer: 'You can track SEO performance through tools like Google Analytics, Search Console, and keyword ranking reports. Metrics such as organic traffic, bounce rate, and conversion rates are key indicators of SEO success.'
+        question: 'How do I set up a virtual store?',
+        answer: 'To set up a virtual store, you need to choose a platform (like a Metaverse environment or a 3D e-commerce platform), design your store layout, integrate payment gateways, and upload product listings.'
     },
     {
-        question: 'Can I do SEO for my website by myself?',
-        answer: 'Yes, you can do basic SEO for your website by following best practices, but for advanced strategies and long-term success, it’s recommended to hire an experienced SEO professional or agency.'
+        question: 'Can I sell physical products in a virtual store?',
+        answer: 'Yes, you can sell both physical and virtual products in a virtual store. Many businesses integrate their real-world inventories with digital environments to offer a hybrid shopping experience.'
     }
 ];
 

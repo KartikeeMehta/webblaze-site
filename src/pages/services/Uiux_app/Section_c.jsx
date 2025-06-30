@@ -3,12 +3,12 @@ import { FaUser, FaEye, FaHandshake } from 'react-icons/fa';
 
 const Section_c = () => {
   return (
-    <section className="bg-[#1b1e2f] text-white py-20 px-6">
+    <section className="bg-[#1b1e2f] bg-[url('background-lines.webp')] text-white py-20 px-6">
       <div className="max-w-[1200px] mx-auto text-center space-y-8 px-6">
         <h2 className="text-3xl sm:text-4xl font-bold">
           Our Approach to UI and UX Design
         </h2>
-        <p className="text-gray-300 max-w-3xl mx-auto text-sm sm:text-base leading-relaxed">
+        <p className=" text-gray-300 max-w-3xl mx-auto text-sm sm:text-base leading-relaxed">
           At Webblaze, we observe a whole approach to UI and UX design. Our
           manner starts off evolved with know-how your industrial agency desires
           and audience. We conduct thorough research and analysis to collect
@@ -20,7 +20,7 @@ const Section_c = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
           <div className="border border-gray-600 rounded-xl p-6 text-left hover:border-blue-400 hover:shadow-xl transition-all duration-300">
             <div className="text-4xl text-blue-400 mb-4">
-              <FaUser />
+              <img src="UiUx_1.png" alt="" />
             </div>
             <h3 className="text-lg font-semibold mb-2">User-Centric Design</h3>
             <p className="text-gray-300 text-sm">
@@ -34,7 +34,7 @@ const Section_c = () => {
 
           <div className="border border-gray-600 rounded-xl p-6 text-left hover:border-blue-400 hover:shadow-xl transition-all duration-300">
             <div className="text-4xl text-red-400 mb-4">
-              <FaEye />
+              <img src="UiUx_2.png" alt="" />
             </div>
             <h3 className="text-lg font-semibold mb-2">Visual Design Excellence</h3>
             <p className="text-gray-300 text-sm">
@@ -49,7 +49,7 @@ const Section_c = () => {
 
           <div className="border border-gray-600 rounded-xl p-6 text-left hover:border-blue-400 hover:shadow-xl transition-all duration-300">
             <div className="text-4xl text-yellow-400 mb-4">
-              <FaHandshake />
+              <img src="UiUx_3.png" alt="" />
             </div>
             <h3 className="text-lg font-semibold mb-2">Seamless Interaction Design</h3>
             <p className="text-gray-300 text-sm">

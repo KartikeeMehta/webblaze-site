@@ -2,7 +2,7 @@ import React from "react";
 
 const Section_b = () => {
   return (
-    <section className="py-20 px-4 md:px-12 bg-white">
+    <section className="py-20 px-4 md:px-12 bg-gray-50">
       <div className="max-w-[1200px] mx-auto">
 
         <div className="grid md:grid-cols-2 gap-12 items-start">
@@ -14,8 +14,11 @@ const Section_b = () => {
             <img
               src="https://webblazesofttech.com/wp-content/uploads/2025/02/3d-flat-icon-person-with-laptop-ppc-icons-overlay-pay-per-click-marketing-strategy-iso_11zon-scaled.jpg"
               alt="PPC Illustration"
-              className="rounded-xl w-full max-w-[500px] h-[70%]  shadow-lg"
+              className="rounded-xl w-full object-cover max-w-[500px] h-[70%]  shadow-lg"
             />
+            <img 
+            className=" pt-24 ml-[350px] object-center"
+            src="StoneBg.png" alt="" />
           </div>
 
           <div className="flex flex-col gap-6">

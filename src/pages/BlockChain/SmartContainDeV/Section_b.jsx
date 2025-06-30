@@ -8,26 +8,26 @@ const Section_b = () => {
         {
             icon: experienceIcon,
             title: "Expertise in Blockchain Technology",
-            desc: "Our team comprises some of the high-quality WordPress builders within the enterprise, with years of revel in in delivering wonderful WordPress web sites.",
+            desc: "Our institution consists of licensed smart agreement developers professional in blockchain smart agreement development.We are talented in diverse blockchain systems, together with Ethereum, Binance Smart Chain, and more.",
             bgColor: "bg-blue-600",
         },
         {
             icon: clientIcon,
             title: "Comprehensive Services",
-            desc: "We prioritize our customers' needs and work intently with them to make certain their vision is found out.",
+            desc: "We offer a complete sort of smart settlement development offerings, from preliminary session to deployment and protection.Our offerings include NFT smart settlement development, DeFi smart settlement development, and additional.",
             bgColor: "bg-red-400",
         },
         {
             icon: competitivePricing,
             title: "Tailored Solutions",
-            desc: "Our offerings are priced competitively, offering notable cost for your investment.",
+            desc: "We apprehend that every enterprise has particular wishes. Our smart contract consulting services make certain customized solutions that fit your specific requirements.",
             bgColor: "bg-yellow-300",
         },
 
     ];
 
     return (
-        <section className="bg-[#0B0F1C] py-20 px-4">
+        <section className="bg-[#0B0F1C] bg-[url('background-lines.webp')] py-20 px-4">
             <div className="max-w-[1200px] mx-auto text-center">
                 <h2 className="text-white text-3xl md:text-4xl font-bold mb-12">
                     Why Choose Webblaze for Smart Contract
@@ -44,8 +44,8 @@ const Section_b = () => {
                             >
                                 <img src={item.icon} alt="icon" className="w-6 h-6" />
                             </div>
-                            <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
-                            <p className="text-sm text-gray-300">{item.desc}</p>
+                            <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
+                            <p className="text-md text-gray-300">{item.desc}</p>
                         </div>
                     ))}
                 </div>

@@ -18,13 +18,13 @@ const Section_h = () => {
           </div>
 
           <div className="md:w-1/2">
-            <h3 className="text-xl md:text-2xl font-semibold text-[#1A1A1A] mb-3">
+            <h3 className="text-xl md:text-3xl font-semibold text-[#1A1A1A] mb-3">
               Experienced Developers
             </h3>
-            <p className="text-[#333] mb-2">
+            <p className="text-lg text-[#333] mb-2">
               Our crew includes some of the nice smart agreement developers within the enterprise.
             </p>
-            <p className="text-[#333]">
+            <p className="text-lg text-[#333]">
               We have know-how in solidity development, blockchain smart agreement improvement, and more.
             </p>
           </div>
@@ -40,13 +40,13 @@ const Section_h = () => {
           </div>
 
           <div className="md:w-1/2">
-            <h3 className="text-xl md:text-2xl font-semibold text-[#1A1A1A] mb-3">
+            <h3 className="text-xl md:text-3xl font-semibold text-[#1A1A1A] mb-3">
               Certified Professionals
             </h3>
-            <p className="text-[#333] mb-2">
+            <p className="text-lg text-[#333] mb-2">
               Our licensed smart settlement developers convey a wealth of understanding and experience to each undertaking.
             </p>
-            <p className="text-[#333]">
+            <p className="text-lg text-[#333]">
               We make sure that our answers meet the very exceptional requirements of protection and universal performance.
             </p>
           </div>

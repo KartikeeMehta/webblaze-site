@@ -60,9 +60,9 @@ const Section_j = () => {
             >
               <div className={`flex items-center gap-2  mb-4 ${industry.color} p-3  rounded-md w-[80%]`}>
                 {industry.icon}
-                <span className="font-semibold">{industry.title}</span>
+                <span className="text-lg font-semibold">{industry.title}</span>
               </div>
-              <p className="text-sm text-gray-700">{industry.description}</p>
+              <p className="text-md text-gray-700">{industry.description}</p>
             </div>
           ))}
         </div>

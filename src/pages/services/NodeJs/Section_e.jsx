@@ -47,7 +47,7 @@ const Section_e = () => {
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
          Node.Js Developer Expertise
         </h2>
-         <p className="text-sm text-white-100 w-full md:w-[65%] mx-auto text-center mb-10 leading-relaxed mt-3">
+         <p className="text-md text-white-100 w-full md:w-[65%] mx-auto text-center mb-10 leading-relaxed mt-3">
              Our team of Node.Js developers at Webblaze brings full-size expertise across numerous domain names:
             </p>
       </div>
@@ -58,10 +58,10 @@ const Section_e = () => {
             key={index}
             className="bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-all duration-300 border-b-4 border-b-blue-500"
           >
-            <h3 className="text-lg font-semibold text-gray-800 mb-2">
+            <h3 className="text-2xl font-semibold text-gray-800 mb-2">
               {feature.title}
             </h3>
-            <p className="text-gray-600 text-sm">{feature.description}</p>
+            <p className="text-gray-600 text-md leading-8">{feature.description}</p>
           </div>
         ))}
       </div>

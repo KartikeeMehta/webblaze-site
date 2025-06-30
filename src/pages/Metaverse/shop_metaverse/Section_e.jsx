@@ -32,7 +32,7 @@ function Section_e() {
           <img
             src="https://webblazesofttech.com/wp-content/uploads/2024/08/Metaverse-Retail-1.webp" // Replace with your actual image
             alt="Metaverse Retail"
-            className="rounded-2xl border-l-4 border-b-4 border-[#f75c5c] max-w-md w-full object-cover"
+            className="rounded-2xl border-l-4 border-b-4 border-[#f75c5c] max-w-md w-full h-[500px] object-cover"
             style={{ minWidth: 320, minHeight: 320, background: "#eee" }}
           />
         </div>

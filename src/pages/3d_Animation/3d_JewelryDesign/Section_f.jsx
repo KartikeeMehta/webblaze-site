@@ -49,7 +49,7 @@ const Section_f = () => {
                                 <h3 className="text-lg font-bold mb-3 text-[#1d1e25]">
                                     {card.title}
                                 </h3>
-                                <p className="text-sm text-gray-700 leading-relaxed">
+                                <p className="text-md text-gray-700 leading-relaxed">
                                     {card.description}
                                 </p>
                             </div>

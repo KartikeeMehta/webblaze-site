@@ -10,7 +10,7 @@ const Section_e = () => {
           <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">
             Tailored Social Media Strategies
           </h2>
-          <p className="text-sm sm:text-base text-gray-600">
+          <p className="text-md sm:text-base text-gray-600">
             We understand that each enterprise is unique. That’s why Webblaze offers tailored social media strategies to meet your specific needs.
           </p>
 
@@ -20,8 +20,8 @@ const Section_e = () => {
             <div className="flex items-start gap-4 p-4 border rounded-lg shadow-sm bg-white">
               <img src="SMM_1.png" className="w-10 h-10" />
               <div>
-                <h3 className="font-semibold text-base">Social Media Marketing Agency Pricing</h3>
-                <p className="text-gray-600 text-sm">
+                <h3 className="font-semibold text-lg">Social Media Marketing Agency Pricing</h3>
+                <p className="text-gray-600 text-md">
                   Our competitive pricing ensures you get the best value for your investment.
                 </p>
               </div>
@@ -31,8 +31,8 @@ const Section_e = () => {
             <div className="flex items-start gap-4 p-4 border rounded-lg shadow-sm bg-white">
               <img src="SMM_2.png" className="w-10 h-10" />
               <div>
-                <h3 className="font-semibold text-base">Social Media Marketing Agency Near Me</h3>
-                <p className="text-gray-600 text-sm">
+                <h3 className="font-semibold text-lg">Social Media Marketing Agency Near Me</h3>
+                <p className="text-gray-600 text-md">
                   We offer local and customized services to meet your business goals.
                 </p>
               </div>
@@ -42,8 +42,8 @@ const Section_e = () => {
             <div className="flex items-start gap-4 p-4 border rounded-lg shadow-sm bg-white">
               <img src="SMM_3.png" alt="Top Companies" className="w-10 h-10" />
               <div>
-                <h3 className="font-semibold text-base">Top Social Media Marketing Companies</h3>
-                <p className="text-gray-600 text-sm">
+                <h3 className="font-semibold text-lg">Top Social Media Marketing Companies</h3>
+                <p className="text-gray-600 text-md">
                   As one of the top social media marketing agencies, we deliver results that matter.
                 </p>
               </div>

@@ -62,7 +62,7 @@ function Section_c() {
                 >
                   <img src={card.icon} alt={card.title} className="w-6 h-6" />
                 </span>
-                <span className="text-lg font-bold text-gray-800">
+                <span className="text-xl w-full font-bold text-gray-800">
                   {card.title}
                 </span>
               </div>

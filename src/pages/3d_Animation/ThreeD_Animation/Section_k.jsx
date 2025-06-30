@@ -3,24 +3,24 @@ import React, { useState } from 'react';
 
 const faqs = [
     {
-        question: 'What is 3D product design?',
-        answer: '3D product design involves creating digital models of products using 3D modeling software. These designs can be used for prototypes, production, and visualization before manufacturing.'
+        question: 'What is 3D animation?',
+        answer: '3D animation is the process of creating moving images using three-dimensional digital models. It is commonly used in films, video games, advertising, and educational content to create lifelike animations.'
     },
     {
-        question: 'How does 3D product design help businesses?',
-        answer: 'It allows businesses to visualize products, make design changes quickly, create prototypes without the need for physical models, and streamline the production process.'
+        question: 'How does 3D animation work?',
+        answer: '3D animation involves creating 3D models, rigging them for movement, and animating the models through keyframes or motion capture to produce realistic or stylized movements.'
     },
     {
-        question: 'What software is used in 3D product design?',
-        answer: 'Common software used for 3D product design includes AutoCAD, SolidWorks, Blender, and Fusion 360, each offering tools for detailed product creation.'
+        question: 'What are the benefits of 3D animation for businesses?',
+        answer: '3D animation allows businesses to create engaging visuals for marketing, explainer videos, product demos, and virtual environments, enhancing customer engagement and brand communication.'
     },
     {
-        question: 'Can 3D product design be used for consumer goods?',
-        answer: 'Yes, 3D product design is widely used for consumer goods, including electronics, furniture, clothing, and even food packaging, allowing designers to refine products before manufacturing.'
+        question: 'What software is used for 3D animation?',
+        answer: 'Popular software for 3D animation includes Autodesk Maya, Blender, Cinema 4D, and 3ds Max, which provide tools for modeling, texturing, and animating 3D objects and characters.'
     },
     {
-        question: 'Is 3D product design cost-effective?',
-        answer: 'Yes, 3D product design can be cost-effective by reducing the need for multiple prototypes, speeding up design iterations, and reducing errors in the manufacturing process.'
+        question: 'Is 3D animation expensive?',
+        answer: 'The cost of 3D animation can vary depending on the complexity, duration, and quality required. While it can be expensive for high-end productions, there are also cost-effective options for simpler projects.'
     }
 ];
 

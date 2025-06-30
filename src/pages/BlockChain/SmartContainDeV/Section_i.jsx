@@ -42,7 +42,7 @@ const Section_i = () => {
           <div key={index} className="mb-4">
             <button
               onClick={() => toggle(index)}
-              className="w-full bg-white text-black text-left px-6 py-4 rounded-xl flex items-center justify-between font-medium text-[17px]"
+              className="w-full bg-white text-black text-left px-6 py-4 rounded-xl flex items-center justify-between font-medium text-[lg]"
             >
               {item.question}
               <span className="ml-2">
@@ -55,7 +55,7 @@ const Section_i = () => {
             </button>
 
             {activeIndex === index && (
-              <div className="mt-2 bg-[#0D1128] border border-white rounded-lg px-6 py-4 text-sm text-white whitespace-pre-line">
+              <div className="mt-2 bg-[#0D1128] border border-white rounded-lg px-6 py-4 text-md text-white whitespace-pre-line">
                 {item.answer}
               </div>
             )}

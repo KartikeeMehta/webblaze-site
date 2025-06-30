@@ -6,7 +6,7 @@ const services = [
     title: "UI UX Design",
     description:
       "Our UI UX design offerings cover the whole lot from preliminary idea development to final implementation. We create designs which can be visually attractive, user-friendly, and aligned collectively with your logo identification.",
-    icon: <FaLaptopCode className="text-white text-xl" />,
+    icon: <img src="UiUx_9.png" alt="" />,
     bg: "bg-blue-500",
     tagBg: "bg-blue-100",
   },
@@ -14,7 +14,7 @@ const services = [
     title: "UX Design",
     description:
       "Our UX layout services focus on growing seamless and fun man or woman critiques. We conduct person research, create person personas, and expand wireframes and prototypes to ensure that every problem of the user journey is optimized.",
-    icon: <FaUserEdit className="text-white text-xl" />,
+    icon: <img src="UiUx_10.png" alt="" />,
     bg: "bg-red-400",
     tagBg: "bg-red-100",
   },
@@ -22,7 +22,7 @@ const services = [
     title: "UI Design",
     description:
       "Our UI layout services embody designing the visual additives of your digital product. We create layouts, pick coloration schemes, and design icons and typography to create a cohesive and appealing interface.",
-    icon: <FaPaintBrush className="text-white text-xl" />,
+    icon: <img src="UiUx_11.png" alt="" />,
     bg: "bg-yellow-400",
     tagBg: "bg-yellow-100",
   },
@@ -30,7 +30,7 @@ const services = [
     title: "UI UX Design Services",
     description:
       "We offer complete UI UX layout offerings that cover all factors of the layout method. From individual research to final design implementation, we make sure that your digital product gives an first-rate individual revel in.",
-    icon: <FaPencilRuler className="text-white text-xl" />,
+    icon: <img src="UiUx_12.png" alt="" />,
     bg: "bg-yellow-400",
     tagBg: "bg-yellow-100",
   },
@@ -38,7 +38,7 @@ const services = [
     title: "UI UX Developer",
     description:
       "Our group of UI UX developers works cautiously with our designers to convey the designs to lifestyles. We use the current day technology and brilliant practices to ensure that the final product is not simplest visually attractive but moreover fantastically practical and responsive.",
-    icon: <FaCode className="text-white text-xl" />,
+    icon: <img src="UiUx_13.png" alt="" />,
     bg: "bg-blue-500",
     tagBg: "bg-blue-100",
   },

@@ -11,7 +11,7 @@ const Section_i = () => {
            Ready to launch your NFT marketplace?
           </h2>
           <p className="text-gray-700 mb-8">
-            With Webblaze, you may count on pinnacle-tier picture layout services that increase your brand and captivate your target market. Let us assist you create a visible identity that stands out and drives fulfillment.
+            Talk to our professional these days and find out how Webblaze can rework your vision into reality.
           </p>
 
           <div className="space-y-6">

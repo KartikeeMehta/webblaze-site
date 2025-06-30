@@ -22,14 +22,14 @@ const contentSections = [
           "Seamlessly migrating your packages from Angular.Js to the present day versions for greater overall performance",
       },
       {
-        title: "Shopify Analytics Integration",
+        title: "Angular.Js Integration",
         description:
-          "Understanding your save's performance is crucial, and Webblaze helps you gain this with our Shopify analytics integration services. We configure Shopify analytics to provide specific reviews on sales, patron behavior, and product overall performance. Our insights assist you're making records-pushed decisions to optimize your store and improve sales.",
+          "Integrating Angular.Js with 1/3-celebration APIs and offerings to extend capability.",
       },
       {
-        title: "Shopify Analytics Integration",
+        title: "Support and Maintenance",
         description:
-          "Understanding your save's performance is crucial, and Webblaze helps you gain this with our Shopify analytics integration services. We configure Shopify analytics to provide specific reviews on sales, patron behavior, and product overall performance. Our insights assist you're making records-pushed decisions to optimize your store and improve sales.",
+          "Providing ongoing assist and upkeep to ensure your Angular.Js applications run smoothly.",
       },
     ],
   },

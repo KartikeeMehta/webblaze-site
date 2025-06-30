@@ -3,24 +3,24 @@ import React, { useState } from 'react';
 
 const faqs = [
     {
-        question: 'What is JavaScript used for in web development?',
-        answer: 'JavaScript enables interactive features like animations, dynamic content updates, and real-time form validation.'
+        question: 'Why is React.js so popular for web development?',
+        answer: 'React.js is favored for its component-based architecture, performance optimization, and rich ecosystem'
     },
     {
-        question: 'What are the top JavaScript frameworks in 2025?',
-        answer: 'Popular frameworks include React.js, Vue.js, Angular, and Svelte.'
+        question: 'Is React.js suitable for mobile app development?',
+        answer: 'Yes, React Native, built on React.js, is widely used for mobile app development.'
     },
     {
-        question: 'Is JavaScript essential for modern web development?',
-        answer: 'Yes, JavaScript is crucial for front-end, back-end, and full-stack development.'
+        question: 'How long does it take to learn React.js?',
+        answer: 'Beginners can grasp the basics in 1-2 weeks, but mastering advanced concepts may take 2-3 months.'
     },
     {
-        question: 'How do I debug JavaScript code effectively?',
-        answer: 'Use browser developer tools, console logs, and debugging tools like Visual Studio Code or Chrome DevTools.'
+        question: 'What are React.js hooks, and why are they important?',
+        answer: 'Hooks like useState and useEffect allow functional components to manage state and lifecycle methods.'
     },
     {
-        question: 'What are the differences between JavaScript and TypeScript?',
-        answer: 'TypeScript is a superset of JavaScript with added type-checking and better debugging features.'
+        question: 'What is the difference between React.js and Angular?',
+        answer: 'React is a library focused on UI, while Angular is a full-fledged framework with more built-in features.'
     }
 ];
 

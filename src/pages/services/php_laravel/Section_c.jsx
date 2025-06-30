@@ -2,32 +2,42 @@ import React from "react";
 
 const contentSections = [
   {
-    title: "Analytics and Reporting",
+    title: "Laravel Development Expertise",
     cards: [
       {
-        title: "Shopify Analytics Integration",
+        title: "Custom Laravel Development",
         description:
-          "Understanding your save's performance is crucial, and Webblaze helps you gain this with our Shopify analytics integration services. We configure Shopify analytics to provide specific reviews on sales, patron behavior, and product overall performance. Our insights assist you're making records-pushed decisions to optimize your store and improve sales.",
+          "Our Laravel developers specialize in growing custom answers tailor-made to your business needs. Whether you need a simple blog or a complex e-commerce platform, we leverage the Laravel framework to construct strong and scalable applications. We follow fine practices in Laravel development, ensuring clean code and efficient capability.",
       },
       {
-        title: "Shopify Analytics Integration",
+        title: "Advanced Laravel Features",
         description:
-          "Understanding your save's performance is crucial, and Webblaze helps you gain this with our Shopify analytics integration services. We configure Shopify analytics to provide specific reviews on sales, patron behavior, and product overall performance. Our insights assist you're making records-pushed decisions to optimize your store and improve sales.",
+          "Webblaze excels in imposing advanced Laravel capabilities along with Laravel Debugbar, Laravel Mix, and Laravel Forge. These tools enhance the improvement procedure, presenting debugging skills, asset control, and deployment automation. Our Laravel improvement business enterprise guarantees your undertaking benefits from the state-of-the-art advancements inside the Laravel surroundings.",
+      },
+      {
+        title: "Laravel API Development",
+        description:
+          "We concentrate on Laravel API improvement, developing RESTful APIs that allow seamless integration with different structures. Our builders use Laravel’s powerful capabilities to build APIs which might be secure, green, and smooth to hold. Whether you need an API for cellular programs or 1/3-celebration integrations, we supply sturdy solutions.",
       },
     ],
   },
   {
-    title: "Expert Support and Maintenance",
+    title: "Full Stack PHP Development",
     cards: [
       {
-        title: "Ongoing Shopify Support",
+        title: "PHP and MySQL Integration",
         description:
-          "At Webblaze, we accept as true with in imparting continuous aid to our customers. Our ongoing Shopify support services include ordinary updates, troubleshooting, and performance optimization. Our group is constantly to be had to address any issues and make certain your keep operates easily without interruptions.",
+          "Our information extends to integrating PHP with MySQL, creating dynamic and facts-pushed websites. We layout efficient database schemas and write optimized SQL queries to make sure fast and reliable data access. Our PHP developers are skilled in the use of PHPMyAdmin and other tools for database control.",
       },
       {
-        title: "Shopify Experts Consultation",
+        title: "Frontend and Backend Development",
         description:
-          "Our Shopify specialists at Webblaze provide session offerings that will help you make knowledgeable choices approximately your e-trade strategy. Whether you need advice on save setup, customization, or marketing techniques, our specialists offer treasured insights and hints to force your business forward.",
+          "Webblaze offers complete complete-stack improvement offerings. Our PHP developers paintings seamlessly with frontend technologies like HTML, CSS, JavaScript, and frameworks like React and Vue.Js. We make sure your net packages are visually attractive and functionally robust.",
+      },
+      {
+        title: "Custom PHP Programs",
+        description:
+          "Our crew excels in growing custom PHP applications tailored to your precise necessities. From growing PHP scripts to automating enterprise techniques, we deliver answers that beautify productiveness and efficiency. We use PHP frameworks like Symfony and Zend to construct scalable and maintainable applications.",
       },
     ],
   },
@@ -45,7 +55,7 @@ function Section_c() {
         backgroundPosition: "center",
       }}
     >
-      <div className="max-w-[1000px] mx-auto px-4 space-y-20">
+      <div className="max-w-[1200px] mx-auto px-4 space-y-20">
         {contentSections.map((section, sectionIndex) => (
           <div key={sectionIndex} className="space-y-12">
             {/* Section Title */}
@@ -54,7 +64,7 @@ function Section_c() {
             </h2>
 
             {/* Cards Grid */}
-            <div className="grid md:grid-cols-2 gap-8 md:gap-12">
+            <div className="grid md:grid-cols-3 gap-8 md:gap-12">
               {section.cards.map((card, cardIndex) => (
                 <div
                   key={cardIndex}

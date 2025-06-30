@@ -21,7 +21,7 @@ const Section_c = () => {
                         <img
                             src="https://webblazesofttech.com/wp-content/uploads/2024/09/Our-3-D-Product-Design-Process-2.webp"
                             alt="3D Design Illustration"
-                            className="w-full max-w-md h-auto rounded-xl shadow-lg"
+                            className="w-full max-w-md h-auto rounded-xl"
                             onError={(e) => { e.target.onerror = null; e.target.src = "https://placehold.co/500x400/CCCCCC/000000?text=Error"; }}
                         />
                     </div>

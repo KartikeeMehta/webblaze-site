@@ -23,7 +23,7 @@ const services = [
     name: "E-Commerce",
     color: "bg-yellow-100",
     bgColor: "#E7DE02",
-     path: "/E_comm",
+    path: "/E_comm",
     icon: "/E-CommerceIcon.png",
     summary: "Webblaze delivers robust and scalable e-commerce platforms equipped with advanced features like secure payment gateways, intuitive product catalogs, and personalized shopping experiences.",
   },
@@ -125,7 +125,7 @@ function Section_c() {
           comprehensive suite of services.
         </p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-[1200px] px-5 mx-auto">
         {services.map((service) => (
           <ServiceCard key={service.name} {...service} />
         ))}

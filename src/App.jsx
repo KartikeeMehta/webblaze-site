@@ -58,6 +58,9 @@ import Pickup from "./pages/Pickup";
 import Hotel_management from "./pages/hotel_management";
 import Contact_Us from "./pages/Contact_Us";
 import Free_Seo_Audit from "./pages/Free_Seo_Audit";
+import Blog from "./pages/Blog";
+import Career from "./pages/Career";
+import Case_Studies from "./pages/Case_Studies";
 
 function App() {
   return (
@@ -143,6 +146,12 @@ function App() {
           path="/Free_Seo_Audit"
           element={<Free_Seo_Audit />}
         />
+        <Route
+          path="/Blog"
+          element={<Blog />}
+        />
+        <Route path="/Career" element={<Career />} />
+        <Route path="/Case_Studies" element={<Case_Studies />} />
 
 
       </Routes>

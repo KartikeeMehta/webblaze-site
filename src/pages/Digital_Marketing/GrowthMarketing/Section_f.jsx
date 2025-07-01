@@ -27,7 +27,7 @@ const cards = [
 const Section_f = () => {
     return (
         <section className="bg-white py-16">
-            <div className="max-w-7xl mx-auto px-4 text-center">
+            <div className="max-w-[1200px] mx-auto px-4 text-center">
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12">
                     Enhancing Digital Presence
                 </h2>

@@ -4,7 +4,7 @@ import { FaPhoneAlt, FaMapMarkerAlt } from 'react-icons/fa';
 const Section_f = () => {
   return (
     <div className="bg-gray-50 py-20 px-6 md:px-16 lg:px-24">
-      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between gap-10">
+      <div className="max-w-[1200px] mx-auto flex flex-col lg:flex-row justify-between gap-10 px-6">
         <div className="flex-1">
           <p className="text-2xl text-red-500 font-medium mb-2">Talk To Our Expert</p>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">

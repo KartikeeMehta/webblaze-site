@@ -31,7 +31,7 @@ const services = [
 const Section_c = () => {
   return (
     <section className="bg-white py-16 px-4 md:px-12">
-      <div className="max-w-[1200px] mx-auto text-center">
+      <div className="max-w-[1200px] mx-auto text-center px-5">
         <h2 className="text-3xl md:text-4xl font-bold text-[#0f172a] mb-12">Our PPC Services</h2>
 
         <div className="grid md:grid-cols-3 gap-8">

@@ -9,7 +9,6 @@ const Section_b = () => {
             id="txtimg"
             className="flex flex-col-reverse md:flex-row gap-8 w-full items-center"
           >
-            {/* Text Section */}
             <div id="txt" className="w-full md:w-1/2 space-y-5">
               <p className="text-red-500 text-base sm:text-lg font-semibold mb-2">
                 Why Choose Webblaze for Social Media Management?

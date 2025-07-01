@@ -5,7 +5,6 @@ const Section_e = () => {
     <div className="bg-white w-full px-4 sm:px-6 lg:px-20 py-10">
       <div className="wrap_section_e max-w-[1200px] m-auto flex flex-col-reverse lg:flex-row items-center justify-between gap-10">
         
-        {/* Left Text + Cards */}
         <div className="w-full lg:w-1/2 flex flex-col gap-6">
           <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">
             Tailored Social Media Strategies
@@ -14,9 +13,7 @@ const Section_e = () => {
             We understand that each enterprise is unique. That’s why Webblaze offers tailored social media strategies to meet your specific needs.
           </p>
 
-          {/* Cards */}
           <div className="flex flex-col gap-4">
-            {/* Card 1 */}
             <div className="flex items-start gap-4 p-4 border rounded-lg shadow-sm bg-white">
               <img src="SMM_1.png" className="w-10 h-10" />
               <div>
@@ -27,7 +24,6 @@ const Section_e = () => {
               </div>
             </div>
 
-            {/* Card 2 */}
             <div className="flex items-start gap-4 p-4 border rounded-lg shadow-sm bg-white">
               <img src="SMM_2.png" className="w-10 h-10" />
               <div>
@@ -38,7 +34,6 @@ const Section_e = () => {
               </div>
             </div>
 
-            {/* Card 3 */}
             <div className="flex items-start gap-4 p-4 border rounded-lg shadow-sm bg-white">
               <img src="SMM_3.png" alt="Top Companies" className="w-10 h-10" />
               <div>
@@ -51,7 +46,6 @@ const Section_e = () => {
           </div>
         </div>
 
-        {/* Right Image Section */}
         <div className="w-full lg:w-1/2 flex justify-center gap-4">
           <img
             src="https://webblazesofttech.com/wp-content/uploads/2024/08/youtube.webp"

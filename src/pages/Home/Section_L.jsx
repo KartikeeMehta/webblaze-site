@@ -53,7 +53,6 @@ const Section_L = () => {
                 ))}
             </div>
 
-            {/* Auto-Moving Dots */}
             <div className="flex justify-center mt-10 space-x-2">
                 {[...Array(totalDots)].map((_, index) => (
                     <div

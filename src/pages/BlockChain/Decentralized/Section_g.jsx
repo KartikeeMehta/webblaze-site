@@ -4,7 +4,7 @@ import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 const Section_g = () => {
   return (
     <div className="bg-gray-50 py-16 px-4">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Left Section */}
         <div>
           <p className="text-red-500 font-semibold mb-2">Get Started with Webblaze Today</p>

@@ -13,7 +13,9 @@ const Section_d = () => {
           zIndex: -1,
         }}
       />
+ <div className="max-w-[1200px] mx-auto">
 
+ 
       <div className="text-center px-4 relative z-10">
         <p className="text-red-400 font-semibold mb-2">Our Mission & Vision</p>
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -61,6 +63,7 @@ const Section_d = () => {
             </p>
           </div>
         </div>
+      </div>
       </div>
     </section>
   );

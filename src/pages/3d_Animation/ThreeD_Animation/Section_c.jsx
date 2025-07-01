@@ -27,7 +27,7 @@ const cards = [
 const Section_c = () => {
     return (
         <div className="bg-[#fafafa] py-20 px-6 md:px-16">
-            <div className="max-w-[1200px] mx-auto">
+            <div className="max-w-[1200px] mx-auto px-5">
 
                 <h2 className="text-2xl md:text-4xl font-bold text-center mb-5 text-[#E95353]">
                     Our Expertise in 3D Animation

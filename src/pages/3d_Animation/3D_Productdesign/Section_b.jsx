@@ -41,7 +41,7 @@ const features = [
 const Section_b = () => {
   return (
     <div className="bg-white py-20 px-6 md:px-20">
-      <div className="max-w-[1200px] mx-auto text-center">
+      <div className="max-w-[1200px] mx-auto text-center px-6">
         <h2 className="text-3xl md:text-4xl font-bold mb-16">
           Why Choose Webbaze for 3D Product Design?
         </h2>

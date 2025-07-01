@@ -9,10 +9,10 @@ const Section_b = () => {
                 <div>
                     <p className="text-red-500 font-semibold mb-2">Get in Touch</p>
                     <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
-                       How to Get Started
+                        How to Get Started
                     </h2>
                     <p className="text-gray-700 mb-8">
-                      Our dedicated team is committed to providing prompt and effective support to ensure your needs are met. We believe in open communication and are always ready to listen. Reach out to us via phone, email, or live chat, or visit our office during business hours.
+                        Our dedicated team is committed to providing prompt and effective support to ensure your needs are met. We believe in open communication and are always ready to listen. Reach out to us via phone, email, or live chat, or visit our office during business hours.
                     </p>
 
                     <div className="space-y-6">

@@ -11,7 +11,7 @@ function Header() {
   const [onAi, setOnAi] = useState(false);
   const [onMetaverseItems, setOnMetaverseItems] = useState(false);
   const [onAnimationItems, setOnAnimationItems] = useState(false);
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false); 
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navigate = useNavigate();
 
@@ -269,13 +269,13 @@ function Header() {
               AI
             </Link>
             {onAi && (
-              <div className="absolute top-full left-0 w-[200px] bg-white shadow-xl rounded-xl p-4 z-50">
-                <div className="flex flex-col gap-3">
+              <div className="absolute top-full left-0 w-[250px] bg-white shadow-xl rounded-xl p-4 z-50">
+                <div className="flex flex-col gap-5">
                   {aiItems.map((item, idx) => (
                     <Link
                       key={idx}
                       to={item?.path}
-                      className="flex items-center gap-2 px-5"
+                      className="flex items-center gap-2 px-2"
                     >
                       <span className="text-xl bg-gray-100 w-8 h-8 flex items-center justify-center rounded-full">
                         {item.icon}
@@ -302,13 +302,13 @@ function Header() {
               Metaverse
             </Link>
             {onMetaverseItems && (
-              <div className="absolute top-full left-0 w-[200px] bg-white shadow-xl rounded-xl p-4 z-50">
+              <div className="absolute top-full left-0 w-[270px] bg-white shadow-xl rounded-xl p-4 z-50">
                 <div className="flex flex-col gap-3">
                   {MetaverseItems.map((item, idx) => (
                     <Link
                       to={item?.path}
                       key={idx}
-                      className="flex items-center gap-2 px-5"
+                      className="flex items-center gap-3 px-3"
                     >
                       <span className="text-xl bg-gray-100 w-8 h-8 flex items-center justify-center rounded-full">
                         {item.icon}
@@ -400,7 +400,6 @@ function Header() {
           <Link to="/About_us" className="block text-gray-800 font-medium">About Us</Link>
           <Link to="/Contact_Us" className="block text-gray-800 font-medium">Contact Us</Link>
           <Link to="/Free_Seo_Audit" className="block text-gray-800 font-medium">Free SEO Audit</Link>
-          {/* You can also map dropdown sections here if needed */}
         </div>
       )}
     </header>

@@ -19,7 +19,7 @@ const industries = [
 const Section_e = () => {
   return (
     <section className="py-16 px-4 md:px-10 bg-white">
-      <div className="max-w-[1200px] mx-auto flex flex-col lg:flex-row items-start gap-12">
+      <div className="max-w-[1200px] mx-auto flex flex-col lg:flex-row items-start gap-12 px-5">
         <div className="w-full lg:w-1/2 relative">
           <div className="border-l-[10px] border-yellow-500 h-full absolute top-0 left-[-10px] z-[-1]"></div>
           <img

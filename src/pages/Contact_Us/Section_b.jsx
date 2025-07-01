@@ -27,14 +27,14 @@ const Section_b = () => {
 
     const validate = () => {
         const newErrors = {};
-        if (!form.name) newErrors.name = 'Required';
-        if (!form.company_Name) newErrors.company_Name = 'Required';
-        if (!form.phone) newErrors.phone = 'Required';
-        else if (form.phone.length !== 10) newErrors.phone = 'Invalid';
-        if (!form.email) newErrors.email = 'Required';
-        else if (!/\S+@\S+\.\S+/.test(form.email)) newErrors.email = 'Invalid';
-        if (!form.your_Messages) newErrors.your_Messages = 'Required';
-        if (!captchaToken) newErrors.captcha = 'Please complete reCAPTCHA';
+        if (!form.name.trim()) newErrors.name = 'Required';
+        if (!form.company_Name.trim()) newErrors.company_Name = 'Required';
+        if (!form.phone.trim()) newErrors.phone = 'Required';
+        else if (form.phone.length !== 10) newErrors.phone = 'Phone must be 10 digits';
+        if (!form.email.trim()) newErrors.email = 'Required';
+        else if (!/\S+@\S+\.\S+/.test(form.email)) newErrors.email = 'Invalid Email';
+        if (!form.your_Messages.trim()) newErrors.your_Messages = 'Required';
+        if (!captchaToken) newErrors.captcha = 'Please complete the reCAPTCHA';
         setErrors(newErrors);
         return Object.keys(newErrors).length === 0;
     };
@@ -42,7 +42,7 @@ const Section_b = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         if (validate()) {
-            console.log('Success:', form);
+            console.log('Form submitted successfully:', form, 'CAPTCHA:', captchaToken);
         } else {
             console.log('Validation failed');
         }
@@ -50,27 +50,27 @@ const Section_b = () => {
 
     return (
         <div className="bg-[#f9fafb] px-6 py-16">
-            <div className="max-w-[1200px] mx-auto flex flex-col md:flex-row gap-10 items-start">
+            <div className="max-w-[1200px] mx-auto flex flex-col md:flex-row gap-10 items-start px-6">
                 <div className="w-full md:w-1/2">
                     <p className="text-red-500 font-semibold mb-2">Contact Us</p>
                     <h2 className="text-4xl font-bold text-gray-900 leading-tight mb-4">
                         Excited About The <br /> Project? Please Get In Touch.
                     </h2>
                     <p className="text-gray-600 mb-8 max-w-md">
-                        Our dedicated team is committed to providing prompt and effective support to ensure your needs are met. We believe in open communication and are always ready to listen. Reach out to us via phone, email, or live chat, or visit our office during business hours.
+                        Our dedicated team is committed to providing prompt and effective support to ensure your needs are met. Reach out to us via phone, email, or visit our office.
                     </p>
 
                     <div className="flex flex-wrap gap-6">
                         <div className="flex items-center gap-4">
-                            <img src="/callIcon.png" className="h-10 w-10" />
+                            <img src="/callIcon.png" alt="Phone" className="h-10 w-10" />
                             <div>
                                 <p className="text-gray-700 text-sm">Phone Number</p>
-                                <p className="text-red-600 font-semibold text-sm">+919041477720</p>
+                                <p className="text-red-600 font-semibold text-sm">+91 90414 77720</p>
                             </div>
                         </div>
 
                         <div className="flex items-center gap-4">
-                            <img src="/mailIcon.png" className="h-10 w-10" />
+                            <img src="/mailIcon.png" alt="Email" className="h-10 w-10" />
                             <div>
                                 <p className="text-gray-700 text-sm">Email Address</p>
                                 <p className="text-red-600 font-semibold text-sm">hello@webblazesofttech.com</p>
@@ -79,7 +79,7 @@ const Section_b = () => {
                     </div>
 
                     <div className="flex items-start gap-3 mt-6">
-                        <img src="/locationIcon.png" className="h-12 w-12 object-contain" />
+                        <img src="/locationIcon.png" alt="Location" className="h-12 w-12 object-contain" />
                         <p className="text-sm text-gray-800 font-semibold leading-snug max-w-md">
                             WebBlaze Softtech, Cyber cube, C201-202, Phase 8B, Industrial Area, Sector 74, Sahibzada Ajit Singh Nagar, Punjab 160055
                         </p>
@@ -89,7 +89,7 @@ const Section_b = () => {
                 <div className="w-full md:w-1/2 bg-white shadow-md rounded-xl p-8">
                     <h3 className="text-2xl font-bold text-gray-900 mb-2">Let’s Talk</h3>
                     <p className="text-gray-600 mb-6 text-sm">
-                        We would be happy to hear from you, Please fill in the form below or mail us your requirements to
+                        We would be happy to hear from you. Please fill in the form below or mail us your requirements.
                     </p>
 
                     <form onSubmit={handleSubmit} className="space-y-4">
@@ -157,11 +157,11 @@ const Section_b = () => {
 
                         <div>
                             <ReCAPTCHA
-                                sitekey="YOUR_REAL_RECAPTCHA_SITE_KEY"
+                                sitekey="6LcZkHIrAAAAAIgl9kwtye7u7H53n2w7xKQMBxUb"
                                 onChange={handleCaptcha}
+                                className="mt-2"
                             />
-
-                            {errors.captcha && <p className="text-red-500 text-xs mt-1">{errors.captcha}</p>}
+                            {errors.captcha && <p className="text-red-500 text-xs mt-2">{errors.captcha}</p>}
                         </div>
 
                         <button

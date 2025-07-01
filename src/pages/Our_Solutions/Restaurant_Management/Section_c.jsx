@@ -27,7 +27,7 @@ const cardData = [
 const Section_c = () => {
   return (
     <section className="bg-[#121726] py-16 px-4 md:px-20">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-[1200px]  mx-auto px-5">
         {cardData.map((card, index) => (
           <div
             key={index}

@@ -21,13 +21,13 @@ const teamMembers = [
     role: "Front End Developer",
     image: "https://webblazesofttech.com/wp-content/uploads/2024/08/nitish.png",
   },
-  
+
 ];
 
 const Section_g = () => {
   return (
-    <section className="bg-[#f9f9f9] py-16 px-4">
-      <div className="max-w-7xl mx-auto text-center">
+    <section className="bg-[rgb(249,249,249)] py-16 px-4">
+      <div className="max-w-[1200px] mx-auto text-center px-5">
         <p className="text-red-500 font-medium mb-2">Our Team</p>
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
           Meet our creative staff
@@ -46,7 +46,7 @@ const Section_g = () => {
               <img
                 src={member.image}
                 alt={member.name}
-                className="rounded-lg mx-auto h-60 object-cover mb-4"
+                className="rounded-lg w-full max-w-[400px] h-60 object-contain mb-4 mx-auto"
               />
               <h3 className="text-lg font-semibold text-gray-800">
                 {member.name}

@@ -26,7 +26,7 @@ const Section_e = () => {
         >
             <div className="absolute inset-0 bg-black bg-opacity-50 backdrop-blur-sm"></div>
 
-            <div className="relative z-10 max-w-7xl mx-auto px-4 text-center">
+            <div className="relative z-10 max-w-[1200px] mx-auto px-4 text-center">
                 <h2 className="text-white text-3xl md:text-4xl font-bold mb-12">
                     Growth Marketing for Startups
                 </h2>

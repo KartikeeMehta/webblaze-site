@@ -54,7 +54,7 @@ const features = [
 const Section_e = () => {
   return (
     <section className="bg-white py-20 px-6 md:px-10 text-black">
-      <div className="max-w-[1200px] mx-auto text-center">
+      <div className="max-w-[1200px] mx-auto text-center px-5">
         <img
           src="https://webblazesofttech.com/wp-content/uploads/2024/10/Rectangle-42821.png"
           alt="Handyman Services Logo"

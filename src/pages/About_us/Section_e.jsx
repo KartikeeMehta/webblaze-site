@@ -3,7 +3,7 @@ import React from "react";
 const Section_e = () => {
   return (
     <section className="bg-[#f8f9fb] py-16 px-4">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-12">
+      <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-12">
         <div className="relative w-full max-w-md mx-auto rounded-[50px] border-l-[6px] border-yellow-300 border-r-[6px] border-blue-500 overflow-hidden">
           <img
             src={'https://webblazesofttech.com/wp-content/uploads/2025/01/Group-1171275937.png'}

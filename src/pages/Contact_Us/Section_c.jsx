@@ -12,7 +12,8 @@ const Section_c = () => {
         loading="lazy"
         title="WebBlaze Location"
         referrerPolicy="no-referrer-when-downgrade"
-      ></iframe>
+      >
+      </iframe>
     </div>
   );
 };

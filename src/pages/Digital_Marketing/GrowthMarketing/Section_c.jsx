@@ -36,7 +36,7 @@ const services = [
 const Section_c = () => {
   return (
     <section className="bg-[#0D1321] py-20 px-6">
-      <div className="max-w-[1200px] mx-auto text-center text-white">
+      <div className="max-w-[1200px] mx-auto text-center text-white px-5">
         <h2 className="text-3xl md:text-4xl font-bold mb-12">
           Growth Marketing Services We Offer
         </h2>

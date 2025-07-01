@@ -6,31 +6,31 @@ const features = [
   {
     title: "Expertise",
     description: "A team of seasoned professionals with years of experience in diverse industries.",
-    icon: "📖",
+    icon: "/Proven_Result.png",
     bg: "bg-blue-50",
   },
   {
     title: "Innovation",
     description: "Cutting-edge solutions that keep you ahead in a competitive market.",
-    icon: "🧠",
+    icon: "/Innovation_About.png",
     bg: "bg-red-50",
   },
   {
     title: "Customization",
     description: "Tailored strategies and solutions designed to meet your specific needs.",
-    icon: "🎯",
+    icon: "/Customization_About.png",
     bg: "bg-yellow-100",
   },
   {
     title: "Customer-Centric",
     description: "A commitment to delivering exceptional customer service and support.",
-    icon: "📡",
+    icon: "/Customization_About.png",
     bg: "bg-yellow-100",
   },
   {
     title: "Results-Driven",
     description: "Proven track record of delivering measurable outcomes that align with your business goals.",
-    icon: "📈",
+    icon: "/Customization_About.png",
     bg: "bg-yellow-100",
   },
 ];
@@ -53,9 +53,9 @@ const Section_c = () => {
             {features.map((feature, index) => (
               <div
                 key={index}
-                className={`flex items-start gap-4 p-4 rounded-xl shadow-sm border ${feature.bg}`}
+                className={`flex items-start bg-white gap-4 p-4 rounded-xl shadow-sm border`}
               >
-                <div className="text-2xl p-2">{feature.icon}</div>
+                <img src={feature.icon} className="h-16 w-16 object-contain"></img>
                 <div>
                   <h4 className="text-lg font-semibold text-red-500">{feature.title}</h4>
                   <p className="text-sm text-gray-600">{feature.description}</p>

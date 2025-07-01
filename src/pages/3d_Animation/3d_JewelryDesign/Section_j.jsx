@@ -32,7 +32,7 @@ const cardData = [
 const Section_j = () => {
   return (
     <div className="bg-white py-20 px-6 md:px-8">
-      <div className="max-w-[1200px] mx-auto">
+      <div className="max-w-[1200px] mx-auto px-6">
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-16 text-[#1d1e25]">
           Cutting-Edge Technology and Tools
         </h2>

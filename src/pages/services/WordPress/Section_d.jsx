@@ -34,7 +34,7 @@ const Section_d = () => {
 
   return (
     <section className="bg-[#0B0F1C] bg-[url('background-lines.webp')] py-20 px-4">
-      <div className="max-w-7xl mx-auto text-center">
+      <div className="max-w-[1200px] mx-auto text-center">
         <h2 className="text-white text-3xl md:text-4xl font-bold mb-12">
           Why Work with Webblaze?
         </h2>

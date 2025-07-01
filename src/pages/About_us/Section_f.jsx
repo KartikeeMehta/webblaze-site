@@ -3,7 +3,7 @@ import React from 'react';
 const Section_f = () => {
   return (
     <section className="bg-[#f9f9f9] py-16 px-4">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-10">
+      <div className="max-w-[1200px] mx-auto flex flex-col md:flex-row items-center justify-between gap-10 px-5">
         <div className="max-w-xl text-center md:text-left">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
             Words from <span className="text-red-500">Our</span>{' '}

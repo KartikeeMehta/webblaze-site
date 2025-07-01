@@ -1,5 +1,4 @@
 
-
 import React, { useState } from "react";
 
 const Section_a = () => {
@@ -11,6 +10,8 @@ const Section_a = () => {
         services: [],
         message: "",
     });
+
+    const [errors, setErrors] = useState({});
 
     const servicesList = [
         "Free SEO Audit",
@@ -24,7 +25,9 @@ const Section_a = () => {
     ];
 
     const handleChange = (e) => {
-        setForm({ ...form, [e.target.name]: e.target.value });
+        const { name, value } = e.target;
+        setForm({ ...form, [name]: value });
+        setErrors({ ...errors, [name]: "" });
     };
 
     const handleCheckbox = (e) => {
@@ -33,11 +36,31 @@ const Section_a = () => {
             ? [...form.services, value]
             : form.services.filter((s) => s !== value);
         setForm({ ...form, services: updated });
+        setErrors({ ...errors, services: "" });
+    };
+
+    const validate = () => {
+        const newErrors = {};
+        if (!form.name.trim()) newErrors.name = "Name is required";
+        if (!form.email.trim()) newErrors.email = "Email is required";
+        else if (!/\S+@\S+\.\S+/.test(form.email)) newErrors.email = "Invalid email";
+        if (!form.website.trim()) newErrors.website = "Website URL is required";
+        if (!form.phone.trim()) newErrors.phone = "Phone is required";
+        else if (form.phone.length !== 10) newErrors.phone = "Phone must be 10 digits";
+        if (form.services.length === 0) newErrors.services = "Please select at least one service";
+        if (!form.message.trim()) newErrors.message = "Message is required";
+
+        setErrors(newErrors);
+        return Object.keys(newErrors).length === 0;
     };
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log("Submitted data:", form);
+        if (validate()) {
+            console.log("Submitted data:", form);
+        } else {
+            console.log("Validation failed");
+        }
     };
 
     return (
@@ -51,43 +74,60 @@ const Section_a = () => {
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-                <input
-                    type="text"
-                    name="name"
-                    placeholder="Your name"
-                    value={form.name}
-                    onChange={handleChange}
-                    className="border rounded-md px-4 py-2 w-full"
-                />
-                <input
-                    type="email"
-                    name="email"
-                    placeholder="Email"
-                    value={form.email}
-                    onChange={handleChange}
-                    className="border rounded-md px-4 py-2 w-full"
-                />
-                <input
-                    type="text"
-                    name="website"
-                    placeholder="Website URL"
-                    value={form.website}
-                    onChange={handleChange}
-                    className="border rounded-md px-4 py-2 w-full"
-                />
-                <input
-                    type="text"
-                    name="phone"
-                    placeholder="Your phone number"
-                    maxLength={10}
-                    value={form.phone}
-                    onChange={handleChange}
-                    className="border rounded-md px-4 py-2 w-full"
-                />
+                <div>
+                    <input
+                        type="text"
+                        name="name"
+                        placeholder="Your name"
+                        value={form.name}
+                        onChange={handleChange}
+                        className="border rounded-md px-4 py-2 w-full"
+                    />
+                    {errors.name && <p className="text-red-500 text-sm">{errors.name}</p>}
+                </div>
+
+                <div>
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="Email"
+                        value={form.email}
+                        onChange={handleChange}
+                        className="border rounded-md px-4 py-2 w-full"
+                    />
+                    {errors.email && <p className="text-red-500 text-sm">{errors.email}</p>}
+                </div>
+
+                <div>
+                    <input
+                        type="text"
+                        name="website"
+                        placeholder="Website URL"
+                        value={form.website}
+                        onChange={handleChange}
+                        className="border rounded-md px-4 py-2 w-full"
+                    />
+                    {errors.website && <p className="text-red-500 text-sm">{errors.website}</p>}
+                </div>
+
+                <div>
+                    <input
+                        type="text"
+                        name="phone"
+                        placeholder="Your phone number"
+                        maxLength={10}
+                        value={form.phone}
+                        onChange={handleChange}
+                        className="border rounded-md px-4 py-2 w-full"
+                    />
+                    {errors.phone && <p className="text-red-500 text-sm">{errors.phone}</p>}
+                </div>
             </div>
 
             <div className="text-left grid grid-cols-1 md:grid-cols-3 gap-y-4 mb-8">
-                <div className="col-span-full font-semibold text-lg">What service do you need ?</div>
+                <div className="col-span-full font-semibold text-lg mb-2">
+                    What service do you need?
+                </div>
                 {servicesList.map((service) => (
                     <label key={service} className="flex items-center gap-2">
                         <input
@@ -100,21 +140,25 @@ const Section_a = () => {
                         {service}
                     </label>
                 ))}
+                {errors.services && (
+                    <p className="text-red-500 text-sm col-span-full mt-1">{errors.services}</p>
+                )}
             </div>
-
+            
             <div className="text-left mb-4 font-semibold text-lg">Additional information</div>
             <textarea
                 name="message"
                 value={form.message}
                 onChange={handleChange}
                 rows="5"
-                className="w-full border rounded-md p-3 mb-8"
+                className="w-full border rounded-md p-3 mb-2"
                 placeholder="Enter additional details here..."
             ></textarea>
+            {errors.message && <p className="text-red-500 text-sm mb-4">{errors.message}</p>}
 
             <button
                 type="submit"
-                className="bg-yellow-200 hover:bg-yellow-400 text-black font-semibold px-6 py-3 rounded shadow-md transition"
+                className="bg-yellow-200 hover:bg-yellow-400 text-black font-semibold px-6 py-3 rounded shadow-md transition mt-4"
             >
                 Send Your Inquiry
             </button>
@@ -123,3 +167,7 @@ const Section_a = () => {
 };
 
 export default Section_a;
+
+
+
+

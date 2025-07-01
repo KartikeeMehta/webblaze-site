@@ -18,7 +18,7 @@ const Section_d = () => {
 
   return (
     <div className="min-h-screen bg-gray-900 bg-[url('background-lines.webp')] py-12 px-4 sm:px-6 lg:px-8 font-inter text-white">
-      <div className="max-w-[1200px] mx-auto">
+      <div className="max-w-[1200px] mx-auto px-5">
         <h2 className="text-3xl pb-5 sm:text-4xl lg:text-4xl font-bold text-center mb-5 leading-tight text-white">
           Benefits of Choosing Webblaze for Your Crypto Exchange Development
         </h2>

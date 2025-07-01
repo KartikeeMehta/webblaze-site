@@ -31,7 +31,7 @@ const strategies = [
 const Section_d = () => {
   return (
     <section className="bg-white py-16 px-4">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-[1200px] mx-auto px-5">
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-12 text-gray-900">
           Implementing Effective Growth Strategies
         </h2>

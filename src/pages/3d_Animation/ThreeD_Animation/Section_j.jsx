@@ -48,7 +48,7 @@ const industries = [
 const Section_j = () => {
   return (
     <div className="py-20 px-4 bg-white">
-      <div className="max-w-[1200px] mx-auto text-center">
+      <div className="max-w-[1200px] mx-auto text-center px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-[#0D1128] mb-12">
           Industries We Serve
         </h2>

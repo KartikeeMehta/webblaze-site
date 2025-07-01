@@ -3,7 +3,7 @@ import React from "react";
 const Section_a = () => {
     return (
         <div className="bg-[#fcfbfb] text-black py-16 px-50">
-            <div className="max-w-[1200px]  mx-auto flex flex-col md:flex-row items-center justify-between gap-10  ">
+            <div className="max-w-[1200px]  mx-auto flex flex-col md:flex-row items-center justify-between gap-10 px-5  ">
                 <div className="max-w-xl">
                     <h1 className="text-3xl md:text-4xl font-bold mb-4">
                         Why Branding Matters for Online Businesses

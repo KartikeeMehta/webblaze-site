@@ -27,7 +27,7 @@ const cards = [
 const Section_h = () => {
     return (
         <div className="bg-[#181C2E] py-20 px-6 md:px-16">
-            <div className="max-w-[1200px] mx-auto">
+            <div className="max-w-[1200px] mx-auto px-5">
 
                 <h2 className="text-2xl md:text-3xl font-bold text-center mb-5 text-white">
                   Diverse Animation Styles

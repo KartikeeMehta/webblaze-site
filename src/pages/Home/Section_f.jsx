@@ -50,7 +50,7 @@ function MarqueeRow({ logos, direction = "right", reverse }) {
     <div className="overflow-hidden w-full py-4">
       <div
         ref={marqueeRef}
-        className="flex gap-12 w-max"
+        className="flex gap-12"
         style={{ willChange: "transform" }}
       >
         {[...logos, ...logos].map((logo, idx) => (

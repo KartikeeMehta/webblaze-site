@@ -127,14 +127,11 @@ const Section_L = () => {
         </p>
       </div>
 
-      <div
-        ref={scrollRef}
-        className="flex gap-10 overflow-x-auto scroll-smooth no-scrollbar max-w-6xl mx-auto p-2"
-      >
+      <div ref={scrollRef} className="flex gap-10 max-w-6xl mx-auto p-2">
         {blogs.map((blog) => (
           <div
             key={blog.id}
-            className="min-w-[300px] max-w-[350px] flex-shrink-0 bg-white rounded-xl shadow-sm p-5 transition hover:shadow-lg  overflow-hidden"
+            className="flex-shrink-0 bg-white rounded-xl shadow-sm p-5 transition hover:shadow-lg  overflow-hidden"
           >
             <div className="rounded-xl overflow-hidden mb-4">
               <img

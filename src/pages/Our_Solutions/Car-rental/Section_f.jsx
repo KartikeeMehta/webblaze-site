@@ -5,7 +5,6 @@ const Section_f = () => {
   return (
     <div className="bg-gray-50 py-16 px-4">
       <div className="max-w-[1200px] px-5 mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-        {/* Left Section */}
         <div>
           <p className="text-red-500 font-semibold mb-2">Get in Touch</p>
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
@@ -60,7 +59,9 @@ const Section_f = () => {
           <p className="text-gray-600 mb-6">
             Welcome to our easy-to-use meeting scheduler! Planning and organizing meetings has been simpler.
           </p>
-          <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-full transition">
+          <button
+            onClick={() => window.open('https://calendly.com/rajenderkashyap87/30min?month=2025-07', '_blank')}
+            className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-full transition">
             Schedule a Meeting
           </button>
         </div>

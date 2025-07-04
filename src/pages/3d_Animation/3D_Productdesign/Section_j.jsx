@@ -9,7 +9,7 @@ const Section_j = () => {
                 <div>
                     <p className="text-red-500 font-semibold mb-2">Get in Touch</p>
                     <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
-                       Ready to carry your product thoughts to lifestyles with expert 3D layout offerings?                 </h2>
+                        Ready to carry your product thoughts to lifestyles with expert 3D layout offerings?                 </h2>
                     <p className="text-gray-700 mb-8">Ready to raise your digital presence with Webblaze's 3D avatar offerings?
                     </p>
 
@@ -57,7 +57,9 @@ const Section_j = () => {
                     <h3 className="text-2xl font-bold text-gray-800 mb-3">Schedule Meeting</h3>
                     <p className="text-gray-600 mb-6">Welcome to our easy-to-use meeting scheduler! Planning and organizing meetings has been simpler.
                     </p>
-                    <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-full transition">
+                    <button
+                        onClick={() => window.open('https://calendly.com/rajenderkashyap87/30min?month=2025-07', '_blank')}
+                        className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-full transition">
                         Schedule a Meeting
                     </button>
                 </div>

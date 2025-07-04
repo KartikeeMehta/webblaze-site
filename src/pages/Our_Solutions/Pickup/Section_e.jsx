@@ -9,7 +9,7 @@ const Section_e = () => {
         <div>
           <p className="text-2xl text-red-500 font-semibold mb-2">Get in Touch</p>
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
-           Schedule a Free Consultation Today!
+            Schedule a Free Consultation Today!
           </h2>
           <p className="text-gray-700 mb-8">
             Webblaze is confident that Pick Up & Drop can be the game-changer your agency needs. To learn more about this transformative white label solution and discuss how it can benefit your business, contact us today.
@@ -64,7 +64,9 @@ const Section_e = () => {
             Welcome to our easy-to-use meeting scheduler! Planning and
             organizing meetings has been simpler.
           </p>
-          <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-full transition">
+          <button
+            onClick={() => window.open('https://calendly.com/rajenderkashyap87/30min?month=2025-07', '_blank')}
+            className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-full transition">
             Schedule a Meeting
           </button>
         </div>

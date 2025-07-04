@@ -8,7 +8,7 @@ const Section_g = () => {
         <div>
           <p className="text-2xl text-red-500 font-semibold mb-2">Get in Touch</p>
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
-      How To Get Started
+            How To Get Started
           </h2>
           <p className="text-gray-700 mb-8">
             Getting began with Webblaze is easy. Simply touch us to talk about your requirements, and our team will offer an in depth venture concept. You also can schedule a session with our experts the use of the Calendly hyperlink supplied underneath. We offer bendy engagement models, making sure that our services are tailor-made on your particular desires.
@@ -47,8 +47,8 @@ const Section_g = () => {
               </div>
             </div>
             <p className="text-gray-700 mb-8">
-            Getting began with Webblaze is easy. Simply touch us to talk about your requirements, and our team will offer an in depth venture concept. You also can schedule a session with our experts the use of the Calendly hyperlink supplied underneath. We offer bendy engagement models, making sure that our services are tailor-made on your particular desires.
-          </p>
+              Getting began with Webblaze is easy. Simply touch us to talk about your requirements, and our team will offer an in depth venture concept. You also can schedule a session with our experts the use of the Calendly hyperlink supplied underneath. We offer bendy engagement models, making sure that our services are tailor-made on your particular desires.
+            </p>
           </div>
         </div>
 
@@ -62,7 +62,10 @@ const Section_g = () => {
           <p className="text-gray-600 mb-6">
             Welcome to our easy-to-use meeting scheduler! Planning and organizing meetings has been simpler.
           </p>
-          <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-full transition">
+
+          <button
+            onClick={() => window.open('https://calendly.com/rajenderkashyap87/30min?month=2025-07', '_blank')}
+            className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-full transition">
             Schedule a Meeting
           </button>
         </div>

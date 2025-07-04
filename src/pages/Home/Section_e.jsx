@@ -4,11 +4,11 @@ function Section_e() {
   return (
     <section className="bg-gray-50 py-16 w-full">
       <div className="text-center mb-8">
-        <div className="text-red-400 font-medium mb-2">Clients</div>
-        <h2 className="text-3xl md:text-4xl font-bold mb-2">
+        <div className="text-red-400 text-[24px] font-medium mb-2">Clients</div>
+        <h2 className="text-4xl md:text-4xl font-bold mb-2">
           Serving Clients All Over The World
         </h2>
-        <p className="text-gray-500 max-w-xl mx-auto">
+        <p className="text-gray-500 text-[16px] max-w-xl mx-auto">
           Customers in over 180 countries are growing their businesses with
           Webblaze.
         </p>

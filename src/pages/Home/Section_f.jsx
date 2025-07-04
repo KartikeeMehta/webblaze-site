@@ -88,11 +88,11 @@ function Section_f() {
   return (
     <section className="py-16 w-full">
       <div className="text-center mb-8">
-        <div className="text-red-400 font-medium mb-2">Work</div>
-        <h2 className="text-3xl md:text-4xl font-bold mb-2">
+        <div className="text-red-400 text-[24px] font-medium mb-2">Work</div>
+        <h2 className="text-4xl md:text-4xl font-bold mb-2">
           Technology Stack
         </h2>
-        <p className="text-gray-500 max-w-xl mx-auto">
+        <p className="text-gray-500 max-w-xl mx-auto text-[16px]">
           Our engineers apprehend your business requirements and help you choose
           the right technology for your solution.
         </p>

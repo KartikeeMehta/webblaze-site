@@ -15,7 +15,7 @@ function Section_b() {
           <img
             src="https://webblazesofttech.com/wp-content/uploads/2024/07/About.webp"
             alt="Team working"
-            className="rounded-[3rem] w-[511px] h-[588px] shadow-xl"
+            className="rounded-[3rem] w-[511px] h-[588px]"
           />
         </div>
 
@@ -27,8 +27,8 @@ function Section_b() {
           <p className="text-[#484b56] text-base font-normal  mb-6">
             WebBlaze Softtech is the ultimate hub for all things digital! As a
             top-tier web development agency, we are experts in creating
-            breathtaking websites and dynamic web applications that deliver
-            real results.
+            breathtaking websites and dynamic web applications that deliver real
+            results.
           </p>
           <p className="text-[#484b56] text-base font-normal mb-6">
             Our team of professionals specializes in SEO, branding, and digital
@@ -39,7 +39,7 @@ function Section_b() {
           </p>
           <a
             href="#"
-            className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-xl shadow transition-all duration-300"
+            className="bg-[#1c92ff] py-[8px] px-[23px] rounded-[12px] hover:bg-white text-white hover:text-[#1c92ff] shadow-md border-[2px] border-blue-500 min-w-[150px]"
           >
             Explore More
           </a>

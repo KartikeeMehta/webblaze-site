@@ -14,10 +14,18 @@ export default function SectionA() {
           Needs and Exceed Your Expectations.
         </p>
         <div className="flex gap-4 mb-8">
-          <Button variant='outline' className="bg-[#1c92ff] hover:bg-white text-white hover:text-[#1c92ff] shadow-md border-[2px] border-blue-500">
+          <Button
+            variant="outline"
+            className="bg-[#1c92ff] hover:bg-white text-white hover:text-[#1c92ff] shadow-md border-[2px] border-blue-500 min-w-[150px]"
+          >
             Get in Touch
           </Button>
-          <Button className='hover:bg-[#1c92ff] rounded-lg hover:text-white bg-white shadow-md border-[2px] border-blue-500' variant="outline">Hire a Developer</Button>
+          <Button
+            className="hover:bg-[#1c92ff] rounded-lg hover:text-white bg-white shadow-md border-[2px] border-blue-500 min-w-[150px] text-[#1c92ff]"
+            variant="outline"
+          >
+            Hire a Developer
+          </Button>
         </div>
         <div className="flex items-center gap-6 mt-4">
           <span className="font-semibold text-gray-800">

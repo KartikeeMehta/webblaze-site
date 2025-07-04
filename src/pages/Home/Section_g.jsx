@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
+import Autoplay from "embla-carousel-autoplay";
 import {
   Carousel,
   CarouselContent,
@@ -8,7 +9,6 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-
 
 const projects = [
   {
@@ -22,19 +22,22 @@ const projects = [
     title: "GIG Findr",
     description:
       "We crafted a dynamic artist booking platform, combining innovative design, robust development, and targeted marketing to empower performers and venues with a streamlined, scalable digital solution.",
-    image: "https://webblazesofttech.com/wp-content/uploads/2024/07/gig-finder.webp",
+    image:
+      "https://webblazesofttech.com/wp-content/uploads/2024/07/gig-finder.webp",
   },
   {
     title: "Maj Permanent",
     description:
       "We developed a custom e-commerce platform, integrating sleek design, powerful development, and data-driven marketing to deliver a seamless shopping experience that drives engagement, conversions, and brand growth.",
-    image: "https://webblazesofttech.com/wp-content/uploads/2024/07/maj-permanent.webp",
+    image:
+      "https://webblazesofttech.com/wp-content/uploads/2024/07/maj-permanent.webp",
   },
   {
     title: "MyBook Venture",
     description:
       "We are always one step ahead, continuously evolving and adjusting to provide the latest solutions, ranging from web applications to SEO. We offer cutting-edge solutions, a customized approach, and outstanding customer service to propel your business to success in the digital realm.",
-    image: "https://webblazesofttech.com/wp-content/uploads/2024/07/mybookventure.webp",
+    image:
+      "https://webblazesofttech.com/wp-content/uploads/2024/07/mybookventure.webp",
   },
 ];
 
@@ -43,23 +46,39 @@ function Section_g() {
     <section className="w-full bg-[#0B1120] text-white py-20 px-4">
       {/* Heading */}
       <div className="text-center mb-16">
-        <h4 className="text-red-400 text-lg font-medium mb-2">Portfolio</h4>
+        <h4 className="text-red-400 text-[24px] font-medium mb-2">Portfolio</h4>
         <h2 className="text-4xl md:text-5xl font-extrabold mb-3">
           The Successfully Brewed Businesses
         </h2>
         <p className="text-gray-300 text-base md:text-lg">
-          Customers in over 180 countries are growing their businesses with Webblaze.
+          Customers in over 180 countries are growing their businesses with
+          Webblaze.
         </p>
       </div>
 
       {/* Carousel */}
-      <Carousel className="max-w-7xl mx-auto relative">
+      <Carousel
+        plugins={[
+          Autoplay({
+            delay: 5000,
+          }),
+        ]}
+        className="max-w-7xl mx-auto relative"
+        opts={{
+          loop: true,
+        }}
+      >
         <CarouselContent>
           {projects.map((project, index) => (
-            <CarouselItem key={index} className="flex flex-col lg:flex-row items-center gap-10">
+            <CarouselItem
+              key={index}
+              className="flex flex-col lg:flex-row items-center gap-10"
+            >
               {/* Left Text */}
               <div className="lg:w-1/2 px-4">
-                <h3 className="text-3xl md:text-4xl font-bold mb-4">{project.title}</h3>
+                <h3 className="text-3xl md:text-4xl font-bold mb-4">
+                  {project.title}
+                </h3>
                 <p className="text-gray-300 text-base md:text-lg leading-relaxed mb-6">
                   {project.description}
                 </p>

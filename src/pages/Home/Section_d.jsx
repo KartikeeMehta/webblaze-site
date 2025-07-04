@@ -8,7 +8,7 @@ function Section_d() {
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Your Partner Success
           </h2>
-          <p className="mb-4 text-lg leading-relaxed">
+          <p className="mb-4 text-[16px] leading-relaxed">
             WebBlaze Softtech provides tailored solutions for businesses of any
             size, collaborating closely to comprehend objectives and surpass
             expectations.
@@ -19,7 +19,7 @@ function Section_d() {
             outstanding customer service to propel your business to success in
             the digital realm.
           </p>
-          <button className="mt-6 px-8 py-3 bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-xl shadow transition">
+          <button className="bg-[#1c92ff] py-[8px] px-[23px] rounded-[12px] hover:bg-white text-white hover:text-[#1c92ff] shadow-md border-[2px] border-blue-500 min-w-[150px]">
             Explore More
           </button>
         </div>

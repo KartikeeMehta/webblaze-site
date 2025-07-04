@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
-import userImg from '../../assets/man.png';
+import userImg from "../../assets/man.png";
 
 const testimonials = [
   {
@@ -40,8 +40,8 @@ const Section_k = () => {
   return (
     <div className="bg-[#11182B] py-16 px-4 text-white">
       <div className="text-center mb-10">
-        <p className="text-red-400 text-lg mb-2">Testimonials</p>
-        <h2 className="text-3xl font-bold">What people say about us</h2>
+        <p className="text-red-400 text-[24px] mb-2">Testimonials</p>
+        <h2 className="text-4xl font-bold">What people say about us</h2>
       </div>
 
       <div className="flex flex-col md:flex-row items-center max-w-6xl mx-auto p-6 bg-[#11182B]">
@@ -49,13 +49,19 @@ const Section_k = () => {
           <img
             src={currentTestimonial.image}
             alt={currentTestimonial.name}
-            className="w-24 h-24 rounded-full border-4 border-white mb-4"
+            className="w-28 h-28 rounded-full border-4 border-white mb-4 ms-[1.2rem]"
           />
           <div className="flex space-x-4">
-            <Button onClick={prevSlide} className="rounded-full px-4 py-2 text-lg bg-[#1C92FF]">
+            <Button
+              onClick={prevSlide}
+              className="rounded-full px-6 py-3 text-lg bg-[#1C92FF] text-[25px]"
+            >
               ←
             </Button>
-            <Button onClick={nextSlide} className="rounded-full px-4 py-2 text-lg bg-[#1C92FF]">
+            <Button
+              onClick={nextSlide}
+              className="rounded-full px-6 py-3 text-lg bg-[#1C92FF] text-[25px]"
+            >
               →
             </Button>
           </div>
@@ -63,8 +69,10 @@ const Section_k = () => {
 
         {/* Right: Text Content */}
         <div className="md:w-2/3 border-l border-gray-500 pl-6">
-          <p className="text-gray-300 mb-4 text-sm md:text-base">{currentTestimonial.message}</p>
-          <p className="font-bold text-white">
+          <p className="text-gray-300 mb-4 text-base md:text-base">
+            {currentTestimonial.message}
+          </p>
+          <p className="font-bold text-white text-[24px]">
             {currentTestimonial.name} | {currentTestimonial.location}
           </p>
         </div>

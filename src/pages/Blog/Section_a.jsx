@@ -10,7 +10,7 @@ const Section_a = () => {
                         backgroundImage: `url('https://webblazesofttech.com/wp-content/uploads/2024/07/about-page-banner.webp')`,
                     }}
                 >
-                    <div className="absolute inset-0 bg-black bg-opacity-60" />
+                    <div className="absolute inset-0 bg-black bg-opacity-80" />
                 </div>
 
 

@@ -136,7 +136,7 @@ function Header() {
             onMouseLeave={() => setShowDropdown(false)}
           >
             <Link
-              to="/"
+              to="#"
               className="hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition duration-200 pb-1"
             >
               Services
@@ -167,7 +167,7 @@ function Header() {
             onMouseLeave={() => setOnSolutions(false)}
           >
             <Link
-              to="/"
+              to="#"
               className="hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition duration-200 pb-1"
             >
               Our Solutions
@@ -197,7 +197,7 @@ function Header() {
             onMouseLeave={() => setOnMarketingItems(false)}
           >
             <Link
-              to="/"
+              to="#"
               className="hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition duration-200 pb-1"
             >
               Digital Marketing
@@ -230,7 +230,7 @@ function Header() {
             onMouseLeave={() => setOnBlockChain(false)}
           >
             <Link
-              to="/"
+              to="#"
               className="hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition duration-200 pb-1"
             >
               Blockchain
@@ -263,7 +263,7 @@ function Header() {
             onMouseLeave={() => setOnAi(false)}
           >
             <Link
-              to="/"
+              to="#"
               className="hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition duration-200 pb-1"
             >
               AI
@@ -296,7 +296,7 @@ function Header() {
             onMouseLeave={() => setOnMetaverseItems(false)}
           >
             <Link
-              to="/"
+              to="#"
               className="hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition duration-200 pb-1"
             >
               Metaverse
@@ -329,7 +329,7 @@ function Header() {
             onMouseLeave={() => setOnAnimationItems(false)}
           >
             <Link
-              to="/"
+              to="#"
               className="hover:text-blue-600 border-b-2 border-transparent hover:border-blue-600 transition duration-200 pb-1"
             >
               3D Animation

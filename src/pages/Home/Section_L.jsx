@@ -38,7 +38,7 @@ const Section_L = () => {
                 scrollToIndex(nextIndex);
                 return nextIndex;
             });
-        }, 3000);
+        }, 4000);
 
         return () => clearInterval(interval);
     }, []);
@@ -57,7 +57,7 @@ const Section_L = () => {
 
             <div
                 ref={scrollRef}
-                className="flex gap-6 overflow-x-auto scroll-smooth no-scrollbar max-w-6xl mx-auto px-2 p-2"
+                className="flex gap-10 overflow-x-auto scroll-smooth no-scrollbar max-w-6xl mx-auto p-2"
             >
                 {blogs.map((blog) => (
                     <div

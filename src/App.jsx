@@ -61,6 +61,13 @@ import Free_Seo_Audit from "./pages/Free_Seo_Audit";
 import Blog from "./pages/Blog";
 import Career from "./pages/Career";
 import Case_Studies from "./pages/Case_Studies";
+import ReadMore_MetaverseEcomerce from "./pages/ReadMore_MetaverseEcomerce";
+import ReadMore_SmarterCommutes from "./pages/ReadMore_SmarterCommutes";
+import ReadMore_AIAppDev from "./pages/ReadMore_AIAppDev";
+import ReadMore_TopSoftware from "./pages/ReadMore_TopSoftware";
+import ReadMore_ShopifyStore from "./pages/ReadMore_ShopifyStore";
+import ReadMore_WordPress from "./pages/ReadMore_WordPress";
+import ReadMoreAIDevelopment from "./pages/ReadMoreAIDevelopment";
 
 function App() {
   return (
@@ -152,6 +159,14 @@ function App() {
         />
         <Route path="/Career" element={<Career />} />
         <Route path="/Case_Studies" element={<Case_Studies />} />
+        <Route path="/ReadMore_MetaverseEcomerce" element={<ReadMore_MetaverseEcomerce />} />
+        <Route path="/ReadMore_SmarterCommutes" element={<ReadMore_SmarterCommutes />} />
+        <Route path="/ReadMore_AIAppDev" element={<ReadMore_AIAppDev />} />
+        <Route path="/ReadMore_TopSoftware" element={<ReadMore_TopSoftware />} />
+        <Route path="/ReadMore_ShopifyStore" element={<ReadMore_ShopifyStore />} />
+        <Route path="/ReadMore_WordPress" element={<ReadMore_WordPress />} />
+        <Route path="/ReadMoreAIDevelopment" element={<ReadMoreAIDevelopment />} />
+
 
 
       </Routes>

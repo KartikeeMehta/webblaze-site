@@ -37,22 +37,20 @@ const cardContents = [
 
 function Section_c() {
   return (
-    <div className="w-full py-16 md:py-24 bg-white">
-      <div className="max-w-5xl mx-auto px-4">
-        {/* Main Title */}
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-2 text-gray-900">
+    <div className="w-full py-12 sm:py-16 md:py-24 bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-gray-900 mb-4">
           Why Choose AWS Cloud Services?
         </h2>
-        <p className="text-center text-gray-500 mb-12">
-          AWS is famend for its capability to deliver exceptional advantages:
+        <p className="text-center text-gray-500 mb-12 text-base sm:text-lg">
+          AWS is renowned for its ability to deliver exceptional advantages:
         </p>
 
-        {/* Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {cardContents.slice(0, 3).map((card, idx) => (
             <div
               key={idx}
-              className="bg-white rounded-xl shadow p-6 border-b-4 border-blue-400 flex flex-col transition-all duration-300"
+              className="bg-white rounded-xl shadow p-5 sm:p-6 border-b-4 border-blue-400 flex flex-col transition-all duration-300"
             >
               <div
                 className={`flex items-center mb-4 rounded-lg px-4 py-3 ${card.bg}`}
@@ -62,17 +60,20 @@ function Section_c() {
                 >
                   <img src={card.icon} alt={card.title} className="w-6 h-6" />
                 </span>
-                <span className="text-xl w-full font-bold text-gray-800">
+                <span className="text-base sm:text-lg font-bold text-gray-800">
                   {card.title}
                 </span>
               </div>
-              <p className="text-gray-600 px-1">{card.description}</p>
+              <p className="text-gray-600 text-sm sm:text-base">
+                {card.description}
+              </p>
             </div>
           ))}
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
-          <div className="md:col-start-2">
-            <div className="bg-white rounded-xl shadow p-6 border-b-4 border-blue-400 flex flex-col transition-all duration-300">
+
+        <div className="mt-10 flex justify-center px-4">
+          <div className="w-full sm:w-2/3 lg:w-1/3">
+            <div className="bg-white rounded-xl shadow p-5 sm:p-6 border-b-4 border-blue-400 flex flex-col transition-all duration-300">
               <div
                 className={`flex items-center mb-4 rounded-lg px-4 py-3 ${cardContents[3].bg}`}
               >
@@ -85,11 +86,11 @@ function Section_c() {
                     className="w-6 h-6"
                   />
                 </span>
-                <span className="text-lg font-bold text-gray-800">
+                <span className="text-base sm:text-lg font-bold text-gray-800">
                   {cardContents[3].title}
                 </span>
               </div>
-              <p className="text-gray-600 px-1">
+              <p className="text-gray-600 text-sm sm:text-base">
                 {cardContents[3].description}
               </p>
             </div>

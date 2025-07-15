@@ -1,7 +1,10 @@
 import React from "react";
 import bgImage from "../../../assets/word_PressBackImage.png";
+import { useNavigate } from "react-router-dom";
 
 const Section_a = () => {
+    const navigate=useNavigate()
+
   return (
     <div
       className="py-16 bg-no-repeat bg-cover bg-center"
@@ -32,7 +35,10 @@ const Section_a = () => {
             providing a seamless, end-to-end experience that caters to your
             specific needs and branding.
           </p>
-          <button className="mt-8 px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition">
+          <button
+            onClick={() => navigate("/Contact_Us")}
+            className="bg-[#1C92FF] hover:bg-white mt-8 hover:text-[#1C92FF] text-white border-2 hover:border-[#1C92FF] font-medium px-8 py-3 rounded-xl shadow-md transition duration-300"
+          >
             Contact Us
           </button>
         </div>

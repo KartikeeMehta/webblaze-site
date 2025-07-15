@@ -31,7 +31,7 @@ const Section_e = () => {
   };
 
   return (
-    <section className="max-w-4xl mx-auto py-16 px-4 text-gray-800">
+    <section className="max-w-5xl mx-auto py-16 px-4 text-gray-800">
       <h2 className="text-3xl font-bold text-center mb-10">FAQ</h2>
 
       <div className="space-y-5">
@@ -55,7 +55,7 @@ const Section_e = () => {
       </div>
 
       <div className="mt-10 ">
-        <button className="bg-blue-500 text-white px-6 py-2 rounded-lg shadow-md hover:bg-blue-600 transition">
+        <button className="bg-[#1C92FF] hover:bg-white hover:border-[#1C92FF] border-[2px] hover:text-[#1C92FF] text-white px-6 py-3 rounded-xl shadow-md transition">
           Talk to expert
         </button>
       </div>

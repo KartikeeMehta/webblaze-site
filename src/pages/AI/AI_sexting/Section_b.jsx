@@ -16,7 +16,7 @@ const Section_b = () => {
       {
         title: "Advanced AI Technology",
         desc: "Our chat bot leverages modern day artificial intelligence to offer sensible and attractive conversations. This era guarantees that the chat bot can take care of nsfw chat and sexting interactions conveniently, offering customers an proper and immersive experience.",
-        icon: "/sexting_icon.png",
+          icon: "/sexting_3.png",
       },
       {
         title: "Customizable Features",

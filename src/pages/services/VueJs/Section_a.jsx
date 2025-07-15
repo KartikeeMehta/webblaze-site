@@ -1,7 +1,10 @@
 import React from "react";
 import bgImage from "../../../assets/word_PressBackImage.png";
+import { useNavigate } from "react-router-dom";
 
 const Section_a = () => {
+  const navigate = useNavigate();
+  
   return (
     <div
       className="py-16 bg-no-repeat bg-cover bg-center"
@@ -9,38 +12,34 @@ const Section_a = () => {
         backgroundImage: `url(${bgImage})`,
       }}
     >
-      <div className="max-w-[1200px] mx-auto px-6 flex flex-col lg:flex-row items-center justify-between gap-10 rounded-3xl p-8 ">
-        <div className="flex-1">
+      <div className="max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8 flex flex-col md:flex-row items-center justify-between gap-10 rounded-3xl">
+        
+        {/* LEFT: Text */}
+        <div className="w-full md:w-1/2 space-y-6 text-left">
           <h2 className="text-2xl md:text-4xl font-bold leading-snug text-black">
             Webblaze: Expert{" "}
-            <span className="text-red-500">
-              Vue.Js Development Services
-            </span>
+            <span className="text-red-500">Vue.Js Development Services</span>
           </h2>
-          <p className="mt-6 text-gray-700 text-base md:text-lg leading-relaxed">
-            Welcome to Webblaze, your cross-to net development company focusing
-            on Vue.Js development offerings. Vue.Js is a revolutionary
-            JavaScript framework used to create dynamic and excessive-performing
-            web packages. Whether you are looking for a single-page application
-            or a complex company-degree solution, Webblaze has the knowledge to
-            supply top-notch results. Our crew of seasoned builders harnesses
-            the electricity of Vue.Js to build scalable, maintainable, and green
-            web packages that meet your business desires.
+          <p className="text-gray-700 text-base md:text-lg leading-relaxed">
+            Welcome to Webblaze, your go-to web development company specializing in Vue.Js development services. Vue.Js is a progressive JavaScript framework used to create dynamic and high-performing web applications. Whether you are building a single-page app or a complex enterprise-level solution, Webblaze delivers scalable, maintainable, and efficient applications tailored to your business needs.
           </p>
-          <button className="mt-8 px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition">
+          <button
+            onClick={() => navigate("/Contact_Us")}
+            className="bg-[#1C92FF] hover:bg-white hover:text-[#1C92FF] text-white border-2 hover:border-[#1C92FF] font-medium px-8 py-3 rounded-xl shadow-md transition duration-300"
+          >
             Contact Us
           </button>
         </div>
 
-        <div className="flex-1">
+        {/* RIGHT: Image */}
+        <div className="w-full md:w-1/2 flex justify-center">
           <img
-            src={
-              "https://webblazesofttech.com/wp-content/uploads/2024/08/Webblaze-Your-Go-To-WordPress-Development-Company.webp"
-            }
-            alt="WordPress Developer"
-            className="rounded-3xl w-full max-h-[420px] object-cover"
+            src="https://webblazesofttech.com/wp-content/uploads/2024/08/Webblaze-Your-Go-To-WordPress-Development-Company.webp"
+            alt="Vue Developer"
+            className="w-full max-w-md rounded-3xl object-cover"
           />
         </div>
+        
       </div>
     </div>
   );

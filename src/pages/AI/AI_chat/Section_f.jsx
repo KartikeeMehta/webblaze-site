@@ -15,27 +15,28 @@ const Section_b = () => {
       {
         title: "Conversational AI",
         desc: "Our conversational AI for commercial business enterprise solutions provide natural language processing, permitting chatbots to apprehend and reply to complex queries.",
-        icon: "/icons/ai-dev.png",
+         icon: "/digitalGrowth.png",
       },
       {
         title: "Custom Solutions",
         desc: "We create custom chatbots for websites tailor-made for your particular needs, making sure a great healthy for your enterprise.",
-        icon: "/icons/ai-learn.png",
+        icon: "/WebD_11.png",
       },
       {
         title: "Integration with Existing Systems",
         desc: "Whether you want a chatbot for a Squarespace website online or Wix chatbot integration, we ensure easy compatibility with your current structures.",
+        icon:"/digitalGrowth.png"
       },
     ].map((item, index) => (
       <div
         key={index}
         className="bg-white rounded-xl p-6 w-full sm:w-[90%] md:w-[45%] lg:w-[30%] text-black shadow-md"
       >
-        <div className="flex justify-center mb-4">
+        <div className="flex  mb-4">
           <img src={item.icon} alt="icon" className="w-14 h-14" />
         </div>
-        <h3 className="text-xl font-bold mb-2 text-center">{item.title}</h3>
-        <p className="text-gray-700 text-center">{item.desc}</p>
+        <h3 className="text-xl font-bold mb-2 ">{item.title}</h3>
+        <p className="text-gray-700 ">{item.desc}</p>
       </div>
     ))}
   </div>

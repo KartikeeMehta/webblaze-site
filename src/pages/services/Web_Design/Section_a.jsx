@@ -1,7 +1,9 @@
 import React from "react";
 import bgImage from "../../../assets/word_PressBackImage.png";
+import { useNavigate } from "react-router-dom";
 
 const Section_a = () => {
+  const navigate = useNavigate();
   return (
     <div className="relative w-full bg-white overflow-hidden">
       <div
@@ -17,7 +19,7 @@ const Section_a = () => {
             <h1 className="text-[42px] sm:text-[46px] lg:text-[48px] leading-tight font-bold mb-6 text-black">
               <span className="text-red-500">Web Design</span>{" "}
               <span className="text-red-500">Services</span> by using Webblaze
-              
+
             </h1>
 
             <p className="text-gray-600 text-[17px] leading-[1.9] mb-8">
@@ -30,9 +32,13 @@ const Section_a = () => {
               online presence.
             </p>
 
-            <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold px-6 py-3 rounded-xl shadow-md transition duration-300">
-              Contact Us
-            </button>
+
+             <button
+            onClick={() => navigate("/Contact_Us")}
+            className="bg-[#1C92FF] hover:bg-white mt-8 hover:text-[#1C92FF] text-white border-2 hover:border-[#1C92FF] font-medium px-8 py-3 rounded-xl shadow-md transition duration-300"
+          >
+            Contact Us
+          </button>
           </div>
 
           <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">

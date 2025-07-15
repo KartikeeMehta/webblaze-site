@@ -6,7 +6,6 @@ const Section_d = () => {
       <div className="wrap_section_f max-w-[1200px] m-auto">
         <h1 className="text-white text-3xl text-center pt-12">Benefits of Implementing Our Sexting Chat Bot</h1>
 
-        {/* First Block: Text + Image */}
         <div className="flex flex-col-reverse md:flex-row items-center gap-8 w-full px-4 sm:px-6 md:px-16 py-12">
           <div className="w-full md:w-1/2 space-y-5">
             <h2 className="text-xl sm:text-3xl md:text-4xl  text-white">

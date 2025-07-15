@@ -7,7 +7,6 @@ const Section_c = () => {
         Key Features of Our Sexting Chat Bot
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        {/* Feature 1 */}
         <div className="bg-white rounded-xl shadow-md p-6 text-center">
           <div className="bg-blue-100 text-blue-900 font-semibold text-lg py-2 rounded-md mb-4">
             Real-Time Responses
@@ -19,7 +18,6 @@ const Section_c = () => {
           </p>
         </div>
 
-        {/* Feature 2 */}
         <div className="bg-white rounded-xl shadow-md p-6 text-center">
           <div className="bg-red-100 text-red-900 font-semibold text-lg py-2 rounded-md mb-4">
             Privacy and Security
@@ -31,7 +29,6 @@ const Section_c = () => {
           </p>
         </div>
 
-        {/* Feature 3 */}
         <div className="bg-white rounded-xl shadow-md p-6 text-center">
           <div className="bg-yellow-100 text-yellow-900 font-semibold text-lg py-2 rounded-md mb-4">
             Multi-Platform Compatibility

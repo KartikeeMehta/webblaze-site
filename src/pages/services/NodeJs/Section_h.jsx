@@ -32,7 +32,7 @@ const Section_h = () => {
     };
 
     return (
-        <div className="max-w-3xl mx-auto px-4 py-10">
+        <div className="max-w-5xl mx-auto px-4 py-10">
             <h2 className="text-3xl font-bold text-center mb-10">Frequently Asked Questions</h2>
             {faqs.map((faq, index) => (
                 <div key={index} className="border-b">

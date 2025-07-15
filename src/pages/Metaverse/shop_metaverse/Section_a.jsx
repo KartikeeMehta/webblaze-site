@@ -12,13 +12,11 @@ function Section_a() {
         backgroundRepeat: "no-repeat",
       }}
     >
-      {/* Overlay */}
       <div
         className="absolute inset-0 bg-[#000000E0]"
         style={{ backgroundColor: "#000000A0" }}
       ></div>
       <div className="relative w-full max-w-[1200px] flex items-center px-4 mx-auto">
-        {/* Left: Text */}
         <div className="max-w-xl text-left">
           <h2 className="text-white text-3xl md:text-4xl font-bold mb-2 leading-tight drop-shadow">
             Transforming Retail
@@ -37,7 +35,6 @@ function Section_a() {
             redefine how customers enjoy buying within the metaverse.
           </p>
         </div>
-        {/* Right: Empty, image is in background */}
         <div className="flex-1" />
       </div>
     </div>

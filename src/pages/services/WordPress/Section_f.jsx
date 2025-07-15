@@ -3,79 +3,85 @@ import { FaPhoneAlt, FaMapMarkerAlt } from 'react-icons/fa';
 
 const Section_f = () => {
   return (
-    <div className="bg-gray-50 py-20 px-6 md:px-16 lg:px-24">
-      <div className="max-w-[1200px] mx-auto flex flex-col lg:flex-row justify-between gap-10 px-6">
+    <section className="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1200px] mx-auto flex flex-col lg:flex-row gap-10">
+        {/* Left Content */}
         <div className="flex-1">
-          <p className="text-2xl text-red-500 font-medium mb-2">Talk To Our Expert</p>
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-            Ready to elevate your <br />
-            WordPress website with <br />
+          <p className="text-xl sm:text-2xl text-red-500 font-medium mb-2">
+            Talk To Our Expert
+          </p>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-snug">
+            Ready to elevate your <br className="hidden sm:block" />
+            WordPress website with <br className="hidden sm:block" />
             Webblaze?
           </h2>
-          <p className="text-gray-600 mb-6 mt-8">
-            Talk to our professional nowadays to speak about your mission and find out how <br />
+          <p className="text-gray-600 mb-6 mt-4 text-sm sm:text-base">
+            Talk to our professional nowadays to speak about your mission and find out how <br className="hidden sm:block" />
             Webblaze will let you reap your format dreams.
           </p>
 
+          {/* Phone Numbers */}
           <div className="flex flex-col sm:flex-row sm:items-center gap-6 mb-6">
-            <div className="flex items-center gap-3">
-              <div className="bg-red-100 text-red-500 p-3 rounded-full">
-                <FaPhoneAlt />
+            {[
+              { number: '+91 90414 77720' },
+              { number: '+91 62398 82306' },
+            ].map((item, index) => (
+              <div key={index} className="flex items-center gap-3">
+                <div className="bg-red-100 text-red-500 p-3 rounded-full">
+                  <FaPhoneAlt />
+                </div>
+                <div>
+                  <p className="text-sm text-gray-700">Phone Number</p>
+                  <p className="font-semibold text-gray-800">{item.number}</p>
+                </div>
               </div>
-              <div>
-                <p className="text-sm text-gray-700">Phone Number</p>
-                <p className="font-semibold text-gray-800">+91 90414 77720</p>
-              </div>
-            </div>
-
-            <div className="flex items-center gap-3">
-              <div className="bg-red-100 text-red-500 p-3 rounded-full">
-                <FaPhoneAlt />
-              </div>
-              <div>
-                <p className="text-sm text-gray-700">Phone Number</p>
-                <p className="font-semibold text-gray-800">+91 6239882306</p>
-              </div>
-            </div>
+            ))}
           </div>
 
-          <div className="flex items-start gap-3 mb-6 mt-7">
+          {/* Address */}
+          <div className="flex items-start gap-3 mb-6 mt-6">
             <div className="bg-red-100 text-red-500 p-3 rounded-full">
               <FaMapMarkerAlt />
             </div>
-            <p className="font-semibold text-gray-800">
+            <p className="font-semibold text-gray-800 text-sm sm:text-base leading-relaxed">
               Cyber cube, C201-202, Phase 8B, Industrial Area, Sector 74,<br />
               Sahibzada Ajit Singh Nagar, Punjab 160055.
             </p>
           </div>
 
-          <p className="text-gray-600 mt-20">
-            With Webblaze, you may count on pinnacle-tier picture layout services that
-            increase your brand and captivate your target market. Let us assist you create a
-            visible identity that stands out and drives fulfillment.
+          {/* Footer Description */}
+          <p className="text-gray-600 mt-12 text-sm sm:text-base">
+            With Webblaze, you may count on top-tier graphic design services that
+            elevate your brand and captivate your target audience. Let us help you
+            create a visual identity that stands out and drives success.
           </p>
         </div>
 
-        <div className="flex-1 bg-white rounded-2xl shadow-md p-6 py-10 flex flex-col items-center text-center">
+        <div className="flex-1 bg-white rounded-2xl shadow-md p-6 sm:p-10 flex flex-col items-center text-center">
           <img
-            src="https://cdni.iconscout.com/illustration/premium/thumb/video-call-4268426-3551765.png"
+            src="https://webblazesofttech.com/wp-content/uploads/2024/07/schedule-meetign.svg"
             alt="Schedule Meeting"
             className="w-full max-w-xs mb-6"
           />
-          <h3 className="text-2xl font-bold text-gray-900 mb-2">Schedule Meeting</h3>
-          <p className="text-gray-600 mb-4">
-            Welcome to our easy-to-use meeting scheduler! Planning and <br />
-            organizing meetings has been simpler.
+          <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">
+            Schedule Meeting
+          </h3>
+          <p className="text-gray-600 mb-5 text-sm sm:text-base">
+            Welcome to our easy-to-use meeting scheduler! <br />
+            Planning and organizing meetings has never been simpler.
           </p>
 
           <button
-            onClick={() => window.open('https://calendly.com/rajenderkashyap87/30min?month=2025-07', '_blank')}
-            className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-full transition">
+            onClick={() =>
+              window.open('https://calendly.com/rajenderkashyap87/30min?month=2025-07', '_blank')
+            }
+            className="bg-[#1C92FF] text-white px-6 py-3 rounded-xl hover:border-blue-500 border-2 hover:bg-white hover:text-[#1C92FF] transition-all duration-200"
+          >
             Schedule a Meeting
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -1,30 +1,32 @@
 import React, { useRef, useEffect, useState } from "react";
 
 const logos1 = [
-  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg",
-  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg",
-  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/magento/magento-original.svg",
-  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
-  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
-  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+  "/VueIcon.png",
+  "/ReactIcon.png",
+  "/AngularJs.png",
+  "/phpIcon.png",
+  "/javascriptIcon.png",
+  "/awsIcon.png",
 ];
 const logos2 = [
-  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cinema4d/cinema4d-original.svg",
-  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
-  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg",
-  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
-  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg",
+  "/sketechUpIcon.png",
+  "/zbrushIcon.png",
+  "/autoDesk.png",
+  "/cPlusIcon.png",
+  "/solidtyIcon.png",
+  "/mySqlIcon.png"
 ];
 const logos3 = [
-  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
-  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg",
-  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg",
-  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg",
-  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/magento/magento-original.svg",
+  "/nodeJsIcon.png",
+  "/shofifyIcon.png",
+  "/wordPressIcon.png",
+  "/reactNativeIcon.png",
+  "/figmaIcon.png",
+  "/psIcon.png"
 ];
 
-const SLIDE_DURATION = 12000; // ms for one direction
-const PAUSE_DURATION = 2000; // ms pause at end
+const SLIDE_DURATION = 15000;
+const PAUSE_DURATION = 3000;
 
 function MarqueeRow({ logos, direction = "right", reverse }) {
   const marqueeRef = useRef(null);
@@ -33,9 +35,9 @@ function MarqueeRow({ logos, direction = "right", reverse }) {
     if (!marqueeRef.current) return;
     marqueeRef.current.style.transition = "none";
     marqueeRef.current.style.transform = "translateX(0)";
-    // Force reflow for transition to take effect
     void marqueeRef.current.offsetWidth;
     marqueeRef.current.style.transition = `transform ${SLIDE_DURATION}ms linear`;
+
     if (
       (direction === "right" && !reverse) ||
       (direction === "left" && reverse)
@@ -50,18 +52,20 @@ function MarqueeRow({ logos, direction = "right", reverse }) {
     <div className="overflow-hidden w-full py-4">
       <div
         ref={marqueeRef}
-        className="flex gap-12"
+        className="flex gap-6 w-max"
         style={{ willChange: "transform" }}
       >
         {[...logos, ...logos].map((logo, idx) => (
           <div
             key={idx}
-            className="bg-white rounded-lg shadow flex items-center justify-center h-28 w-56 p-6"
+            className="bg-white rounded-xl shadow flex items-center justify-center h-20 sm:h-24 md:h-28 w-40 sm:w-48 md:w-52 p-4 border hover:shadow-md transition"
+
           >
             <img
               src={logo}
               alt="tech"
-              className="max-h-12 max-w-full mx-auto"
+              className="max-h-9 sm:max-h-11 md:max-h-11 max-w-[50%] object-contain"
+
             />
           </div>
         ))}
@@ -86,18 +90,16 @@ function Section_f() {
   }, []);
 
   return (
-    <section className="py-16 w-full">
-      <div className="text-center mb-8">
-        <div className="text-red-400 text-[24px] font-medium mb-2">Work</div>
-        <h2 className="text-4xl md:text-4xl font-bold mb-2">
-          Technology Stack
-        </h2>
-        <p className="text-gray-500 max-w-xl mx-auto text-[16px]">
-          Our engineers apprehend your business requirements and help you choose
-          the right technology for your solution.
+    <section className="py-16 px-4 sm:px-6 lg:px-8 w-full bg-gray-50">
+      <div className="text-center mb-12">
+        <div className="text-red-500 text-lg sm:text-xl font-semibold mb-2">Work</div>
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">Technology Stack</h2>
+        <p className="text-gray-600 max-w-3xl mx-auto text-base sm:text-lg leading-relaxed">
+          Our engineers apprehend your business requirements and help you choose the right technology for your solution.
         </p>
       </div>
-      <div className="space-y-8 max-w-full mx-auto">
+
+      <div className="space-y-10 ">
         <MarqueeRow logos={logos1} direction="right" reverse={reverse} />
         <MarqueeRow logos={logos2} direction="left" reverse={reverse} />
         <MarqueeRow logos={logos3} direction="right" reverse={reverse} />

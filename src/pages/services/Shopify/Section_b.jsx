@@ -4,48 +4,50 @@ const cardContents = [
   {
     title: "Custom Shopify Store Development",
     description:
-      "At Webblaze, we offer quit-to-quit answers for custom Shopify save improvement. Our services consist of developing unique themes, integrating important plugins, and configuring advanced capabilities. Whether you’re trying to installation a new Shopify shop or revamp an current one, our builders ensure a seamless process, handing over a shop that sticks out in the competitive marketplace.",
+      "At Webblaze, we offer end-to-end solutions for custom Shopify store development. Our services include creating unique themes, integrating essential plugins, and configuring advanced features. Whether you're launching a new Shopify store or revamping an existing one, we ensure a seamless, standout presence in the competitive market.",
   },
   {
     title: "Shopify POS Integration",
     description:
-      "Webblaze excels in integrating Shopify POS structures to streamline your retail operations. Our experts configure the Shopify POS machine to manipulate in-keep and on-line income efficiently. With our integration services, you may experience actual-time stock updates, easy transactions, and more suitable client reviews.",
+      "Webblaze excels at integrating Shopify POS systems to streamline your retail operations. Our experts configure the POS system to efficiently manage in-store and online sales, offering real-time inventory updates, smooth transactions, and enhanced customer experiences.",
   },
   {
     title: "Shopify Capital Consultation",
     description:
-      "Navigating Shopify Capital may be complex, but our specialists at Webblaze simplify the technique for you. We guide you through the software, making sure you secure the important investment to grow your commercial enterprise. Our team assists in leveraging Shopify Capital to beautify your save’s abilities and power income.",
+      "Navigating Shopify Capital can be complex, but Webblaze makes it simple. We guide you through the application process to help secure funding for your business. Our team helps you leverage Shopify Capital to boost your store's capabilities and drive growth.",
   },
 ];
 
 function Section_b() {
   return (
     <div
-      className="w-full flex flex-col items-center justify-center overflow-x-hidden bg-[#fafbfc]"
+      className="w-full bg-[#fafbfc] bg-no-repeat bg-right md:bg-contain bg-cover py-12 px-4"
       style={{
         backgroundImage: "url('/bg_section_b_shopify.png')",
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "contain",
-        backgroundPosition: "center right",
       }}
     >
-      <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 mt-8 text-gray-900">
-        Comprehensive Shopify Solutions
-      </h2>
-      <div className="w-full max-w-7xl flex flex-col md:flex-row gap-8 justify-center items-stretch px-4 pb-12">
+      <div className="max-w-[1200px] mx-auto text-center">
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-10">
+          Comprehensive Shopify Solutions
+        </h2>
+      </div>
+
+      <div className="max-w-[1200px] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-2 md:px-4">
         {cardContents.map((card, idx) => (
           <div
             key={idx}
-            className="flex-1 bg-white rounded-xl shadow-md p-8 border-b-4 border-blue-200 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-blue-400 min-w-[260px] max-w-full min-h-[px]"
-            style={{ minWidth: "260px" }}
+            className="bg-white rounded-xl shadow-md p-6 sm:p-8 border-b-4 border-blue-200 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-blue-400"
           >
-            <h3 className="text-xl font-bold mb-3 text-gray-800">
+            <h3 className="text-xl font-semibold mb-4 text-gray-800">
               {card.title}
             </h3>
-            <p className="text-gray-600 text-base leading-8">{card.description}</p>
+            <p className="text-gray-600 text-[15px] leading-relaxed">
+              {card.description}
+            </p>
           </div>
         ))}
       </div>
+
       <style>
         {`
           @keyframes float {
@@ -55,6 +57,7 @@ function Section_b() {
           .animate-float {
             animation: float 3s ease-in-out infinite;
           }
+
           @keyframes fadein {
             from { opacity: 0; }
             to { opacity: 1; }

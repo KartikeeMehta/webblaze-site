@@ -3,14 +3,12 @@ import React from 'react'
 const Section_d = () => {
   return (
     <div className="flex flex-col items-center px-4 py-8 w-full max-w-[1200px] mx-auto">
-      {/* Header */}
       <div className="w-full bg-gray-300 relative text-center px-4 py-12 mb-12">
         <h2 className="text-3xl md:text-4xl font-bold text-black">Key Features of Our AI News Anchor Service</h2>
         <p className="text-xl text-red-500 mt-2">Advanced AI Integration</p>
         <div className="absolute bottom-[-20px] left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-[20px] border-l-transparent border-r-[20px] border-r-transparent border-t-[35px] border-t-gray-300"></div>
       </div>
 
-      {/* First Row: Real-Time & NLP */}
       <div className="flex flex-col md:flex-row gap-6 mb-12 w-full">
         <div className="flex-1 bg-red-500 text-white p-6 rounded-lg text-center">
           <div className="flex justify-center mb-4">

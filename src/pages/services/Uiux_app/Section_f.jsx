@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 
 const faqs = [
@@ -32,28 +31,34 @@ const Section_f = () => {
   };
 
   return (
-    <div className="max-w-3xl mx-auto px-4 py-10">
-      <h2 className="text-3xl font-bold text-center mb-10">FAQ</h2>
-      {faqs.map((faq, index) => (
-        <div key={index} className="border-b">
-          <button
-            className="w-full text-left flex justify-between items-center py-4 text-lg font-medium text-gray-900"
-            onClick={() => toggleFAQ(index)}
-          >
-            {faq.question}
-            <span className="text-blue-500 text-2xl">{openIndex === index ? '-' : '+'}</span>
+    <section className="bg-white py-16 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-3xl mx-auto">
+        <h2 className="text-3xl sm:text-4xl font-bold text-center mb-10">FAQ</h2>
+
+        {faqs.map((faq, index) => (
+          <div key={index} className="border-b">
+            <button
+              className="w-full text-left flex justify-between items-center py-4 text-base sm:text-lg font-medium text-gray-900"
+              onClick={() => toggleFAQ(index)}
+            >
+              {faq.question}
+              <span className="text-blue-500 text-2xl">
+                {openIndex === index ? '-' : '+'}
+              </span>
+            </button>
+            {openIndex === index && (
+              <div className="pb-4 text-gray-700 text-sm sm:text-base">{faq.answer}</div>
+            )}
+          </div>
+        ))}
+
+        <div className="mt-12">
+          <button className="bg-[#1C92FF] hover:bg-white hover:text-[#1C92FF] hover:border-[#1C92FF] border-2 text-white px-6 py-3 rounded-xl shadow-md transition-all duration-300">
+            Talk to expert
           </button>
-          {openIndex === index && (
-            <div className="pb-4 text-gray-700">{faq.answer}</div>
-          )}
         </div>
-      ))}
-      <div className="mt-10">
-        <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-[10px] shadow-md transition">
-          Talk to expert
-        </button>
       </div>
-    </div>
+    </section>
   );
 };
 

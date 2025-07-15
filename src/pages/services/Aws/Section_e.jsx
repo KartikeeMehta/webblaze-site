@@ -9,8 +9,8 @@ function Section_e() {
         backgroundImage: `url(${bgImage})`,
       }}
     >
-      <div className="max-w-[1200px] mx-auto px-6 flex flex-col lg:flex-row items-center justify-between gap-10 rounded-3xl p-8 ">
-        <div className="w-[50%]">
+      <div className="max-w-[1200px] mx-auto px-6 flex flex-col sm:flex-row  items-center justify-between gap-10 rounded-3xl p-8 ">
+        <div className="md:w-[50%] w-full">
           <h2 className="text-xl md:text-4xl font-bold md:leading-[64px] text-black">
             Transform Your Business with Webblaze and AWS
           </h2>
@@ -25,7 +25,7 @@ function Section_e() {
 
         </div>
 
-        <div className="w-[50%]">
+        <div className="md:w-[50%] w-full">
           <img
             src={
               "https://webblazesofttech.com/wp-content/uploads/2025/02/data-server-racks-hub-room-with-big-data-computer-center-blue-interior-hosting-storage-hardware_11zon-scaled.jpg"

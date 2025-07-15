@@ -1,6 +1,8 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function Section_a() {
+  const navigate = useNavigate()
   return (
     <div
       className="relative w-full min-h-[630px] flex items-center"
@@ -29,9 +31,15 @@ function Section_a() {
             generation, making sure that patients receive top-notch hospital
             therapy without leaving the consolation of their houses.
           </p>
-          <button className="bg-blue-500 text-white px-6 py-2 rounded-lg font-medium hover:bg-blue-600 transition-colors duration-200">
+          <button
+            onClick={() => navigate("/Contact_Us")}
+            className="bg-[#1C92FF] hover:bg-white mt-8 hover:text-[#1C92FF] 
+             text-white border-2 border-[#1C92FF] hover:border-[#1C92FF] 
+             font-medium px-8 py-3 rounded-xl shadow-md transition duration-300"
+          >
             Contact Us
           </button>
+
         </div>
       </div>
     </div>

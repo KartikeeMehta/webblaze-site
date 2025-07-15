@@ -269,7 +269,7 @@ function Header() {
               AI
             </Link>
             {onAi && (
-              <div className="absolute top-full left-0 w-[250px] bg-white shadow-xl rounded-xl p-4 z-50">
+              <div className="absolute top-full left-0 w-[300px] bg-white shadow-xl rounded-xl p-4 z-50">
                 <div className="flex flex-col gap-5">
                   {aiItems.map((item, idx) => (
                     <Link
@@ -371,15 +371,15 @@ function Header() {
         <div className="hidden lg:flex space-x-3">
           <button
             onClick={() => navigate('/Contact_Us')}
-            className="bg-blue-500 text-white text-sm  hover:border-blue-600 border-[2px]  rounded-[12px] hover:bg-white hover:text-blue-600 transition duration-200 py-[10px] px-[20px]"
+            className="bg-[#1C92FF] text-white text-sm  hover:border-[#1C92FF] border-[2px]  rounded-[12px] hover:bg-white hover:text-blue-600 transition duration-200 py-[10px] px-[20px]"
           >
             Get in Touch
           </button>
           <button
             onClick={() => navigate('/Free_Seo_Audit')}
 
-            className="bg-blue-500
-            text-white text-sm   hover:border-blue-600 border-[2px] hover:text-blue-600 hover:bg-white rounded-[12px] transition duration-200 py-[10px] px-[20px]">
+            className="bg-[#1C92FF]
+            text-white text-sm  hover:border-[#1C92FF] border-[2px] hover:text-[#1C92FF] hover:bg-white rounded-[12px] transition duration-200 py-[10px] px-[20px]">
             Free SEO Audit
           </button>
         </div>

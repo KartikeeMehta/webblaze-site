@@ -97,11 +97,11 @@ function Section_e() {
         </div>
 
         {/* Talk to Expert Button */}
-        <div className="mt-12 text-center">
-          <button className="bg-blue-500 text-white px-8 py-3 rounded-full font-medium hover:bg-blue-600 transition-colors duration-200 transform hover:scale-105">
-            Talk to Expert
-          </button>
-        </div>
+         <div className="mt-12">
+        <button className="bg-[#1C92FF] hover:bg-white hover:border-[#1C92FF] border-[2px] hover:text-[#1C92FF] text-white px-6 py-3 rounded-xl shadow-md transition">
+          Talk to expert
+        </button>
+      </div>
       </div>
 
       {/* Animation Styles */}

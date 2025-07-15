@@ -1,4 +1,3 @@
-
 import React from "react";
 
 const services = [
@@ -26,25 +25,32 @@ const services = [
 
 const Section_c = () => {
   return (
-    <div className="w-full mx-auto bg-[#0F172A] bg-[url('background-lines.webp')] text-white py-16 px-6 sm:px-12">
-      <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-        Our React.Js Development Services
-      </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto">
-        {services.map((service, index) => (
-          <div
-            key={index}
-            className="bg-[#172B47] border border-blue-500/20 rounded-xl p-6 shadow-md hover:shadow-blue-600/30 transition-shadow"
-          >
-            <h3 className="text-2xl font-semibold mb-3">{service.title}</h3>
-            <p className="text-lg text-blue-100 leading-relaxed">
-              {service.description}
-            </p>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-}
+    <section className="w-full bg-[#0F172A] bg-[url('background-lines.webp')] bg-cover bg-center text-white py-16 px-4 sm:px-6 lg:px-12">
+      <div className="max-w-7xl mx-auto">
+        {/* Heading */}
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-12">
+          Our React.Js Development Services
+        </h2>
 
-export default Section_c
+        {/* Service Cards */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          {services.map((service, index) => (
+            <div
+              key={index}
+              className="bg-[#172B47] border border-blue-500/20 rounded-2xl p-6 md:p-8 shadow-md hover:shadow-blue-600/30 transition-shadow duration-300"
+            >
+              <h3 className="text-xl sm:text-2xl font-semibold mb-3">
+                {service.title}
+              </h3>
+              <p className="text-base sm:text-lg text-blue-100 leading-relaxed">
+                {service.description}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Section_c;

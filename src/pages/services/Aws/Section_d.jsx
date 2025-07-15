@@ -39,7 +39,7 @@ function Section_d() {
       className="relative w-full py-16 md:py-24 bg-[#1B1F2E]"
       style={{
         backgroundImage:
-          "url('https://webblazesofttech.com/wp-content/uploads/2024/07/background-lines.webp')", // Replace with your actual background image
+          "url('https://webblazesofttech.com/wp-content/uploads/2024/07/background-lines.webp')", 
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition: "center",

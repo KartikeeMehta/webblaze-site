@@ -4,66 +4,49 @@ const cardContents = [
   {
     title: "Shopify POS and Inventory Management",
     description:
-      "Our Shopify POS apps are designed to streamline your sales approaches and stock management. The integration of Shopify POS systems with your on-line save enables seamless synchronization of sales and stock tiers. Our solutions are tailored for your particular desires, making sure that you get the excellent Shopify POS pricing and functionality. The Shopify POS Pro offers advanced capabilities that beautify your keep’s performance and purchaser revel in.",
+      "Our Shopify POS apps are designed to streamline your sales approaches and stock management. The integration of Shopify POS systems with your online store enables seamless synchronization of sales and inventory levels. Our solutions are tailored to your needs, ensuring excellent Shopify POS pricing and functionality. The Shopify POS Pro offers advanced capabilities that enhance your store’s performance and customer experience.",
   },
   {
     title: "Engaging Customer Interactions with Shopify Live Chat",
     description:
-      "Enhance your customer support with our Shopify live chat apps. These apps facilitate real-time conversation together with your customers, assisting to resolve their queries instantly and enhancing their shopping enjoy. Our Shopify chat solutions are designed to be intuitive and person-friendly, providing a seamless interplay among you and your customers.",
+      "Enhance your customer support with our Shopify live chat apps. These apps facilitate real-time communication with your customers, resolving their queries instantly and enhancing their shopping experience. Our Shopify chat solutions are intuitive and user-friendly, enabling seamless interactions between you and your customers.",
   },
   {
     title: "Customizable Themes and Integration",
     description:
-      "Webblaze gives services in developing and integrating Shopify themes that reflect your brand’s identification. Our Shopify subject store has a wide range of alternatives to pick out from. We also concentrate on integrating 1/3-party equipment like Klaviyo Shopify integration to reinforce your advertising and marketing efforts. This ensures that your shop isn’t always handiest visually attractive but also extraordinarily useful.",
+      "Webblaze develops and integrates Shopify themes that reflect your brand’s identity. Our theme store offers a wide range of options. We also specialize in integrating third-party tools like Klaviyo to enhance your marketing efforts. This ensures your store is not only visually attractive but also highly functional.",
   },
 ];
 
 function Section_b() {
   return (
     <div
-      className="relative h-[745px] w-full flex flex-col items-center justify-center overflow-x-hidden bg-[#fafbfc]"
+      className="w-full bg-[#fafbfc] bg-no-repeat bg-contain bg-right-top py-16 px-4 sm:px-6 lg:px-8"
       style={{
         backgroundImage: "url('/bg_section_b_shopify.png')",
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "contain",
-        backgroundPosition: "center right",
       }}
     >
-      <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 mt-8 text-gray-900">
-        Comprehensive Shopify App Development Services
-      </h2>
-      <div className="w-full max-w-7xl flex flex-col md:flex-row gap-8 justify-center items-stretch px-4 pb-12">
-        {cardContents.map((card, idx) => (
-          <div
-            key={idx}
-            className="flex-1 bg-white rounded-xl shadow-md p-8 border-b-4 border-blue-200 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-blue-400 min-w-[260px] max-w-full min-h-[473px]"
-            style={{ minWidth: "260px" }}
-          >
-            <h3 className="text-xl font-bold mb-3 text-gray-800">
-              {card.title}
-            </h3>
-            <p className="text-gray-600 text-base">{card.description}</p>
-          </div>
-        ))}
+      <div className="max-w-7xl mx-auto text-center">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-12">
+          Comprehensive Shopify App Development Services
+        </h2>
+
+        <div className="flex flex-col md:flex-row flex-wrap gap-8 justify-center items-stretch">
+          {cardContents.map((card, idx) => (
+            <div
+              key={idx}
+              className="w-full sm:w-[80%] md:w-[45%] lg:w-[30%] bg-white rounded-xl shadow-md p-6 border-b-4 border-blue-200 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-blue-400"
+            >
+              <h3 className="text-lg md:text-xl font-semibold mb-3 text-gray-800">
+                {card.title}
+              </h3>
+              <p className="text-gray-600 text-sm md:text-base leading-relaxed">
+                {card.description}
+              </p>
+            </div>
+          ))}
+        </div>
       </div>
-      <style>
-        {`
-          @keyframes float {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-12px); }
-          }
-          .animate-float {
-            animation: float 3s ease-in-out infinite;
-          }
-          @keyframes fadein {
-            from { opacity: 0; }
-            to { opacity: 1; }
-          }
-          .animate-fadein {
-            animation: fadein 2s ease-in;
-          }
-        `}
-      </style>
     </div>
   );
 }

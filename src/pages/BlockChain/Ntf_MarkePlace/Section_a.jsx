@@ -1,7 +1,10 @@
 import React from "react";
 import bgImage from "../../../assets/word_PressBackImage.png";
+import { useNavigate } from "react-router-dom";
 
 const Section_a = () => {
+      const navigate = useNavigate()
+
   return (
     <div
       className="py-16 bg-no-repeat bg-cover bg-center"
@@ -28,7 +31,12 @@ const Section_a = () => {
             Welcome to Webblaze, a main web development company that specialize in growing contemporary NFT marketplaces. Our expertise in growing robust NFT structures ensures that your marketplace stands out in the competitive virtual landscape. With our innovative solutions, you can release a feature-rich NFT market that caters to artists, collectors, and investors international.
           </p>
 
-          <button className="mt-8 px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition">
+          <button
+            onClick={() => navigate("/Contact_Us")}
+            className="bg-[#1C92FF] hover:bg-white mt-8 hover:text-[#1C92FF] 
+             text-white border-2 border-[#1C92FF] hover:border-[#1C92FF] 
+             font-medium px-8 py-3 rounded-xl shadow-md transition duration-300"
+          >
             Contact Us
           </button>
         </div>

@@ -49,7 +49,7 @@ const Section_g = () => {
         </div>
       ))}
       <div className="mt-10">
-        <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-[10px] shadow-md transition">
+        <button className="bg-[#1C92FF] hover:bg-white hover:border-[#1C92FF] border-[2px] hover:text-[#1C92FF] text-white px-6 py-3 rounded-xl shadow-md transition">
           Talk to expert
         </button>
       </div>

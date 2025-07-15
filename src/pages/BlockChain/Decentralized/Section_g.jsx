@@ -60,7 +60,12 @@ const Section_g = () => {
           <p className="text-gray-600 mb-6">
             Welcome to our easy-to-use meeting scheduler! Planning and organizing meetings has been simpler.
           </p>
-          <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-full transition">
+           <button
+            onClick={() =>
+              window.open('https://calendly.com/rajenderkashyap87/30min?month=2025-07', '_blank')
+            }
+            className="bg-[#1C92FF] text-white px-6 py-3 rounded-xl hover:border-blue-500 border-[2px] hover:bg-white hover:text-[#1C92FF] transition-all duration-200"
+          >
             Schedule a Meeting
           </button>
         </div>

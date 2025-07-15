@@ -4,7 +4,7 @@ const Section_i = () => {
   return (
     <section className="bg-[#0B1021] bg-[url('/background-lines.webp')] bg-cover bg-center text-white py-16 px-4">
       
-      <div className="max-w-[1200px] mx-auto">
+      <div className="max-w-[1200px] mx-auto px-4">
               <h2 className=" text-center text-3xl md:text-4xl font-bold md:text-left mb-4">
             Why Choose Webblaze?
           </h2>

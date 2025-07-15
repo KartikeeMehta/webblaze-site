@@ -5,7 +5,7 @@ import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 const Section_g = () => {
     return (
         <div className=" max-w-[1200px] mx-auto py-16 px-4">
-            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div>
                     <p className="text-2xl text-red-500 font-semibold mb-2">Talk To Our Expert</p>
                     <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
@@ -61,8 +61,11 @@ const Section_g = () => {
                     </p>
 
                     <button
-                        onClick={() => window.open('https://calendly.com/rajenderkashyap87/30min?month=2025-07', '_blank')}
-                        className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-full transition">
+                        onClick={() =>
+                            window.open('https://calendly.com/rajenderkashyap87/30min?month=2025-07', '_blank')
+                        }
+                        className="bg-[#1C92FF] text-white px-6 py-3 rounded-xl hover:border-blue-500 border-[2px] hover:bg-white hover:text-[#1C92FF] transition-all duration-200"
+                    >
                         Schedule a Meeting
                     </button>
                 </div>

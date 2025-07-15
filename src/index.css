@@ -82,3 +82,10 @@
   scrollbar-width: none;     
 }
 
+
+@media screen and (max-width:768px){
+
+.remove_bg{
+  background-image: none !important;
+}
+}

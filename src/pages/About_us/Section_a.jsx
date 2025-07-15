@@ -4,12 +4,12 @@ import aboutBgImage from "../../assets/about_usBack.png";
 const Section_a = () => {
   return (
     <>
-      <section className="relative min-h-[600px] flex items-center justify-center text-center text-white px-4">
+      <section className="relative min-h-[500px] flex items-center justify-center text-center text-white px-4">
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url(${aboutBgImage})` }}
         >
-          <div className="absolute inset-0 bg-black bg-opacity-50" />
+          <div className="absolute inset-0 bg-black bg-opacity-20" />
         </div>
 
         <div className="relative z-10 max-w-4xl">

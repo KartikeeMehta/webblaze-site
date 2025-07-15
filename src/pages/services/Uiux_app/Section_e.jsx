@@ -58,13 +58,13 @@ const Section_e = () => {
             <div
               key={index}
               className="bg-white rounded-xl border border-gray-100 shadow-sm p-6 text-left relative transition-all duration-300 hover:shadow-lg"
-              style={{ boxShadow: '0 8px 0 #3b82f6' }} // blue bottom border feel
+              style={{ boxShadow: '0 3px 0 #26ACF0' }} // blue bottom border feel
             >
-              <div className={`inline-flex items-center gap-2 px-4 py-2 rounded-md font-bold mb-4 ${service.tagBg}`}>
+              <div className={`inline-flex items-center gap-2 px-5 py-4 rounded-lg font-bold mb-4 w-full ${service.tagBg}`}>
                 <div className={`w-8 h-8 rounded-full flex items-center justify-center ${service.bg}`}>
                   {service.icon}
                 </div>
-                <span className="text-sm sm:text-base text-gray-800">{service.title}</span>
+                <span className="text-md sm:text-base text-gray-800">{service.title}</span>
               </div>
               <p className="text-gray-600 text-sm sm:text-base">{service.description}</p>
             </div>

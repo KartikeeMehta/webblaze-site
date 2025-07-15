@@ -1,7 +1,9 @@
 import React from "react";
 import bgImage from "../../../assets/word_PressBackImage.png";
+import { useNavigate } from "react-router-dom";
 
 const Section_a = () => {
+  const navigate =useNavigate()
   return (
     <div
       className="py-16 bg-no-repeat bg-cover bg-center"
@@ -9,9 +11,9 @@ const Section_a = () => {
         backgroundImage: `url(${bgImage})`,
       }}
     >
-      <div className="max-w-[1200px] mx-auto px-6 flex flex-col lg:flex-row items-center justify-between gap-10 rounded-3xl p-8 ">
+      <div className="max-w-[1200px] mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-10 rounded-3xl p-8 ">
         <div className="flex-1">
-          <h2 className="text-3xl md:text-5xl font-bold leading-snug text-black">
+          <h2 className="text-3xl md:text-3xl lg:text-5xl font-bold leading-snug text-black">
             Webblaze: Your Go-To
             <span className="text-red-500"> WordPress Development </span>
              Company
@@ -25,7 +27,11 @@ const Section_a = () => {
             developer, or a comprehensive WordPress improvement organization,
             Webblaze has got you covered.
           </p>
-          <button className="mt-8 px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition">
+         
+            <button
+            onClick={() => navigate("/Contact_Us")}
+            className="bg-[#1C92FF] hover:bg-white mt-8 hover:text-[#1C92FF] text-white border-2 hover:border-[#1C92FF] font-medium px-8 py-3 rounded-xl shadow-md transition duration-300"
+          >
             Contact Us
           </button>
         </div>
@@ -36,7 +42,7 @@ const Section_a = () => {
               "https://webblazesofttech.com/wp-content/uploads/2024/08/Webblaze-Your-Go-To-WordPress-Development-Company.webp"
             }
             alt="WordPress Developer"
-            className="rounded-3xl w-full max-h-[420px] object-cover"
+            className="rounded-3xl w-full max-h-[420px]  object-cover"
           />
         </div>
       </div>

@@ -15,10 +15,10 @@ const Section_d = () => {
           design services. Here’s why clients trust us:
         </p>
 
-        {/* Responsive Cards */}
-        <div className="flex flex-wrap justify-center gap-6">
+        {/* Cards Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Card 1 */}
-          <div className="w-full sm:w-[48%] lg:w-[30%] bg-blue-400 bg-opacity-20 rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300">
+          <div className="bg-blue-400 bg-opacity-20 rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300">
             <h3 className="text-lg lg:text-xl font-semibold mb-2">Creative Excellence</h3>
             <p className="text-sm sm:text-base">
               Our graphic designers are artists at heart, with a keen eye for aesthetics and a passion for innovation.
@@ -26,7 +26,7 @@ const Section_d = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="w-full sm:w-[48%] lg:w-[30%] bg-blue-400 bg-opacity-20 rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300">
+          <div className="bg-blue-400 bg-opacity-20 rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300">
             <h3 className="text-lg lg:text-xl font-semibold mb-2">Tailored Solutions</h3>
             <p className="text-sm sm:text-base">
               We offer customized graphic design services that cater to your specific needs and preferences.
@@ -34,7 +34,7 @@ const Section_d = () => {
           </div>
 
           {/* Card 3 */}
-          <div className="w-full sm:w-[48%] lg:w-[30%] bg-blue-400 bg-opacity-20 rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300">
+          <div className="bg-blue-400 bg-opacity-20 rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300">
             <h3 className="text-lg lg:text-xl font-semibold mb-2">Timely Delivery</h3>
             <p className="text-sm sm:text-base">
               We understand the importance of deadlines and ensure that your projects are completed on time.
@@ -42,7 +42,7 @@ const Section_d = () => {
           </div>
 
           {/* Card 4 */}
-          <div className="w-full sm:w-[48%] lg:w-[30%] bg-blue-400 bg-opacity-20 rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300">
+          <div className="bg-blue-400 bg-opacity-20 rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300">
             <h3 className="text-lg lg:text-xl font-semibold mb-2">Affordable Pricing</h3>
             <p className="text-sm sm:text-base">
               Quality graphic design doesn’t have to break the bank. We offer competitive pricing to fit your budget.

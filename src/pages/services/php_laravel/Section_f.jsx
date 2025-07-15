@@ -66,9 +66,8 @@ function Section_f() {
                   {faq.question}
                 </span>
                 <span
-                  className={`transform transition-transform duration-200 ${
-                    openIndex === index ? "rotate-45" : ""
-                  }`}
+                  className={`transform transition-transform duration-200 ${openIndex === index ? "rotate-45" : ""
+                    }`}
                 >
                   <svg
                     className="w-5 h-5 text-blue-500"
@@ -86,9 +85,8 @@ function Section_f() {
                 </span>
               </button>
               <div
-                className={`px-6 overflow-hidden transition-all duration-200 ease-in-out ${
-                  openIndex === index ? "max-h-48 py-4" : "max-h-0"
-                }`}
+                className={`px-6 overflow-hidden transition-all duration-200 ease-in-out ${openIndex === index ? "max-h-48 py-4" : "max-h-0"
+                  }`}
               >
                 <p className="text-gray-600">{faq.answer}</p>
               </div>
@@ -97,10 +95,10 @@ function Section_f() {
         </div>
 
         {/* Talk to Expert Button */}
-        <div className="mt-12 text-center">
-          <button className="bg-blue-500 text-white px-8 py-3 rounded-full font-medium hover:bg-blue-600 transition-colors duration-200 transform hover:scale-105">
-            Talk to Expert
-          </button>
+        <div className="mt-10">
+         <button className="bg-[#1C92FF] hover:bg-white hover:border-[#1C92FF] border-[2px] hover:text-[#1C92FF] text-white px-6 py-3 rounded-xl shadow-md transition">
+          Talk to expert
+        </button>
         </div>
       </div>
 

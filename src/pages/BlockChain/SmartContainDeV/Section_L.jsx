@@ -5,14 +5,14 @@ import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 const Section_l = () => {
     return (
         <div className="bg-gray-50  py-16 px-4">
-            <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center px-4">
                 <div>
                     <p className="text-red-500 font-semibold mb-2">Talk To Our Expert</p>
                     <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
-                    Ready to get started with smart agreement improvement? Talk to our professional in recent times.
+                        Ready to get started with smart agreement improvement? Talk to our professional in recent times.
                     </h2>
                     <p className="text-gray-700 mb-8">
-                      With Webblaze, you may count on pinnacle-tier picture layout services that increase your brand and captivate your target market. Let us assist you create a visible identity that stands out and drives fulfillment.
+                        With Webblaze, you may count on pinnacle-tier picture layout services that increase your brand and captivate your target market. Let us assist you create a visible identity that stands out and drives fulfillment.
                     </p>
 
                     <div className="space-y-6">
@@ -59,7 +59,12 @@ const Section_l = () => {
                     <h3 className="text-2xl font-bold text-gray-800 mb-3">Schedule Meeting</h3>
                     <p className="text-gray-600 mb-6">Welcome to our easy-to-use meeting scheduler! Planning and organizing meetings has been simpler.
                     </p>
-                    <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-full transition">
+                    <button
+                        onClick={() =>
+                            window.open('https://calendly.com/rajenderkashyap87/30min?month=2025-07', '_blank')
+                        }
+                        className="bg-[#1C92FF] text-white px-6 py-3 rounded-xl hover:border-blue-500 border-[2px] hover:bg-white hover:text-[#1C92FF] transition-all duration-200"
+                    >
                         Schedule a Meeting
                     </button>
                 </div>

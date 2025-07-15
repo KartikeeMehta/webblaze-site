@@ -33,24 +33,26 @@ const Section_d = () => {
   ];
 
   return (
-    <section className="bg-[#0B0F1C] bg-[url('background-lines.webp')] py-20 px-4">
+    <section className="bg-[#0B0F1C] bg-[url('background-lines.webp')] py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-[1200px] mx-auto text-center">
         <h2 className="text-white text-3xl md:text-4xl font-bold mb-12">
           Why Work with Webblaze?
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {data.map((item, index) => (
             <div
               key={index}
-              className="bg-white/5 backdrop-blur-sm border border-white/10 hover:border-blue-500 transition-colors duration-300 rounded-xl p-10 max-w-sm w-full text-left text-white"
+              className="bg-white/5 backdrop-blur-sm border border-white/10 hover:border-blue-500 transition-colors duration-300 rounded-xl p-6 sm:p-8 w-full text-left text-white flex flex-col"
             >
               <div
-                className={`w-12 h-12 rounded-full flex items-center justify-center ${item.bgColor} mb-4`}
+                className={`w-12 h-12 rounded-full flex items-center justify-center ${item.bgColor} mb-5`}
               >
                 <img src={item.icon} alt="icon" className="w-6 h-6" />
               </div>
-              <h3 className="text-2xl font-semibold mb-2">{item.title}</h3>
-              <p className="text-lg  text-gray-300">{item.desc}</p>
+              <h3 className="text-xl md:text-2xl font-semibold mb-2">
+                {item.title}
+              </h3>
+              <p className="text-sm md:text-base text-gray-300">{item.desc}</p>
             </div>
           ))}
         </div>

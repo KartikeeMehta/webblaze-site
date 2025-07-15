@@ -10,7 +10,7 @@ import Section_e from "./About_us/Section_e";
 import Section_f from "./About_us/Section_f";
 import Section_g from "./About_us/Section_g";
 import Section_h from "./About_us/Section_h";
-import Section_j from "./Home/Section_j";
+import Section_i from "./About_us/Section_i";
 
 function About_us() {
     return (
@@ -25,7 +25,7 @@ function About_us() {
             <Section_f />
             <Section_g />
             <Section_h />
-            <Section_j />
+            <Section_i />
             <Footer />
         </div>
     );

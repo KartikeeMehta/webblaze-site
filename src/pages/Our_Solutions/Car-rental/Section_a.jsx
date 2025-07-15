@@ -1,6 +1,8 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function Section_a() {
+  const navigate = useNavigate()
   return (
     <div className="bg-white">
       <div
@@ -18,7 +20,10 @@ function Section_a() {
           </p>
 
           <div id="btn">
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-2 rounded-md transition duration-300">
+            <button
+              onClick={() => navigate("/Contact_Us")}
+              className="bg-[#1C92FF] hover:bg-white mt-8 hover:text-[#1C92FF] text-white border-2 hover:border-[#1C92FF] font-medium px-8 py-3 rounded-xl shadow-md transition duration-300"
+            >
               Contact Us
             </button>
           </div>
